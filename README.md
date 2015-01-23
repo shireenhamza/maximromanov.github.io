@@ -7,5 +7,8 @@ The new version of my website, built with Jekyll (and lots of pain and sweat...)
 
 ## to embed youTube
 ```
-<center><iframe width=750 height=450 src="http://youtube.com/embed/0eblr_DGHus" frameborder=0></iframe></center>
+<center>
+	<iframe width=750 height=450 src="http://youtube.com/embed/0eblr_DGHus" frameborder=0>
+	</iframe>
+</center>
 ```
