@@ -6,9 +6,11 @@ description:
   "Reading Traditional Sources with Nontraditional Methods"
 baseurl: ""
 url: "http://maximromanov.github.io"
+share:  true
 twitter_username: maximromanov
 github_username:  maximromanov
 facebook_username:  maxim.romanov.925
+disqus_shortname: alraqmiyyat
 
 # Build settings
 markdown:    redcarpet

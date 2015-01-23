@@ -7,7 +7,7 @@ description: "under construction"
 
 ---
 
-
+<center>
 <ul class="tag-box inline">
   {% assign tags_list = site.categories %}
   {% if tags_list.first[0] == null %}
@@ -21,7 +21,7 @@ description: "under construction"
   {% endif %}
   {% assign tags_list = nil %}
 </ul>
-
+</center>
 
 
 {% for tag in site.categories order:ascending %} 
