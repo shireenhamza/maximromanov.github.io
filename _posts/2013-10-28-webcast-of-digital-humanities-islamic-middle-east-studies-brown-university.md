@@ -1,6 +1,6 @@
 ---
 title: 'Webcast of: Digital Humanities + Islamic &#038; Middle East Studies @ Brown University'
-author: mromanov
+author: Maxim Romanov
 layout: post
 permalink: /2013/10/webcast-of-digital-humanities-islamic-middle-east-studies-brown-university/
 categories:

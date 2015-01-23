@@ -3,6 +3,7 @@ title: al-Thurayyā Gazetteer
 subtitle: Ver. 02 (Working Demo)
 author: Maxim Romanov
 date:       2014-11-20 12:00:00
+permalink:	/2014/11/20/
 layout: post
 categories:
   - Maps

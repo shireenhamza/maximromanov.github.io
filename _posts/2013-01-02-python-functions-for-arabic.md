@@ -2,7 +2,8 @@
 title: Python Functions for Arabic
 author: mromanov
 layout: post
-permalink: /2013/01/python-functions-for-arabic/
+date:   2013-01-02 12:00:00
+permalink: /2013/01/02/
 categories:
   - Programming
 tags:
@@ -11,12 +12,11 @@ tags:
 ---
 There are certain operations one has to repeat many times while manipulating Arabic text. For a number of purposes Arabic text must be normalized, namely &#8220;noise&#8221; characters deleted, the orthography of problematic letters unified, etc. Sometimes it is necessary to deNormalize search words, i.e. modify regular expressions in such a way that orthographic possibilities are considered to the maximum degree. Some software does not work with Arabic characters, so it makes sense to transliterate Arabic text and work with English characters instead. Below are some functions that perform such operations.
 
-<!--more-->
-
 **Transliteration**  
 Some programs do not support Arabic, but might be crucial for research (for example, R). This function converts Arabic into a transliterated form that any program can process.
 
-<pre class="brush: python; title: ; notranslate" title="">def translitArabic(text):
+``` python
+  def translitArabic(text):
     buckwalterMod = {
         'ء': 'c', 'ا': 'A', 'إ': 'A',
         'أ': 'A', 'آ': 'A', 'ب': 'b',
@@ -34,47 +34,53 @@ Some programs do not support Arabic, but might be crucial for research (for exam
     for k, v in buckwalterMod.items():
         text = re.sub(k, v, text)
     return(text)
-</pre>
+```
 
 *Example:*  
 Input:
 
-<pre class="brush: python; title: ; wrap-lines: true; notranslate" title="">testLine = "إن القراء يقرؤون القرآن قراءة جميلة"
+``` python
+testLine = "إن القراء يقرؤون القرآن قراءة جميلة"
 print(translitArabic(testLine))
-</pre>
+```
 
 Output:
 
-<pre class="brush: python; title: ; wrap-lines: true; notranslate" title="">An AlqrAc yqrcwn AlqrAn qrAco jmylo
-</pre>
+```
+An AlqrAc yqrcwn AlqrAn qrAco jmylo
+```
 
 **Normalization**  
 The function unifies the orthography of *alif*s, *hamza*s, and *ya*s/*alif maqsura*s. This is just a basic function that might need to be modified and expanded for specific purposes.
 
-<pre class="brush: python; title: ; notranslate" title="">def normalizeArabic(text):
+``` python
+def normalizeArabic(text):
     text = re.sub("[إأٱآا]", "ا", text)
     text = re.sub("ى", "ي", text)
     text = re.sub("ؤ", "ء", text)
     text = re.sub("ئ", "ء", text)
     return(text)
-</pre>
+```
 
 *Example:*  
 Input:
 
-<pre class="brush: python; title: ; notranslate" title="">testLine = "إن القراء يقرؤون القرآن قراءة جميلة"
+``` python
+testLine = "إن القراء يقرؤون القرآن قراءة جميلة"
 print(normalizeArabic(testLine))
-</pre>
+```
 
 Output:
 
-<pre class="brush: python; title: ; notranslate" title="">ان القراء يقرءون القران قراءة جميلة
-</pre>
+``` 
+ان القراء يقرءون القران قراءة جميلة
+```
 
 **deNormalization**  
 This function converts search words into a regular expression that considers most common spelling variations/typos (for example القران and القرآن). Modifications of *ta marbuta* and *hamza*s might require modifications, depending on research purposes.
 
-<pre class="brush: python; title: ; notranslate" title="">def deNormalize(text):
+``` python
+def deNormalize(text):
     alifs           = '[إأٱآا]'
     alifReg         = '[إأٱآا]'
     # -------------------------------------
@@ -92,23 +98,26 @@ This function converts search words into a regular expression that considers mos
     text = re.sub(taMarbutas, taMarbutasReg, text)
     text = re.sub(hamzas, hamzasReg, text)
     return text
-</pre>
+```
 
 Input:
 
-<pre class="brush: python; title: ; notranslate" title="">testLine = "إن القراء يقرؤون القرآن قراءة جميلة"
+``` python
+testLine = "إن القراء يقرؤون القرآن قراءة جميلة"
 print(deNormalize(testLine))
-</pre>
+```
 
 Output:
 
-<pre class="brush: python; title: ; notranslate" title="">[إأٱآا]ن [إأٱآا]لقر[إأٱآا][ؤئءوي] [يى]قر[ؤئءوي]ون [إأٱآا]لقر[إأٱآا]ن قر[إأٱآا][ؤئءوي][هة] جم[يى]ل[هة]
-</pre>
+```
+[إأٱآا]ن [إأٱآا]لقر[إأٱآا][ؤئءوي] [يى]قر[ؤئءوي]ون [إأٱآا]لقر[إأٱآا]ن قر[إأٱآا][ؤئءوي][هة] جم[يى]ل[هة]
+```
 
 **Noise Removal**  
 This function removes short vowels and other symbols (*harakat*) that interfere with computational manipulations with Arabic texts.
 
-<pre class="brush: python; title: ; notranslate" title="">def deNoise(text):
+``` python
+def deNoise(text):
     noise = re.compile(""" ّ    | # Tashdid
                              َ    | # Fatha
                              ً    | # Tanwin Fath
@@ -121,15 +130,17 @@ This function removes short vowels and other symbols (*harakat*) that interfere 
                          """, re.VERBOSE)
     text = re.sub(noise, '', text)
     return text
-</pre>
+```
 
 Input:
 
-<pre class="brush: python; title: ; notranslate" title="">testLine = "إِنَّ الْقُرَّاْءَ يَقْرَؤُوْنَ الْقُرْآنَ قِرَاْءَةً جَمِيْلَــــــةً"
+``` python
+testLine = "إِنَّ الْقُرَّاْءَ يَقْرَؤُوْنَ الْقُرْآنَ قِرَاْءَةً جَمِيْلَــــــةً"
 print(deNoise(testLine))
-</pre>
+```
 
 Output:
 
-<pre class="brush: python; title: ; notranslate" title="">إن القراء يقرؤون القرآن قراءة جميلة
-</pre>
+``` 
+إن القراء يقرؤون القرآن قراءة جميلة
+```
