@@ -1,14 +1,15 @@
 ---
-title: "al-Thurayyā Gazetteer, Ver. 02"
-subtitle: A Working Demo
-author: Maxim Romanov
+title:		"al-Thurayyā Gazetteer, Ver. 02"
+subtitle:	A Working Demo
+author:		Maxim Romanov
 date:       2014-11-20 12:00:00
-layout: post
+layout:		post
+comments:	true
 categories:
   - al-Thurayyā
+  - Geography
 tags:
   - Cornu
-  - Islamic Geography
   - Gazetteer
 ---
 

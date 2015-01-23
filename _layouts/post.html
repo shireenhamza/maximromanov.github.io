@@ -34,7 +34,7 @@ layout: default
                 <hr>
 
                 <!-- insert discus here -->
-                
+                {% if site.disqus_shortname and page.comments == true %}{% include disqus.html %}{% endif %}
 
                 <ul class="pager">
                     {% if page.previous.url %}
