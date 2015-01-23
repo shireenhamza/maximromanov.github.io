@@ -1,22 +1,38 @@
 # Site settings
 title: "al-Raqmiyyāt: Digital Islamic History"
 header-img: images/covers/althurayya.jpg
+
+# - al-Dhahabī
+# - Ta’rīkh al-islām
+
+# Owner/author information
+name:               Maxim Romanov
+avatar:             RM_600_inverse.png
+email:              romanov.maxim@gmail.com
+description:        Reading Traditional Sources with Nontraditional Methods
+
+#permalink:          pretty
+permalink:          /:year/:month-:day.html
+
+share:              true
+twitter_username:   maximromanov
+github_username:    maximromanov
+facebook_username:  maxim.romanov.925
+disqus_shortname:   alraqmiyyat
+
 email: romanov.maxim@gmail.com
 description:
   "Reading Traditional Sources with Nontraditional Methods"
 baseurl: ""
 url: "http://maximromanov.github.io"
-share:  true
-twitter_username: maximromanov
-github_username:  maximromanov
-facebook_username:  maxim.romanov.925
-disqus_shortname: alraqmiyyat
+
+# Analytics and webmaster tools stuff goes here
+google_analytics:   UA-45427032-1
 
 # Build settings
 markdown:    redcarpet
 highlighter: pygments
-permalink: pretty
-paginate: 15
+paginate: 10
 exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
 
 

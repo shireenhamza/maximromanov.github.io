@@ -1,21 +1,18 @@
 ---
-title: al-Thurayyā Gazetteer
-subtitle: Ver. 02 (Working Demo)
+title: "al-Thurayyā Gazetteer, Ver. 02"
+subtitle: A Working Demo
 author: Maxim Romanov
 date:       2014-11-20 12:00:00
-permalink:	/2014/11/20/
 layout: post
 categories:
-  - Maps
-  - Projects
-  - Research
+  - al-Thurayyā
 tags:
-  - al-Thurayya
   - Cornu
+  - Islamic Geography
+  - Gazetteer
 ---
 
 ![A Screenshot of al-Thurayyā]({{ site.url }}/images/althurayya_02_01.png)
-
 <center>*[View in full screen]({{ site.url }}/projects/althurayya_02/)*</center>
 
 This is our first usable demo of **al-Thurayyā Gazetteer**. Currently it includes over 2,000 toponyms and almost as many route sections georeferenced from Georgette Cornu's *Atlas du monde arabo-islamique à l'époque classique: IXe-Xe siècles* (Leiden: Brill, 1983). The gazetteer is searchable (upper left corner), although English equivalents are not yet included; in other words, look for Dimashq/دمشق, not Damascus.

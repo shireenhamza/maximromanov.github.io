@@ -1,13 +1,17 @@
 ---
-title: 'Dissertation online: Computational Reading of Arabic Biographical Collections'
-author: mromanov
+title: 'Computational Reading of Arabic Biographical Collections: Dissertation online @ U of Michigan'
+
+author: Maxim Romanov
 layout: post
-permalink: /2014/02/dissertation-online-computational-reading-of-arabic-biographical-collections/
 categories:
-  - Dissertation Appendices
+  - Dissertation
+tags:
   - Graphs
   - Maps
   - Research
+  - al-Dhahabī
+  - Ta’rīkh al-islām
+
 ---
 <p style="text-align: center;">
   <a href="http://alraqmiyyat.org/wp-content/uploads/2014/02/theresagraphforthat_sm.jpg"><img class="aligncenter wp-image-1056" src="http://alraqmiyyat.org/wp-content/uploads/2014/02/theresagraphforthat_sm.jpg" alt="theresagraphforthat_sm" width="800" height="430" /></a>

@@ -2,8 +2,9 @@
 title: 'Webcast of: Digital Humanities + Islamic &#038; Middle East Studies @ Brown University'
 author: Maxim Romanov
 layout: post
-permalink: /2013/10/webcast-of-digital-humanities-islamic-middle-east-studies-brown-university/
 categories:
+  - Chronicle
+tags:
   - Events
 ---
 The webcast of the entire conference is available online @ Brown University servers. Below is the program of the conference with timestamps for each presentation and discussion session.<!--more-->

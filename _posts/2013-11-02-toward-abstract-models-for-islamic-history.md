@@ -1,17 +1,16 @@
 ---
 title: Toward Abstract Models for Islamic History
-author: mromanov
+author: Maxim Romanov
 layout: post
-permalink: /2013/11/toward-abstract-models-for-islamic-history/
 categories:
-  - Working Papers
+  - Biographical Literature
 tags:
-  - al-Dhahabi
+  - al-Dhahabī
+  - Ta’rīkh al-islām
   - Computational reading
   - Islamic world
-  - Longue duree
+  - Longue durée
   - Maps
-  - "Ta'rikh al-islam"
 ---
 * * *
 

@@ -1,13 +1,13 @@
 ---
 title: Prospects of Computational Reading
-author: mromanov
+author: Maxim Romanov
 layout: post
-permalink: /2013/10/prospects-of-computational-reading/
 categories:
-  - Dissertation Appendices
-  - Graphs
+  - Dissertation
+  - Methods
 tags:
   - Computational reading
+  - Graphs
 ---
 <span style="line-height: 1.7;">My dissertation, <em>Computational Reading of Arabic Biographical Collections with Special Reference to Preaching in the Sunni World (661-1300 ce)</em>, turned out to be more on the method of computational reading rather than on anything else, but the results are most exciting in terms of prospects that this method opens. After less than two years of development this method allows getting almost instantaneous insights into a great number of historical issues. Although technologically the approach has been developed practically from scratch, in spirit it follows in the footsteps of the quantitative method that has been used by the scholars of Islam since the 1970s. In its current state the method is best suited for analyzing biographical data from social, chronological and geographical perspectives, yet the complexity of analytical tasks can be increased </span><em style="line-height: 1.7;">ad infinitum</em><span style="line-height: 1.7;">. Computational reading is flexible, scalable and fast beyond comparison with conventional methods. Dwelling on these properties should offer a glimpse into the prospects of its further implementation.</span>
 

@@ -3,9 +3,8 @@ title: Python Functions for Arabic
 author: mromanov
 layout: post
 date:   2013-01-02 12:00:00
-permalink: /2013/01/02/
 categories:
-  - Programming
+  - Coding
 tags:
   - Arabic
   - Python

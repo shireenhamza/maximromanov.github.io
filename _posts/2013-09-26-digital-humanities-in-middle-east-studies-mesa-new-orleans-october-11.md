@@ -1,17 +1,15 @@
 ---
 title: Digital Humanities in Middle East Studies (MESA, New Orleans, October 11)
-author: mromanov
+author: Maxim Romanov
 layout: post
-permalink: /2013/09/digital-humanities-in-middle-east-studies-mesa-new-orleans-october-11/
 categories:
-  - Events
+  - Chronicle
 tags:
+  - Events
   - Digital History
   - Digital Humanities
 ---
 We are just about two weeks away from the 47th Annual Meeting of the Middle East Studies Association (<span style="line-height: 1.7;">October 10-13, 2013) that will take place in </span><span style="line-height: 1.7;">New Orleans, Louisiana. We—Will Hanley, Børre Ludvigsen, and Maxim Romanov—are glad to present two panels and a roundtable on Digital Humanities in Middle Eastern Studies that will take place on Friday, October 11.</span>
-
-<!--more-->
 
 **<span style="line-height: 1.7;">Digital Humanities in Middle East Studies I: Traditional Sources, Nontraditional Methods (Friday, 10/11/13 11:00am)</span>**
 

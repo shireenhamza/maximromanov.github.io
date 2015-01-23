@@ -24,13 +24,17 @@ layout: default
     <div class="container">
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-                <h2>{% if site.share %}{% include share.html %}{% endif %}</h2>
+                {% if site.share %}{% include share.html %}{% endif %}
 
 				{{ content }}
 
                 <hr>
-                <h2>{% if site.share %}{% include share.html %}{% endif %}</h2>
+                <center><em>share this post</em></center>
+                {% if site.share %}{% include share.html %}{% endif %}
                 <hr>
+
+                <!-- insert discus here -->
+                
 
                 <ul class="pager">
                     {% if page.previous.url %}
