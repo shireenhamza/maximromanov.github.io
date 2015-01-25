@@ -9,7 +9,7 @@ The new version of my website, built with Jekyll (and lots of pain and sweat...)
 1. add projects folder and move projects there
 1. bio note
 
-### Some cheatcodes :)
+### Some cheatcodes
 
 ##### to embed youTube clip
 ```
@@ -18,3 +18,8 @@ The new version of my website, built with Jekyll (and lots of pain and sweat...)
 	</iframe>
 </center>
 ```
+
+##### gitHub commands
+
+1. git clean -f -d (removes uncommitted -files and directories; use -n to preview what will be removed; cannot be undone)
+1. git reset -- hard (rolls back to previous commit; provide commit id to roll back to specific commit)
