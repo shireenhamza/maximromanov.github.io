@@ -1,13 +1,15 @@
 #al-Raqmiyyat: Digital Islamic History
 
-The new version of my website, built with Jekyll (and lots of pain and sweat...), using Clean Blog Theme by Start Bootstrap
-(The official Jekyll version of the Clean Blog theme by [Start Bootstrap](http://startbootstrap.com/).
+The new version of my website, built with Jekyll ~~(and lots of pain and sweat...)~~, using Clean Blog Theme by Start Bootstrap
+(The official Jekyll version of the Clean Blog theme by [Start Bootstrap](http://startbootstrap.com/), plus a number of elements from other themes (including [Kasper](https://github.com/rosario/kasper), [Notepad](https://github.com/hmfaysal/Notepad), etc.)
 
 ## ToDo's
 
 1. embed google analytics
-1. add projects folder and move projects there
-1. bio note
+2. add projects folder and move projects there from the old site
+3. bio note
+4. image handling/styles in posts + figure captions
+5. cover images
 
 ### Some cheatcodes
 
