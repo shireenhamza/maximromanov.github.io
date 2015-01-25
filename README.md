@@ -21,5 +21,7 @@ The new version of my website, built with Jekyll (and lots of pain and sweat...)
 
 ##### gitHub commands
 
-1. git clean -f -d (removes uncommitted -files and directories; use -n to preview what will be removed; cannot be undone)
-1. git reset -- hard (rolls back to previous commit; provide commit id to roll back to specific commit)
+1. ```git clean -f -d```
+	* (removes uncommitted -files and directories; use -n to preview what will be removed; cannot be undone)
+1. ```git reset -- hard```
+	* (rolls back to previous commit; provide commit id to roll back to specific commit)
