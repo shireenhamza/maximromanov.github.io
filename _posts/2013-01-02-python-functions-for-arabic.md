@@ -1,6 +1,6 @@
 ---
 title: Python Functions for Arabic
-author: mromanov
+author: Maxim Romanov
 layout: post
 date:   2013-01-02 12:00:00
 categories:

@@ -1,9 +1,10 @@
 ---
-title: Digital Humanities in Middle East Studies (MESA, New Orleans, October 11)
-author: Maxim Romanov
-layout: post
+title:		Digital Humanities in Middle East Studies
+subtitle:	(at MESA, New Orleans, October 11)
+author:		Maxim Romanov
+layout:		post
 categories:
-  - Chronicle
+  - Miscellanea
 tags:
   - Events
   - Digital History

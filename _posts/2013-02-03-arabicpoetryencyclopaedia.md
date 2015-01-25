@@ -1,10 +1,10 @@
 ---
 title: 'Review/Manual: The Encyclopaedia of Arabic Poetry'
-subtitle: "Cultural Foundation, Abu Dhabi (UAE)"
+subtitle: "(developed by Cultural Foundation, Abu Dhabi)"
 author: Maxim Romanov
 layout: post
 categories:
-  - Instructional
+  - miscellanea
 tags:
   - Arabic Texts
   - eTexts
@@ -48,8 +48,7 @@ Opening the Encyclopaedia takes user to the Main Window (see below), with two me
 
 Main menu (each major window, which can be accessed from the Main Menu will be reviewed below in full details):
 
-[<img class="aligncenter size-full wp-image-623" title="Pic. P1 - Main Window" src="http://alraqmiyyat.org/wp-content/uploads/2013/02/Pic.-P1-Main-Window.gif" alt="" width="810" height="611" />][1]
-
+![]({{ site.url }}/images/Pic.-P1-Main-Window.gif)
 <p style="text-align: center;">
   <strong>[Pic. P1]</strong>
 </p>
@@ -97,9 +96,7 @@ On **Pic. P2-1** poets are filtered with *al-Ḥadīth* and *Lubnān* options (M
 
 Clicking *Poems* button (*al-Qaṣāʾid*) takes user to the list of Jibrān Khalīl Jibrān’s poems (see Pic. P2-2). The right part remains the same as in the previous window, but the left one — in which poet’s biography was displayed — changes into *Poem Details* table with the following columns.
 
-<p style="padding-left: 30px;">
-  <strong style="line-height: 1.7;">(1)</strong><em style="line-height: 1.7;"> al-Maṭlaʿ</em><span style="line-height: 1.7;"> — opening verses of poems.</span><br /> <strong style="line-height: 1.7;">(2)</strong><em style="line-height: 1.7;"> al-Abyāt</em><span style="line-height: 1.7;"> — the number of verses in each poem.</span><br /> <strong style="line-height: 1.7;">(3)</strong><span style="line-height: 1.7;"> </span><em style="line-height: 1.7;">al-Qāfiya</em><span style="line-height: 1.7;"> — the rhythm of each poem.</span><br /> <strong style="line-height: 1.7;">(4)</strong><em style="line-height: 1.7;"> al-Baḥr</em><span style="line-height: 1.7;"> — the metre of each poem.</span>
-</p>
+<strong style="line-height: 1.7;">(1)</strong><em style="line-height: 1.7;"> al-Maṭlaʿ</em><span style="line-height: 1.7;"> — opening verses of poems.</span><br /> <strong style="line-height: 1.7;">(2)</strong><em style="line-height: 1.7;"> al-Abyāt</em><span style="line-height: 1.7;"> — the number of verses in each poem.</span><br /> <strong style="line-height: 1.7;">(3)</strong><span style="line-height: 1.7;"> </span><em style="line-height: 1.7;">al-Qāfiya</em><span style="line-height: 1.7;"> — the rhythm of each poem.</span><br /> <strong style="line-height: 1.7;">(4)</strong><em style="line-height: 1.7;"> al-Baḥr</em> — the metre of each poem.
 
 
 ![]({{site.url}}/images/Pic.-P2-2-Shuara-wa-dawawin.gif)

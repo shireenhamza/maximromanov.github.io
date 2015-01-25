@@ -3,7 +3,7 @@ title: Transliterating Arabic in MS Word
 author: Maxim Romanov
 layout: post
 categories:
-  - Workflow
+  - Miscellanea
 tags:
   - MS Word
   - Transliteration
