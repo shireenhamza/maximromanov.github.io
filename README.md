@@ -10,6 +10,8 @@ The new version of my website, built with Jekyll ~~(and lots of pain and sweat..
 3. bio note
 4. image handling/styles in posts + figure captions
 5. cover images
+6. add favicon
+7. form CV in some stylish way :)
 
 ### Some cheatcodes
 
@@ -27,3 +29,9 @@ The new version of my website, built with Jekyll ~~(and lots of pain and sweat..
 	* (removes uncommitted -files and directories; use -n to preview what will be removed; cannot be undone)
 1. ```git reset -- hard```
 	* (rolls back to previous commit; provide commit id to roll back to specific commit)
+1. ```git add --all```
+	* adds all new files and changed files to what is to be committed
+1. ```git commit -m "text"```
+	* commits changes: "text" is the comment that logs what exactly was changed
+1. ```git push -u origin master```
+	* pushes committed changes to the gitHub repository
