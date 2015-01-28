@@ -211,7 +211,7 @@ hr.small {
 .post-preview > a:hover,
 .post-preview > a:focus {
   text-decoration: none;
-  color: #0085a1;
+  color: #96190E; /* red-brick */
 }
 .post-preview > a > .post-title {
   font-size: 30px;
