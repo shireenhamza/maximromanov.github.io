@@ -3,13 +3,13 @@ layout: page
 title: About
 permalink: /about/
 description: "Maxim G. Romanov" # add subtitle
-header-img: "img/about-bg.jpg"
+header-img: "images/loc_photos/baghdad_15986u.jpg"
 ---
 
-<strong><a href="https://tufts.academia.edu/MaximRomanov/CurriculumVitae">Detailed CV in PDF</a><br /> </strong>
+<center><a href="https://tufts.academia.edu/MaximRomanov/CurriculumVitae">Detailed CV in PDF</a></center>
 
 
-My name is Maxim Romanov. Currently, I am a Postdoctoral Associate at the Department of Classics & [Perseus Project][1] at [Tufts University][2]. I have finished my PhD in [Near Eastern Studies][3] (Arabic and Islamic Studies) at the [University of Michigan][4], working under the mentorship of Professor [Alexander D. Knysh][5]. My main interest is computational reading of classical Arabic sources. Although at the moment I am primarily interested in the analysis of biographical collections and chronicles, I hope to soon expand my research on other genres of classical Arabic literature, mainly large volume collections<sup><a href="#footnote_0_416" id="identifier_0_416" class="footnote-link footnote-identifier-link" title="For example, biobibliographical collections, poetic anthologies, collections&nbsp;of traditions (ḥadīth), collections of legal decisions (fatw&aacute;s), interpretations of the Qurʾān (tafsīr), etc.">1</a></sup> that can offer insights into long-term and large-scale developments that took place during the pre-modern period of Islamic history.
+My name is Maxim Romanov. I am a Postdoctoral Associate at the Department of Classics & [Perseus Project][1] at [Tufts University][2]. I have finished my PhD in [Near Eastern Studies][3] (Arabic and Islamic Studies) at the [University of Michigan][4], working under the mentorship of Professor [Alexander D. Knysh][5]. My main interest is computational reading of classical Arabic sources. Although at the moment I am primarily interested in the analysis of biographical collections and chronicles, I hope to soon expand my research on other genres of classical Arabic literature, mainly large volume collections<sup><a href="#footnote_0_416" id="identifier_0_416" class="footnote-link footnote-identifier-link" title="For example, biobibliographical collections, poetic anthologies, collections&nbsp;of traditions (ḥadīth), collections of legal decisions (fatw&aacute;s), interpretations of the Qurʾān (tafsīr), etc.">1</a></sup> that can offer insights into long-term and large-scale developments that took place during the pre-modern period of Islamic history.
 
 **About the Dissertation: Computational Reading of Arabic Biographical Collections with Special Reference to Preaching in the Sunni World (661-1300 ce) [[available online][6]]**
 
