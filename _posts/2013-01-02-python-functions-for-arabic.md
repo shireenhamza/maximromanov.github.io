@@ -11,7 +11,9 @@ tags:
 ---
 There are certain operations one has to repeat many times while manipulating Arabic text. For a number of purposes Arabic text must be normalized, namely &#8220;noise&#8221; characters deleted, the orthography of problematic letters unified, etc. Sometimes it is necessary to deNormalize search words, i.e. modify regular expressions in such a way that orthographic possibilities are considered to the maximum degree. Some software does not work with Arabic characters, so it makes sense to transliterate Arabic text and work with English characters instead. Below are some functions that perform such operations.
 
-**Transliteration**  
+
+##Transliteration
+
 Some programs do not support Arabic, but might be crucial for research (for example, R). This function converts Arabic into a transliterated form that any program can process.
 
 ``` python
@@ -35,7 +37,8 @@ Some programs do not support Arabic, but might be crucial for research (for exam
     return(text)
 ```
 
-*Example:*  
+###Example:
+
 Input:
 
 ``` python
@@ -49,8 +52,8 @@ Output:
 An AlqrAc yqrcwn AlqrAn qrAco jmylo
 ```
 
-**Normalization**  
-The function unifies the orthography of *alif*s, *hamza*s, and *ya*s/*alif maqsura*s. This is just a basic function that might need to be modified and expanded for specific purposes.
+## Normalization  
+The function unifies the orthography of <em>alif</em>s, <em>hamza</em>s, and <em>ya</em>s/<em>alif maqsura</em>s. This is just a basic function that might need to be modified and expanded for specific purposes.
 
 ``` python
 def normalizeArabic(text):
@@ -61,7 +64,7 @@ def normalizeArabic(text):
     return(text)
 ```
 
-*Example:*  
+### Example:  
 Input:
 
 ``` python
@@ -75,8 +78,8 @@ Output:
 ان القراء يقرءون القران قراءة جميلة
 ```
 
-**deNormalization**  
-This function converts search words into a regular expression that considers most common spelling variations/typos (for example القران and القرآن). Modifications of *ta marbuta* and *hamza*s might require modifications, depending on research purposes.
+## deNormalization  
+This function converts search words into a regular expression that considers most common spelling variations/typos (for example القران and القرآن). Modifications of *ta marbuta* and <em>hamza</em>s might require modifications, depending on research purposes.
 
 ``` python
 def deNormalize(text):
@@ -99,6 +102,7 @@ def deNormalize(text):
     return text
 ```
 
+### Example:
 Input:
 
 ``` python
@@ -112,8 +116,8 @@ Output:
 [إأٱآا]ن [إأٱآا]لقر[إأٱآا][ؤئءوي] [يى]قر[ؤئءوي]ون [إأٱآا]لقر[إأٱآا]ن قر[إأٱآا][ؤئءوي][هة] جم[يى]ل[هة]
 ```
 
-**Noise Removal**  
-This function removes short vowels and other symbols (*harakat*) that interfere with computational manipulations with Arabic texts.
+## Noise Removal
+This function removes short vowels and other symbols (<em>harakat</em>) that interfere with computational manipulations with Arabic texts.
 
 ``` python
 def deNoise(text):
@@ -130,6 +134,8 @@ def deNoise(text):
     text = re.sub(noise, '', text)
     return text
 ```
+
+### Example
 
 Input:
 
