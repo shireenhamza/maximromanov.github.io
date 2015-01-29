@@ -65,6 +65,12 @@ comments:   true
                 <section class="post-content"></section>
 
                 <a name="topofpage"></a>
+
+                {% if page.imagecredit %}
+                <p class="imagecredit"><b>Cover:</b> {{ page.imagecredit }}</p>
+                {% endif %}
+
+
                 {{ content }}
 
                 <!-- from kasper theme: author signature & share code insert -->
