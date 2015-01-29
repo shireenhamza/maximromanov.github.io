@@ -1,7 +1,8 @@
 ---
-title: "al-Thurayyā Gazetteer: An Islamic Supplement to Pleiades"
-author: Maxim Romanov
-layout: post
+title:		"al-Thurayyā Gazetteer: An Islamic Supplement to Pleiades"
+author:		Maxim Romanov
+layout:		post
+image:		/images/loc_photos/pilgriims_04654u.jpg
 categories:
   - al-Thurayyā
 tags:

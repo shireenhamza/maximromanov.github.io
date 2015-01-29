@@ -1,7 +1,8 @@
 ---
-title: "Islamic Urban Centers (661–1300 CE)"
-author: Maxim Romanov
-layout: post
+title:		"Islamic Urban Centers (661–1300 CE)"
+author:		Maxim Romanov
+layout:		post
+image:		/images/loc_photos/kufa_16149.jpg
 categories:
   - Dissertation
 tags:

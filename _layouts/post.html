@@ -3,33 +3,68 @@ layout:     default
 comments:   true
 ---
 
-<!-- Post Header -->
-<header class="intro-header" style="background-image: url('{{ site.baseurl }}/{% if page.header-img %}{{ page.header-img }}{% else %}{{ site.header-img }}{% endif %}')">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-                <div class="post-heading">
-                    <h1>{{ page.title }}</h1>
-                    {% if page.subtitle %}<h2 class="subheading">{{ page.subtitle }}</h2>{% endif %}
-                    <span class="meta">Posted by {{ page.author }} on {{ page.date | date: "%B %-d, %Y" }}</span><br>
-                    <!-- start of: insert categories/projects -->
-                    {% if page.categories.size > 0 %}
-                    (<em>{{ page.categories | array_to_sentence_string | prepend: 'on ' }}</em>)
-                    {% endif %}
-                    <!-- end of: insert categories/projects -->
-                </div>
-            </div>
-        </div>
+<main class="content" role="main">
+  <article class="post">
+    {% if page.image %}
+    <div class="article-image">
+      <div class="post-image-image" style="background-image: url({% if page.image %}{{ page.image }}{% endif %})">
+        Article Image
     </div>
-</header>
+    <div class="post-meta">
+        <h1 class="post-title">{{ page.title }}</h1>
+        {% if page.subtitle %}<h2 class="subheading">{{ page.subtitle }}</h2>{% endif %}
+
+        <span class="meta">Posted by {{ page.author }} on {{ page.date | date: "%B %-d, %Y" }}</span><br>
+        <!-- start of: insert categories/projects -->
+        {% if page.categories.size > 0 %}
+        (<em>{{ page.categories | array_to_sentence_string | prepend: 'on ' }}</em>)
+        {% endif %}
+        <!-- end of: insert categories/projects -->
+        
+        <div style="text-align:center"><a href="#topofpage" class="topofpage"><i class="fa fa-angle-down"></i></a></div>
+        
+  </div>
+</div>
+{% else %}
+<div class="noarticleimage">
+
+    <div class="post-meta">
+        <h1 class="post-title">{{ page.title }}</h1>
+        {% if page.subtitle %}<h2 class="subheading">{{ page.subtitle }}</h2>{% endif %}
+        <span class="meta">Posted by {{ page.author }} on {{ page.date | date: "%B %-d, %Y" }}</span><br>
+        {% if page.categories.size > 0 %}
+        (<em>{{ page.categories | array_to_sentence_string | prepend: 'on ' }}</em>)
+        {% endif %}            
+    </div>
+
+<!--  <div class="post-meta">
+    <h1 class="post-title">{{ page.title }}</h1>
+    <div class="cf post-meta-text">
+      <div class="author-image" style="background-image: url({{ site.avatar }})">Blog Logo</div>
+      <h4 class="author-name" itemprop="author" itemscope itemtype="http://schema.org/Person">{{ page.author }}</h4>
+      on
+      <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date_to_string }}</time>
+  </div>
+</div> -->
+
+</div>
+<br>
+<br>
+<br>
+{% endif %}
+
+</article>
+</main>
+
 
 <!-- Post Content -->
-<article>
+<article class="post">
     <div class="container">
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                <section class="post-content"><a name="topofpage"></a></section>
 
-				{{ content }}
+                {{ content }}
 
                 <!-- from kasper theme: author signature & share code insert -->
 
@@ -49,38 +84,40 @@ comments:   true
                         {% endif %}
                         <!-- Share links section -->
                         {% include share.html %}
-                </footer>
+                    </footer>
 
                 <!-- previous share code insert 
                 <hr>
                 <center><em>share this post</em></center>
                 {% if site.share %}{% include share.html %}{% endif %}
                 <hr>
-                -->
+            -->
 
 
 
-                <!-- insert discus here -->
-                {% if site.disqus_shortname and page.comments == true %}{% include disqus.html %}{% endif %}
+            <!-- insert discus here -->
+            {% if site.disqus_shortname and page.comments == true %}{% include disqus.html %}{% endif %}
 
 
-                <!-- inserts navigation buttons -->
-                <ul class="pager">
-                    {% if page.previous.url %}
-                    <li class="previous">
-                        <a href="{{ page.previous.url | prepend: site.baseurl | replace: '//', '/' }}" data-toggle="tooltip" data-placement="top" title="{{page.previous.title}}">&larr; Previous Post</a>
-                    </li>
-                    {% endif %}
-                    {% if page.next.url %}
-                    <li class="next">
-                        <a href="{{ page.next.url | prepend: site.baseurl | replace: '//', '/' }}" data-toggle="tooltip" data-placement="top" title="{{page.next.title}}">Next Post &rarr;</a>
-                    </li>
-                    {% endif %}
-                </ul>
+            <!-- inserts navigation buttons -->
+            <ul class="pager">
+                {% if page.previous.url %}
+                <li class="previous">
+                    <a href="{{ page.previous.url | prepend: site.baseurl | replace: '//', '/' }}" data-toggle="tooltip" data-placement="top" title="{{page.previous.title}}">&larr; Previous Post</a>
+                </li>
+                {% endif %}
+                {% if page.next.url %}
+                <li class="next">
+                    <a href="{{ page.next.url | prepend: site.baseurl | replace: '//', '/' }}" data-toggle="tooltip" data-placement="top" title="{{page.next.title}}">Next Post &rarr;</a>
+                </li>
+                {% endif %}
+            </ul>
 
-            </div>
         </div>
     </div>
+</div>
 </article>
 
 <hr>
+
+{% include javascripts.html %}
