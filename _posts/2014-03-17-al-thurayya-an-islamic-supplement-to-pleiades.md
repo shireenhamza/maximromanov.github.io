@@ -3,8 +3,10 @@ title:			"al-Thurayyā Gazetteer: An Islamic Supplement to Pleiades"
 author:			Maxim Romanov
 layout:			post
 image:			/images/loc_photos/pilgriims_04654u.jpg
-imagecredit:	"Mecca, ca. 1910. Camel caravan of pilgrims to Mecca (<a href='http://www.loc.gov/pictures/item/mpc2004003659/PP/'>Library of
-				Congress, LC-DIG-matpc-04654</a>)"
+imagecredit:	"Mecca, ca. 1910. Camel caravan of pilgrims to Mecca<br>
+				<a href='http://www.loc.gov/pictures/item/mpc2004003659/PP/' target='_blank'>
+				Library of Congress, LC-DIG-matpc-04654
+				</a>"
 categories:
   - Geography
 tags:

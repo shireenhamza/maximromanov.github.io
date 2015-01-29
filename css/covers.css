@@ -1,3 +1,5 @@
+/* my styles */
+
 .imagecredit{
   font-weight: 100;
   font-style: normal;
@@ -5,6 +7,7 @@
   line-height: 1.1;
   color: black;
   text-align: right;
+  margin-left: 50%;
   margin-bottom: 16px;
 }
 

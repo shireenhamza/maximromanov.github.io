@@ -1,8 +1,14 @@
 ---
-title:		"Islamic Urban Centers (661–1300 CE)"
-author:		Maxim Romanov
-layout:		post
-image:		/images/loc_photos/kufa_16149.jpg
+title:			"Islamic Urban Centers (661–1300 CE)"
+author:			Maxim Romanov
+layout:			post
+image:			/images/loc_photos/kufa_16149.jpg
+imagecredit:	"Iraq. Kufa. (On the banks of the Euphrates). Once an important Moslem [i.e., Muslim]
+				center of learning. Street scene with picturesque palm trees in middle of roadway<br>
+				<a href='http://www.loc.gov/pictures/item/mpc2010001646/PP/' target='_blank'>
+				Library of Congress, LC-DIG-matpc-16149
+				</a>"
+categories:
 categories:
   - Dissertation
 tags:
