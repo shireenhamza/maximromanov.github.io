@@ -322,7 +322,9 @@ Although completely devoid of both buzzwords, Melchert’s study is perhaps the 
 <p align="center">
   <a href="http://alraqmiyyat.org/fig/tamfih/_TI_Words_WaqfInstitutions_ABS.jpg"><img class="aligncenter" src="http://alraqmiyyat.org/fig/tamfih/_TI_Words_WaqfInstitutions_ABS.jpg" alt="" width="500" /></a>
 </p>
-![]({{ site.url }}/images/_TI_Words_WaqfInstitutions_ABS.jpg)
+
+![]({{ site.url }}/images/TI_Words_WaqfInstitutions_ABS.jpg)
+
 <p style="text-align: center;">
   <em><b>Figure 21.</b> References to <i>Waqf</i> Institutions in Biographies.</em>
 </p>
@@ -334,8 +336,9 @@ The introduction and spread of <i>waqf</i> institutions is considered a turning 
 However, by offering salaried positions, the <i>waqf</i> institutions also reconfigured the structure of the learned class, which in the long run had a very negative effect. In his study of medieval Damascus,<sup><a href="#footnote_31_918" id="identifier_31_918" class="footnote-link footnote-identifier-link" title="Chamberlain (1994).">32</a></sup> Chamberlain convincingly argued that salaried positions (<i>manāṣib</i>) became one of the major object of contention among the learned who were now concerned about winning and holding as many of these positions as it was possible. One of their strategies was to ensure that the positions stayed within a family—household—which led to the formation of the dynasties of religious scholars and, in the long run, the transformation of the religious class into a rather closed social stratum, to which the word “clergy” became more and more applicable as time went on.
 
 
-![]({{ site.url }}/images/_TI_Words_ReferencestoRelativesCum_ABS.jpg)
-![]({{ site.url }}/images/_TI_Words_ReferencestoRelatives_ABS.jpg)
+![]({{ site.url }}/images/TI_Words_ReferencestoRelativesCum_ABS.jpg)
+
+![]({{ site.url }}/images/TI_Words_ReferencestoRelatives_ABS.jpg)
 <p style="text-align: center;">
   <em><b>Figure 22.</b> References to Relatives. The graph on the left shows the major categories of relatives, while the on on the right shows the same data combined into one graph.</em>
 </p>
