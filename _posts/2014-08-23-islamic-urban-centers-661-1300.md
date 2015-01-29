@@ -9,7 +9,6 @@ imagecredit:	"Iraq. Kufa. (On the banks of the Euphrates). Once an important Mos
 				Library of Congress, LC-DIG-matpc-16149
 				</a>"
 categories:
-categories:
   - Dissertation
 tags:
   - Graphs
@@ -17,7 +16,6 @@ tags:
   - Ta’rīkh al-islām
   - Maps
   - Islamic Cities
-
 ---
 
 
