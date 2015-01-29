@@ -3,6 +3,7 @@ title:		"al-Thurayyā Gazetteer, Ver. 02"
 date:       2014-11-20 12:00:00
 author:		Maxim Romanov
 layout:		post
+image:		/images/loc_photos/pilgriims_04654u.jpg
 categories:
   - Geography
 tags:
