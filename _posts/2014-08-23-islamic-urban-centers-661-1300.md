@@ -9,7 +9,9 @@ imagecredit:	"Iraq. Kufa. (On the banks of the Euphrates). Once an important Mos
 				Library of Congress, LC-DIG-matpc-16149
 				</a>"
 categories:
-  - Dissertation
+  - Biographies
+  - Geographies
+  - Taʾriḫ al-islām
 tags:
   - Graphs
   - al-Dhahabī

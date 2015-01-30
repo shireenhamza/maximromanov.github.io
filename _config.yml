@@ -8,12 +8,9 @@ header-img: images/loc_photos/a_cover.jpg
 # Owner/author information
 name:               Maxim Romanov
 author:             Maxim Romanov
-bio:                My dissertation-“Computational Analysis of Arabic Biographical Collections with Special Reference to Preaching
-                    in the Sunnī World (661-1300 CE)”-is now available online through the digital library @ the University of
-                    Michigan. Even with very extensive Appendices, several thousand graphs and maps still did not make it into 
-                    the dissertation. Hopefully, if I can find enough time, I will make an online appendix with the visualizations
-                    of all generated data that consists mainly of chronological graphs of “descriptive names” and chronological maps
-                    that show how their geographies were changing over time (all based on “The History of Islam” of al-Dhahabī (d. 1348)).
+bio:                I am a Postdoctoral Associate (PhD, U of Michigan) at the Department of Classics and the Perseus Project, Tufts University.
+                    I study Islamic historical texts with computational methods, currently focusing
+                    on the analysis of multivolume biographical and bibliographical collections.
 avatar:             RM_600.png
 email:              romanov.maxim@gmail.com
 description:        Reading Traditional Sources with Nontraditional Methods

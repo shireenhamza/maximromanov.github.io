@@ -229,6 +229,7 @@ hr.small {
   color: #808080;
   font-size: 18px;
   font-style: italic;
+  text-align: right;
   margin-top: 0;
 }
 .post-preview > .post-meta > a {

@@ -1,9 +1,17 @@
 ---
-title:		'Dissertation online @ U of Michigan'
-subtitle:	'Computational Reading of Arabic Biographical Collections: '
-layout: post
+title:			'Computational Reading of Arabic Biographical Collections'
+subtitle:		'Dissertation online @ U of Michigan'
+layout: 		post
+author:			Maxim Romanov
+image:			/images/thematic_covers/CentralCampus_UofM_a.jpg
+imagecredit:	"University of Michigan, Central Campus, A View of the Rackham Graduate School Building.
+				(<a href='http://ssd.umich.edu/common-funding-sources' target='_blank'>University of Michigan</a>)"
 categories:
-  - Dissertation
+  - Methods
+  - Corpora
+  - Biographies
+  - Geographies
+  - Taʾriḫ al-islām
 tags:
   - Graphs
   - Maps

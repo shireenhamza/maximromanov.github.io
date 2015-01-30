@@ -3,12 +3,13 @@ title: 50 Seconds of Islamic History, v.2.x
 author: Maxim Romanov
 layout: post
 categories:
-  - Dissertation
+  - Biographies
+  - Geographies
+  - Taʾriḫ al-islām
 tags:
   - Graphs
   - Maps
   - al-Dhahabī
-  - Ta’rīkh al-islām
   - Islamic world
   - Longue durée
   - Maps

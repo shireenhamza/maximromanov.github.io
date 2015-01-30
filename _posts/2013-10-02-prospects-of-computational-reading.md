@@ -3,7 +3,10 @@ title: Prospects of Computational Reading
 author: Maxim Romanov
 layout: post
 categories:
-  - Dissertation
+  - Methods
+  - Corpora
+  - Biographies
+  - Geographies
 tags:
   - Computational reading
   - Graphs

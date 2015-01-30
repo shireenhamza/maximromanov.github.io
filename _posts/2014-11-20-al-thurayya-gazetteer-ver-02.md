@@ -5,11 +5,12 @@ author:		Maxim Romanov
 layout:		post
 image:		/images/project_images/althurayya_02_bw.jpg
 categories:
-  - Geography
+  - Geographies
 tags:
   - Cornu
   - Gazetteer
   - al-Thurayyā
+  - Maps
 ---
 
 ![A Screenshot of al-Thurayyā]({{ site.url }}/images/althurayya_02_01.png)

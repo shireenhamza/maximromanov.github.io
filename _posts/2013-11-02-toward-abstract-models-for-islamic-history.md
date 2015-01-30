@@ -4,7 +4,10 @@ author:		Maxim Romanov
 layout:		post
 image:		/images/loc_photos/baghdad_16004_d.jpg
 categories:
-  - Biographical Collections
+  - Methods
+  - Biographies
+  - Geographies
+  - Taʾriḫ al-islām
 tags:
   - al-Dhahabī
   - Ta’rīkh al-islām

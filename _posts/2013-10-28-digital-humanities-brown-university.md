@@ -1,7 +1,13 @@
 ---
-title: 'Webcast of: Digital Humanities + Islamic &#038; Middle East Studies @ Brown University'
-author: Maxim Romanov
-layout: post
+title:			'Digital Humanities + Islamic &#038; Middle East Studies @ Brown University'
+subtitle:		'Webcast of the Event'
+author:			Maxim Romanov
+layout:			post
+image:			/images/thematic_covers/BrownUniversity-JohnDRockefellerJrLibrary.jpg
+imagecredit:	"Brown University - John D. Rockefeller, Jr. Library
+				<a href='http://commons.wikimedia.org/wiki/File:BrownUniversity-JohnDRockefellerJrLibrary.jpg' target='_blank'>
+					(Wikimedia Commons)
+				</a>"
 categories:
   - Events
 tags:

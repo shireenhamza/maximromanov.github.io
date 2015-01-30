@@ -8,7 +8,7 @@ imagecredit:	"Mecca, ca. 1910. Camel caravan of pilgrims to Mecca<br>
 				Library of Congress, LC-DIG-matpc-04654
 				</a>"
 categories:
-  - Geography
+  - Geographies
 tags:
   - Atlas du monde islamique
   - Cornu

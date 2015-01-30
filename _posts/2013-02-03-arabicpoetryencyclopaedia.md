@@ -4,7 +4,7 @@ subtitle: "(developed by Cultural Foundation, Abu Dhabi)"
 author: Maxim Romanov
 layout: post
 categories:
-  - miscellanea
+  - Miscellanea
 tags:
   - Arabic Texts
   - eTexts

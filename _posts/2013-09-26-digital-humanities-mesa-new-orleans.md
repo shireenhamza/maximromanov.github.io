@@ -1,12 +1,18 @@
 ---
-title:		Digital Humanities in Middle East Studies
-subtitle:	(at MESA, New Orleans, October 11)
-author:		Maxim Romanov
-layout:		post
+title:			Digital Humanities in Middle East Studies
+subtitle:		(at MESA, New Orleans, October 11)
+author:			Maxim Romanov
+layout:			post
+image:			/images/thematic_covers/neworleans_3a18420.jpg
+imagecredit:	"1891. View on Canal St., New Orleans (broadest street in the world), U.S.A.
+				(<a href='http://www.loc.gov/pictures/item/2015645053/' target='_blank'>
+				Library of Congress, LC-USZ62-16190
+				</a>)"
 categories:
-  - Miscellanea
-tags:
   - Events
+tags:
+  - Conference
+  - MESA
   - Digital History
   - Digital Humanities
 ---
