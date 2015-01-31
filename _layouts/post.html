@@ -65,10 +65,15 @@ comments:   true
                 <section class="post-content"></section>
 
                 <a name="topofpage"></a>
-
+				
+				
+				<section class="post-topmatter">
                 {% if page.imagecredit %}
                 <p class="imagecredit"><b>Cover:</b> {{ page.imagecredit }}</p>
                 {% endif %}
+				
+				{% include share_top.html %}
+				</section>
 
 
                 {{ content }}
