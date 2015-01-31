@@ -9,7 +9,7 @@ permalink: /projects/
 <ul class="tag-box inline">
   {% assign tags_list = site.categories %}
   {% if tags_list.first[0] == null %}
-  {% for tag in tags_list %}
+  {% for tag in tags_list order:ascending %}
   <li><a href="#{{ tag }}">{{ tag }} <span>{{ site.tags[tag].size }}</span></a></li>
   {% endfor %}
   {% else %}
@@ -24,7 +24,7 @@ permalink: /projects/
 
 
 {% for tag in site.categories order:ascending %} 
-  <h2 id="{{ tag[0] }}">{{ tag[0] }}</h2>
+  <h2 id="{{ tag[0] }}"><em>{{ tag[0] }}</em></h2>
   <ul class="post-list">
     {% assign pages_list = tag[1] %}  
     {% for post in pages_list %}

@@ -59,4 +59,4 @@ The Version 2.x maps do not seem to change [the overall picture][2] in any radic
 **NB:** <em>Nisba</em>s—or “descriptive names”—that point to the geographical origins of individuals are not included into this visualization. (Examples of geographical <em>nisba</em>s: the name al-Baghdadi tells that a person was strongly affiliated with the city of Baghdad, al-Dimashqi—with the city of Damascus, al-Naysaburi—with the city of Nishapur, etc.)
 
  [1]: http://en.wikipedia.org/wiki/Pythagorean_theorem "Pythagorean theorem"
- [2]: http://alraqmiyyat.org/2013/01/islamicworldof661-1300/
+ [2]: {{ site.url }}/2013/01-21.html

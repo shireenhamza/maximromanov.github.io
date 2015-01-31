@@ -1,5 +1,5 @@
 body {
-  font-family: 'Brill', 'Cambria', 'Gentium' serif;
+  font-family: 'Sorts Mill Goudy', 'Brill', 'Cambria', 'Gentium' serif;
   font-size: 24px;
   color: #404040;
 }
@@ -16,7 +16,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family:  'Brill', 'Cambria', 'Gentium' serif;
+  font-family: 'Sorts Mill Goudy', 'Brill', 'Cambria', 'Gentium' serif;
   font-weight: 800;
 }
 a {
@@ -216,7 +216,7 @@ hr.small {
   color: #96190E; /* red-brick */
 }
 .post-preview > a > .post-title {
-  font-size: 30px;
+  font-size: 34px;
   margin-top: 30px;
   margin-bottom: 10px;
 }
@@ -227,7 +227,7 @@ hr.small {
 }
 .post-preview > .post-meta {
   color: #808080;
-  font-size: 18px;
+  font-size: 24px;
   font-style: italic;
   text-align: right;
   margin-top: 0;
