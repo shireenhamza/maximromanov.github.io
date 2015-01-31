@@ -3,6 +3,11 @@ title: Python Functions for Arabic
 author: Maxim Romanov
 layout: post
 date:   2013-01-02 12:00:00
+image:      /images/loc_photos/cairo_00233u_a.jpg
+imagecredit:  "Egypt. Cairo. Street scene. Showing mosque of Kait Bey. 1936?
+        <a href='http://www.loc.gov/pictures/item/mpc2004000387/PP/' target='_blank'>
+        (Library of Congress, LC-DIG-matpc-00233)
+        </a>"
 categories:
   - Miscellanea
 tags:

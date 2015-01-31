@@ -1,7 +1,10 @@
 ---
-title: 50 Seconds of Islamic History, v.2.x
-author: Maxim Romanov
-layout: post
+title:          50 Seconds of Islamic History, v.2.x
+author:         Maxim Romanov
+layout:         post
+image:          /images/loc_photos/baghdad_16145.jpg
+imagecredit:    "Iraq. Kufa. (On the banks of the Euphrates). Once an important Moslem [i.e., Muslim] center of learning on the
+                river Euphrates. 1932 <a href='http://www.loc.gov/pictures/item/mpc2010001642/PP/' target='_blank'>(Library of Congress, LC-DIG-matpc-16145)</a>"
 categories:
   - Biographies
   - Geographies

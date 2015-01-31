@@ -2,6 +2,8 @@
 title: Prospects of Computational Reading
 author: Maxim Romanov
 layout: post
+image:          /images/loc_photos/kazimayn_16058.jpg
+imagecredit:    "Iraq. Kadimain, third holy city of the Shite Moslems [i.e., Muslims]. Road to Kadimain from Baghdad. 1932 <a href='http://www.loc.gov/pictures/item/mpc2010001555/PP/' target='_blank'>(Library of Congress, LC-DIG-matpc-16058)</a>"
 categories:
   - Methods
   - Corpora

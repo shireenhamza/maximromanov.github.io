@@ -3,6 +3,7 @@ title:		Toward Abstract Models for Islamic History
 author:		Maxim Romanov
 layout:		post
 image:		/images/loc_photos/baghdad_16004_d.jpg
+imagecredit:  "Iraq. (Mesopotamia). Baghdad. Views, street scenes, and types. The Katah Bridge. Over the Tigris River looking North. 1932 <a href='http://www.loc.gov/pictures/item/mpc2010001646/PP/' target='_blank'>(Library of Congress, LC-DIG-matpc-16149)</a>"
 categories:
   - Methods
   - Biographies

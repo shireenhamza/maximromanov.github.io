@@ -3,6 +3,11 @@ title: 'Review/Manual: The Encyclopaedia of Arabic Poetry'
 subtitle: "(developed by Cultural Foundation, Abu Dhabi)"
 author: Maxim Romanov
 layout: post
+image:      /images/loc_photos/baghdad_16022a.jpg
+imagecredit:  "Iraq. (Mesopotamia). Baghdad. Tigris river scene showing the Serai and large river boats. 1932
+        <a href='http://www.loc.gov/pictures/item/mpc2010001519/PP/' target='_blank'>
+        (Library of Congress, LC-DIG-matpc-16022)
+        </a>"
 categories:
   - Miscellanea
 tags:
