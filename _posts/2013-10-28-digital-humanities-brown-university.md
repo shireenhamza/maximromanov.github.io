@@ -1,5 +1,5 @@
 ---
-title:			'Digital Humanities + Islamic &#038; Middle East Studies'
+title:			'Digital Humanities + Islamic <em>&</em> Middle East Studies'
 subtitle:		'Webcast of the Event @ Brown University'
 author:			Maxim Romanov
 layout:			post
