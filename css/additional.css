@@ -615,7 +615,7 @@ figure img {
 }
 
 figure a img {
-    -webkit-filter: brightness(90%); /* Google Chrome & Safari 6+ */
+    -webkit-filter: brightness(95%); /* Google Chrome & Safari 6+ */
     -webkit-transform: translate(0,0);
     -moz-transform: translate(0,0);
     -ms-transform: translate(0,0);
@@ -698,9 +698,12 @@ svg:not(:root) {
 figcaption {
     padding-top: 0.625rem;
     padding-bottom: 2.125rem;
-    text-align: center;
+    padding-left: 40%;
+    text-align: left;
     font-size: 0.875rem;
     font-style:italic;
+    font-size: 14pt;
+    line-height: 16pt;
 }
 
 /*--------------------------------
