@@ -1,0 +1,58 @@
+<html> 
+
+<head>
+   <title>IHC Timeline</title>
+
+   <script src="http://static.simile.mit.edu/exhibit/api-2.0/exhibit-api.js" type="text/javascript"></script>
+   <script src="http://static.simile.mit.edu/exhibit/extensions-2.0/time/time-extension.js"></script> 
+	
+   <link 
+      rel="exhibit/data" 
+      type="application/jsonp"
+      href="http://spreadsheets.google.com/feeds/list/0Av--mo0OW4kBdFlwaDZScGxaYzVoZFZ0WmFkdXc0RWc/od6/public/basic?alt=json-in-script"
+      ex:converter="googleSpreadsheets" />
+</head>
+
+<body> 
+
+<h1><center>IHC Timeline</center></h1>
+
+   <table width="100%" cellspacing="10">
+      <tr valign="top">
+         <td>
+            <div ex:role="view"
+               ex:viewClass="Timeline"
+               ex:start=".start"
+               ex:end=".end"
+               ex:topBandUnit="decade"
+               ex:bottomBandUnit="century"
+               ex:topBandPixelsPerUnit="100"
+               ex:bubbleWidth="200"
+               ex:bubbleHeight="300">
+            </div> 
+         </td>
+      </tr>
+   </table>
+
+   <center>
+   <div ex:role="facet" ex:facetClass="TextSearch" ex:facetLabel="Search"></div>
+   <div ex:role="logo" ex:color="DimGrey"></div>
+   </center>
+	
+   <div ex:role="lens">
+      <b ex:content=".label"></b>
+      <p><img ex:if-exists=".image" ex:src-content=".image" /></p>
+      <p ex:content=".description"></p>
+      <i ex:content=".initials"></i>
+   </div>
+      </tr>
+   </table>
+	
+   <div ex:role="lens">
+      <p><img ex:if-exists=".image" ex:src-content=".image" /></p>
+      <p ex:content=".description"></p>
+      <b ex:content=".initials"></b>
+   </div>
+</body>
+
+</html>

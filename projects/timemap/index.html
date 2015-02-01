@@ -1,0 +1,153 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+ 
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+    <title>The First Millennium of the Islamic Near East: Agriculture 600-1600CE, by Noah Blan</title>
+    <script src="http://maps.google.com/maps?file=api&v=2&key=AIzaSyDEfKcuQhHdhId3AZQ5EcczNoB3GR-5dm8"
+      type="text/javascript"></script>
+    <script type="text/javascript" src="timemap/lib/jquery-1.6.2.min.js"></script>
+    <script type="text/javascript" src="timemap/lib/mxn/mxn.js?(google)"></script>
+    <script type="text/javascript" src="timemap/lib/timeline-1.2.js"></script>
+    <script src="timemap/src/timemap.js" type="text/javascript"></script>
+    <script src="timemap/src/param.js" type="text/javascript"></script>
+    <script src="timemap/src/loaders/json.js" type="text/javascript"></script>
+    <script src="timemap/src/loaders/google_spreadsheet.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+var tm;
+$(function() {
+    
+    tm = TimeMap.init({
+        mapId: "map",               // Id of map div element (required)
+        timelineId: "timeline",     // Id of timeline div element (required) 
+        options: {
+            eventIconPath: "timemap/images/"
+        },
+        datasets: [
+            {
+                title: "Events",
+                id: "events",
+                theme: "green",
+                type: "gss",
+                options: {
+                    // note that your spreadsheet must be published for this to work
+                    key: "0Av--mo0OW4kBdHpmX2hQZ3ViS2RpSC1CU19yOGdMbVE",
+                    // map spreadsheet column names to expected ids
+                    paramMap: {
+                        start: "start"
+                    }
+                }
+            }
+        ],
+        bandIntervals: [
+            Timeline.DateTime.DECADE,
+            Timeline.DateTime.CENTURY
+ 
+        ]
+    });
+});
+</script>    <link href="styles.css" type="text/css" rel="stylesheet"/>
+    <style>
+    #timemap {
+    height: 590px;
+    }
+
+    div#timelinecontainer{
+    width: 100%;
+    height: 100%;
+    }
+    
+    div#title{
+    width: 100%;
+    height: 100%;
+    font-size: 16px;
+    font-family: "Georgia";
+    font-style: normal;
+    font-weight: bold;
+    align: center
+    }
+
+    div#heading{
+    width: 100%;
+    height: 100%;
+    font-size: 14px;
+    font-family: "Georgia";
+    font-style: normal;
+    font-weight: bold;
+    align: center
+    }
+    
+    div#mainList{
+    width: 100%;
+    height: 100%;
+    font-size: 14px;
+    font-family: "Georgia";
+    font-style: normal;
+    font-weight: normal;
+    align: center
+    }
+    
+    div#menu{
+    width: 100%;
+    height: 100%;
+    font-size: 12px;
+    font-family: "Consolas", "Verdana", lucida;
+    font-style: bold;
+    align: center
+    }
+
+    div#timeline {
+    width: 100%;
+    height: 100%;
+    font-size: 12px;
+    font-family: "Consolas", "Verdana", lucida;
+    font-style: normal;
+    }
+    
+    div#mapcontainer {
+    width: 100%;
+    height: 100%;
+    }
+
+    div#map {
+    width: 100%;
+    height: 100%;
+    background: #FFE6E6;
+    }
+
+    </style>
+</head>
+  
+<body>
+<div id="title" align="center">
+Timemaps of the Islamic World
+</div>
+<br>
+
+<div id="heading" align="center">
+Course Timemaps
+</div>
+<br>
+
+<div id="mainList" align="center">
+<a href="http://alraqmiyyat.org/timemap/aaptis461_f12_agriculture.php">
+The First Millennium of the Islamic Near East 600-1600CE</a><br>
+Professor Michael Bonner, AAPTIS 462, U of Michigan<br>
+Fall2012
+
+</div>
+<br>
+
+<div id="menu" align="center">
+::::::::::::::::::::::::::::::::::::::::::::::<br>
+::::: Maxim Romanov @ U of Michigan 2012 :::::<br>
+::::: Timemaps made with Simile Timeline :::::<br>
+::::::::::<a href="http://www.alraqmiyyat.org/">http://www.alraqmiyyat.org</a>::::::::::<br>
+::::::::::::::::::::::::::::::::::::::::::::::<br>
+
+</div>
+
+</body>
+</html>

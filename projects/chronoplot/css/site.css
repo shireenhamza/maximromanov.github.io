@@ -1,0 +1,102 @@
+                                                                body { margin:0; }
+h1 {
+	font-size: 20px;
+	margin-bottom:0;
+	padding:0 0 0 24px;
+	font-family: 'Brill', 'Garamond', 'Cambria';
+	font-weight: normal;
+}
+.linetype {
+	font-family: 'Brill', 'Garamond', 'Cambria';
+}
+.actions {
+	padding: 8px;
+	display: block;
+	color: #AAA;
+	text-align:center;
+	font-family: 'Brill', 'Garamond', 'Cambria';
+	font-size: 12px;
+}
+#selectorFilter {
+	right:0;
+	top:0;
+	position:fixed;
+	background-color:#EEE;
+	padding:10px;
+	height:100%;
+	width:25%;
+}
+#selectorFilter input {
+	padding: 8px;
+	margin-bottom:10px;
+	/*width: 90%;*/
+}
+#selector {
+	/* font-size: 18px; */
+	height: 70%;
+	overflow-y:scroll;
+}
+#selector div {
+	margin: 15px 0;
+}
+
+.rtl{
+	direction:rtl;
+	line-height: 1;
+	/*line-height: 16px;*/
+}
+
+.credits {
+	font-size: 12px;
+	color: #AAA;
+	font-family: 'Brill', 'Garamond', 'Cambria';
+	padding: 10px;
+	display: block;
+	text-align:center;
+}
+
+.gray {
+	font-size: 16px;
+	color: #AAA;
+	font-family: 'Sakkal Majalla', 'Traditional Arabic', 'Arabic Typesetting', 'Geeza Pro';
+	/*line-height: 16px;*/
+}
+
+.item {
+	font-size: 18px;
+	color: #000;
+	font-family: 'Sakkal Majalla', 'Traditional Arabic', 'Arabic Typesetting', 'Geeza Pro';
+	/*line-height: 16px;*/
+	/*font-weight: bold;*/
+
+}
+
+.legendItem {
+	font-size: 18px;
+	color: #000;
+	font-family: 'Sakkal Majalla', 'Traditional Arabic', 'Arabic Typesetting', 'Geeza Pro';
+	font-weight: bold;
+	direction:rtl;
+}
+
+.axis path,
+.axis line {
+	fill:none;
+	stroke:black;
+	shape-rendering:crispEdges;
+}
+
+.axis text {
+	font-size:16px;
+	font-family: 'Garamond', 'Brill', 'Cambria';
+}
+
+
+path.line {
+	fill: none;
+	stroke:#FF0000;
+}
+                            
+                            
+                            
+                            

@@ -1,0 +1,54 @@
+<html> 
+
+<head>
+   <title>IHC Timeline</title>
+
+   <script src="http://static.simile.mit.edu/exhibit/api-2.0/exhibit-api.js" type="text/javascript"></script>
+   <script src="http://static.simile.mit.edu/exhibit/extensions-2.0/time/time-extension.js"></script> 
+	
+   <link 
+      rel="exhibit/data" 
+      type="application/jsonp"
+      href="http://spreadsheets.google.com/feeds/list/0Av--mo0OW4kBdFBYTXdvQ1owXzdJUXFGZFpENHdpQ2c/od6/public/basic?alt=json-in-script"
+      ex:converter="googleSpreadsheets" />
+
+</head>
+
+<body> 
+
+<body>
+
+<h1>Islamic History Commons: Timeline</h1>
+
+   <table width="100%" cellspacing="20">
+      <tr valign="top">
+         <td>
+            <div ex:role="view"
+               ex:viewClass="Timeline"
+               ex:start=".start"
+               ex:end=".end"
+               ex:topBandUnit="decade"
+               ex:bottomBandUnit="century"
+               ex:topBandPixelsPerUnit="100"
+               ex:bubbleWidth="300"
+               ex:bubbleHeight="400" 
+               ex:colorKey=".eventRegion">
+            </div> 
+            <center ex:role="logo" ex:color="DimGrey"></center>
+         </td>
+  
+         <td width="20%">
+            <div ex:role="facet" ex:facetClass="TextSearch" ex:facetLabel="Search"></div>
+            <div ex:role="facet" ex:expression=".eventRegion" ex:facetLabel="Region"></div>
+         </td>
+      </tr>
+   </table>
+	
+   <div ex:role="lens">
+      <p><img ex:if-exists=".image" ex:src-content=".image" /></p>
+      <p ex:content=".description"></p>
+      <i ex:content=".initials"></i>
+   </div>
+</body>
+
+</html>

@@ -1,0 +1,102 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+    <title>Google Spreadsheet Example</title>
+    <script src="http://maps.google.com/maps?file=api&v=2&key=AIzaSyDEfKcuQhHdhId3AZQ5EcczNoB3GR-5dm8"
+      type="text/javascript"></script>
+    <script type="text/javascript" src="timemap/lib/jquery-1.6.2.min.js"></script>
+    <script type="text/javascript" src="timemap/lib/mxn/mxn.js?(google)"></script>
+    <script type="text/javascript" src="timemap/lib/timeline-1.2.js"></script>
+    <script src="timemap/src/timemap.js" type="text/javascript"></script>
+    <script src="timemap/src/param.js" type="text/javascript"></script>
+    <script src="timemap/src/loaders/json.js" type="text/javascript"></script>
+    <script src="timemap/src/loaders/google_spreadsheet.js" type="text/javascript"></script>
+	<script type="text/javascript">
+
+var tm;
+$(function() {
+    
+    tm = TimeMap.init({
+        mapId: "map",               // Id of map div element (required)
+        timelineId: "timeline",     // Id of timeline div element (required) 
+        options: {
+            eventIconPath: "timemap/images/"
+        },
+        datasets: [
+            {
+                title: "Events",
+                id: "events",
+                theme: "green",
+                type: "gss",
+                options: {
+                    // note that your spreadsheet must be published for this to work
+                    key: "0Av--mo0OW4kBdGxLejBHcllJcjhWVjFtQTVjTkRJNVE",
+                    // map spreadsheet column names to expected ids
+                    paramMap: {
+                        start: "start"
+                    }
+                }
+            }
+        ],
+        bandIntervals: [
+            Timeline.DateTime.DAY, 
+            Timeline.DateTime.MONTH
+        ]
+    });
+});
+    </script>
+    <link href="styles.css" type="text/css" rel="stylesheet"/>
+    <style>
+    #timemap {
+    height: 650px;
+    }
+
+    div#timelinecontainer{
+    width: 100%;
+    height: 100%;
+    }
+
+    div#timeline {
+    width: 100%;
+    height: 100%;
+    font-size: 12px;
+    font-family: "Consolas", "Verdana", lucida;
+    font-style: normal;
+    }
+    
+    div#mapcontainer {
+    width: 100%;
+    height: 100%;
+    }
+
+    div#map {
+    width: 100%;
+    height: 100%;
+    background: #FFE6E6;
+    }
+
+    </style>
+  </head>
+  
+<body>
+<div id="timemap">
+<table border="0" width="100%" cellpadding="0" cellspacing="0">
+	<tr>
+		<td width="60%" height="650">
+			<div id="mapcontainer">
+				<div id="map"></div>
+			</div>			
+		</td>
+		<td width="40%" height="650">
+			<div id="timelinecontainer">
+				<div id="timeline"></div>
+			</div>	
+		</td>
+	</tr>
+</table>
+</div>  
+
+</body>
+</html>
