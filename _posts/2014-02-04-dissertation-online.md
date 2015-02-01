@@ -20,9 +20,13 @@ tags:
   - Ta’rīkh al-islām
 
 ---
-<p style="text-align: center;">
-  <a href="http://alraqmiyyat.org/wp-content/uploads/2014/02/theresagraphforthat_sm.jpg"><img class="aligncenter wp-image-1056" src="http://alraqmiyyat.org/wp-content/uploads/2014/02/theresagraphforthat_sm.jpg" alt="theresagraphforthat_sm" width="800" height="430" /></a>
-</p>
+
+<figure class="fit">
+	<a href="{{ site.url }}/images/theresagraphforthat_sm.jpg">
+		<img src="{{ site.url }}/images/theresagraphforthat_sm.jpg">
+	</a>
+</figure>
+
 
 My dissertation—“Computational Analysis of Arabic Biographical Collections with Special Reference to Preaching in the Sunnī World (661-1300 CE)”—is now available online through [the digital library @ the University of Michigan][1]. Even with very extensive Appendices, several thousand graphs and maps still did not make it into the dissertation. Hopefully, if I can find enough time, I will make an online appendix with the visualizations of all generated data that consists mainly of chronological graphs of “descriptive names” and chronological maps that show how their geographies were changing over time (all based on “The History of Islam” of al-Dhahabī (d. 1348)).
 
