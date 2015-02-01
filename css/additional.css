@@ -615,7 +615,7 @@ figure img {
 }
 
 figure a img {
-    -webkit-filter: brightness(95%); /* Google Chrome & Safari 6+ */
+    -webkit-filter: brightness(100%); /* Google Chrome & Safari 6+ */
     -webkit-transform: translate(0,0);
     -moz-transform: translate(0,0);
     -ms-transform: translate(0,0);

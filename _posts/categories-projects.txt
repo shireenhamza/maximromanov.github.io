@@ -39,27 +39,30 @@ Code for images--
 
 <!-- one image -->
 <figure class="fit">
-	<a href="{{ site.url }}/images/loc_photos/baghdad_15986u.jpg" title="Test"><img src="{{ site.url }}/images/loc_photos/baghdad_15986u.jpg"></a>
+	<a href="{{ site.url }}/images/file.jpg" title=""><img src="{{ site.url }}/images/file.jpg"></a>
 	<figcaption>PictureCaption</figcaption>
 </figure>
+
 <!-- two images -->
 <figure class="half">
-	<a href="{{ site.url }}/images/loc_photos/baghdad_15986u.jpg" title="Test"><img src="{{ site.url }}/images/loc_photos/baghdad_15986u.jpg"></a>
-	<a href="{{ site.url }}/images/loc_photos/baghdad_15986u.jpg" title="Test"><img src="{{ site.url }}/images/loc_photos/baghdad_15986u.jpg"></a>
+	<a href="{{ site.url }}/images/file.jpg" title=""><img src="{{ site.url }}/images/file.jpg"></a>
+	<a href="{{ site.url }}/images/file.jpg" title=""><img src="{{ site.url }}/images/file.jpg"></a>
 	<figcaption>PictureCaption</figcaption>
 </figure>
+
 <!-- three images -->
 <figure class="third">
-	<a href="{{ site.url }}/images/loc_photos/baghdad_15986u.jpg" title="Test"><img src="{{ site.url }}/images/loc_photos/baghdad_15986u.jpg"></a>
-	<a href="{{ site.url }}/images/loc_photos/baghdad_15986u.jpg" title="Test"><img src="{{ site.url }}/images/loc_photos/baghdad_15986u.jpg"></a>
-	<a href="{{ site.url }}/images/loc_photos/baghdad_15986u.jpg" title="Test"><img src="{{ site.url }}/images/loc_photos/baghdad_15986u.jpg"></a>
+	<a href="{{ site.url }}/images/file.jpg" title=""><img src="{{ site.url }}/images/file.jpg"></a>
+	<a href="{{ site.url }}/images/file.jpg" title=""><img src="{{ site.url }}/images/file.jpg"></a>
+	<a href="{{ site.url }}/images/file.jpg" title=""><img src="{{ site.url }}/images/file.jpg"></a>
 	<figcaption>PictureCaption</figcaption>
 </figure>
+
 <!-- four images -->
 <figure class="fourth">
-	<a href="{{ site.url }}/images/loc_photos/baghdad_15986u.jpg" title="Test"><img src="{{ site.url }}/images/loc_photos/baghdad_15986u.jpg"></a>
-	<a href="{{ site.url }}/images/loc_photos/baghdad_15986u.jpg" title="Test"><img src="{{ site.url }}/images/loc_photos/baghdad_15986u.jpg"></a>
-	<a href="{{ site.url }}/images/loc_photos/baghdad_15986u.jpg" title="Test"><img src="{{ site.url }}/images/loc_photos/baghdad_15986u.jpg"></a>
-	<a href="{{ site.url }}/images/loc_photos/baghdad_15986u.jpg" title="Test"><img src="{{ site.url }}/images/loc_photos/baghdad_15986u.jpg"></a>
+	<a href="{{ site.url }}/images/file.jpg" title=""><img src="{{ site.url }}/images/file.jpg"></a>
+	<a href="{{ site.url }}/images/file.jpg" title=""><img src="{{ site.url }}/images/file.jpg"></a>
+	<a href="{{ site.url }}/images/file.jpg" title=""><img src="{{ site.url }}/images/file.jpg"></a>
+	<a href="{{ site.url }}/images/file.jpg" title=""><img src="{{ site.url }}/images/file.jpg"></a>
 	<figcaption>PictureCaption</figcaption>
 </figure>
