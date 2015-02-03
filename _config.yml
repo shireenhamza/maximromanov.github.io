@@ -60,7 +60,7 @@ rdiscount:
   extensions: []
 
 redcarpet:
-  extensions: ["footnotes", "tables", "no_intra_emphasis", "fenced_code_blocks", "autolink", "with_toc_data"]
+  extensions: ["footnotes", "tables", "no_intra_emphasis", "fenced_code_blocks", "autolink", "with_toc_data", "quote"]
 
 kramdown:
   auto_ids:       true
