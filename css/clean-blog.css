@@ -19,6 +19,15 @@ p {
   line-height: 1.5;
   margin: 30px 0;
 }
+
+.arabic{
+  font-family: 'LateefRegular';
+  line-height: 1.5;
+  margin: 30px 0;
+  font-size: 38px;
+  direction: rtl;
+}
+
 p a {
   text-decoration: underline;
 }
