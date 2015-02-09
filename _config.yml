@@ -60,7 +60,7 @@ rdiscount:
   extensions: []
 
 redcarpet:
-  extensions: ["footnotes", "tables", "no_intra_emphasis", "fenced_code_blocks", "autolink", "with_toc_data", "quote"]
+  extensions: ["footnotes", "tables", "no_intra_emphasis", "fenced_code_blocks", "autolink", "with_toc_data", "quote"] # "quote" for smart quotes
 
 kramdown:
   auto_ids:       true
