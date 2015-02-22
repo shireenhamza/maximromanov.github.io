@@ -2,7 +2,7 @@
 layout: page
 title: About
 permalink: /about/
-header-img: "images/loc_photos/baghdad_15986u.jpg"
+header-img: "images/thematic_covers/at_work.jpg"
 ---
 
 <center>[Detailed CV in PDF](https://tufts.academia.edu/MaximRomanov/CurriculumVitae)</center>
