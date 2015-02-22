@@ -1,9 +1,28 @@
 ---
-layout: page
+layout: page_about
 title: About
+description: "Maxim Romanov"
 permalink: /about/
 header-img: "images/thematic_covers/at_work.jpg"
 ---
+
+<section class="post-topmatter">
+<p class="imagecredit"><b>Cover:</b> A picture taken by my seven-year-old daughter, Sasha Romanova</p>
+<section class="share"> 
+<a class="icon-twitter" href="http://twitter.com/share?text=Islamic Urban Centers (661–1300 CE)&amp;url=http://maximromanov.github.io/2014/08-23.html"
+onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;">
+<span class="hidden">Twitter</span>
+</a>
+<a class="icon-facebook" href="https://www.facebook.com/sharer/sharer.php?u=http://maximromanov.github.io/2014/08-23.html"
+onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;">
+<span class="hidden">Facebook</span>
+</a>
+<a class="icon-google-plus" href="https://plus.google.com/share?url=http://maximromanov.github.io/2014/08-23.html"
+onclick="window.open(this.href, 'google-plus-share', 'width=490,height=530');return false;">
+<span class="hidden">Google+</span>
+</a>
+</section>
+</section>
 
 <center>[Detailed CV in PDF](https://tufts.academia.edu/MaximRomanov/CurriculumVitae)</center>
 
