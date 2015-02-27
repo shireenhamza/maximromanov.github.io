@@ -26,6 +26,7 @@ p {
   margin: 30px 0;
   font-size: 30px;
   direction: rtl;
+  line-height: 2;
 }
 
 p a {
