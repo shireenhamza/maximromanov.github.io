@@ -24,7 +24,7 @@ onclick="window.open(this.href, 'google-plus-share', 'width=490,height=530');ret
 </section>
 </section>
 
-<center>[CV in PDF]({{ site.url }}/files/Romanov-CV.pdf)</center>
+<center>[Download PDF]({{ site.url }}/files/Romanov-CV.pdf)</center>
 
 # Maxim Romanov
 
