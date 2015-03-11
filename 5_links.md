@@ -29,11 +29,13 @@ onclick="window.open(this.href, 'google-plus-share', 'width=490,height=530');ret
 # A
 
 ## Access to Mideast and Islamic Resources (AMIR)
-AMIR is a blog (with its own ISSN 2160-3049) maintained by a few scholars and librarians (Birte Kristiansen, Sean Swanick, Peter Magierski, Andreas Neumann, Charles Jones) who regularly post thematic lists of online resources relevant to the study of Middle East.
+AMIR is a blog (with its own ISSN 2160-3049) maintained by a few scholars and librarians who regularly post annotated thematic lists of online resources relevant to the study of Middle East.
 
-*Some particularly interesting blogposts*:
+*Some particularly relevant blogposts*:
 
 * [The Digital Orentalist: Full-Text Online Arabic Sources: A Preliminary List](http://amirmideast.blogspot.com/2015/03/the-digital-orentalist-full-text-online.html?utm_source=feedburner&utm_medium=email&utm_campaign=Feed%3A+AccessToMideastAndIslamicResourcesamir+%28Access+to+Mideast+and+Islamic+Resources+%28AMIR%29%29)
+
+**Contributors**: *Birte Kristiansen*, Universiteit Leiden, Library, the Netherlands; *Sean Swanick*, McGill University Library, Canada; *Peter Magierski*, Columbia University Libraries, USA; *Andreas Neumann*; *Charles Jones*,The Pennsylvania State University Library, USA.
 
 **URL**: [amirmideast.blogspot.com](http://amirmideast.blogspot.com/)
 
