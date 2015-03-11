@@ -3,7 +3,7 @@ layout: page
 title: "Resources"
 description: "ʿAǧāʾib al-maṣnūʿāt fī ʿālam al-raqmiyyāt"
 permalink: /resources/
-header-img: "images/thematic_covers/alburaq_standrews_ms..jpg"
+header-img: "images/thematic_covers/alburaq_standrews_ms.jpg"
 ---
 
 <section class="post-topmatter">
