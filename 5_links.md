@@ -7,7 +7,7 @@ header-img: "images/thematic_covers/alburaq_standrews_ms.jpg"
 ---
 
 <section class="post-topmatter">
-<p class="imagecredit"><b>Cover:</b> al-Buraq, an illustration from “The Book of Wonders” (<a href='https://standrewsrarebooks.wordpress.com/2013/07/01/52-weeks-of-inspiring-illustrations-week-50-the-book-of-wonders/' target='_blank'>(a manuscript @ St.Andrews University)</a>)</p>
+<p class="imagecredit"><b>Cover:</b> al-Buraq, an illustration from “The Book of Wonders” (<a href='https://standrewsrarebooks.wordpress.com/2013/07/01/52-weeks-of-inspiring-illustrations-week-50-the-book-of-wonders/' target='_blank'>a manuscript @ St.Andrews University</a>)</p>
 <section class="share"> 
 <a class="icon-twitter" href="http://twitter.com/share?text=About Maxim Romanov&amp;url=http://maximromanov.github.io/about/"
 onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;">
@@ -26,10 +26,21 @@ onclick="window.open(this.href, 'google-plus-share', 'width=490,height=530');ret
 
 <center>*in progress*</center>
 
+# A
+
+## Access to Mideast and Islamic Resources (AMIR)
+AMIR is a blog (with its own ISSN 2160-3049) maintained by a few scholars and librarians (Birte Kristiansen, Sean Swanick, Peter Magierski, Andreas Neumann, Charles Jones) who regularly post thematic lists of online resources relevant to the study of Middle East.
+
+*Some particularly interesting blogposts*:
+
+* [The Digital Orentalist: Full-Text Online Arabic Sources: A Preliminary List](http://amirmideast.blogspot.com/2015/03/the-digital-orentalist-full-text-online.html?utm_source=feedburner&utm_medium=email&utm_campaign=Feed%3A+AccessToMideastAndIslamicResourcesamir+%28Access+to+Mideast+and+Islamic+Resources+%28AMIR%29%29)
+
+**URL**: [amirmideast.blogspot.com](http://amirmideast.blogspot.com/)
+
 # Q
 
-## Qawl ([www.uclouvain.be/qawl](http://www.uclouvain.be/qawl/))
-Qawl is a free suite of tools for searchers, teachers and students in the fields of Arabic studies. The program offers the following features:
+## Qawl 1.0
+*Qawl* is a free suite of tools for searchers, teachers and students in the fields of Arabic studies. The program offers the following features:
 
 * a large library of Arabic texts (more than 1900)
 * a research algorithm which allows one to search any word matching a query
@@ -37,5 +48,7 @@ Qawl is a free suite of tools for searchers, teachers and students in the fields
 * handy help for translation and analysis of Arabic words and sentences through various webtools (Aratools, Google Translate, Bing Translator)
 
 **Developed by**: *Sébastien Moureau*, Chargé de recherches au F.R.S.-FNRS, Université catholique de Louvain (Belgium)
+
+**URL**: [www.uclouvain.be/qawl](http://www.uclouvain.be/qawl/)
 
 
