@@ -128,14 +128,14 @@ body {
 
 .arabic {
   font-size: 20px;
-  font-family: 'DroidArabicNaskhRegular', 'Lateef', 'Geeza Pro', serif;
+  font-family: 'Amiri', 'Lateef', 'Geeza Pro', serif;
   padding: 0;
   direction: rtl;
 }
 
 .arabic-popup {
   font-size: 26px;
-  font-family: 'DroidArabicNaskhBold', 'Lateef', 'Geeza Pro', serif;
+  font-family: 'Amiri', 'Lateef', 'Geeza Pro', serif;
   padding: 0;
   direction: rtl;
   line-height: 32px;
@@ -276,17 +276,17 @@ body {
 
 #match {
   direction: rtl;
-  font-family: 'DroidArabicNaskhRegular', 'Brill', 'Georgia', 'Lateef', 'Geeza Pro', serif;
+  font-family: 'Amiri', 'Brill', 'Georgia', 'Lateef', 'Geeza Pro', serif;
 }
 
 .match-display {
   display: none;
-  font-family: 'DroidArabicNaskhRegular', 'Brill', 'Georgia', 'Lateef', 'Geeza Pro', serif;
+  font-family: 'Amiri', 'Brill', 'Georgia', 'Lateef', 'Geeza Pro', serif;
 }
 
 .match-display-reference {
   display: none;
-  font-family: 'DroidArabicNaskhRegular', 'Brill', 'Georgia', 'Lateef', 'Geeza Pro', serif;
+  font-family: 'Amiri', 'Brill', 'Georgia', 'Lateef', 'Geeza Pro', serif;
 }
 
 .match-list {
