@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "Resources"
-description: "ʿAǧāʾib al-maṣnūʿāt fī ʿālam al-raqmiyyāt"
+description: "ʿAjāʾib al-maṣnūʿāt fī ʿālam al-raqmiyyāt"
 permalink: /resources/
 header-img: "images/thematic_covers/alburaq_standrews_ms.jpg"
 ---
@@ -51,6 +51,18 @@ AMIR is a blog (with its own ISSN 2160-3049) maintained by a few scholars and li
 
 **Developed by**: *Sébastien Moureau*, Chargé de recherches au F.R.S.-FNRS, Université catholique de Louvain (Belgium)
 
-**URL**: [www.uclouvain.be/qawl](http://www.uclouvain.be/qawl/)
+**URL**: [www.uclouvain.be/qawl/](http://www.uclouvain.be/qawl/)
 
+{% comment %}
 
+# V
+
+## Viral Texts
+
+**URL**: [viraltexts.org](http://viraltexts.org/)
+
+## Visualizing English Print
+
+**URL**: [graphics.cs.wisc.edu/VEPsite/](http://graphics.cs.wisc.edu/VEPsite/)
+
+{% endcomment %}

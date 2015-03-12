@@ -5,7 +5,7 @@ The new version of my website, built with Jekyll ~~(and lots of pain and sweat..
 
 ## ToDo's
 
-1. embed google analytics
+1. ~~embed google analytics~~
 2. add projects folder and move projects there from the old site
 3. bio note
 4. image handling/styles in posts + figure captions
@@ -21,6 +21,15 @@ The new version of my website, built with Jekyll ~~(and lots of pain and sweat..
 	<iframe width=750 height=450 src="http://youtube.com/embed/0eblr_DGHus" frameborder=0>
 	</iframe>
 </center>
+```
+
+##### to comment out text
+There is a Liquid Tag for that :)
+```
+
+{% comment %}
+This text will be excluded from the final version
+{% endcomment %}
 ```
 
 ##### gitHub commands
