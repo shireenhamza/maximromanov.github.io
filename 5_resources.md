@@ -26,7 +26,7 @@ onclick="window.open(this.href, 'google-plus-share', 'width=490,height=530');ret
 
 <center>*in progress*</center>
 
-# A
+# [A]
 
 ## Access to Mideast and Islamic Resources (AMIR)
 AMIR is a blog (with its own ISSN 2160-3049) maintained by a few scholars and librarians who regularly post annotated thematic lists of online resources relevant to the study of Middle East.
@@ -39,7 +39,18 @@ AMIR is a blog (with its own ISSN 2160-3049) maintained by a few scholars and li
 
 **URL**: [amirmideast.blogspot.com](http://amirmideast.blogspot.com/)
 
-# Q
+## Arabic Almanac
+Perhaps the most valuable project out there, the Arabic Almanac is a collections of scanned dictionaries that are searcheable by roots. The Almanac uses the *Mawrid Reader*, an extendable HTML/JavaScript app for both desktop and mobile use for displaying and searching books. The Almanac can be downloaded to your hard disk or smart phone’s SD card, for fast offline usage.
+
+The *Mawrid Reader* makes the *Arabic Almanac* infinitely extendable and over the past few years the number of included dictionarieswas significantly increased. As of March 2012, the project includes 31 dictionaries: Arabic-English (10, including such indispensable titles as Hans Wehr, Lane, Steingass, Hava, etc.), Arabic-Urdu (7), Arabic-Arabic (9), Arabic-Indonesian/Malaysian (4), and Arabic-French (Kazimirski).
+
+[Detailed description of the project](http://ejtaal.net/aa/readme.html)
+
+**Developers**: [ejtaal.net](http://ejtaal.net/)
+
+**URL**: [ejtaal.net/aa/](http://ejtaal.net/aa/)
+
+# [Q]
 
 ## Qawl 1.0
 *Qawl* is a free suite of tools for searchers, teachers and students in the fields of Arabic studies. The program offers the following features:
@@ -49,13 +60,13 @@ AMIR is a blog (with its own ISSN 2160-3049) maintained by a few scholars and li
 * automatic identification of parallel passages (sources, quotations, etc.) of any pasted text by comparing it with the entire library
 * handy help for translation and analysis of Arabic words and sentences through various webtools (Aratools, Google Translate, Bing Translator)
 
-**Developed by**: *Sébastien Moureau*, Chargé de recherches au F.R.S.-FNRS, Université catholique de Louvain (Belgium)
+**Developers**: *Sébastien Moureau*, Chargé de recherches au F.R.S.-FNRS, Université catholique de Louvain (Belgium)
 
 **URL**: [www.uclouvain.be/qawl/](http://www.uclouvain.be/qawl/)
 
 {% comment %}
 
-# V
+# [V]
 
 ## Viral Texts
 
