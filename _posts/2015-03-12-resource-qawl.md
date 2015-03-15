@@ -1,6 +1,6 @@
 ---
 title:			"Qawl 1.0"
-subtitle:		""
+listing:		"Qawl"
 description:	"a free suite of tools for Arabic studies that includes more than 1900 texts, rich search
 			capabilities and a handy help through various webtools."
 author:		Maxim Romanov

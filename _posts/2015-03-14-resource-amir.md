@@ -1,5 +1,6 @@
 ---
 title:			"Access to Mideast and Islamic Resources (AMIR)"
+listing:		"Access to Mideast and Islamic Resources"
 description:	"a blog maintained by a few scholars and librarians who
 			regularly post annotated thematic lists of online resources relevant to the study of Middle East."
 author:		Maxim Romanov

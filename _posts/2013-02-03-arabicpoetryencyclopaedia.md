@@ -1,5 +1,6 @@
 ---
-title:			'Encyclopaedia of Arabic Poetry'
+title:			'The Encyclopaedia of Arabic Poetry'
+listing:		'Encyclopaedia of Arabic Poetry'
 subtitle:		"developed by Cultural Foundation, Abu Dhabi"
 description:	"a CD library that contains over 2,4 million verses of Arabic poetry by about 2,300 poets,
 			and  supplemented with 265 books on different aspects Arabic language and literature

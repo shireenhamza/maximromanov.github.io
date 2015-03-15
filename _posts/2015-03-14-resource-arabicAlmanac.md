@@ -1,5 +1,6 @@
 ---
 title:			"Arabic Almanac"
+listing:		"Arabic Almanac"
 description:	"a collections of over 30 scanned mono- and bilingual dictionaries searcheable by roots.
 			It is based on an extendable HTML/JavaScript shell for both desktop and mobile use and
 			downloadable for fast offline usage."

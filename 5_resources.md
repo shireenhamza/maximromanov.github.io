@@ -26,7 +26,7 @@ onclick="window.open(this.href, 'google-plus-share', 'width=490,height=530');ret
 
 <center>*in progress*</center>
 
-{% assign postsTemp = site.posts | sort: 'title' %}
+{% assign postsTemp = site.posts | sort: 'listing' %}
 {% for post in postsTemp %}
 <ul class="post-list">
 {% if post.categories contains "resources" %}
