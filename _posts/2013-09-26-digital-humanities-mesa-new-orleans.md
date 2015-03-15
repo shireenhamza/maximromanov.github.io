@@ -11,6 +11,7 @@ imagecredit:	"1891. View on Canal St., New Orleans (broadest street in the world
 categories:
   - Events
 tags:
+  - Blogpost
   - Conference
   - MESA
   - Digital History

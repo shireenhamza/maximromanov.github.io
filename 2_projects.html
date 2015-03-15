@@ -6,10 +6,10 @@ permalink: /projects/
 
 <center>
 <ul class="tag-box inline">
-  {% assign tags_list = site.categories %}
+  {% assign tags_list = site.categories | sort %}
   {% if tags_list.first[0] == null %}
-  {% for tag in tags_list order:ascending %}
-  <li><a href="#{{ tag }}">{{ tag }} <span>{{ site.tags[tag].size }}</span></a></li>
+  {% for tag in tags_list %}
+  <li><a href="#{{ tag }}">{{ tag }}<span>{{ site.tags[tag].size }}</span></a></li>
   {% endfor %}
   {% else %}
   {% for tag in tags_list %}
@@ -22,14 +22,17 @@ permalink: /projects/
 <hr>
 
 
-{% for tag in site.categories order:ascending %} 
+{% assign newCats = site.categories | sort %}
+{% for tag in newCats %}
   <h2 id="{{ tag[0] }}"><em>{{ tag[0] }}</em></h2>
   <ul class="post-list">
     {% assign pages_list = tag[1] %}  
     {% for post in pages_list %}
       {% if post.title != null %}
       {% if group == null or group == post.group %}
+      {% if post.tags contains 'Blogpost' %}
       <li><a href="{{ site.url }}{{ post.url }}">{{ post.title }}<span class="entry-date"><time datetime="{{ post.date | date_to_xmlschema }}" itemprop="datePublished">{{ post.date | date: "%B %d, %Y" }}</time></a></li>
+      {% endif %}
       {% endif %}
       {% endif %}
     {% endfor %}

@@ -1,16 +1,20 @@
 ---
-title: 'Review/Manual: The Encyclopaedia of Arabic Poetry'
-subtitle: "(developed by Cultural Foundation, Abu Dhabi)"
-author: Maxim Romanov
-layout: post
-image:      /images/loc_photos/baghdad_16022a.jpg
-imagecredit:  "Iraq. (Mesopotamia). Baghdad. Tigris river scene showing the Serai and large river boats. 1932
-        <a href='http://www.loc.gov/pictures/item/mpc2010001519/PP/' target='_blank'>
-        (Library of Congress, LC-DIG-matpc-16022)
-        </a>"
+title:			'Encyclopaedia of Arabic Poetry'
+subtitle:		"developed by Cultural Foundation, Abu Dhabi"
+description:	"a CD library that contains over 2,4 million verses of Arabic poetry by about 2,300 poets,
+			and  supplemented with 265 books on different aspects Arabic language and literature
+			and 10 major Arabic dictionaries. Developed by Cultural Foundation, Abu Dhabi."
+author:		Maxim Romanov
+layout:		post
+image:		/images/loc_photos/baghdad_16022a.jpg
+imagecredit:	"Iraq. (Mesopotamia). Baghdad. Tigris river scene showing the Serai and large river boats. 1932
+			<a href='http://www.loc.gov/pictures/item/mpc2010001519/PP/' target='_blank'>
+			(Library of Congress, LC-DIG-matpc-16022)
+			</a>"
 categories:
-  - Miscellanea
+  - Resources
 tags:
+  - Blogpost
   - Arabic Texts
   - eTexts
   - Poetry
@@ -18,7 +22,7 @@ tags:
 ---
 
 <p style="text-align: right;">
-    <em>Prepared in cooperation with Professor Michael Bonner</em>
+    <em>Prepared in cooperation with Michael Bonner (U of Michigan)</em>
 </p>
   
 In 1997, Cultural Foundation in Abu Dhabi (</span><a style="line-height: 1.7;" href="http://www.adach.ae/">http://www.adach.ae</a><span style="line-height: 1.7;">) started development of an extremely useful multimedia Encyclopaedia of [Arabic] Poetry (</span><em style="line-height: 1.7;">al-Mawsūʿa al-Shiʿriyya</em><span style="line-height: 1.7;">). The first edition (published in 1998) was pretty small and included only about 180,000 </span><em style="line-height: 1.7;">bayt</em><span style="line-height: 1.7;">s by 88 poets together with the electronic version of Ibn Manẓūr’s </span><em style="line-height: 1.7;">Lisān al-ʿArab</em><span style="line-height: 1.7;">. The second edition (published in 2001) was much more impressive, containing more than 1,800,000 </span><em style="line-height: 1.7;">bayt</em><span style="line-height: 1.7;">s by more than 1,000 poets as well as 46 additional sources of reference character.

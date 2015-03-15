@@ -9,11 +9,11 @@ imagecredit:  "Egypt. Cairo. Street scene. Showing mosque of Kait Bey. 1936?
         (Library of Congress, LC-DIG-matpc-00233)
         </a>"
 categories:
-  - Miscellanea
+  - Coding
 tags:
+  - Blogpost
   - Arabic
   - Python
-  - Coding
 ---
 There are certain operations one has to repeat many times while manipulating Arabic text. For a number of purposes Arabic text must be normalized, namely &#8220;noise&#8221; characters deleted, the orthography of problematic letters unified, etc. Sometimes it is necessary to deNormalize search words, i.e. modify regular expressions in such a way that orthographic possibilities are considered to the maximum degree. Some software does not work with Arabic characters, so it makes sense to transliterate Arabic text and work with English characters instead. Below are some functions that perform such operations.
 

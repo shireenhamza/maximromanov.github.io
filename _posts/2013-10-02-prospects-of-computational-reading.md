@@ -10,6 +10,7 @@ categories:
   - Biographies
   - Geographies
 tags:
+  - Blogpost
   - Computational reading
   - Graphs
   - Methods

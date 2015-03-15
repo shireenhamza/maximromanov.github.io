@@ -10,6 +10,7 @@ categories:
   - Geographies
   - Taʾriḫ al-islām
 tags:
+  - Blogpost
   - al-Dhahabī
   - Ta’rīkh al-islām
   - Computational reading

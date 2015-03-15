@@ -26,47 +26,20 @@ onclick="window.open(this.href, 'google-plus-share', 'width=490,height=530');ret
 
 <center>*in progress*</center>
 
-# [A]
+{% assign postsTemp = site.posts | sort: 'title' %}
+{% for post in postsTemp %}
+<ul class="post-list">
+{% if post.categories contains "resources" %}
+<li><a href="../{{ post.url }}">
+<b>{{ post.title }}</b>{% if post.description %}, {{ post.description }}{% endif %}
+</a><br><br>
+</li>
+</ul>
+{% endif %}
+{% endfor %}
 
-## Access to Mideast and Islamic Resources (AMIR)
-AMIR is a blog (with its own ISSN 2160-3049) maintained by a few scholars and librarians who regularly post annotated thematic lists of online resources relevant to the study of Middle East.
-
-*Some particularly relevant blogposts*:
-
-* [The Digital Orentalist: Full-Text Online Arabic Sources: A Preliminary List](http://amirmideast.blogspot.com/2015/03/the-digital-orentalist-full-text-online.html?utm_source=feedburner&utm_medium=email&utm_campaign=Feed%3A+AccessToMideastAndIslamicResourcesamir+%28Access+to+Mideast+and+Islamic+Resources+%28AMIR%29%29)
-
-**Contributors**: *Birte Kristiansen*, Universiteit Leiden, Library, the Netherlands; *Sean Swanick*, McGill University Library, Canada; *Peter Magierski*, Columbia University Libraries, USA; *Andreas Neumann*; *Charles Jones*,The Pennsylvania State University Library, USA.
-
-**URL**: [amirmideast.blogspot.com](http://amirmideast.blogspot.com/)
-
-## Arabic Almanac
-Perhaps the most valuable project out there, the Arabic Almanac is a collections of scanned dictionaries that are searcheable by roots. The Almanac uses the *Mawrid Reader*, an extendable HTML/JavaScript app for both desktop and mobile use for displaying and searching books. The Almanac can be downloaded to your hard disk or smart phone’s SD card, for fast offline usage.
-
-The *Mawrid Reader* makes the *Arabic Almanac* infinitely extendable and over the past few years the number of included dictionarieswas significantly increased. As of March 2012, the project includes 31 dictionaries: Arabic-English (10, including such indispensable titles as Hans Wehr, Lane, Steingass, Hava, etc.), Arabic-Urdu (7), Arabic-Arabic (9), Arabic-Indonesian/Malaysian (4), and Arabic-French (Kazimirski).
-
-[Detailed description of the project](http://ejtaal.net/aa/readme.html)
-
-**Developers**: [ejtaal.net](http://ejtaal.net/)
-
-**URL**: [ejtaal.net/aa/](http://ejtaal.net/aa/)
-
-# [Q]
-
-## Qawl 1.0
-*Qawl* is a free suite of tools for searchers, teachers and students in the fields of Arabic studies. The program offers the following features:
-
-* a large library of Arabic texts (more than 1900)
-* a research algorithm which allows one to search any word matching a query
-* automatic identification of parallel passages (sources, quotations, etc.) of any pasted text by comparing it with the entire library
-* handy help for translation and analysis of Arabic words and sentences through various webtools (Aratools, Google Translate, Bing Translator)
-
-**Developers**: *Sébastien Moureau*, Chargé de recherches au F.R.S.-FNRS, Université catholique de Louvain (Belgium)
-
-**URL**: [www.uclouvain.be/qawl/](http://www.uclouvain.be/qawl/)
 
 {% comment %}
-
-# [V]
 
 ## Viral Texts
 

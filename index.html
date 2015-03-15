@@ -1,10 +1,11 @@
 ---
 layout: page
 description: "Reading Traditional Sources with Nontraditional Methods"
-tags: [Maxim Romanov, Digital Humanities, Text Mining, Arabic, Islamic History]
+tags: [Maxim Romanov, Digital Humanities, Text Mining, Arabic, Islamic History, Arabic Chronicles, Arabic Biographical Collections]
 ---
 
 {% for post in paginator.posts %}
+{% if post.tags contains "Blogpost" %}
 <div class="post-preview">
     <a href="{{ post.url | prepend: site.baseurl }}">
         <h2 class="post-title">{{ post.title }}{% if post.subtitle %}: {{ post.subtitle }}{% endif %}
@@ -14,6 +15,7 @@ tags: [Maxim Romanov, Digital Humanities, Text Mining, Arabic, Islamic History]
 
 </div>
 <hr>
+{% endif %}
 {% endfor %}
 
 <!-- Pager -->

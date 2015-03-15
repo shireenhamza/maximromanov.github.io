@@ -1,6 +1,6 @@
 ---
-layout: page
-title: About
+layout: page_about
+title: "About"
 description: "Maxim Romanov"
 permalink: /about/
 header-img: "images/thematic_covers/at_work.jpg"
@@ -28,7 +28,7 @@ onclick="window.open(this.href, 'google-plus-share', 'width=490,height=530');ret
 
 # curriculum vitæ
 
-<center>[Detailed CV in PDF](https://tufts.academia.edu/MaximRomanov/CurriculumVitae)</center>
+<center>[Detailed CV in PDF]( {{ site.url }}/files/Romanov-CV.pdf)</center>
 
 * **Current position**: Postdoctoral Associate
 * **Institutional affiliation**: Department of Classics \& Perseus Project, Tufts University, 5 The Green, 134C Eaton Hall, Medford, MA 02155
@@ -115,7 +115,7 @@ onclick="window.open(this.href, 'google-plus-share', 'width=490,height=530');ret
 
 * [_April, 2012_] Digital History of the Muslim World: Computer-Aided Analysis of Biographical Dictionaries @ “Methods and means for digital analysis of ancient and medieval texts and manuscripts,” the workshop at the Katholieke Universitet, Leuven & the Royal Flemish Academy of Belgium (KVAB), Brussels.
 
-* [_November, 2010_] “Popular” Preaching in the Sunn"i Context and the Legitimization of _Waʿẓ_ in the Late 12th Century ce @ Middle East Studies Association (MESA) Annual Meeting, San Diego, CA. 
+* [_November, 2010_] “Popular” Preaching in the Sunnī Context and the Legitimization of _Waʿẓ_ in the Late 12th Century ce @ Middle East Studies Association (MESA) Annual Meeting, San Diego, CA. 
 
 * [_November, 2009_] Aḥmad b. Ḥanbal’s (d. 241/855) Argumentative Strategies @ Middle East Studies Association (MESA) Annual Meeting, Boston, MA. 
 

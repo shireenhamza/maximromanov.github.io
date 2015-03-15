@@ -11,6 +11,7 @@ imagecredit:	"Brown University - John D. Rockefeller, Jr. Library
 categories:
   - Events
 tags:
+  - Blogpost
   - Brown University
 ---
 The webcast of the entire conference is available online @ Brown University servers. Below is the program of the conference with timestamps for each presentation and discussion session.

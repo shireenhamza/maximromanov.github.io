@@ -13,6 +13,7 @@ categories:
   - Geographies
   - Taʾriḫ al-islām
 tags:
+  - Blogpost
   - Graphs
   - Maps
   - Research
