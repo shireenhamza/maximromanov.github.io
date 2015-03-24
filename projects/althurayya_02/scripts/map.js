@@ -116,7 +116,7 @@ function createPopup(place, marker) {
 		$j("#index-lookup-content").show(); 
 		// marker.closePopup(); undefined for now ... 
 	}); 
-	container.append('<center><div class="arabic-popup">' + place.arTitle + '</div><div class="english-popup">' + place.translitTitle + '</div><div id="index-lookup" class="basic"><i>Check in:</i><br><a href="#">Arabic Sources</a><br><a href="http://referenceworks.brillonline.com/search?s.q='+place.eiSearch+'&s.f.s2_parent=s.f.cluster.Encyclopaedia+of+Islam&search-go=Search" target="_blank">Encylopaedia of Islam</a><br><a href="http://pleiades.stoa.org/search?SearchableText='+place.translitSimpleTitle+'" target="_blank">Pleiades</a><br><a href="https://en.wikipedia.org/wiki/Special:Search/'+place.translitSimpleTitle+'" target="_blank">Wikipedia</a><br><i>Coordinates:*</i><br>'+ place.lon +', '+  place.lat  +'</div></center>');
+	container.append('<center><div class="arabic-popup">' + place.arTitle + '</div><div class="english-popup">' + place.translitTitle + '</div><div id="index-lookup" class="basic"><i>Check in:</i><br><a href="#">Arabic Sources</a><br><a href="http://referenceworks.brillonline.com/search?s.q='+place.eiSearch+'&s.f.s2_parent=s.f.cluster.Encyclopaedia+of+Islam&search-go=Search" target="_blank">Encylopaedia of Islam</a><br><a href="http://pleiades.stoa.org/search?SearchableText='+place.translitSimpleTitle+'" target="_blank">Pleiades</a><br><a href="https://en.wikipedia.org/wiki/Special:Search/'+place.translitSimpleTitle+'" target="_blank">Wikipedia</a><br><i>Coordinates:*</i><br>'+ place.lat +', '+  place.lon  +'</div></center>');
 	return container[0]; 
 }
 
