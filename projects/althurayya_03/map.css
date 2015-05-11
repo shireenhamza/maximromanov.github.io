@@ -207,13 +207,12 @@ div.tooltip {
   cursor:pointer;
   color:#ffffff;
   font-family:arial;
-  font-size:20px;
+  font-size:15px;
   padding: 5px;
   text-decoration:none;
   text-shadow:0px 1px 0px #2f6627;
   float: right;
 }
-
 
 #distance {
   padding: 25px;
@@ -223,9 +222,10 @@ div.tooltip {
   font-size: 20px;
   font-family: Brill, Gentium, Georgia, Arial, serif;
   direction: ltr;
+  padding-bottom: 10px;
 }
 
-#itinerary-title {
+#network-title {
   float: right;
   text-align: center;
   width: 50%;
@@ -239,7 +239,8 @@ div.tooltip {
   box-shadow: 2px 1px 5px #888888;
 }
 
-#pathfinding-select select, .itinerary-dropdown select {
+
+#pathfinding-select select {
    width: 268px;
    padding: 5px;
    line-height: 1;
@@ -248,13 +249,25 @@ div.tooltip {
 }
 
 .itinerary-dropdown {
-  padding: 7px;
+  position: relative;
+  margin: 10px;
+  left: 0;
+  padding: 3px;
+}
+
+.itinerary-dropdwon input {
+  width: 200px;
+}
+
+.itinerary-num {
+  float: left;
 }
 
 .remove_field {
   float: right;
 }
-#itinerary-content {
+
+#network-content {
   display: none;
 }
 
@@ -363,11 +376,14 @@ div.tooltip {
 
 .label {
   font-family: 'DroidArabicNaskhRegular', 'Lateef', 'Geeza Pro', serif; 
-  font-size: 30px;
-  stroke: #000;
-  stroke-width: .1px;
-  fill: #000080;
-
+  font-size: 20px;
+  fill: #000;
+  stroke-width: 2px;
+  text-shadow: 2px 2px #fff;
+/*  stroke: #fff;
+  stroke-width: 2.5px;
+  stroke-opacity: 0.9;
+  fill: #000080;  */
 }
 
 .left-arrow-left {
@@ -545,11 +561,8 @@ div.tooltip {
 }
 
 #network-flooding-select {
-  position: absolute;
-  top: 10%;
-  right: 2.3%;
-  height: 30%;
-  background-color: rgba(255, 255, 255, 0.9);
+  position: relative;
+  left: 0;
   padding: 15px; 
 }
 
@@ -571,19 +584,11 @@ div.tooltip {
 
 }
 
-#toggle-network {
-  position: absolute;
-  top: 2%;
-  right: 15%;
-  background-color: rgba(255, 255, 255, 0.9);
-  padding: 15px;
-  text-align: center;
-}
-
 #restore-default {
   position: absolute;
-  top: 2%;
-  right: 27%;
+  position: absolute;
+  left: 25%;
+  bottom: 2%;
   background-color: rgba(255, 255, 255, 0.9);
   padding: 15px;
   text-align: center;
@@ -599,9 +604,28 @@ div.tooltip {
 }
 
 #multiplier-select{
-  padding-bottom: 15px;
+  padding: 15px;
 }
 
 #network-show-unreachable {
   padding: 20px;
 }
+
+.hull {
+  fill: none;
+  pointer-events: all;
+  stroke: #000;
+  stroke-width: 5px;
+  position: absolute;
+}
+
+#regions {
+  position: absolute;
+  left: 5%;
+  bottom: 2%;
+  background-color: rgba(255, 255, 255, 0.9);
+  padding: 15px;
+  text-align: center;
+}
+
+

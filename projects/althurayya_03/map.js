@@ -2,9 +2,15 @@ $j = jQuery;
 
 var voronoi = false; 
 var networkFlooding = true;
+var regions = false; 
 var MAX_FIELDS = 6; 
-var CROSS_OCEAN_URI = "SPAINTOAFRICA";
-var sitesByEiSearch = sortSitesByeiSearch();
+var CROSS_OCEAN_URI = "WATER";
+var sitesByTopURI = sortSitesByField(places.data, 'topURI');
+
+var sitesWithRoutes = new Array(); 
+removeSitesWithoutRoutes();
+var sitesByEiSearch = sortSitesByField(sitesWithRoutes, 'eiSearch');
+var sitesByTopType = sortSitesByField(sitesWithRoutes, 'topType');
 
 L.mapbox.accessToken = 'pk.eyJ1IjoiY2phY2tzMDQiLCJhIjoiVFNPTXNrOCJ9.k6TnctaSxIcFQJWZFg0CBA';
 var map = L.mapbox.map('map', 'cjacks04.jij42jel', { 
@@ -31,7 +37,6 @@ map._initPathRoot()
 var svg = d3.select("#map").select("svg");
 g = svg.append("g")
 /* SITES */
-var sitesByTopURI = sortSitesByTopURI(); 
 
 
 /* INITIALIZE MAP: MAKE THIS A FUNC! */ 
@@ -40,56 +45,87 @@ var sitesByTopURI = sortSitesByTopURI();
 // initialize all the UTIL arrays
 
 
-// DEAL WITH SITES VS. SITES WITH ROUTES. 
-var sitesWithRoutes = new Array(); 
-removeSitesWithoutRoutes();
-var sites = sitesWithRoutes; 
-sites.concat(places.data.filter(isDefaultTopType));
+var sites, 
+    svgSites, 
+    text, 
+    metropoleLabels; 
+
+// to set radius sizes for different toptypes 
+var topTypeSizes = d3.map(); 
+topTypeSizes.set('metropoles', 6);
+topTypeSizes.set('capitals', 3); 
+topTypeSizes.set('towns', 2);
+topTypeSizes.set('villages', 2);
+topTypeSizes.set('sites', 1);
+
 function isDefaultTopType(element, index, array) {
 	return ( element.topType == 'metropoles' || 
 		     element.topType == 'capitals'   || 
-		     element.topType == 'temp'       || 
 		     element.topType == 'towns'      ||
 		     element.topType == 'villages'   || 
-		     element.topType == 'waystations'||
 		     element.topType == 'sites') 
 }
+initializeMap();
 
-/* Add a LatLng object to each item in the dataset */
-sites.forEach(function(d) {
-	d.LatLng = new L.LatLng(d.lat, d.lon);
-})
+function initializeMap() {
+	sites = sitesWithRoutes.filter(isDefaultTopType); 
 
-svgSites = g.selectAll("circle")
-		.data(sites) //change back to "sites"
+
+	/* Add a LatLng object to each item in the dataset */
+	sites.forEach(function(d) {
+		d.LatLng = new L.LatLng(d.lat, d.lon);
+	})
+
+	/* sites */ 
+	svgSites = g.selectAll("circle")
+			.data(sites) //change back to "sites"
+			.enter()
+			.append("circle")
+			.attr("r", function(d) { return topTypeSizes.get(d.topType)})
+			.classed('node', true) 
+			.call(d3.helper.tooltip(
+				function(d, i){
+					return createPopup(d);
+				})
+			);
+
+	/* labels */ 
+	text = g.selectAll("text")
+		.data(sites)
 		.enter()
-		.append("circle")
-		.attr("r", 2)
-		.classed('node', true) 
-		.call(d3.helper.tooltip(
-			function(d, i){
-				return createPopup(d);
-			})
-		);
+		.append("text")
+		.text(function(d) { return d.translitTitle})
+		.classed('arabic label', true)
+		.style("visibility", "hidden");
 
-var text = g.selectAll("text")
-	.data(sites)
-	.enter()
-	.append("text")
-	.text(function(d) { return d.arTitle})
-	.classed('arabic label', true)
-	.style("visibility", "hidden");
+	// limit metropoles
+	metropoleLabels = d3.selectAll('text')
+		.filter(function(d) {
+			return d.topType == 'metropoles';
+		})
+		.style('visibility', 'visible');
 
-showAllPaths(); 
+	metropoleLabels.moveToFront;
+
+	// paths between metropoles only
+	showAllPaths(); 
+
+}
+
+// DEAL WITH SITES VS. SITES WITH ROUTES. 
+
+//var sites = sitesWithRoutes; 
+
 function restoreDefaultMap() {
-	g.selectAll('circle.node').style("visibility", "hidden");
+	//g.selectAll('circle.node').style("visibility", "hidden");
 	g.selectAll("circle.node")
  		   .filter(function(d) { return isDefaultTopType(d)})
  		   .classed('node', true) 
- 		   .attr("r", 2)
+		   .attr("r", function(d) { return topTypeSizes.get(d.topType)})
  		   .style("visibility", "visible"); 
 
  	g.selectAll("path").style("visibility", "visible"); //to restore after search 
+ 	g.selectAll('path').classed('path-shortest', false);
  	showAllPaths(); // to restore after voronoi 
  	removeZoneClasses(); 
 } 
@@ -172,6 +208,11 @@ function resetMap() {
 			d3.select("body").selectAll("path").remove();
 			drawVoronoiCells(map, mergedPoints);
 		}
+		/* reposition regions */
+		if (regions) {
+			d3.selectAll('.hull').remove();
+			drawHull();
+		}  
 
  	}
 
@@ -198,9 +239,6 @@ var pathTypes = d3.set(['Shortest', 'Within A Day']); // can add back 'Through C
 var pathInitialSelections = d3.set(['Shortest', 'Within A Day']);
 pathColors['Shortest'] = '#451D5C'; 
 pathColors['Within A Day'] = '#345C1D';
-// pathTypes.forEach(function(t) {
-// 	pathColors[t] = getRandomColor();
-// })
 
 selectionsUI('#path-options', pathInitialSelections, pathColors); 
 selectionsUI('#itinerary-options', pathInitialSelections, pathColors); 
@@ -251,14 +289,6 @@ function drawPathFromSourceToTarget(sid, tid, pathSelections, isItinerary) {
 	s = graph.getNode(sid);
 	t = graph.getNode(tid);
 
-	// labels?! 
-	var labels = d3.selectAll('text')
-		.filter(function(d) { 
-			return d.topURI == sid || d.topURI == tid; })
-		.style("visibility", "visible");
-	labels.moveToFront(); 
-
-	d3.selectAll('circle.node').attr("z-index", -9999);
 	pathSelections.forEach(function(select) {
 		pathFunction = pathMap.get(select); 
 		pathToShow = pathFunction(s, t); 
@@ -349,100 +379,6 @@ function lengthInMeters(path) {
 	return m; 
 }
 /*--------------------------------------------------------
- * ITINERARY : 
- * given an array of places (topURIs), returns a complete
- * path to display. 
- * TODO: enlarge (or activate popup) for stopover between
- * sites in the itinerary 
- *-------------------------------------------------------*/
-ItineraryUI(); 
-var numFields; 
-function createItinerary() {
-	var stops = []; 
-	var formAnswers = $j('#itinerary-select')[0]; 
-	console.log(numFields);
-	for (var i = 1; i <= numFields; i++) {
-		var s = formAnswers[i]; 
-		if (s != undefined) {
-			console.log(s.options[s.selectedIndex].value);
-			stops.push(s.options[s.selectedIndex].value); 
-		}
-	}
-	console.log(stops);
-    d3.selectAll('.path-shortest').attr("class", "path-all"); //change back to red 
-    var selections = selectedTypes('itinerary-options');
-
-	var places = replaceOceanWithPath(stops); 
-	drawItinerary(places[0], selections);
-	drawItinerary(places[1], selections);
-}
-
-function drawItinerary(places, pathSelections) {
-	var s, t; 
-	for (var i = 0; i < places.length - 1; i++) {
-		s = places[i]; 
-		t = places[i+1]; 
-		drawPathFromSourceToTarget(s, t, pathSelections, true); 
-	}
-}
-
-// to deal with crossing the ocean, 
-function replaceOceanWithPath(places) {
-	var split = places.indexOf(CROSS_OCEAN_URI); 
-	var part1 = places; 
-	var part2 = [];
-	if (split >= 0) {
-		part1 = places.slice(0, split); 
-		part2 = places.slice(split + 1); //to get rid of URI 
-	}
-	return [part1, part2]; 
-}
-// for now, just removes the last element. 
-function ItineraryUI() {
-	var wrapper = $(".input_fields_wrap"); 
-	var addFieldButton = $(".add_field_button"); 
-
-	var fieldSet = d3.set(); 
-	numFields = 1; 
-	wrapItineraryField(wrapper, numFields, fieldSet);
-	$(addFieldButton).click(function(e) {
-		e.preventDefault();
-		if (numFields < MAX_FIELDS) {
-			numFields++; 
-			wrapItineraryField(wrapper, numFields);
-		}
-	})
-
-	$('#remove-last-field').click(function(e) {
-		$j('.itinerary-dropdown').last().remove(); 
-		numFields--;  
-	})
-
-}
-
-
-function wrapItineraryField(wrapper, numFields) {
-
-	$(wrapper).append('<div id=' + numFields + ' class="itinerary-dropdown"><select></div>'); //do i need an id? 
-	createDropDown($j('.input_fields_wrap > div > select')); 
-}
-
-function createDropDown(element) {
-	for (var i = 0; i < sitesWithRoutes.length; i++) {
-		var option =  $j("<option>", { value: sitesWithRoutes[i].topURI, 
-									  text: sitesWithRoutes[i].eiSearch});
-		element.append(option.clone());
-	} 
-	// cross ocean 
-	element.append(
-		$j("<option>", {
-			value: CROSS_OCEAN_URI,
-			text: 'Travel via ocean or sea'
-		}) 
-	)
-}
-
-/*--------------------------------------------------------
  * NETWORK FLOODING
  *-------------------------------------------------------*/
 
@@ -458,11 +394,6 @@ function networkUI() {
 	 	} 
 	 })
 
-	$j('#network-hide').on("click", function() {
-		console.log('clicked');
-		$j('#network-flooding-select').hide();
-	})
-
 	var numMultipliers = 10; 
 	for (var i = 1; i <= numMultipliers; i++) {
 		var option = $j("<option>", { value: i, text: i}); 
@@ -475,9 +406,8 @@ function networkUI() {
 function makeNetwork() {
 	//clean up old floods 
 	removeZoneClasses();
-	g.selectAll("circle.node").attr("visibility", "visible");
-	slideLeft('#path-form-left');  // get rid of pathfinding / itinerary 
-	
+	g.selectAll('path').classed('path-all', true);
+	g.selectAll("circle.node").attr("visibility", "visible");	
 	//get values from form 
 	var sourceID = $j('#site-network-flooding-value').val();
 	var multiplier = $j('#multiplier-select').val(); // get multiplier from from 
@@ -487,6 +417,8 @@ function makeNetwork() {
 		g.selectAll("circle.node").attr("visibility", "hidden"); // hide everything before we start flooding
 	}
 
+	g.selectAll('text').style('visibility', 'hidden');
+	g.selectAll('text').filter(function(d) { return d.topURI == sourceID}).style('visibility', 'visible');
 	// get info grom graph.js
 	var s = graph.getNode(sourceID);
     var distances = shortestPath(s, s, 'n');
@@ -494,7 +426,6 @@ function makeNetwork() {
 	networkToFlood = network;
 	flood(network, sourceID);
 }
-
 
 function flood(network, source) {
  // make default unreachable
@@ -506,7 +437,7 @@ function flood(network, source) {
 		siteClass = 'zone' + ( i+1) + '-node';
 		zone.forEach(function(s) {
 			g.selectAll("circle.node")
-			   .filter(function(d) { return d.topURI == s})
+			   .filter(function(d) { return d.topURI == s && d.topType != 'waystations'})
 			   .classed('zone5-node', false)
 			   .classed(siteClass, true) 
 			   .attr("r", 4)
@@ -530,77 +461,30 @@ function removeZoneClasses() {
  * TODO make this modular! 
  *-------------------------------------------------------*/
 
-function sortSitesByeiSearch() {
-	var sitesToAdd = places.data; 
-	var sortedSites = {};
-	for (var i = 0; i < sitesToAdd.length; i++) {
-		if (sortedSites[sitesToAdd[i].eiSearch] === undefined) {
-			sortedSites[sitesToAdd[i].eiSearch] = sitesToAdd[i]; 
-		}
+function sortSitesByField(sites, field) {
+	var data = sites; 
+	var sortedSites = {}; 
+	for (var i = 0; i < data.length; i++) {
+		if (sortedSites[data[i][field]] == undefined) {
+			sortedSites[data[i][field]] = new Array(); 
+			sortedSites[data[i][field]].push(data[i]);
+		} else { 
+			sortedSites[data[i][field]].push(data[i]); 
+		}		
 	}
 	return sortedSites; 
 }
-
-function sortSitesByTopURI() {
-	var sitesToAdd = places.data; 
-	var sortedSites = {}; 
-	for (var i = 0; i < sitesToAdd.length; i++) {
-		if (sortedSites[sitesToAdd[i].topURI] === undefined) {
-			sortedSites[sitesToAdd[i].topURI] = sitesToAdd[i]; 
-		}
-	}
-	return sortedSites; 
-}
-
-function sortRoutesByRouteID() {
-	var r; 
-	for (var i = 0; i < routes.length; i++) {
-		r = routes[i].properties.id;
-		if (routesByID[r] === undefined) {
-			routesByID[r] = routes[i];
-		}
-	}
-}
-
-function sortSitesBySource() {
-	var data = places.data; 
-	var sortedSites = {}; 
-	for (var i = 0; i < data.length; i++) {
-		if (sortedSites[data[i].source] == undefined) {
-			sortedSites[data[i].source] = new Array(); 
-			sortedSites[data[i].source].push(data[i]);
-		} else { 
-			sortedSites[data[i].source].push(data[i]); 
-		}
-	}
-	return sortedSites;
-}
-
-function sortSitesByTopType() {
-	var data = places.data; 
-	var sortedSites = {}; 
-	for (var i = 0; i < data.length; i++) {
-		if (sortedSites[data[i].topType] == undefined) {
-			sortedSites[data[i].topType] = new Array(); 
-			sortedSites[data[i].topType].push(data[i]);
-		} else { 
-			sortedSites[data[i].topType].push(data[i]); 
-		}
-	}
-	return sortedSites;	
-}
-
 function removeSitesWithoutRoutes() {
 	var currentRoute; 
 	$j.each(allRoutes.features,function (id, route) {
 		r = route.properties;
 		if ((sitesByTopURI[r.eToponym]) && !(exists(sitesWithRoutes, r.eToponym))) {
-			sitesWithRoutes.push(sitesByTopURI[r.eToponym]);
+			sitesWithRoutes.push(sitesByTopURI[r.eToponym][0]);
 		} if ((sitesByTopURI[r.sToponym]) && !(exists(sitesWithRoutes, r.sToponym))) {
-			sitesWithRoutes.push(sitesByTopURI[r.sToponym]); 
+			sitesWithRoutes.push(sitesByTopURI[r.sToponym][0]); 
 		} 
 	})
-	sitesWithRoutes = places.data; 
+	//sitesWithRoutes = places.data; 
 	sitesWithRoutes.sort( function(a, b) {
 		var element1 = a.eiSearch.toLowerCase(); 
 		var element2 = b.eiSearch.toLowerCase(); 
@@ -620,7 +504,84 @@ function exists(array, el) {
 	return elementsFound.length > 0; 
 }
 
+/*-----------------------------------------------------
+ * REGIONS / CONVEX HULL
+ *----------------------------------------------------*/ 
+var sitesByProvince = sortSitesByField(places.data, 'region');
 
+function drawHull() {
+	var hull = d3.geom.hull()
+		.x(function(d) { return d.x; })
+		.y(function(d) { return d.y; });
+
+	var vertices; 
+
+	$j.each(sitesByProvince, (function(name, sites) {
+		if ((sites.length > 3) && (name != 'noData')) {
+			vertices = sites; 
+			vertices.forEach(function(v){
+				var latlng = new L.LatLng(v.lat, v.lon);
+				var point = map.latLngToLayerPoint(latlng);
+				v.x = point.x; 
+				v.y = point.y; 
+			})
+
+			svgHull = svg.append("path")
+					.classed('hull', true);
+
+			svgHull.datum(hull(vertices)).attr("d", function(d) { 
+				return "M" + d.map(function(n) { return [n.x, n.y];}).join("L") + "Z"; 
+			})
+			.call(d3.helper.tooltip(
+				function(d, i){
+					return('<center><br/><br/><span class="arabic">' + d[0].region + '</span></center>'); 
+			})); 
+		}
+	}))
+}
+
+
+$j('#regions-border').on("click", function() {
+	if (regions) {
+		d3.selectAll('.hull').remove();
+		d3.selectAll('circle.node')
+			.style('fill', null)
+			.classed('node', true)
+			.attr('r', 2);
+		regions = false; 
+	} else {
+		drawHull();
+		regions = true;
+	}
+})
+
+$j('#regions-color').on('click', function() {
+	if (regions) {
+		d3.selectAll('.hull').remove();
+		d3.selectAll('circle.node')
+			.style('fill', null)
+			.classed('node', true)
+			.attr('r', 2);
+		regions = false; 
+	} else {
+		colorRegions();
+		regions = true;
+	}
+})
+
+function colorRegions() {
+		// color based on region
+	var regionColorMap = d3.map();  
+	var regionNames = d3.set(Object.keys(sitesByProvince));
+	regionNames.forEach(function(t) {
+		regionColorMap.set(t, getRandomColor()); 
+	})
+
+	 d3.selectAll('circle.node')
+	   .style("fill", function(d) { return regionColorMap.get(d.region)})
+	   .attr("r", 4); 
+
+}
 
 /*-----------------------------------------------------
  * VORONOI 
@@ -630,8 +591,6 @@ function exists(array, el) {
 
 function restoreFromVoronoi() {
 	$j("#options").hide();
-	$j("#network-flooding-title").hide();
-	$j("#network-flooding-select").hide();
 	d3.select("body").selectAll(".point-cell").remove();
 	g.selectAll("circle.node").style("fill", null).style("visibility", "hidden");
 	slideRight('#path-form-right');
@@ -661,7 +620,6 @@ function getRandomColor() {
 }
 
 var topTypeColors = {}; 
-var sitesByTopType = sortSitesByTopType();
 var topTypes = d3.set(Object.keys(sitesByTopType));
 var voronoiInitialSelections = d3.set(['metropoles', 'capitals', 'villages']);
 
@@ -740,13 +698,11 @@ function addAutocompleteToElement(identifier, hiddenField) {
 	$j( identifier ).autocomplete({
 		source: sitesOnly, 
 		focus: function(event, ui) {
-						// prevent autocomplete from updating the textbox
 						event.preventDefault();
 						// manually update the textbox
 						$(this).val(ui.item.label);
 					},
 		select: function(event, ui) {
-					// prevent autocomplete from updating the textbox
 					event.preventDefault();
 					// manually update the textbox and hidden field
 					$(this).val(ui.item.label);
@@ -759,17 +715,17 @@ function addAutocompleteToElement(identifier, hiddenField) {
  * TODO: this is ugly af. 
 */
 $j("#pathfinding-title").on("click", function() {
-	$j('#itinerary-content').hide();
-	$j('#itinerary-title').removeClass("tab-selected"); 
+	$j('#network-content').hide();
+	$j('#network-title').removeClass("tab-selected"); 
 	$j( this ).addClass("tab-selected"); 
 	$j('#pathfinding-content').show();
 })
 
-$j("#itinerary-title").on("click", function() {
+$j("#network-title").on("click", function() {
 	$j("#pathfinding-title").removeClass("tab-selected"); 
 	$j('#pathfinding-content').hide();
 	$j( this ).addClass("tab-selected"); 
-	$j('#itinerary-content').show(); 
+	$j('#network-content').show(); 
 })
 
 /* SLIDE left and right */
@@ -799,12 +755,117 @@ $j('#restore-default').on("click", function() {
 	g.selectAll("circle.node")
  		   .filter(function(d) { return isDefaultTopType(d)})
  		   .classed('node', true) 
- 		   .attr("r", 2)
+ 		   .attr("r", function(d) { return topTypeSizes.get(d.topType)})
  		   .style("visibility", "visible"); 
-
- 	d3.selectAll('path').classed('path-all', true);
+ 	d3.selectAll('.hull').remove();
+ 	d3.selectAll('path').classed('path-all', true)
+ 						.classed('path-shortest', false); // change stroke thickness back
  	removeZoneClasses(); 	
+ 	d3.selectAll('text').style('visibility', 'hidden'); 
+ 	metropoleLabels.style('visibility', 'visible');// deal with labels
 })
+
+/*--------------------------------------------------------
+ * ITINERARY / PATHFINDING 
+ *-------------------------------------------------------*/
+ItineraryUI(); 
+var numFields; 
+function createItinerary() {
+	d3.selectAll('text').style('visibility', 'hidden'); //hide other labels
+	$j("#distance").empty(); 
+	var stops = []; 
+
+	for (var i = 1; i <= numFields; i++) {
+		var s = $j('#' + i + '-value').val();
+		if (s != undefined) {
+			stops.push(s);
+		}
+	}
+    d3.selectAll('.path-shortest').attr("class", "path-all"); //change back to red 
+    var selections = selectedTypes('itinerary-options');
+
+	var places = replaceOceanWithPath(stops); 
+	drawItinerary(places[0], selections);
+	drawItinerary(places[1], selections);
+}
+
+function drawItinerary(places, pathSelections) {
+	var s, t; 
+	for (var i = 0; i < places.length - 1; i++) {
+		s = places[i]; 
+		t = places[i+1]; 
+
+		// show labels for locations
+		d3.selectAll('text')
+			.filter(function(d) { 
+				return d.topURI == places[i] || d.topURI == places[i+1]; })
+			.style("visibility", "visible");
+
+		drawPathFromSourceToTarget(s, t, pathSelections, numFields > 2 ? true : false); 
+			// for now only show meters for two places 
+	}
+}
+
+function replaceOceanWithPath(places) {
+	var split = places.indexOf(CROSS_OCEAN_URI); 
+	var part1 = places; 
+	var part2 = [];
+	if (split >= 0) {
+		part1 = places.slice(0, split); 
+		part2 = places.slice(split + 1); //to get rid of URI 
+	}
+	return [part1, part2]; 
+}
+
+// for now, just removes the last element. 
+function ItineraryUI() {
+	var wrapper = $(".input_fields_wrap"); 
+	var addFieldButton = $(".add_field_button"); 
+
+	var fieldSet = d3.set(); 
+	numFields = 2; 
+	// init 
+	for (var i = 1; i <= numFields; i++) {
+		wrapItineraryField(wrapper, i);
+	}
+	$(addFieldButton).click(function(e) {
+		e.preventDefault();
+		if (numFields < MAX_FIELDS) {
+			numFields++; 
+			wrapItineraryField(wrapper, numFields);
+		}
+	})
+
+
+	$('#remove-last-field').click(function(e) {
+		$j('.new-field').last().remove();
+		numFields--;  
+	})
+
+}
+
+
+function wrapItineraryField(wrapper, numFields) {
+	$( wrapper ).append('<div class="new-field"><span>' + 
+						 numFields + '.</span><input id=' + numFields + ' class="itinerary-dropdown"></input>' +
+						'<input class="itinerary-hidden" type="hidden" id=' + numFields + '-value></input></div>');
+	addAutocompleteToElement('#' + numFields, '#' + numFields + '-value');
+}
+
+function createDropDown(element) {
+	for (var i = 0; i < sitesWithRoutes.length; i++) {
+		var option =  $j("<option>", { value: sitesWithRoutes[i].topURI, 
+									  text: sitesWithRoutes[i].eiSearch});
+		element.append(option.clone());
+	} 
+	// cross ocean 
+	element.append(
+		$j("<option>", {
+			value: CROSS_OCEAN_URI,
+			text: 'Travel via ocean or sea'
+		}) 
+	)
+}
 
 
 /*-----------------------------------------------------
