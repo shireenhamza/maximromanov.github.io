@@ -85,7 +85,15 @@ onclick="window.open(this.href, 'google-plus-share', 'width=490,height=530');ret
 
 ## Conference and workshop papers, presentations, posters
 
-* [_November, 2014_]  Exploring Islamic Written Legacy: Computational Reading of _Hadiyyaŧ al-ʿārifīn_ @ Middle East Studies Association (MESA) Annual Meeting, Washington, D.C.
+* [_September, 2015_] The _Taʾ rīḫ al-islām_ of al-Ḏahabī (d. 748/1347 CE): Computational Exploration of the Life-Cycle of a 50-Volume Arabic Chronicle-cum-Biographical Collection @ Arabic Pasts: Histories and Historiographies: Research Workshop Co-hosted by the Agha Khan University, Institute for the Study of Muslim Civilisations and SOAS, University of London, September 25–26, 2015
+
+* [_July, 2015_] Cultural Production in the Islamic World (600–1900 CE): mining an Ottoman bibliographical collection from the early 20th century @ The Keystone Digital Humanities Conference, University of Pennsylvania, Philadelphia, PA (July 22-24)
+
+* [_June, 2015_] Analyzing Arabic Biographical Collections at Scale @ Digital Ottoman Platform Workshop, Institute for Advanced Study, Princeton, NJ (June 8-12, 2015)
+
+* [_May, 2015_] The Writing Culture of Nishapur in the 11th Century [In collaboration with Sarah Savant, Agha Khan University, London; paper delivered by Sarah Savant] @ Iranian Cities from the Arab Conquest to the Early Modern Period, Harvard University, Cambridge, MA (May 1-2).
+
+* [_November, 2014_] Exploring Islamic Written Legacy: Computational Reading of _Hadiyyaŧ al-ʿārifīn_ @ Middle East Studies Association (MESA) Annual Meeting, Washington, D.C.
 
 * [_March, 2014_] Computational Processing of Toponymic Data from classical Arabic Sources @ Working with Text in a Digital Age, A Workshop @ Tufts University (the Perseus Project) (March 29, 2014).
 
