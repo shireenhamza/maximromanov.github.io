@@ -66,9 +66,11 @@ onclick="window.open(this.href, 'google-plus-share', 'width=490,height=530');ret
 
 * [_forthcoming_] “Toward Abstract Models for Islamic History,” in _The Digital Humanities + Islamic and Middle Eastern Studies_, Proceedings of the Conference held at Brown University in 2013 ([Download Submitted Version in PDF](https://www.academia.edu/4922009/))
 
+<!--
 * [_forthcoming_] “After the Classical World: the Social Geography of Islam (661-1300 CE),” in _Word, Space, and Time: Digital Perspectives on the Classical World_. Edited by Neil W. Bernstein and Neil Coffee. A Special Issue of _Digital Humanities Quarterly_ (available upon request) 
+-->
 
-* [_2013_] “Toward the Digital History of the pre-Modern Muslim World: developing text-mining techniques for the study of Arabic biographical collections,” in [T.L. Andrews, C. Macé (eds.) _Analysis of Ancient and Medieval Texts and Manuscripts: Digital Approaches_, Lectio 1, Turnhout: Brepols Publishers, 2014](http://www.brepols.net/Pages/ShowProduct.aspx?prod_id=IS-9782503552682-1), pp. 229-244 ([Download PDF](https://www.academia.edu/4796624/)) DOI: _10.1484/M.LECTIO-EB.5.102573_ **Newsletter Version:** “Digital Analysis of Arabic Biographic Collections,” in _Comparative Oriental Manuscript Studies Newsletter_, No. 4. (July 2012), 9–11 ([Download PDF](https://www.academia.edu/4796624/)) 
+* [_2014_] “Toward the Digital History of the pre-Modern Muslim World: developing text-mining techniques for the study of Arabic biographical collections,” in T.L. Andrews, C. Macé (eds.) [_Analysis of Ancient and Medieval Texts and Manuscripts: Digital Approaches_](http://www.brepols.net/Pages/ShowProduct.aspx?prod_id=IS-9782503552682-1), Lectio 1, Turnhout: Brepols Publishers, 2014, 229-244 ([Download PDF](https://www.academia.edu/4796624/)) DOI: _10.1484/M.LECTIO-EB.5.102573_ <br><br> **Newsletter Version:** “Digital Analysis of Arabic Biographic Collections,” in _Comparative Oriental Manuscript Studies Newsletter_, No. 4. (July 2012), 9–11 ([Download PDF](https://www.academia.edu/4796624/)) 
 
 * [_2012_] “Dreaming Ḥanbalites: Dream-Tales in Prosopographical Dictionaries,” in _Dreams and Visions in Islamic Societies_, edited by Alexander Knysh & Özgen Felek, SUNY Press, 2012, 31–50 ([Download PDF](https://www.academia.edu/1388558/))
 
@@ -85,7 +87,7 @@ onclick="window.open(this.href, 'google-plus-share', 'width=490,height=530');ret
 
 ## Conference and workshop papers, presentations, posters
 
-* [_September, 2015_] The _Taʾ rīḫ al-islām_ of al-Ḏahabī (d. 748/1347 CE): Computational Exploration of the Life-Cycle of a 50-Volume Arabic Chronicle-cum-Biographical Collection @ Arabic Pasts: Histories and Historiographies: Research Workshop Co-hosted by the Agha Khan University, Institute for the Study of Muslim Civilisations and SOAS, University of London, September 25–26, 2015
+* [_September, 2015_] The _Taʾ rīḫ al-islām_ of al-Ḏahabī (d. 748/1347 CE): Computational Exploration of the Life-Cycle of a 50-Volume Arabic Chronicle-cum-Biographical Collection @ Arabic Pasts: Histories and Historiographies: Research Workshop, co-hosted by the Agha Khan University, Institute for the Study of Muslim Civilisations and SOAS, University of London (September 25–26, 2015)
 
 * [_July, 2015_] Cultural Production in the Islamic World (600–1900 CE): mining an Ottoman bibliographical collection from the early 20th century @ The Keystone Digital Humanities Conference, University of Pennsylvania, Philadelphia, PA (July 22-24)
 
@@ -95,9 +97,9 @@ onclick="window.open(this.href, 'google-plus-share', 'width=490,height=530');ret
 
 * [_November, 2014_] Exploring Islamic Written Legacy: Computational Reading of _Hadiyyaŧ al-ʿārifīn_ @ Middle East Studies Association (MESA) Annual Meeting, Washington, D.C.
 
-* [_March, 2014_] Computational Processing of Toponymic Data from classical Arabic Sources @ Working with Text in a Digital Age, A Workshop @ Tufts University (the Perseus Project) (March 29, 2014).
+* [_March, 2014_] Computational Processing of Toponymic Data from classical Arabic Sources @ Working with Text in a Digital Age, A Workshop, Tufts University (the Perseus Project) (March 29, 2014).
 
-* [_February, 2014_] Visualizing Islamic Geography at Scale @ Data Big and Small: Computer Science, the Humanities and Social Science: Conversations between representatives from Leipzig, Northeastern, Princeton and Tufts, A Workshop @ Tufts University (the Perseus Project) (February 3-4, 2014).
+* [_February, 2014_] Visualizing Islamic Geography at Scale @ Data Big and Small: Computer Science, the Humanities and Social Science: Conversations between representatives from Leipzig, Northeastern, Princeton and Tufts, A Workshop, Tufts University and the Perseus Project (February 3-4, 2014).
 
 * [_October, 2013_] Abstract Models for Islamic History @ Digital Humanities and Islamic _&_ Middle Eastern Studies, Brown University, Providence, RI (October 24-25, 2013).  **Video recording** of this presentation is available @ Brown University's website:  [www.islamichumanities.org](http://mediacapture.brown.edu:8080/ess/echo/presentation/5da9b95b-c4d1-41e4-9f29-7516d2e4af18) > **Day One** (the presentation starts at 2:48:00; the Q_&_A at 3:51:30). 
 
@@ -292,8 +294,7 @@ onclick="window.open(this.href, 'google-plus-share', 'width=490,height=530');ret
 ## Formal languages _& computer skills_
 
 * [_Actively using_] Python, R, LaTeX, QGIS, Adobe Photoshop and Indesign
-* [_Learning_] Javascript, D3
-
+* [_Learning_] Javascript, D3, Linux (for using cluster computing)
 
 
 ## Professional membership
