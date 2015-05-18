@@ -70,7 +70,7 @@ onclick="window.open(this.href, 'google-plus-share', 'width=490,height=530');ret
 
 * [_2013_] “Toward the Digital History of the pre-Modern Muslim World: developing text-mining techniques for the study of Arabic biographical collections,” in _Methods and means for digital analysis of ancient and medieval texts and manuscripts, Proceedings of the Conference_, Leuven, 2012 ([Download PDF](https://www.academia.edu/4796624/)) DOI: _10.1484/M.LECTIO-EB.5.102573_ **Newsletter Version:** “Digital Analysis of Arabic Biographic Collections,” in _Comparative Oriental Manuscript Studies Newsletter_, No. 4. (July 2012), 9–11 ([Download PDF](https://www.academia.edu/4796624/)) 
 
-* [_2012_] “Dreaming "Hanbalites: Dream-Tales in Prosopographical Dictionaries,” in _Dreams and Visions in Islamic Societies_, edited by Alexander Knysh & Özgen Felek, SUNY Press, 2012, 31–50 ([Download PDF](https://www.academia.edu/1388558/))
+* [_2012_] “Dreaming Ḥanbalites: Dream-Tales in Prosopographical Dictionaries,” in _Dreams and Visions in Islamic Societies_, edited by Alexander Knysh & Özgen Felek, SUNY Press, 2012, 31–50 ([Download PDF](https://www.academia.edu/1388558/))
 
 * [_2007_] “The Term _Ṣūfī_: Spiritualizing Simple Words,” in _Pismennyie Pamyatniki Vostoka / Written Monuments of the Orient_, issue 5 (2007), 149–159  ([Download PDF](https://www.academia.edu/1388462/)) 
 
