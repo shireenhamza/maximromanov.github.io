@@ -131,7 +131,7 @@ onclick="window.open(this.href, 'google-plus-share', 'width=490,height=530');ret
 
 ## Invited talks, guest lectures
 
-* [_February, 2015_] Digital Humanities and the Premodern Islamic World: _Of Graphs, Maps, and 30,000 Muslims_. Invited public lecture @ the University of California—Los Angeles, Los Angeles, CA (February 25, 2015). For more details, see information on the website of [The Gustav E. von Grunebaum Center for Near Eastern Studies at UCLA](http://international.ucla.edu/cnes/event/11112).
+* [_February, 2015_] Digital Humanities and the Premodern Islamic World: _Of Graphs, Maps, and 30,000 Muslims_. Invited public lecture @ the University of California—Los Angeles, Los Angeles, CA (February 25, 2015). For more details, see information on the website of [The Gustav E. von Grunebaum Center for Near Eastern Studies at UCLA](http://international.ucla.edu/cnes/event/11112); the talk is available as a Podcast ([audio](http://international.ucla.edu/cnes/podcast/150569); [slides](https://www.academia.edu/11866945/Digital_Humanities_and_the_Premodern_Islamic_World_Of_Graphs_Maps_and_30_000_Muslims)).
 
 * [_August, 2014_] The Social Geography of the Islamic World (661–1300 CE): on the Method, Invited presentation @ PROSOP Workshop, Florida State University, Tallahassee, FL (August 15, 2014). See, [www.prosop.org](http://www.prosop.org/).
 
