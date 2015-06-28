@@ -64,7 +64,7 @@ onclick="window.open(this.href, 'google-plus-share', 'width=490,height=530');ret
 
 <center> _most publications can be downloaded from [academia.edu](https://tufts.academia.edu/MaximRomanov)_</center>
 
-* [_forthcoming_] “Toward Abstract Models for Islamic History,” in _The Digital Humanities + Islamic and Middle Eastern Studies_, Proceedings of the Conference held at Brown University in 2013 ([Download Submitted Version in PDF](https://www.academia.edu/4922009/))
+* [_accepted for publication_] “Toward Abstract Models for Islamic History,” in _The Digital Humanities and Islamic & Middle Eastern Studies_, ed. Elias Muhanna (Berlin, De Gruyter, forthcoming 2016uzhe pochti, kotik --- min cherez ) ([Download Submitted Version in PDF](https://www.academia.edu/4922009/))
 
 <!--
 * [_forthcoming_] “After the Classical World: the Social Geography of Islam (661-1300 CE),” in _Word, Space, and Time: Digital Perspectives on the Classical World_. Edited by Neil W. Bernstein and Neil Coffee. A Special Issue of _Digital Humanities Quarterly_ (available upon request) 
@@ -86,6 +86,8 @@ onclick="window.open(this.href, 'google-plus-share', 'width=490,height=530');ret
 
 
 ## Conference and workshop papers, presentations, posters
+
+* [_October, 2015_] “al-Ḏahabī's Monster”: Dissecting a 50-Volume Arabic Chronicle-cum-Biographical Collection From the 14th Century CE @ Distant Reading and the Islamic Archive, Conference at Brown University (October 16, 2015)
 
 * [_September, 2015_] The _Taʾ rīḫ al-islām_ of al-Ḏahabī (d. 748/1347 CE): Computational Exploration of the Life-Cycle of a 50-Volume Arabic Chronicle-cum-Biographical Collection @ Arabic Pasts: Histories and Historiographies: Research Workshop, co-hosted by the Agha Khan University, Institute for the Study of Muslim Civilisations and SOAS, University of London (September 25–26, 2015)
 

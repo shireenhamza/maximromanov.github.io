@@ -237,7 +237,7 @@ var howManyTrue = 0;
 var pathColors = {}; 
 var pathTypes = d3.set(['Shortest', 'Within A Day']); // can add back 'Through Centers' eventually.. 
 var pathInitialSelections = d3.set(['Shortest', 'Within A Day']);
-pathColors['Shortest'] = '#451D5C'; 
+pathColors['Shortest'] = '#f00'; 
 pathColors['Within A Day'] = '#345C1D';
 
 selectionsUI('#path-options', pathInitialSelections, pathColors); 
