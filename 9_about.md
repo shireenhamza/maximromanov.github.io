@@ -64,7 +64,7 @@ onclick="window.open(this.href, 'google-plus-share', 'width=490,height=530');ret
 
 <center> _most publications can be downloaded from [academia.edu](https://tufts.academia.edu/MaximRomanov)_</center>
 
-* [_accepted for publication_] “Toward Abstract Models for Islamic History,” in _The Digital Humanities and Islamic & Middle Eastern Studies_, ed. Elias Muhanna (Berlin, De Gruyter, forthcoming 2016uzhe pochti, kotik --- min cherez ) ([Download Submitted Version in PDF](https://www.academia.edu/4922009/))
+* [_accepted for publication_] “Toward Abstract Models for Islamic History,” in _The Digital Humanities and Islamic & Middle Eastern Studies_, ed. Elias Muhanna (Berlin, De Gruyter, forthcoming 2016) ([Download Submitted Version in PDF](https://www.academia.edu/4922009/))
 
 <!--
 * [_forthcoming_] “After the Classical World: the Social Geography of Islam (661-1300 CE),” in _Word, Space, and Time: Digital Perspectives on the Classical World_. Edited by Neil W. Bernstein and Neil Coffee. A Special Issue of _Digital Humanities Quarterly_ (available upon request) 
