@@ -1,5 +1,5 @@
 ---
-title:			"Classics Envy"
+title:			"A DH Exercise: Mapping the Greco-Roman World"
 author:		Maxim Romanov
 layout:		post
 image:		/images/thematic_covers/greek_laptop.jpg
@@ -9,15 +9,22 @@ imagecredit:	"Unknown Maker. Grave Naiskos of an Enthroned Woman with an Attenda
 			The J. Paul Getty Museum, Villa Collection, Malibu, California</a>."
 categories:
   - Coding
+  - R
   - Teaching
 tags:
   - Blogpost
   - Mapping
 ---
 
-# Classics Envy
+# A DH Exercise: Mapping the Greco-Roman World
 
 “Envy is not a very good thing. Yet envy is precisely what an early Islamicist feels when he reads Roger Bagnall and Bruce Frier’s *The Demography of Roman Egypt*.” [^fn1] These words stuck in my head since the very moment I read them and over the past two years of working among and with the classicists my classics envy has been growing—on top of 300 original census declarations that were at the disposal of of the above mentioned scholars, there are way too many things to envy, especially when it comes to all things digital.
+
+The [Pleiades Gazetteer](http://pleiades.stoa.org/) is particularly interesting: the gazetteer includes several well-populated categories of geographical objects. These categories include settlements, forts, temples, villas, stations, [amphi]theaters, churches, bridges, baths, cemetaries, plazas, archs. What makes it even more interesting is that most of these objects have chronological markers, i.e. they belong to one or more of the following periods: archaic (750–550BC), classical (550–330BC), hellenistic-republican (330–30BC), roman (30BC–300CE), late-antique (300–640CE).
+
+This data offers an interesting opportunity for an interesting digital exersize with historical data: I gave it to my students as a part of an introduction to [R](https://www.r-project.org/), within my “Introduction to Text Mining for the Students of Humanities” (Tufts University, Spring 2015). The goal was to explore the Pleiades data set and maps different types of geographical objects over time.
+
+Below is the code and some of the resulting visualizations.
 
 {% highlight R %}
 
@@ -101,9 +108,17 @@ The fastest and easiest way to animate the results is to use [**ImageMagick**](h
 ```
 convert -resize 1200x900 -delay 75 -loop 0 Pleiades_Settle*.png Pleiades_Settlements.gif
 ```
+## Chronological Cartograms
 
-
+<figure class="fit">
+	<a href="{{ site.url }}/images/Pleiades_settlements.gif" title="">
+	<img src="{{ site.url }}/images/Pleiades_settlements.gif">
+	</a>
+	<figcaption>
+		<b>Settlements from Pleiades</b>
+	</figcaption>
+</figure>
 
 ## Footnotes
 
-[^fn1]: al-Qādī, Wadād. “Population Census and Land Surveys under the Umayyads (41-132/661-750).” Der Islam 83, no. 2 (2006), p. 341
+[^fn1]: al-Qādī, Wadād. “Population Census and Land Surveys under the Umayyads (41-132/661-750).” _Der Islam_ 83, no. 2 (2006), p. 341
