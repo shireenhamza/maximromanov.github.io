@@ -24,24 +24,25 @@ onclick="window.open(this.href, 'google-plus-share', 'width=490,height=530');ret
 </section>
 </section>
 
-**Maxim Romanov** is a postdoctoral associate at the Department of Classics and [the Perseus Digital Library Project][1], Tufts University. His dissertation (Near Eastern Studies, U of Michigan, 2013) explored how modern computational techniques of text analysis can be applied to the study of premodern Arabic historical sources. In particular, he studied “The History of Islam” (*Taʾrīḫ al-islām*), the largest of surviving biographical collections with over 30,000 biographies, written by the Damascene scholar al-Ḏahabī (d. 1348 CE). He is continuing his research and develops methods of computational analysis for other genres of premodern Arabic literature, mainly large volume collections—bibliographical collections, collections of traditions (*ḥadīṯ*), collections of legal decisions (<i>fatwá</i>s), interpretation of the Qurʾān (*tafsīr*), etc.—that can offer insights into long-term and large-scale developments that took place during the pre-modern period of Islamic history. He is working on two book projects: (1) *“The History of Islam”: An Essay in Digital Humanities* continues the study of al-Ḏahabī’s tremendous collection of biographies, while (2) *The Gift to the Knowledgeable 2.0*, explores cultural production in the Islamic world until the beginning of the 20th century through the study of the *Hadiyyaŧ al-ʿārifīn*, a bibliographical collection composed by Ismāʿīl Bāšā al-Baġdādī (d. 1920).
+**Maxim Romanov** is a researcher at [Alexander von Humboldt-Lehrstul für Digital Humanities, Institut für Informatik, Universität Leipzig](http://www.dh.uni-leipzig.de/wo/). His dissertation (Near Eastern Studies, U of Michigan, 2013) explored how modern computational techniques of text analysis can be applied to the study of premodern Arabic historical sources. In particular, he studied “The History of Islam” (*Taʾrīḫ al-islām*), the largest of surviving biographical collections with over 30,000 biographies, written by the Damascene scholar al-Ḏahabī (d. 1348 CE). He is continuing his research and develops methods of computational analysis for other genres of premodern Arabic literature, mainly large volume collections—bibliographical collections, collections of traditions (*ḥadīṯ*), collections of legal decisions (<i>fatwá</i>s), interpretation of the Qurʾān (*tafsīr*), etc.—that can offer insights into long-term and large-scale developments that took place during the pre-modern period of Islamic history. He is working on two book projects: (1) *“The History of Islam”: An Essay in Digital Humanities* continues the study of al-Ḏahabī’s tremendous collection of biographies, while (2) *The Gift to the Knowledgeable 2.0*, explores cultural production in the Islamic world until the beginning of the 20th century through the study of the *Hadiyyaŧ al-ʿārifīn*, a bibliographical collection composed by Ismāʿīl Bāšā al-Baġdādī (d. 1920).
 
 # curriculum vitæ
 
 <center>[Detailed CV in PDF]( {{ site.url }}/files/Romanov-CV.pdf)</center>
 
-* **Current position**: Postdoctoral Associate
-* **Institutional affiliation**: Department of Classics \& Perseus Project, Tufts University, 5 The Green, 134C Eaton Hall, Medford, MA 02155
+* **Current position**: Researcher
+* **Institutional affiliation**: _Universität Leipzig_, Alexander von Humboldt-Lehrstul für Digital Humanities, Institut für Informatik, Augustusplatz 10, 04109 Leipzig, Deutschland
 * **Ph.D.** in Near Eastern Studies (2013), University of Michigan
-* **Institutional email**: _maxim dot romanov at tufts dot edu_
+* **Institutional email**: _maxim dot romanov at uni-leipzig dot de_
 * **Personal email**: _romanov dot maxim at gmail dot com_
 * **Website**: [www.alraqmiyyat.org](http://www.alraqmiyyat.org) (al-Raqmiyyāt: Digital Islamic History)<br>
 [maximromanov.github.io](http://maximromanov.github.io/) (*alternate link*)
 
 
 ## Employment
+* [_2015–current_] **Researcher** <br> _Universität Leipzig_, Alexander von Humboldt-Lehrstul für Digital Humanities, Institut für Informatik.
 
-* [_2013–current_] **Postdoctoral Associate** <br> _Tufts University_, Department of Classics & Perseus Project
+* [_2013–2015_] **Postdoctoral Associate** <br> _Tufts University_, Department of Classics & Perseus Project
 
 * [_2006–2012_] **Graduate Student Instructor** <br> _University of Michigan_, Department of Near Eastern Studies
 
