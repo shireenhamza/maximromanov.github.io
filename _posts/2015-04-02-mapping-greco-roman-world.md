@@ -20,9 +20,11 @@ tags:
 
 “Envy is not a very good thing. Yet envy is precisely what an early Islamicist feels when he reads Roger Bagnall and Bruce Frier’s *The Demography of Roman Egypt*.” [^fn1] These words stuck in my head since the very moment I read them and over the past two years of working among and with the classicists my classics envy has been growing—on top of 300 original census declarations that were at the disposal of of the above mentioned scholars, there are way too many things to envy, especially when it comes to all things digital.
 
-The [Pleiades Gazetteer](http://pleiades.stoa.org/) is particularly interesting: the gazetteer includes several well-populated categories of geographical objects. These categories include settlements, forts, temples, villas, stations, [amphi]theaters, churches, bridges, baths, cemetaries, plazas, archs. What makes it even more interesting is that most of these objects have chronological markers, i.e. they belong to one or more of the following periods: archaic (750–550BC), classical (550–330BC), hellenistic-republican (330–30BC), roman (30BC–300CE), late-antique (300–640CE).
+The [Pleiades Gazetteer](http://pleiades.stoa.org/) is a particularly interesting case: with almost 35,000 places, it offers several well-populated categories of geographical objects. The categories include settlements, forts, temples, villas, stations, [amphi]theaters, churches, bridges, baths, cemetaries, plazas, archs. What makes it even more interesting is that most of these objects have chronological markers, i.e. they belong to one or more of the following periods: archaic (750–550BC), classical (550–330BC), hellenistic-republican (330–30BC), roman (30BC–300CE), late-antique (300–640CE).
 
-This data offers an interesting opportunity for an interesting digital exersize with historical data: I gave it to my students as a part of an introduction to [R](https://www.r-project.org/), within my “Introduction to Text Mining for the Students of Humanities” (Tufts University, Spring 2015). The goal was to explore the Pleiades data set and maps different types of geographical objects over time.
+This data offers a opportunity for an interesting digital exersize with historical data. I assigned it to my students as a part of introduction to [R](https://www.r-project.org/) (within my “Introduction to Text Mining for the Students of Humanities”, Tufts University, Spring 2015). The task was to explore the Pleiades data set, find out what is what and what can be done with it. The goal was to discover that 1) geographical objects are categorized, and that 2) they also have chronological markers, which can be used 3) to maps the geography of the Greco-Roman world over time.
+
+The map of forts turned out to be particularly interesting.
 
 Below is the code and some of the resulting visualizations.
 
@@ -110,14 +112,48 @@ convert -resize 1200x900 -delay 75 -loop 0 Pleiades_Settle*.png Pleiades_Settlem
 ```
 ## Chronological Cartograms
 
+### All Locations
+
+<figure class="fit">
+	<a href="{{ site.url }}/images/Pleiades_locations.gif" title="">
+	<img src="{{ site.url }}/images/Pleiades_locations.gif">
+	</a>
+</figure>
+
+### Settlements
+
 <figure class="fit">
 	<a href="{{ site.url }}/images/Pleiades_settlements.gif" title="">
 	<img src="{{ site.url }}/images/Pleiades_settlements.gif">
 	</a>
-	<figcaption>
-		<b>Settlements from Pleiades</b>
-	</figcaption>
 </figure>
+
+
+### Forts
+
+<figure class="fit">
+	<a href="{{ site.url }}/images/Pleiades_forts.gif" title="">
+	<img src="{{ site.url }}/images/Pleiades_forts.gif">
+	</a>
+</figure>
+
+### All categories
+
+[Amphitheaters]({{ site.url }}/images/Pleiades_amphitheatres.gif), 
+[arches]({{ site.url }}/images/Pleiades_archs.gif),
+[baths]({{ site.url }}/images/Pleiades_baths.gif), 
+[bridges]({{ site.url }}/images/Pleiades_bridges.gif), 
+[cemeteries]({{ site.url }}/images/Pleiades_cemeteries.gif), 
+[churches]({{ site.url }}/images/Pleiades_churches.gif), 
+[forts]({{ site.url }}/images/Pleiades_forts.gif), 
+[locations]({{ site.url }}/images/Pleiades_locations.gif), 
+[plazas]({{ site.url }}/images/Pleiades_plazas.gif), 
+[settlements]({{ site.url }}/images/Pleiades_settlements.gif), 
+[stations]({{ site.url }}/images/Pleiades_stations.gif), 
+[temples]({{ site.url }}/images/Pleiades_temples.gif), 
+[theaters]({{ site.url }}/images/Pleiades_theatres.gif), 
+[villas]({{ site.url }}/images/Pleiades_villas.gif).
+
 
 ## Footnotes
 
