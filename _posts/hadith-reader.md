@@ -1,5 +1,5 @@
 ---
-title:			"Introduction to Classical Arabic using a Frequency-Based Ḫadīṯ Reader"
+title:			"Introduction to Classical Arabic using a Frequency-Based Ḥadīṯ Reader"
 author:		Maxim Romanov
 layout:		post
 image:		/images/thematic_covers/betaCode.png
@@ -9,7 +9,7 @@ tags:
   - Arabic
 ---
 
-# Building a Frequency-Based Ḫadīṯ Reader... with Students
+# Building a Frequency-Based Ḥadīṯ Reader... with Students
 
 <!--@@q_ala ab_u Mas`_ud?i.n :: an_a qad sami`tu h~a_d_a min ras_ul?i All~ah?i ( .sl`m ) -->
 <p class="arabic">قَالَ أَبُو مَسْعُودٍ :: أَنَا قَدْ سَمِعْتُ هٰذَا مِنْ رَسُولِ ﭐلـلّٰـهِ ( صْلْعْمْ ) </p>
