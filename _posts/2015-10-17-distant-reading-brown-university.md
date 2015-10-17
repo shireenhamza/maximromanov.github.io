@@ -1,5 +1,5 @@
 ---
-title:			'Distant Reading <em>&</em> the Islamic Archive'
+title:			'Distant Reading & the Islamic Archive'
 subtitle:		'A Symposium @ Brown University'
 author:			Maxim Romanov
 layout:			post
