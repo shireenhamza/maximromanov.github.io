@@ -8,15 +8,15 @@ header-img: images/loc_photos/a_cover.jpg
 # Owner/author information
 name:               Maxim Romanov
 author:             Maxim Romanov
-bio:                Research fellow (PhD in Near Eastern Studies, U of Michigan, 2013) at Alexander
-                    von Humboldt-Lehrstul für Digital Humanities, Institut für Informatik, Universität Leipzig.
+bio:                Research fellow (PhD in Near Eastern Studies, U of Michigan, 2013) at the
+                    Humboldt Chair for Digital Humanities [Institut für Informatik], University of Leipzig.
                     He studies Islamic historical texts with computational methods, currently focusing
                     on the analysis of multivolume biographical and bibliographical collections.
 avatar:             RM_600.png
 email:              romanov.maxim@gmail.com
 description:        "Reading Traditional Sources with Nontraditional Methods"
 
-#permalink:          pretty
+permalink:          pretty
 permalink:          /:year/:month-:day.html
 
 share:              true
@@ -34,9 +34,12 @@ url: "http://maximromanov.github.io"
 # Analytics and webmaster tools stuff goes here
 google_analytics:   UA-45427032-1
 
+# Additional Gems
+gems: [jekyll-paginate]
+
 # Build settings
 markdown:    redcarpet
-highlighter: pygments
+#highlighter: pygments
 paginate: 50
 exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
 

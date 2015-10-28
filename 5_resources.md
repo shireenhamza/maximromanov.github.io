@@ -30,8 +30,9 @@ onclick="window.open(this.href, 'google-plus-share', 'width=490,height=530');ret
 {% for post in postsTemp %}
 <ul class="post-list">
 {% if post.categories contains "resources" %}
-<li><a href="../{{ post.url }}">
-<b>{{ post.title }}</b>{% if post.description %}, {{ post.description }}{% endif %}
+<li><a href="../{{ post.url }}"> 
+<b>{{ post.title }}</b>
+{% if post.description %}, {{ post.description }}{% endif %}
 </a><br><br>
 </li>
 </ul>
