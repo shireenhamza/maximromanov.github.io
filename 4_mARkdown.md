@@ -27,7 +27,23 @@ onclick="window.open(this.href, 'google-plus-share', 'width=490,height=530');ret
 
 The main goal of **mARkdown** is to provide a simple system for tagging structural elements in Arabic texts that would facilitate algorithmic analysis in the same way as more complex TEI XML does. In principle, **mARkdown** does not require any special editor, but my current workflow relies on EditPad Pro, which supports right-to-left languages, Unicode, and large files. However, it is the support of custom highlighting and navigation schemes that makes this text editor particularly convenient for **mARkdown**.
 
-# Using **mARkdown** in EditPad Pro
+-----------------------------------------
+# Very Short Description
+
+1. Download and install [EditPad Pro](http://www.editpadpro.com/) (Windows only).
+2. Download **mARkdown** schemes from [GitHub](https://github.com/maximromanov/mARkdown), and unzip into `%APPDATA%\JGsoft\EditPad Pro 7`
+3. Text that you will be working with have already been preprocessed. Opening any of these texts in EditPad Pro will automatically activate **mARkdown** scheme.
+4. The goal is to tag the structure of a text, which boils down to:
+	1. the headers of chapters (`### | `), sections (`### ||`), subsections (`### ||| `), etc.
+	2. and information units: biographies (`### $ `), descriptions of events (`### @ `), and dictionary entries (also `### $ `)
+	3. If an element is tagged correctly, its color will change.
+5. This must be done through the collation of the electronic text of a book with the printed edition on which the electronic text is based. Most of these editions can be found online as PDF files (‘googling’ the title usually brings up a lot of results; PDFs are most likely to be on [Archive.org](https://archive.org/)) 
+
+
+-----------------------------------------
+# Detailed Description
+
+## Using **mARkdown** in EditPad Pro
 
 [EditPad Pro](http://www.editpadpro.com/) is a commercial text editor for Windows. It can be used on Mac and Linux through some virtualization solution (for example, Parallels or Fusion on Mac, or Wine on Linux). You can download a fully functional trial version to try **mARkdown** (it, however, will not work with EditPad Lite, a free light-weight version of the same text editor).
 
