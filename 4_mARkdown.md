@@ -282,7 +282,7 @@ Under the assumption of the following top-down division `WORLD > PROVINCE > TYPE
 	<img src="{{ site.url }}/images/md/analytical_divisions.png">
 	</a>
 	<figcaption>
-		<b>mARkdown</b> pattern for route sections and distances
+		<b>mARkdown</b> pattern for describing administrative divisions 
 	</figcaption>
 </figure>
 
@@ -296,7 +296,7 @@ Under the assumption of the following top-down division `WORLD > PROVINCE > TYPE
 	<img src="{{ site.url }}/images/md/analytical_distances.png">
 	</a>
 	<figcaption>
-		<b>mARkdown</b> pattern for route sections and distances
+		<b>mARkdown</b> pattern for describing routes and distances
 	</figcaption>
 </figure>
 
