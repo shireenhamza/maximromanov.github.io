@@ -267,7 +267,7 @@ All non-letter characters are automatically highlighted as elements that may hav
 
 Geographical texts—such as comprehensive geographies—contain a lot of data that can be used for modeling historical processes in space. Of particular importance are administrative divisions and trade routes, which often come with distances.
 
-### 3.1.1 Administrative divisions
+### 3.1.1 Administrative divisions (RE: `#(PROVINCE|REGION)# .*? #TYPE# .*? #(REGION|SETTLEMENT)# (.*?#)+`)
 
 Under the assumption of the following top-down division `WORLD > PROVINCE > TYPE > REGION > TYPE > SETTLEMENT[S]`, administrative divisions (toponymic hierarchies) are tagged in the following manner (parents may have multiple children of the same kind):
 
@@ -286,7 +286,9 @@ Under the assumption of the following top-down division `WORLD > PROVINCE > TYPE
 	</figcaption>
 </figure>
 
-### 3.1.2 Route sections with distances are tagged in the following manner:
+### 3.1.2 Routes and distances (RE: `#FROM# .*? #TO# .*? #DIST# .*`)
+
+Route sections with distances are tagged in the following manner:
 
 ```
 #FROM# place_name #TO# place_name #DIST# distance
