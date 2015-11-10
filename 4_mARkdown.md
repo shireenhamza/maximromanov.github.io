@@ -261,6 +261,45 @@ All non-letter characters are automatically highlighted as elements that may hav
 
 # 3. Analytical Patterns
 
-**mARkdown** also includes a series of patterns/tags to highlight results generated with algorithmic analysis.
+**mARkdown** also includes a series of patterns/tags to highlight results generated with/for algorithmic analysis. Unlike previous elements, these additions to the text that are either generated automatically, or inserted manually.  
+
+## 3.1 Geographical information
+
+Geographical texts—such as comprehensive geographies—contain a lot of data that can be used for modeling historical processes in space. Of particular importance are administrative divisions and trade routes, which often come with distances.
+
+### 3.1.1 Administrative divisions
+
+Under the assumption of the following top-down division `WORLD > PROVINCE > TYPE > REGION > TYPE > SETTLEMENT[S]`, administrative divisions (toponymic hierarchies) are tagged in the following manner (parents may have multiple children of the same kind):
+
+```
+#PROVINCE# province_name #TYPE# type_of_region #REGION# name_of_region # (name_of_region #)+
+
+#REGION# name_of_region #TYPE# type_of_settlement #SETTLEMENT# name_of_settlement # (name_of_settlement #)+ 
+```
+
+<figure class="fit">
+	<a href="{{ site.url }}/images/md/analytical_divisions.png" title="">
+	<img src="{{ site.url }}/images/md/analytical_divisions.png">
+	</a>
+	<figcaption>
+		<b>mARkdown</b> pattern for route sections and distances
+	</figcaption>
+</figure>
+
+### 3.1.2 Route sections with distances are tagged in the following manner:
+
+```
+#FROM# place_name #TO# place_name #DIST# distance
+```
+<figure class="fit">
+	<a href="{{ site.url }}/images/md/analytical_distances.png" title="">
+	<img src="{{ site.url }}/images/md/analytical_distances.png">
+	</a>
+	<figcaption>
+		<b>mARkdown</b> pattern for route sections and distances
+	</figcaption>
+</figure>
+
+
 
 _to be continued_
