@@ -21,13 +21,13 @@ onclick="window.open(this.href, 'google-plus-share', 'width=490,height=530');ret
 <span class="hidden">Google+</span>
 </a>
 </section>
+
 </section>
 
-<!-- insert -->
 
 The main goal of **mARkdown** is to provide a simple system for tagging structural elements in Arabic texts that would facilitate algorithmic analysis in the same way as more complex TEI XML does. In principle, **mARkdown** does not require any special editor, but my current workflow relies on EditPad Pro, which supports right-to-left languages, Unicode, and large files. However, it is the support of custom highlighting and navigation schemes that makes this text editor particularly convenient for **mARkdown**.
 
------------------------------------------
+
 # Very Short Description
 
 1. Download and install [EditPad Pro](http://www.editpadpro.com/) (Windows only).
@@ -40,7 +40,7 @@ The main goal of **mARkdown** is to provide a simple system for tagging structur
 5. This must be done through the collation of the electronic text of a book with the printed edition on which the electronic text is based. Most of these editions can be found online as PDF files (‘googling’ the title usually brings up a lot of results; PDFs are most likely to be on [Archive.org](https://archive.org/)) 
 
 
------------------------------------------
+
 # Detailed Description
 
 ## Using **mARkdown** in EditPad Pro
