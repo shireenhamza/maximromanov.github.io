@@ -4,13 +4,12 @@
   src: url(/fonts/GentiumPlus-R.woff);
 }
 /* use Gentium Plus - Italic in .woff format */
-/*
 @font-face {
   font-family: GentiumPlusW;
   font-style: italic;
   src: url(/fonts/GentiumPlus-I.woff);
 }
-*/
+
 
 body {
   font-family: 'Brill', GentiumPlusW, 'Sorts Mill Goudy', 'Cambria', 'Gentium', serif;
