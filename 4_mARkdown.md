@@ -47,7 +47,7 @@ The main goal of **mARkdown** is to provide a simple system for tagging structur
 
 [EditPad Pro](http://www.editpadpro.com/) is a commercial text editor for Windows. It can be used on Mac and Linux through some virtualization solution (for example, Parallels or Fusion on Mac, or Wine on Linux). You can download a fully functional trial version to try **mARkdown** (it, however, will not work with EditPad Lite, a free light-weight version of the same text editor).
 
-The most recent **mARkdown** settings files for EditPad Pro can be found in the [mARkdown repository](https://github.com/maximromanov/mARkdown) on GitHub. Download the latest `*.zip` file (the date is in the filename: `YYYYMMDD_HHMMSS.zip`) and unzip its content into `%APPDATA%\JGsoft\EditPad Pro 7`. You may need to restart the program (use: **File** > **Exit**). If **mARkdown** settings work, the main window should look as shown below. Note the yellow-ish color of the main window and a large Fine/Replace panel on the right).
+The most recent **mARkdown** settings files for EditPad Pro can be found in the [mARkdown repository](https://github.com/maximromanov/mARkdown) on GitHub. Download the latest `*.zip` file (the date is in the filename: `YYYYMMDD_HHMMSS.zip`) and unzip its content into `%APPDATA%\JGsoft\EditPad Pro 7`. You may need to restart the program (use: **File** > **Exit**). If **mARkdown** settings work, the main window should look as shown below. Note the yellow-ish color of the main window and a large Find/Replace panel on the right).
 
 <figure class="fit">
 	<a href="{{ site.url }}/images/md/editPadPro.png" title="">
@@ -95,7 +95,7 @@ _description to be added..._
 
 ## 2. Headers (RE: `^### \|+ `)
 
-Headers are for the titles of main structural units, like chapters, subchapters, etc. The entire header must be on one line and include three main elements:
+Headers are for the titles of main structural units, like chapters, subchapters, etc. The entire header must be on one line and must include three main elements:
 
 1. `###` — three hashtags at the beginning of the line;
 2. `|` — pipes, whose number corresponds to the level of a header;
