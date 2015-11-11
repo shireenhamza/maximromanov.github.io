@@ -267,31 +267,35 @@ All non-letter characters are automatically highlighted as elements that may hav
 
 Geographical texts—such as comprehensive geographies—contain a lot of data that can be used for modeling historical processes in space. Of particular importance are administrative divisions and trade routes, which often come with distances.
 
-### 3.1.1 Administrative divisions (RE: `#(PROVINCE|REGION)# .*? #TYPE# .*? #(REGION|SETTLEMENT)# (.*?#)+`)
+### 3.1.1 Administrative divisions (RE: `#\$#(PROV|REG\d)# .*? #\$#TYPE .*? #\$#(REG\d|STTL) ([\w# ]+) $`)
 
-Under the assumption of the following top-down division `WORLD > PROVINCE > TYPE > REGION > TYPE > SETTLEMENT[S]`, administrative divisions (toponymic hierarchies) are tagged in the following manner (parents may have multiple children of the same kind):
+Most descriptions fit into the following scheme `WORLD: PROVINCE > TYPE > (REGION) > TYPE > SETTLEMENT`. In the actual text, relevant information is tagged essentially as ‘triples’ of `SUBJECT > PREDICATE > OBJECT` (with multiple OBJECTs that will be parsed out at a later stage):
 
 ```
-#PROVINCE# province_name #TYPE# type_of_region #REGION# name_of_region # (name_of_region #)+
+#$#PROV toponym #$#TYPE type_of_region #$#REG1 (toponym #)+
 
-#REGION# name_of_region #TYPE# type_of_settlement #SETTLEMENT# name_of_settlement # (name_of_settlement #)+ 
+#$#REGX toponym #$#TYPE type_of_region #$#REGX (toponym #)+
+ 
+#$#REGX toponym #$#TYPE type_of_settlement #$#STTL (toponym #)+ 
 ```
+
+**Note**: _Clip collection_ can be used to insert relevant patterns into the text.
 
 <figure class="fit">
 	<a href="{{ site.url }}/images/md/analytical_divisions.png" title="">
 	<img src="{{ site.url }}/images/md/analytical_divisions.png">
 	</a>
 	<figcaption>
-		<b>mARkdown</b> pattern for describing administrative divisions 
+		<b>mARkdown</b> pattern for describing administrative divisions; using Clip Collection (on the left) one can insert a relevant pattern into the text and fill it in 
 	</figcaption>
 </figure>
 
-### 3.1.2 Routes and distances (RE: `#FROM# .*? #TO# .*? #DIST# .*`)
+### 3.1.2 Routes and distances (RE: `#$#FROM .*? #$#TOWA .*? #$#DIST .*`)
 
 Route sections with distances are tagged in the following manner:
 
 ```
-#FROM# place_name #TO# place_name #DIST# distance
+#$#FROM toponym #$#TOWA toponym #$#DIST distance_as_recorded
 ```
 <figure class="fit">
 	<a href="{{ site.url }}/images/md/analytical_distances.png" title="">
