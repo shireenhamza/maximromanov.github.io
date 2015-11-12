@@ -1,11 +1,13 @@
 .navbar-custom .nav li a/* use Gentium Plus - Regular in .woff format */
 
-/* For some reason, the font shows in Italics
+/* For some reason, the font shows in Italics */
+/*
 @font-face {
   font-family: GentiumPlusW;
   src: url(/fonts/GentiumPlus-R.woff);
 }
 */
+
 /* use Gentium Plus - Italic in .woff format */
 /*
 @font-face {
@@ -17,7 +19,7 @@
 
 
 body {
-  font-family: 'Brill', GentiumPlusW, 'Sorts Mill Goudy', 'Cambria', 'Gentium', serif;
+  font-family: 'Brill', 'Times New Roman', GentiumPlusW, 'Sorts Mill Goudy', 'Cambria', 'Gentium', serif;
   font-size: 24px;
   color: #404040;
 }
@@ -44,7 +46,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Brill', GentiumPlusW, 'Sorts Mill Goudy', 'Cambria', 'Gentium', serif;
+  font-family: 'Brill', 'Times New Roman', GentiumPlusW, 'Sorts Mill Goudy', 'Cambria', 'Gentium', serif;
   font-weight: 800;
   margin: 40px 0px 20px 0px;
 }
