@@ -1,14 +1,19 @@
 .navbar-custom .nav li a/* use Gentium Plus - Regular in .woff format */
+
+/* For some reason, the font shows in Italics
 @font-face {
   font-family: GentiumPlusW;
   src: url(/fonts/GentiumPlus-R.woff);
 }
+*/
 /* use Gentium Plus - Italic in .woff format */
+/*
 @font-face {
   font-family: GentiumPlusW;
   font-style: italic;
   src: url(/fonts/GentiumPlus-I.woff);
 }
+*/
 
 
 body {
