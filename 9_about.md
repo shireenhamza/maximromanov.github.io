@@ -81,14 +81,14 @@ onclick="window.open(this.href, 'google-plus-share', 'width=490,height=530');ret
 
 * [_2004, in Russian_] “The Paradigm of the Science of Ḥadīṯ (_ʿilm/ʿulūm al-ḥadīth_),” in _Oriens/Vostok_, issue 5, 2004, 5–11; _summary in English_  ([Download PDF](http://islamica.orientalstudies.ru/rus/images/pdf/a_romanov_2004.pdf))
 
-* [_2003 (2009), in Russian_] “_Ḥadīṯ_ Reports in Ibn al-Ǧawzī’s (d. 597/1201) System of Argumentation (Based on His _Talbīs Iblīs_ [“Devil's Delusions”]),” in _Khristianskii Vostok/Christian Orient_, Volume 5 (XI), New Series, Moscow: “Indrik” Press (Published by the Russian Academy of Sciences and the State Hermitage), 2009, 310–316 ([Download PDF](http://islamica.orientalstudies.ru/rus/images/pdf/a_romanov_2009.pdf)) **NB**: Submitted for publication in 2003 
+* [_2003 (2009), in Russian_] “_Ḥadīṯ_ Reports in Ibn al-Ǧawzī’s (d. 597/1201) System of Argumentation (Based on His _Talbīs Iblīs_ [“Devil’s Delusions”]),” in _Khristianskii Vostok/Christian Orient_, Volume 5 (XI), New Series, Moscow: “Indrik” Press (Published by the Russian Academy of Sciences and the State Hermitage), 2009, 310–316 ([Download PDF](http://islamica.orientalstudies.ru/rus/images/pdf/a_romanov_2009.pdf)) **NB**: Submitted for publication in 2003 
 
 * [_2003, in Russian_] “Principles and Procedures of Extracting and Processing Data from Arabic Sources: Historic-and-Biographical Sources,” in _Oriens/Vostok_, issue 4, 2003, 117–127; in cooperation with Dr. Stanislav M. Prozorov; _summary in English_ ([Download PDF](http://islamica.orientalstudies.ru/rus/images/pdf/a_prozorov_co_2003.pdf)) 
 
 
 ## Conference and workshop papers, presentations, posters
 
-* [_October, 2015_] “al-Ḏahabī's Monster”: Dissecting a 50-Volume Arabic Chronicle-cum-Biographical Collection From the 14th Century CE @ Distant Reading and the Islamic Archive, Conference at Brown University (October 16, 2015)
+* [_October, 2015_] “al-Ḏahabī’s Monster”: Dissecting a 50-Volume Arabic Chronicle-cum-Biographical Collection From the 14th Century CE @ Distant Reading and the Islamic Archive, Conference at Brown University (October 16, 2015)
 
 * [_September, 2015_] The _Taʾ rīḫ al-islām_ of al-Ḏahabī (d. 748/1347 CE): Computational Exploration of the Life-Cycle of a 50-Volume Arabic Chronicle-cum-Biographical Collection @ Arabic Pasts: Histories and Historiographies: Research Workshop, co-hosted by the Agha Khan University, Institute for the Study of Muslim Civilisations and SOAS, University of London (September 25–26, 2015)
 
@@ -104,7 +104,7 @@ onclick="window.open(this.href, 'google-plus-share', 'width=490,height=530');ret
 
 * [_February, 2014_] Visualizing Islamic Geography at Scale @ Data Big and Small: Computer Science, the Humanities and Social Science: Conversations between representatives from Leipzig, Northeastern, Princeton and Tufts, A Workshop, Tufts University and the Perseus Project (February 3-4, 2014).
 
-* [_October, 2013_] Abstract Models for Islamic History @ Digital Humanities and Islamic _&_ Middle Eastern Studies, Brown University, Providence, RI (October 24-25, 2013).  **Video recording** of this presentation is available @ Brown University's website:  [www.islamichumanities.org](http://mediacapture.brown.edu:8080/ess/echo/presentation/5da9b95b-c4d1-41e4-9f29-7516d2e4af18) > **Day One** (the presentation starts at 2:48:00; the Q_&_A at 3:51:30). 
+* [_October, 2013_] Abstract Models for Islamic History @ Digital Humanities and Islamic _&_ Middle Eastern Studies, Brown University, Providence, RI (October 24-25, 2013).  **Video recording** of this presentation is available @ Brown University’s website:  [www.islamichumanities.org](http://mediacapture.brown.edu:8080/ess/echo/presentation/5da9b95b-c4d1-41e4-9f29-7516d2e4af18) > **Day One** (the presentation starts at 2:48:00; the Q_&_A at 3:51:30). 
 
 * [_October, 2013_]  Islamic World Connected (661–1300 ce) @ Middle East Studies Association (MESA) Annual Meeting, New Orleans, LA. 
 
@@ -118,7 +118,7 @@ onclick="window.open(this.href, 'google-plus-share', 'width=490,height=530');ret
 
 * [_November, 2012_] Social History of the Muslim World in the Digital Age: Making Sense of 29,000 Biographies from al-Ḏahabī’s “History of Islam” @ Middle East Studies Association (MESA) Annual Meeting, Denver, CO.
 
-* [_November, 2012_] **Poster**: Social History of the Muslim World in the Digital Age: Making Sense of 29,000 Biographies from al-Ḏahabī’s “History of Islam” @ Cyberinfrastructure Days, U of Michigan, November 7-8, 2012. [“People's Choice Award Winner”](http://orci.research.umich.edu/cidays/ci-days-2012/poster-competition-winners/).
+* [_November, 2012_] **Poster**: Social History of the Muslim World in the Digital Age: Making Sense of 29,000 Biographies from al-Ḏahabī’s “History of Islam” @ Cyberinfrastructure Days, U of Michigan, November 7-8, 2012. [“People’s Choice Award Winner”](http://orci.research.umich.edu/cidays/ci-days-2012/poster-competition-winners/).
 
 * [_October, 2012_] Writing the Digital History of the Premodern Muslim World, 670-1300 ce: Exploratory Analysis of Primary Sources @ Interdisciplinary Workshop under the rubric “Forum on Research in Medieval Studies” (FoRMS), the Medieval Lunch Series, U of Michigan.
 
@@ -136,7 +136,7 @@ onclick="window.open(this.href, 'google-plus-share', 'width=490,height=530');ret
 
 * [_March, 2004_] The Origins of the Term _Ṣūfī_ (in Russian) @ 26th Annual Session of St. Petersburg Arabists, SPbIOS/IOM of RAS.
 
-* [_April, 2003_] Argumentation with _Ḥadīṯ_ Reports in Ibn al-Ǧawzī’s _Talbīs Iblīs_ (“Devil's Delusions”) (in Russian) @ 25th Annual Session of St. Petersburg Arabists, SPbIOS/IOM of RAS. 
+* [_April, 2003_] Argumentation with _Ḥadīṯ_ Reports in Ibn al-Ǧawzī’s _Talbīs Iblīs_ (“Devil’s Delusions”) (in Russian) @ 25th Annual Session of St. Petersburg Arabists, SPbIOS/IOM of RAS. 
 
 * [_December, 2003_] The Paradigm of the Science of Ḥadīṯ (_ʿilm al-ḥadīṯ_)  (in Russian) @ Annual Academic Session, SPbIOS/IOM of RAS. 
 

@@ -1,2 +1,6 @@
 _site
 node_modules
+
+#OS Junk files
+[Th]humbs.db
+*.DS_Store
