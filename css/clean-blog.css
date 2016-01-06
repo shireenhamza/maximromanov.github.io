@@ -2,21 +2,21 @@
 
 @font-face {
     font-family: "Brill";
-    src: url("fonts/BrillRoman.woff");
+    src: url("../fonts/BrillRoman.woff");
 }
 @font-face {
     font-family: "Brill";
-    src: url("fonts/BrillBold.woff");
+    src: url("../fonts/BrillBold.woff");
     font-weight: bold;
 }
 @font-face {
     font-family: "Brill";
-    src: url("fonts/BrillItalic.woff");
+    src: url("../fonts/BrillItalic.woff");
     font-style: italic, oblique;
 }
 @font-face {
     font-family: "Brill";
-    src: url("fonts/BrillBoldItalic.woff");
+    src: url("../fonts/BrillBoldItalic.woff");
     font-weight: bold;
     font-style: italic, oblique;
 }
