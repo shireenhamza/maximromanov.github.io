@@ -156,7 +156,8 @@ Most tribal <i>nisba</i>s display rather distinctive orientations toward the Eas
 <figure class="half">
 	<a href="{{ site.url }}/images/qysy_TAGS_TRIBAL_00208_MapOfConnections.jpg" title=""><img src="{{ site.url }}/images/qysy_TAGS_TRIBAL_00208_MapOfConnections.jpg"></a>
 	<a href="{{ site.url }}/images/lxmy_TAGS_TRIBAL_00181_MapOfConnections.jpg" title=""><img src="{{ site.url }}/images/lxmy_TAGS_TRIBAL_00181_MapOfConnections.jpg"></a>
-</figure><figure class="half">
+</figure>
+<figure class="half">
 	<a href="{{ site.url }}/images/tjyby_TAGS_TRIBAL_00125_MapOfConnections.jpg" title=""><img src="{{ site.url }}/images/tjyby_TAGS_TRIBAL_00125_MapOfConnections.jpg"></a>
 	<a href="{{ site.url }}/images/mxzwmy_TAGS_TRIBAL_00181_MapOfConnections.jpg" title=""><img src="{{ site.url }}/images/mxzwmy_TAGS_TRIBAL_00181_MapOfConnections.jpg"></a>
 	<figcaption><b>Figure 11.</b> Western Orientation of Some Tribal “Late bloomers.” <b>NB</b>: Each map has its own scale.</figcaption>

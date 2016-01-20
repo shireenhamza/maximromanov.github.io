@@ -31,10 +31,11 @@ body {
   font-size: 24px;
   color: #404040;
 }
-p {
+
+/*p {
   line-height: 1.5;
   margin: 30px 0;
-}
+}*/
 
 .arabic{
   font-family: 'Amiri', 'Geeza Pro', 'Courier New', 'Arial', 'LateefRegular';
@@ -53,7 +54,7 @@ h4,
 h5,
 h6 {
   font-family: 'Brill', 'Old Standard TT', 'Sorts Mill Goudy', 'Cambria', 'Gentium', serif;
-  font-weight: 100;
+  font-weight: 800;
   margin: 40px 0px 20px 0px;
 }
 a {
@@ -67,10 +68,7 @@ a img:hover,
 a img:focus {
   cursor: zoom-in;
 }
-blockquote {
-  color: #808080;
-  font-style: italic;
-}
+
 hr.small {
   max-width: 150px;
   margin: 15px auto;
