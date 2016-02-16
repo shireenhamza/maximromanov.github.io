@@ -276,7 +276,7 @@ This tag can be used to tag toponyms in a text. The tag consists of `TOP` follow
 	<img src="../images/md/md_top_tag.gif">
 	</a>
 	<figcaption>
-		<b>@TOPXX@ pattern</b> for tagging toponyms; as shown in the example, to tag <i>Tirmiḏ</i>, which has no prefixes and is 1 word long, you add tag <code>@TOP01@</code>; to tag <i>wa-Mā warāʾ al-nahr</i>, you add <code>@TOP13@</code>, to take into account a one-letter prefix (<i>wa-</i>) and include all the three words of the toponym.
+		<b>@TOPXX@ pattern</b> for tagging toponyms; as shown in the example, to tag <i>Tirmiḏ</i>, which has no prefixes and is 1-word long, you add tag <code>@TOP01@</code>; to tag <i>wa-Mā warāʾ al-nahr</i>, you add <code>@TOP13@</code>, to take into account a one-letter prefix (<i>wa-</i>) and include all the three words of the toponym.
 	</figcaption>
 </figure> 
 
