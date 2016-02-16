@@ -267,7 +267,20 @@ All non-letter characters are automatically highlighted as elements that may hav
 
 Geographical texts—such as comprehensive geographies—contain a lot of data that can be used for modeling historical processes in space. Of particular importance are administrative divisions and trade routes, which often come with distances.
 
-### 3.1.1 Administrative divisions (RE: `#\$#(PROV|REG\d)# .*? #\$#TYPE .*? #\$#(REG\d|STTL) ([\w# ]+) $`)
+### 3.1.3 Toponyms in the text (RE: `@TOP\d\d@`)
+
+This tag can be used to tag toponyms in a text. The tag consists of `TOP` followed by two numbers, and the entire code is wrapped into `@`-signs. The first number designates the length of the prefix which is not part of a toponym and which must be dropped. The second number is the length of the toponym in words. See the example below.
+
+<figure class="fit">
+	<a href="../images/md/md_top_tag.gif" title="">
+	<img src="../images/md/md_top_tag.gif">
+	</a>
+	<figcaption>
+		<b>@TOPXX@ pattern</b> for tagging toponyms; as shown in the example, to tag <i>Tirmiḏ</i>, which has no prefixes and is 1 word long, you add tag <code>@TOP01@</code>; to tag <i>wa-Mā warāʾ al-nahr</i>, you add <code>@TOP13@</code>, to take into account a one-letter prefix (<i>wa-</i>) and include all the three words of the toponym.
+	</figcaption>
+</figure> 
+
+### 3.1.2 Administrative divisions (RE: `#\$#(PROV|REG\d)# .*? #\$#TYPE .*? #\$#(REG\d|STTL) ([\w# ]+) $`)
 
 Most descriptions fit into the following scheme `WORLD: PROVINCE > TYPE > (REGION) > TYPE > SETTLEMENT`. In the actual text, relevant information is tagged essentially as ‘triples’ of `SUBJECT > PREDICATE > OBJECT` (with multiple OBJECTs that will be parsed out at a later stage):
 
@@ -290,7 +303,7 @@ Most descriptions fit into the following scheme `WORLD: PROVINCE > TYPE > (REGIO
 	</figcaption>
 </figure>
 
-### 3.1.2 Routes and distances (RE: `#$#FROM .*? #$#TOWA .*? #$#DIST .*`)
+### 3.1.3 Routes and distances (RE: `#$#FROM .*? #$#TOWA .*? #$#DIST .*`)
 
 Route sections with distances are tagged in the following manner:
 
