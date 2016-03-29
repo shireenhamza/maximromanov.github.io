@@ -110,7 +110,10 @@ The fastest and easiest way to animate the results is to use [**ImageMagick**](h
 ```
 convert -resize 1200x900 -delay 75 -loop 0 Pleiades_Settle*.png Pleiades_Settlements.gif
 ```
+
+
 ## Chronological Cartograms
+
 
 ### All Locations
 

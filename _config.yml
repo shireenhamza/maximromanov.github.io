@@ -38,7 +38,7 @@ google_analytics:   UA-45427032-1
 gems: [jekyll-paginate]
 
 # Build settings
-markdown:    redcarpet
+markdown:    kramdown
 #highlighter: pygments
 paginate: 10
 exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
@@ -52,19 +52,19 @@ baseurl: "" # does not include hostname
 
 
 # Markdown Processors
-maruku:
-  use_tex:    false
-  use_divs:   false
-  png_engine: blahtex
-  png_dir:    images/latex
-  png_url:    /images/latex
-  fenced_code_blocks: true
+#maruku:
+#  use_tex:    false
+#  use_divs:   false
+#  png_engine: blahtex
+#  png_dir:    images/latex
+#  png_url:    /images/latex
+#  fenced_code_blocks: true
 
-rdiscount:
-  extensions: []
+#rdiscount:
+#  extensions: []
 
-redcarpet:
-  extensions: ["footnotes", "tables", "no_intra_emphasis", "fenced_code_blocks", "autolink", "with_toc_data", "quote"] # "quote" for smart quotes
+#redcarpet:
+#  extensions: ["footnotes", "tables", "no_intra_emphasis", "fenced_code_blocks", "autolink", "with_toc_data", "quote"] # "quote" for smart quotes
 
 kramdown:
   auto_ids:       true

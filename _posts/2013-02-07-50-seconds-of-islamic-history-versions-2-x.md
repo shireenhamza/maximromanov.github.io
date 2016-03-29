@@ -22,7 +22,7 @@ tags:
 ---
 
 ![50 seconds of Islamic History]({{ site.url }}/images/50-Seconds-Version2.2-0.1sec_LastFreeze1.gif)
-<center>*Version 2.2: Regions and Urban Centers (scaled down)*</center>
+<center><i>Version 2.2: Regions and Urban Centers (scaled down)</i></center>
 
 Versions 2.x are based on the data set of about 330 toponyms—all place-names that occur 5 and more times in al-Dhahabī’s *Taʾrīkh al-islām*. Expanding the list of toponyms  did not significantly affect the number of biographies, which increased by slightly over a thousand: ~13,970 biographies in Versions 2.x versus ~12,850 biographies in Versions 1.x. On the other hand, now it is almost 50% of all the biographies from the considered section of this biographical collection (vols. 4-52:  ~29,000 biographical records).
 
@@ -32,24 +32,14 @@ Another temporary issue is that the data set still includes some false positives
 
 The Version 2.x maps do not seem to change [the overall picture][2] in any radical way (it may happen with toponymic <em>nisba</em>s added to the equation). Nonetheless, the new maps are much more detailed. Perhaps even too much, hence, three versions. Version 2.0 includes both urban centers and regions—this Version gets particularly cluttered, but may still be useful. Version 2.1 features only urban centers. Version 2.2 features both, but urban centers are scaled down (frequencies divided by 4), which allows to see both regions and urban centers that represent these regions. (*Best viewed in HD and full screen*)
 
-<center>
-<iframe width=700 height=450 src="http://youtube.com/embed/xfn55Leg3Rc" frameborder=0>
-</iframe>
-*Version 2.0: Regions and Urban Centers*
-</center>
+<iframe src="http://youtube.com/embed/xfn55Leg3Rc" width="750" height="420" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+<center><i>Version 2.0: Regions and Urban Centers</i></center>
 
-<center>
-<iframe width=700 height=450 src="http://youtube.com/embed/BNQFOl6gzPs" frameborder=0>
-</iframe>
-*Version 2.1: Urban Centers*
-</center>
+<iframe src="http://youtube.com/embed/BNQFOl6gzPs" width="750" height="420" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+<center><i>Version 2.1: Urban Centers</i></center>
 
-<center>
-<iframe width=700 height=450 src="http://youtube.com/embed/A0e9_reQJvE" frameborder=0>
-</iframe>
-*Version 2.2: Regions and Urban Centers (scaled down)*
-</center>
-
+<iframe src="http://youtube.com/embed/A0e9_reQJvE" width="750" height="420" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+<center><i>Version 2.2: Regions and Urban Centers (scaled down)</i></center>
 
 <strong style="line-height: 1.7;">Current Dataset</strong><span style="line-height: 1.7;">:</span>  
 *Sources:* *Taʾrīkh al-islām* of al-Dhahabī  

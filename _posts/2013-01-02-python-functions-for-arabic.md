@@ -22,7 +22,7 @@ There are certain operations one has to repeat many times while manipulating Ara
 
 Some programs do not support Arabic, but might be crucial for research (for example, R). This function converts Arabic into a transliterated form that any program can process.
 
-``` python
+~~~ python
   def translitArabic(text):
     buckwalterMod = {
         'ء': 'c', 'ا': 'A', 'إ': 'A',
@@ -41,53 +41,53 @@ Some programs do not support Arabic, but might be crucial for research (for exam
     for k, v in buckwalterMod.items():
         text = re.sub(k, v, text)
     return(text)
-```
+~~~
 
 ###Example:
 
 Input:
 
-``` python
+~~~ python
 testLine = "إن القراء يقرؤون القرآن قراءة جميلة"
 print(translitArabic(testLine))
-```
+~~~
 
 Output:
 
-```
+~~~
 An AlqrAc yqrcwn AlqrAn qrAco jmylo
-```
+~~~
 
 ## Normalization  
 The function unifies the orthography of <em>alif</em>s, <em>hamza</em>s, and <em>ya</em>s/<em>alif maqsura</em>s. This is just a basic function that might need to be modified and expanded for specific purposes.
 
-``` python
+~~~ python
 def normalizeArabic(text):
     text = re.sub("[إأٱآا]", "ا", text)
     text = re.sub("ى", "ي", text)
     text = re.sub("ؤ", "ء", text)
     text = re.sub("ئ", "ء", text)
     return(text)
-```
+~~~
 
 ### Example:  
 Input:
 
-``` python
+~~~ python
 testLine = "إن القراء يقرؤون القرآن قراءة جميلة"
 print(normalizeArabic(testLine))
-```
+~~~
 
 Output:
 
-``` 
+~~~
 ان القراء يقرءون القران قراءة جميلة
-```
+~~~
 
 ## deNormalization  
 This function converts search words into a regular expression that considers most common spelling variations/typos (for example القران and القرآن). Modifications of *ta marbuta* and <em>hamza</em>s might require modifications, depending on research purposes.
 
-``` python
+~~~ python
 def deNormalize(text):
     alifs           = '[إأٱآا]'
     alifReg         = '[إأٱآا]'
@@ -106,26 +106,26 @@ def deNormalize(text):
     text = re.sub(taMarbutas, taMarbutasReg, text)
     text = re.sub(hamzas, hamzasReg, text)
     return text
-```
+~~~
 
 ### Example:
 Input:
 
-``` python
+~~~ python
 testLine = "إن القراء يقرؤون القرآن قراءة جميلة"
 print(deNormalize(testLine))
-```
+~~~
 
 Output:
 
-```
+~~~
 [إأٱآا]ن [إأٱآا]لقر[إأٱآا][ؤئءوي] [يى]قر[ؤئءوي]ون [إأٱآا]لقر[إأٱآا]ن قر[إأٱآا][ؤئءوي][هة] جم[يى]ل[هة]
-```
+~~~
 
 ## Noise Removal
 This function removes short vowels and other symbols (<em>harakat</em>) that interfere with computational manipulations with Arabic texts.
 
-``` python
+~~~ python
 def deNoise(text):
     noise = re.compile(""" ّ    | # Tashdid
                              َ    | # Fatha
@@ -139,19 +139,19 @@ def deNoise(text):
                          """, re.VERBOSE)
     text = re.sub(noise, '', text)
     return text
-```
+~~~
 
 ### Example
 
 Input:
 
-``` python
+~~~ python
 testLine = "إِنَّ الْقُرَّاْءَ يَقْرَؤُوْنَ الْقُرْآنَ قِرَاْءَةً جَمِيْلَــــــةً"
 print(deNoise(testLine))
-```
+~~~
 
 Output:
 
-``` 
+~~~ 
 إن القراء يقرؤون القرآن قراءة جميلة
-```
+~~~

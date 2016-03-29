@@ -103,7 +103,7 @@ Headers are for the titles of main structural units, like chapters, subchapters,
 
 
 
-```
+~~~
 ### | First Level Header (red)
 
 ### || Second Level Header (orange)
@@ -113,7 +113,7 @@ Headers are for the titles of main structural units, like chapters, subchapters,
 ### |||| Fourth Level Header (green)
 
 ### ||||| Fifth Level Header (blue)
-``` 
+~~~
 
 A gif-image below shows how headers get highlighted with different colors when tagged properly. Colors follow the rainbow spectre (they stop changing after Level V):  
 
@@ -139,7 +139,7 @@ Using **mARkdown**, one needs only to mark the beginning of each information uni
 
 Arabic dictionaries usually include information units of the same types, so one simplified tag—`### $ [a dictionary item]`—is sufficient. The full tags depend on the nature of each dictionary and at the moment include “descriptive names,” toponyms, lexical items, and book titles. Tags for them are as follows:
 
-```
+~~~
 ### $NIS$ [a descriptive name entry]
 
 ### $TOP$ [a toponym entry]
@@ -147,7 +147,7 @@ Arabic dictionaries usually include information units of the same types, so one 
 ### $LEX$ [a lexical entry]
 
 ### $BIB$ [a book title]
-```
+~~~
 
 
 
@@ -155,7 +155,7 @@ Arabic dictionaries usually include information units of the same types, so one 
 
 Biographical collections often include several types of information units. Moreover, there are plenty of sources that combine features of both biographical collections and chronicles (“obituary chronicles”), so one often has to deal with a variety of information units in the same text. For this reason, the main simplified tags are as follows:
 
-```
+~~~
 ### $ [a biography of a man]
 
 ### $$ [a biography of a woman]
@@ -168,7 +168,7 @@ Biographical collections often include several types of information units. Moreo
 
 ### @ RAW [a batch of historical events]
 
-```
+~~~
 
 <figure class="fit">
 	<a href="{{ site.url }}/images/md/mARkdown_bio1.gif" title="">
@@ -183,7 +183,7 @@ Biographical collections often include several types of information units. Moreo
 
 Full tags are as follows:
 
-```
+~~~
 ### $BIO_MAN$ [a biography of a man]
 
 ### $BIO_WOM$ [a biography of a woman]
@@ -196,7 +196,7 @@ Full tags are as follows:
 
 ### $CHR_RAW$ [a batch of historical events]
 
-```
+~~~
 
 <figure class="fit">
 	<a href="{{ site.url }}/images/md/mARkdown_bio2.gif" title="">
@@ -284,13 +284,13 @@ This tag can be used to tag toponyms in a text. The tag consists of `TOP` follow
 
 Most descriptions fit into the following scheme `WORLD: PROVINCE > TYPE > (REGION) > TYPE > SETTLEMENT`. In the actual text, relevant information is tagged essentially as ‘triples’ of `SUBJECT > PREDICATE > OBJECT` (with multiple OBJECTs that will be parsed out at a later stage):
 
-```
+~~~
 #$#PROV toponym #$#TYPE type_of_region #$#REG1 (toponym #)+
 
 #$#REGX toponym #$#TYPE type_of_region #$#REGX (toponym #)+
  
 #$#REGX toponym #$#TYPE type_of_settlement #$#STTL (toponym #)+ 
-```
+~~~
 
 **Note**: _Clip collection_ can be used to insert relevant patterns into the text.
 
@@ -307,9 +307,10 @@ Most descriptions fit into the following scheme `WORLD: PROVINCE > TYPE > (REGIO
 
 Route sections with distances are tagged in the following manner:
 
-```
+~~~
 #$#FROM toponym #$#TOWA toponym #$#DIST distance_as_recorded
-```
+~~~
+
 <figure class="fit">
 	<a href="{{ site.url }}/images/md/analytical_distances.png" title="">
 	<img src="{{ site.url }}/images/md/analytical_distances.png">
