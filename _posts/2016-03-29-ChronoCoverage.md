@@ -1,5 +1,5 @@
 ---
-title:			'DRAFT: Chronological Coverage of an Arabic Corpus'
+title:			'Chronological Coverage of an Arabic Corpus'
 subtitle:		'An Experiment with Date Statements'
 author:			Maxim Romanov
 layout:			post
@@ -16,7 +16,11 @@ tags:
   - Chronology
 ---
 
-*While looking for a way to identify all biographical collections and chronicles (and, by extension, all other texts that offer data for time-series analysis) in a collection of 0ver 10,000 texts, it occurred to me that all these texts share the same common feature—they are replete with dates. So, what if we try to identify such texts computationally?! Not only will this help us to find all relevant titles in the sea of text—without overlooking or missing anything!—we, arguably, can get an insight into the chronological coverage of each of those titles, the chronological focus of premodern Islamic historians, the chronological coverage of the entire collection of historical texts. But let us start with the broader implications of why we should do such things.*
+*While looking for a way to identify all biographical collections and chronicles (and, by extension, all other texts that offer data for time-series analysis) in a collection of 0ver 10,000 texts, it occurred to me that all these texts share the same common feature—they are teeming with dates. So, what if we try to identify such texts computationally?! Not only will this help us to find all relevant titles in the sea of text—without overlooking or missing anything!—we, arguably, can get an insight into the chronological coverage of each of those titles, the chronological focus of premodern Islamic historians, the chronological coverage of the entire collection of historical texts. **Note**: Appendices will allow one to explore the chronological coverage of about 1,000 individual texts as well as the coverage of particular periods (here,* hijri *centuries—i.e., which texts focus on particular periods).*
+
+*****************
+
+# Introduction
 
 Digital collections of classical Arabic texts have mushroomed over the past decade and a half. The three major libraries—_al-Ǧāmiʿ al-kabīr_ (HDD), [Shamela.ws](http://shamela.ws/), [ShiaOnlineLibrary.com](http://shiaonlinelibrary.com/)—include over 10,000 titles. There is probably another dozen collections that offer texts in hundreds and thousands (for example, [Alwaraq.net](alwaraq.net), [Waqfeya.com](waqfeya.com), [NoorLib.ir](noorlib.ir), [GhBook.ir](http://www.ghbook.ir), [Lib.Eshia.ir](http://lib.eshia.ir/), [Library.Tebyan.net](http://library.tebyan.net/), [HathiTrust.org](hathitrust.org), [Archive.org](http://www.archive.org)).
 
@@ -67,7 +71,7 @@ The question of chronology is one of such foundational questions. What I offer i
 
 While metadata in most collections is not complete, it can still be quite useful. Major digital collections—_al-Ǧāmiʿ al-kabīr_ (HDD), [Shamela.ws](http://shamela.ws/), and [ShiaOnlineLibrary.com](http://shiaonlinelibrary.com/)—display the same clear trend: strong emphasis on the period from the 3rd–6th centuries AH (912–1203 CE), with an extra peak in the 8th century (1300–1397 CE), a steady decline during the 9th–12th centuries AH (1494–1785 CE), a slow recovery during the 13th century AH (1785–1882 CE), and skyrocketing in the 14th century AH (1882–1979 CE).
 
-> **Note on graphs.** Data points of each graphed line show frequencies for periods of time that end at that point. For example, on the graph below that shows distribution of data by 100 lunar years (titles in _al-Ǧāmiʿ al-kabīr_), the value for 300/912 CE is 280, which means that there are 280 titles written by authors who died during 200–300 AH / 815–912 CE. A [“step-before” type of graph](../images/chrono/step_before_example.png) displays such data most properly, but it is not suitable for comparative graphs, since there is too much overlap among the lines which makes the entire graph unreadable. Data on the most recent authors (after 1400/1979 CE) is excluded from the graphs, since it tends to overshadow earlier periods.
+> **Note on graphs.** Data points of each graphed line show frequencies for periods of time that end at that point. For example, on the graph below that shows distribution of data by 100 lunar years (titles in _al-Ǧāmiʿ al-kabīr_), the value for 300/912 CE is 280, which means that there are 280 titles written by authors who died during 200–300 AH / 815–912 CE. A [“step-before” type of graph](../images/chrono/step_before_example.png) displays such data most appropriately, but it is not suitable for comparative graphs, since there is too much overlap among the lines which makes the entire graph unreadable. Data on the most recent authors (after 1400/1979 CE) is excluded from the graphs, since it tends to overshadow earlier periods.
 
 <figure class="fit">
 
@@ -113,7 +117,7 @@ Even though existing digital collections often awe us by their volume, the compa
 </figcaption>
 <a href="../images/chrono/cov4titles.png"><img src="../images/chrono/cov4titles.png"></a>
 <figcaption>
-**Chronological distribution of book titles** in the _Hadiyyaŧ al-ʿārifīn_, [Shamela.ws](http://shamela.ws), _al-Ǧāmiʿ al-kabīr_ (HDD), and [ShiaOnlineLibrary.com](http://shiaOnlineLibrary.com). The prominent “horn” of titles for the 3rd and 4th centuries in the _Hadiyyaŧ al-ʿārifīn_ is due to ... . 
+**Chronological distribution of book titles** in the _Hadiyyaŧ al-ʿārifīn_, [Shamela.ws](http://shamela.ws), _al-Ǧāmiʿ al-kabīr_ (HDD), and [ShiaOnlineLibrary.com](http://shiaOnlineLibrary.com). 
 <br><br>
 <strong>A note on the <em>Hadiyyaŧ al-ʿārifīn</em></strong>. The decline of both graphs after 1200/1785 CE indicates unavailability of bibliographical information to the author more than anything else. The geographical coverage of the collection starts shrinking roughly at the same period. It should be noted that most chronological datasets exhibit a similar trend. For example, the trend can be observed in al-Ḏahabī’s own <i>Ḏayl</i> to his <i>Taʾrīḫ al-islām</i>, where the number of biographies drops dramatically; one can equally see the same trend in Brill’s <i>Index Islamicus</i> and <a href="http://library.harvard.edu/open-metadata">Harvard Open Metadata (on 12 million books)</a>. The only difference is that the lag gets shorter as we get closer to our time—for premodern Arabic sources this lag is 100 to 150 years; in modern datasets—10 to 20 years.
 </figcaption>
@@ -223,22 +227,6 @@ We are clearly not getting 100% match with the benchmark, but that is not to be 
 
 The precision of results also varies because of differencies in book structure. We get more precise projections for books organized alphabetically—in this case authors cannot afford to use too many incomplete dates (see graphs for the _Hadiyyaŧ al-ʿārifīn_ and _Wafayāt al-aʿyān_ above); and less precise for books organized chronologically. It would make sense to develop different subroutines for processing texts based on their organization. Having robust metadata on each text would help triggering analytical routines adjusted to various peculiarities, although the structure of a book can be inferred computationally (on this see below). Additionally, a more precise logic can be implemented if our texts are properly divided into logical units. Thus, in a book organized alphabetically, the analysis of dates would be limited to a single logical unit, while in a book organized chronologically the precision of analysis can be inforced by looking into date statements in the neighboring units. At this point, results are provocatively suggestive—but in most cases some familiarity with a specific book will help make sense of its graphs.
 
-## Expanding: Chronological Focus of an Author
-
-Todo
-
-1. some examples of the chronological foci of different historians.
-2. dynamic table of all authors
-3. chronoplot of all authors
-4. discussion of implications and possibilities
-
-## Expanding further: Chronological Coverage of a Corpus
-
-Todo
-
-1. Graphs of all dates per collection
-2. Further discussion of the peculiarities of each collection (Focus on the earlier period; even the focus of later sources from these collections tend to fall more on the earlier periods).
-
 ## Complementary coverage of “continuations”
 
 Date statements may also offer other useful insights into Arabic historical sources. Comparing chronological coverage of different texts may offer an illustration of how text related to each other. Graphs below show a few examples of how certain texts are overlapping chronologically with their “continuations” (_ḏayl_, _takmilaŧ_, _ṣilaŧ_) and are complemented by them.
@@ -259,13 +247,13 @@ Date statements may also offer other useful insights into Arabic historical sour
 <!-- {{ site.url }} :: .. -->
 <a href="../images/chrono/complement_5.png" title=""><img src="../images/chrono/complement_5.png"></a>
  <figcaption>
-      <b>Complementary coverage of “continuations.”</b> 
+      <b>Complementary coverage of “continuations.”</b>  <i>Taʾrīḫ mawlid al-ʿulamāʾ wa-wafayati-him</i> of Ibn ʿAbd Allãh al-Rabaʿī (d. 397/1006 CE) is another interesting example, since we have its “continuation”, <i>Ḏayl taʾrīḫ mawlid al-ʿulamāʾ wa-wafayati-him</i> of ʿAbd al-ʿAzīz al-Kattānī (d. 466/1073 CE), and “the continuation of the continuation”, <i>Ḏayl ḏayl taʾrīḫ mawlid al-ʿulamāʾ wa-wafayati-him</i> of Hibaŧ Allãh al-Akfānī (d. 524/1130 CE). The graph vividly demonstrates how these collections complement each other chronologically.
   </figcaption>
 </figure>
 
 # Date statements and the structure of books
 
-Patterns of date statements distribution across texts—in other words, if we graph dates in the order they occur in a text—can also tell us a lot about the structural organization of books. As the illustrations below show, alphabetical and chronological structures have distinct visual patterns. Such analytical routines can be helpful in assessing new corpora and identifying texts relevant for specific research purposes. Different routines can be developed for the identification and analysis of  texts of other forms and genres. 
+Patterns of date statements distribution across texts—in other words, if we graph dates in the order they occur in a text—can also tell us a lot about the structural organization of books. As the illustrations below show, alphabetical and chronological structures have distinct visual patterns. Such patterns can be helpful in assessing new corpora and identifying texts relevant for specific research purposes. Different routines can be developed for the identification and analysis of texts of other forms and genres. 
 
 > **Note on graphs below:** Each line represents a date statement, where the length of the line corresponds to the year that a date statement refers to. The left side of each graph is the beginning of the book; the right one—its end. Regression analysis—here visualized with the red line for linear regression, and the blue one for LOWESS regression—can be used for identifying the patterns of distribution without graphing. (1st-century dates were removed to make patterns more clear.)
 
@@ -290,13 +278,13 @@ Patterns of date statements distribution across texts—in other words, if we gr
 <!-- {{ site.url }} :: .. -->
 <a href="../images/chrono/ha_dates.png" title=""><img src="../images/chrono/ha_dates.png"></a>
  <figcaption>
-      <b>Distribution of dates across historical texts:</b> Dates in the <i>Hadiyyaŧ al-ʿārifīn</i> display a zig-zag pattern, which reflects its alphabetical organization, where biobibliographical records within each letter are organized chronologically.
+      <b>Distribution of dates across historical texts:</b> Dates in the <i>Hadiyyaŧ al-ʿārifīn</i> display a zig-zag pattern, which reflects its alphabetical organization, where biobibliographical records within each letter are organized chronologically (This last thing was quite a discovery—even though I have spent quite a lot of time working with this text, I did not realize that biographies within each letter are organized chronologically until I saw this graph).
   </figcaption>
 </figure>
 
 # Concluding remarks
 
-One thing that must be voiced is that if we have a corpus properly prepared by scholars and for scholars that would include robust metadata and titles tagged into logical units, the results of such an experiment would have been significantly more precise and reliable, not to mention that such a corpus would also allow to run a number of other exploratory experiments. To put it differently, we—scholars who study the premodern Islamic world, and who are actively using these collections developed in Arab countries and Iran for non-academic purposes (and let’s be honest, most of us do)—must invest time and effort into the development of a digital library that would allow all of us to engage in methodologically novel research. Such a library would also allow to build on the research of others more consistently, which would also help to forge a new collaborative culture that will be beneficial to the entire field.  
+One thing that must be voiced is that if we had a corpus properly prepared by scholars and for scholars that would include robust metadata and texts tagged into logical units, the results of such an experiment would have been significantly more precise and reliable, not to mention that such a corpus would also allow to run a number of other exploratory experiments. To put it differently, we—scholars who study the premodern Islamic world, and who are actively using collections developed in Arab countries and Iran for non-academic purposes (and let’s be honest, most of us do)—must invest time and effort into the development of a digital library that would allow all of us to engage in methodologically novel research. Such a library would also allow to build on the each other’s research more consistently, which would also help to forge a new collaborative culture that will be beneficial to the entire field.  
 
 # Appendix I: Exploring coverage of historical sources
 
