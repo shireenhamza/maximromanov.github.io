@@ -267,20 +267,7 @@ All non-letter characters are automatically highlighted as elements that may hav
 
 Geographical texts—such as comprehensive geographies—contain a lot of data that can be used for modeling historical processes in space. Of particular importance are administrative divisions and trade routes, which often come with distances.
 
-### 3.1.3 Toponyms in the text (RE: `@TOP\d\d@`)
-
-This tag can be used to tag toponyms in a text. The tag consists of `TOP` followed by two numbers, and the entire code is wrapped into `@`-signs. The first number designates the length of the prefix which is not part of a toponym and which must be dropped. The second number is the length of the toponym in words. See the example below.
-
-<figure class="fit">
-	<a href="../images/md/md_top_tag.gif" title="">
-	<img src="../images/md/md_top_tag.gif">
-	</a>
-	<figcaption>
-		<b>@TOPXX@ pattern</b> for tagging toponyms; as shown in the example, to tag <i>Tirmiḏ</i>, which has no prefixes and is 1-word long, you add tag <code>@TOP01@</code>; to tag <i>wa-Mā warāʾ al-nahr</i>, you add <code>@TOP13@</code>, to take into account a one-letter prefix (<i>wa-</i>) and include all the three words of the toponym.
-	</figcaption>
-</figure> 
-
-### 3.1.2 Administrative divisions (RE: `#\$#(PROV|REG\d)# .*? #\$#TYPE .*? #\$#(REG\d|STTL) ([\w# ]+) $`)
+### 3.1.1 Administrative divisions (RE: `#\$#(PROV|REG\d)# .*? #\$#TYPE .*? #\$#(REG\d|STTL) ([\w# ]+) $`)
 
 Most descriptions fit into the following scheme `WORLD: PROVINCE > TYPE > (REGION) > TYPE > SETTLEMENT`. In the actual text, relevant information is tagged essentially as ‘triples’ of `SUBJECT > PREDICATE > OBJECT` (with multiple OBJECTs that will be parsed out at a later stage):
 
@@ -303,7 +290,7 @@ Most descriptions fit into the following scheme `WORLD: PROVINCE > TYPE > (REGIO
 	</figcaption>
 </figure>
 
-### 3.1.3 Routes and distances (RE: `#$#FROM .*? #$#TOWA .*? #$#DIST .*`)
+### 3.1.2 Routes and distances (RE: `#$#FROM .*? #$#TOWA .*? #$#DIST .*`)
 
 Route sections with distances are tagged in the following manner:
 
@@ -320,6 +307,30 @@ Route sections with distances are tagged in the following manner:
 	</figcaption>
 </figure>
 
+## 3.2 Named Entities (Added: April 22, 2016)
 
+At the moment these include toponyms (`@TOPXX` and `@TXX`), individuals (`@PERXX` and `@PXX`) and social/onomastic/biographical characteristics (`@SOCXX` and `@SXX`).
+
+All tags have similar structure `@` + `CODE` + two numbers. `CODE`s have two variations: 1) long (three letters) and 2) short (one letter). Triliteral `CODE`s are used for automatic tagging with scripts and entity lists; one-letter short `CODE`s are used for manual tagging and disambiguation of automatic tags.
+
+`XX`, two numbers, indicate:
+
+1. the length of an attached prefix. For example, if `wa-` or `bi-` are attached to an entity, the first number must be `1`, which means that 1 character from the beginning must be removed)
+2. the length of the entity. If the entity is a bigram (*Madīnaŧ al-Salām*), number `2` must be used (both words will be automatically highlighted).
+
+### 3.2.1 Toponyms
+
+1. Automatic long tag: `@TOPXX`
+2. Manual short tag: `@TXX`
+
+### 3.2.2 Persons/Individuals
+
+1. Automatic long tag: `@PERXX`
+2. Manual short tag: `@PXX`
+
+### 3.2.3 Biographical characteristics
+
+1. Automatic long tag: `@SOCXX`
+2. Manual short tag: `@SXX`
 
 _to be continued_
