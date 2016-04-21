@@ -74,7 +74,6 @@ While metadata in most collections is not complete, it can still be quite useful
 > **Note on graphs.** Data points of each graphed line show frequencies for periods of time that end at that point. For example, on the graph below that shows distribution of data by 100 lunar years (titles in _al-Ǧāmiʿ al-kabīr_), the value for 300/912 CE is 280, which means that there are 280 titles written by authors who died during 200–300 AH / 815–912 CE. A [“step-before” type of graph](../images/chrono/step_before_example.png) displays such data most appropriately, but it is not suitable for comparative graphs, since there is too much overlap among the lines which makes the entire graph unreadable. Data on the most recent authors (after 1400/1979 CE) is excluded from the graphs, since it tends to overshadow earlier periods.
 
 <figure class="fit">
-
 <a href="../images/chrono/colcov_jk.png"><img src="../images/chrono/colcov_jk.png"></a>
 <figcaption class="short">
 <b><i>al-Ǧāmiʿ al-kabīr</i> (HDD)</b> has the most complete chronological metadata on its authors.
@@ -82,7 +81,7 @@ While metadata in most collections is not complete, it can still be quite useful
 
 <a href="../images/chrono/colcov_sha.png"><img src="../images/chrono/colcov_sha.png"></a>
 <figcaption class="short">
-      <b><i>Shamela.ws</i> (online)</b>. Almost half of its metadata do not have chronological metadata.
+<b><i>Shamela.ws</i> (online)</b>. Almost half of its metadata do not have chronological metadata.
 </figcaption>
 
 <a href="../images/chrono/colcov_shi.png"><img src="../images/chrono/colcov_shi.png"></a>
@@ -94,12 +93,11 @@ While metadata in most collections is not complete, it can still be quite useful
 <figcaption class="short">
 <b><i>Alwaraq.com</i> (online)</b> has the most incomplete metadata, but it still suggests the same trend.
 </figcaption>
-
 </figure>
 
 The developers of these collections were most interested in the early Islamic period (roughly the first half of the first Islamic millennium). According to the data of such sources as the _Hadiyyaŧ al-ʿārifīn_ by Ismāʿīl Bāšā al-Baġdādī (d. 1338/1919 CE), a bibliographical collection that builds upon the famous _Kašf al-ẓunūn_ of Ḥāǧī Ḫalīfaŧ (d. 1067/1656 CE), and _Ḫizānaŧ al-turāṯ_, a Saudi catalog of manuscripts (al-Riyāḍ: Šarikaŧ al-ʿArīs lil-Kumbiyūtir, 2007), the number of contributors to the Islamic written treasury is continuously growing at least up until the beginning of the 13th century AH.
 
-</figure>
+<figure>
 <a href="../images/chrono/colcov_ha_kh_authors.png"><img src="../images/chrono/colcov_ha_kh_authors.png"></a>
 <figcaption>
 <b>The “growth” of authors</b>, according to the data from the <i>Hadiyyaŧ al-ʿārifīn</i> and the <i>Ḫizānaŧ al-turāṯ</i>.
@@ -110,15 +108,19 @@ The developers of these collections were most interested in the early Islamic pe
 
 Even though existing digital collections often awe us by their volume, the comparative graphs below shows that they cover only a fraction of the Arabic written tradition—even by comparison with an early 20th-century bibliography, which itself is hardly complete in its coverage. Additionally, the graphs also clearly highlights the fact that the chronological coverage of these collections is skewed heavily in favor of the earlier period of Islamic history.
 
-</figure class="half">
+<figure>
 <a href="../images/chrono/cov4authors.png"><img src="../images/chrono/cov4authors.png"></a>
+
 <figcaption>
-**Chronological distribution of authors** in the _Hadiyyaŧ al-ʿārifīn_, [Shamela.ws](http://shamela.ws), _al-Ǧāmiʿ al-kabīr_ (HDD), and [ShiaOnlineLibrary.com](http://shiaOnlineLibrary.com).
+<strong>Chronological distribution of book titles</strong> in the <i>Hadiyyaŧ al-ʿārifīn</i>, <a href="http://shamela.ws">Shamela.ws</a>, <i>al-Ǧāmiʿ al-kabīr</i> (HDD), and <a href="http://shiaOnlineLibrary.com">ShiaOnlineLibrary.com</a>.
 </figcaption>
+
 <a href="../images/chrono/cov4titles.png"><img src="../images/chrono/cov4titles.png"></a>
+
 <figcaption>
-**Chronological distribution of book titles** in the _Hadiyyaŧ al-ʿārifīn_, [Shamela.ws](http://shamela.ws), _al-Ǧāmiʿ al-kabīr_ (HDD), and [ShiaOnlineLibrary.com](http://shiaOnlineLibrary.com). 
+<strong>Chronological distribution of book titles</strong> in the <i>Hadiyyaŧ al-ʿārifīn</i>, <a href="http://shamela.ws">Shamela.ws</a>, <i>al-Ǧāmiʿ al-kabīr</i> (HDD), and <a href="http://shiaOnlineLibrary.com">ShiaOnlineLibrary.com</a>.
 <br><br>
+
 <strong>A note on the <em>Hadiyyaŧ al-ʿārifīn</em></strong>. The decline of both graphs after 1200/1785 CE indicates unavailability of bibliographical information to the author more than anything else. The geographical coverage of the collection starts shrinking roughly at the same period. It should be noted that most chronological datasets exhibit a similar trend. For example, the trend can be observed in al-Ḏahabī’s own <i>Ḏayl</i> to his <i>Taʾrīḫ al-islām</i>, where the number of biographies drops dramatically; one can equally see the same trend in Brill’s <i>Index Islamicus</i> and <a href="http://library.harvard.edu/open-metadata">Harvard Open Metadata (on 12 million books)</a>. The only difference is that the lag gets shorter as we get closer to our time—for premodern Arabic sources this lag is 100 to 150 years; in modern datasets—10 to 20 years.
 </figcaption>
 </figure>
