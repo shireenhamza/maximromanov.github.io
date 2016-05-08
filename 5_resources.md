@@ -24,19 +24,36 @@ onclick="window.open(this.href, 'google-plus-share', 'width=490,height=530');ret
 </section>
 </section>
 
-<center>*in progress*</center>
+<center><i>in progress</i></center>
 
-{% assign postsTemp = site.posts | sort: 'listing' %}
-{% for post in postsTemp %}
-<ul class="post-list">
-{% if post.categories contains "resources" %}
-<li><a href="../{{ post.url }}"> 
-<b>{{ post.title }}</b>
-{% if post.description %}, {{ post.description }}{% endif %}
-</a><br><br>
-</li>
-</ul>
-{% endif %}
+
+{% assign newCats = site.categories | sort %}
+{% for tag in newCats %}
+  <ul class="post-list">
+    {% assign pages_list = tag[1] %}  
+    {% for post in pages_list %}
+      {% if post.title != null %}
+      {% if group == null or group == post.group %}
+      {% if post.categories contains 'Resources' %}
+      <li>
+      <a href="{{ site.url }}{{ post.url }}">
+      <b>{{ post.title }}</b>
+      <span class="entry-date">
+      <time datetime="{{ post.date | date_to_xmlschema }}" itemprop="datePublished">
+      {{ post.date | date: "%B %d, %Y" }}
+      </time>
+      </span>
+      </a>
+      <br/>
+      <p>{{ post.description }}</p>
+      </li>
+      {% endif %}
+      {% endif %}
+      {% endif %}
+    {% endfor %}
+    {% assign pages_list = nil %}
+    {% assign group = nil %}
+  </ul>
 {% endfor %}
 
 

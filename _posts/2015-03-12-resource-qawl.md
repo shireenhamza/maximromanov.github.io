@@ -9,7 +9,7 @@ image:		/images/loc_photos/a_cover.jpg
 categories:
   - Resources
 tags:
-  - A
+  - Q
   - Dictionaries
 ---
 
