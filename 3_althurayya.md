@@ -23,9 +23,16 @@ onclick="window.open(this.href, 'google-plus-share', 'width=490,height=530');ret
 </section>
 </section>
 
-_al-Thurayyā_ is a Gazetter of the Classical Islamic World, and a part and parcel of another project in progress—**_Ṣūraŧ al-arḍ_**, a geospatial model of the Classical Islamic World (being developed in collaboration with Cameron Jackson, a Senior, double majoring in Arabic and Computer Science @ Tufts University).
+_al-Ṯurayyā_ is a Gazetter of the Classical Islamic World, and a part and parcel of another project in progress—_Ṣūraŧ al-arḍ_, a geospatial model of the Classical Islamic World (being developed in collaboration with Cameron Jackson, a Senior, double majoring in Arabic and Computer Science @ Tufts University, 2013).
 
-<center>[Latest working version of *al-Thurayyā*]( {{ site.url }}/projects/althurayya_02/ )</center>
+<figure class="fit">
+	<a href="{{ site.url }}/projects/althurayya_02/" title="A Screenshot of al-Thurayyā">
+		<img src="{{ site.url }}/images/althurayya_02_01.png">
+	</a>
+</figure>
+
+This is our first usable demo of **al-Ṯhurayyā Gazetteer**. Currently it includes over 2,000 toponyms and almost as many route sections georeferenced from Georgette Cornu’s *Atlas du monde arabo-islamique à l'époque classique: IXe-Xe siècles* (Leiden: Brill, 1983). The gazetteer is searchable (upper left corner), although English equivalents are not yet included; in other words, look for Dimashq/دمشق, not Damascus.
+
 
 ## Blog posts on major milestones of the project: 
 
@@ -45,8 +52,3 @@ _al-Thurayyā_ is a Gazetter of the Classical Islamic World, and a part and parc
 </ul>
 {% endif %}
 {% endfor %}
-
-## Main goals of the project:
-
-* to develop a digital gazetteer of Islamic places (_al-Thurayyā_, as a supplement to [pleiades.stoa.org](http://pleiades.stoa.org/)); in collaboration with the team of researchers at the ERC project “The Early Islamic Empire at Work: The View from the Regions Toward the Centre” (PI Stefan Heidemann, Universität Hamburg). The working demos the gazetteer are available at this website (links above)
-* to adapt computational framework of [Orbis](http://orbis.stanford.edu/), the Stanford geospatial Network Model of the Roman World (developed by Elijah Meeks and Walter Scheidel), for the historical and geographical data classical available for the Islamic world. The “Islamic Orbis” (_Ṣūraŧ al-arḍ_) will help us to better understand spatial connections within the Islamic world, to visually study geographical and travel literature, and, most importantly, to study ample data from biographical collections by tracing geographies of different social and religious groups.
