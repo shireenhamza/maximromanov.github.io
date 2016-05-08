@@ -24,8 +24,6 @@ onclick="window.open(this.href, 'google-plus-share', 'width=490,height=530');ret
 </section>
 </section>
 
-<center><i>in progress</i></center>
-
 
 {% assign newCats = site.categories | sort %}
 {% for tag in newCats %}
