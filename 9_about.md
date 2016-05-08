@@ -28,301 +28,434 @@ onclick="window.open(this.href, 'google-plus-share', 'width=490,height=530');ret
 
 # curriculum vitæ
 
-<center>[Detailed CV in PDF]( {{ site.url }}/files/Romanov-CV.pdf)</center>
-
-* **Current position**: Research fellow
-* **Institutional affiliation**: _Universität Leipzig_, Alexander von Humboldt-Lehrstul für Digital Humanities, Institut für Informatik, Augustusplatz 10, 04109 Leipzig, Deutschland
-* **Ph.D.** in Near Eastern Studies (2013), University of Michigan
-* **Institutional email**: _maxim dot romanov at uni-leipzig dot de_
-* **Personal email**: _romanov dot maxim at gmail dot com_
-* **Website**: [www.alraqmiyyat.org](http://www.alraqmiyyat.org) (al-Raqmiyyāt: Digital Islamic History)<br>
-[maximromanov.github.io](http://maximromanov.github.io/) (*alternate link*)
-
-
-## Employment
-* [_2015–current_] **Research fellow** <br> _Universität Leipzig_, Alexander von Humboldt-Lehrstul für Digital Humanities, Institut für Informatik.
-
-* [_2013–2015_] **Postdoctoral Associate** <br> _Tufts University_, Department of Classics & Perseus Project
-
-* [_2006–2012_] **Graduate Student Instructor** <br> _University of Michigan_, Department of Near Eastern Studies
-
-* [_2004–2006_] **Junior Researcher** <br> _Institute of Oriental Manuscripts of the Russian Academy of Sciences_ _former_: St. Petersburg Branch of the Institute of Oriental Studies St. Petersburg, Russia ([SPbIOS/IOM of RAS](http://www.orientalstudies.ru/eng/))
-
-## Education
-
-* [_2006–2013_] Ph.D. (December 15, 2013) / M.A. (April 29, 2010) in Near Eastern Studies (Arabic and Islamic Studies), Department of Near Eastern Studies, University of Michigan, USA. 
-	_Dissertation_: Computational Reading of Arabic Biographical Collections with Special Reference to Preaching in the Sunnī World (661–1300 ce). ([available in open access](http://deepblue.lib.umich.edu/handle/2027.42/102300)). _Dissertation Committee_: Alexander Knysh (Chair), Michael Bonner, Richard Bulliet, Sherman Jackson, Andrew Shryock.
-
-* [_2001–2004_] ABD, Post-graduate program in Islamic Studies (Mentor: Stanislav M. Prozorov), _Institute of Oriental Manuscripts of the Russian Academy of Sciences_ **Former**: St. Petersburg Branch of the Institute of Oriental Studies St. Petersburg, Russia ([SPbIOS/IOM of RAS](http://www.orientalstudies.ru/eng/))
-
-* [_1999–2001_] St. Petersburg State University, the School (“Fakultet”) of Oriental Studies, partial completion of the History of the Arab Countries program, St. Petersburg, Russia. 
-
-* [_1998–2001_] B.A./M.A. in Sociology,St. Petersburg State University, the School (“Fakultet”) of Sociology,  _M.A. Thesis_: “The role of religious scholars (_ʿulamāʾ_) in the life of Islamic society”; St. Petersburg, Russia. 
-
-* [_1995–1998_] The Baltic State Technical University, the School (“Fakultet”) of Humanities (concentration in Political Sciences), St. Petersburg, Russia.
-
-## Articles in peer-reviewed editions
-
-<center> _most publications can be downloaded from [academia.edu](https://tufts.academia.edu/MaximRomanov)_</center>
-
-* [_accepted for publication_] “Toward Abstract Models for Islamic History,” in _The Digital Humanities and Islamic & Middle Eastern Studies_, ed. Elias Muhanna (Berlin, De Gruyter, forthcoming 2016) ([Download Submitted Version in PDF](https://www.academia.edu/4922009/))
-
-<!--
-* [_forthcoming_] “After the Classical World: the Social Geography of Islam (661-1300 CE),” in _Word, Space, and Time: Digital Perspectives on the Classical World_. Edited by Neil W. Bernstein and Neil Coffee. A Special Issue of _Digital Humanities Quarterly_ (available upon request) 
--->
-
-* [_2014_] “Toward the Digital History of the pre-Modern Muslim World: developing text-mining techniques for the study of Arabic biographical collections,” in T.L. Andrews, C. Macé (eds.) [_Analysis of Ancient and Medieval Texts and Manuscripts: Digital Approaches_](http://www.brepols.net/Pages/ShowProduct.aspx?prod_id=IS-9782503552682-1), Lectio 1, Turnhout: Brepols Publishers, 2014, 229-244 ([Download PDF](https://www.academia.edu/4796624/)) DOI: _10.1484/M.LECTIO-EB.5.102573_ <br><br> **Newsletter Version:** “Digital Analysis of Arabic Biographic Collections,” in _Comparative Oriental Manuscript Studies Newsletter_, No. 4. (July 2012), 9–11 ([Download PDF](https://www.academia.edu/4796624/)) 
-
-* [_2012_] “Dreaming Ḥanbalites: Dream-Tales in Prosopographical Dictionaries,” in _Dreams and Visions in Islamic Societies_, edited by Alexander Knysh & Özgen Felek, SUNY Press, 2012, 31–50 ([Download PDF](https://www.academia.edu/1388558/))
-
-* [_2007_] “The Term _Ṣūfī_: Spiritualizing Simple Words,” in _Pismennyie Pamyatniki Vostoka / Written Monuments of the Orient_, issue 5 (2007), 149–159  ([Download PDF](https://www.academia.edu/1388462/)) 
-
-* [_2005, in Russian_] “Electronic Databases on Islam in Arabic, Persian and English: a Review,” in _Pismennyie Pamyatniki Vostokaslash Written Monuments of the Orient_, issue 2(3), 2005, 240–257; in cooperation with Dr. Stanislav M. Prozorov; _summary in English_  ([Download PDF](http://islamica.orientalstudies.ru/rus/images/pdf/a_prozorov_co_2005.pdf)) 
-
-* [_2004, in Russian_] “The Paradigm of the Science of Ḥadīṯ (_ʿilm/ʿulūm al-ḥadīth_),” in _Oriens/Vostok_, issue 5, 2004, 5–11; _summary in English_  ([Download PDF](http://islamica.orientalstudies.ru/rus/images/pdf/a_romanov_2004.pdf))
-
-* [_2003 (2009), in Russian_] “_Ḥadīṯ_ Reports in Ibn al-Ǧawzī’s (d. 597/1201) System of Argumentation (Based on His _Talbīs Iblīs_ [“Devil’s Delusions”]),” in _Khristianskii Vostok/Christian Orient_, Volume 5 (XI), New Series, Moscow: “Indrik” Press (Published by the Russian Academy of Sciences and the State Hermitage), 2009, 310–316 ([Download PDF](http://islamica.orientalstudies.ru/rus/images/pdf/a_romanov_2009.pdf)) **NB**: Submitted for publication in 2003 
-
-* [_2003, in Russian_] “Principles and Procedures of Extracting and Processing Data from Arabic Sources: Historic-and-Biographical Sources,” in _Oriens/Vostok_, issue 4, 2003, 117–127; in cooperation with Dr. Stanislav M. Prozorov; _summary in English_ ([Download PDF](http://islamica.orientalstudies.ru/rus/images/pdf/a_prozorov_co_2003.pdf)) 
-
-
-## Conference and workshop papers, presentations, posters
-
-* [_October, 2015_] “al-Ḏahabī’s Monster”: Dissecting a 50-Volume Arabic Chronicle-cum-Biographical Collection From the 14th Century CE @ Distant Reading and the Islamic Archive, Conference at Brown University (October 16, 2015)
-
-* [_September, 2015_] The _Taʾ rīḫ al-islām_ of al-Ḏahabī (d. 748/1347 CE): Computational Exploration of the Life-Cycle of a 50-Volume Arabic Chronicle-cum-Biographical Collection @ Arabic Pasts: Histories and Historiographies: Research Workshop, co-hosted by the Agha Khan University, Institute for the Study of Muslim Civilisations and SOAS, University of London (September 25–26, 2015)
-
-* [_July, 2015_] Cultural Production in the Islamic World (600–1900 CE): mining an Ottoman bibliographical collection from the early 20th century @ The Keystone Digital Humanities Conference, University of Pennsylvania, Philadelphia, PA (July 22-24)
-
-* [_June, 2015_] Analyzing Arabic Biographical Collections at Scale @ Digital Ottoman Platform Workshop, Institute for Advanced Study, Princeton, NJ (June 8-12, 2015)
-
-* [_May, 2015_] The Writing Culture of Nishapur in the 11th Century [In collaboration with Sarah Savant, Agha Khan University, London; paper delivered by Sarah Savant] @ Iranian Cities from the Arab Conquest to the Early Modern Period, Harvard University, Cambridge, MA (May 1-2).
-
-* [_November, 2014_] Exploring Islamic Written Legacy: Computational Reading of _Hadiyyaŧ al-ʿārifīn_ @ Middle East Studies Association (MESA) Annual Meeting, Washington, D.C.
-
-* [_March, 2014_] Computational Processing of Toponymic Data from classical Arabic Sources @ Working with Text in a Digital Age, A Workshop, Tufts University (the Perseus Project) (March 29, 2014).
-
-* [_February, 2014_] Visualizing Islamic Geography at Scale @ Data Big and Small: Computer Science, the Humanities and Social Science: Conversations between representatives from Leipzig, Northeastern, Princeton and Tufts, A Workshop, Tufts University and the Perseus Project (February 3-4, 2014).
-
-* [_October, 2013_] Abstract Models for Islamic History @ Digital Humanities and Islamic _&_ Middle Eastern Studies, Brown University, Providence, RI (October 24-25, 2013).  **Video recording** of this presentation is available @ Brown University’s website:  [www.islamichumanities.org](http://mediacapture.brown.edu:8080/ess/echo/presentation/5da9b95b-c4d1-41e4-9f29-7516d2e4af18) > **Day One** (the presentation starts at 2:48:00; the Q_&_A at 3:51:30). 
-
-* [_October, 2013_]  Islamic World Connected (661–1300 ce) @ Middle East Studies Association (MESA) Annual Meeting, New Orleans, LA. 
-
-* [_April, 2013_]  **Poster (not on program)**: Toward Abstract Models for Islamic History @ Word, Space, Time: Digital Perspectives on the Classical World, an interdisciplinary conference organized by the Digital Classics Association, University of Buffalo, SUNY, Buffalo, NY (April 5–6, 2013).
-
-* [_March, 2013_] Exploratory Analysis of Arabic Biographical Collections: the Case of al-Ḏahabī’s (d. 1347 ce) _Taʾrīḫ al-islām_ @ 223rd Meeting of the American Oriental Society (AOS), Portland, OR.
-
-* [_March, 2013_] Exploratory Analysis of Arabic Biographical Collections: the Case of al-Ḏahabī’s (d. 1347 ce) “History of Islam” @ 8th Annual Pearl Kibre Medieval Study Conference: “New Media and the Middle Ages”, The Graduate Center, CUNY, New York, NY.
-
-* [_February, 2013_] ‘Connectedness’ of the Islamic World (600–1300 ce) @ 7th Annual Near Eastern Studies Graduate Student Colloquium, U of Michigan, Ann Arbor, MI.
-
-* [_November, 2012_] Social History of the Muslim World in the Digital Age: Making Sense of 29,000 Biographies from al-Ḏahabī’s “History of Islam” @ Middle East Studies Association (MESA) Annual Meeting, Denver, CO.
-
-* [_November, 2012_] **Poster**: Social History of the Muslim World in the Digital Age: Making Sense of 29,000 Biographies from al-Ḏahabī’s “History of Islam” @ Cyberinfrastructure Days, U of Michigan, November 7-8, 2012. [“People’s Choice Award Winner”](http://orci.research.umich.edu/cidays/ci-days-2012/poster-competition-winners/).
-
-* [_October, 2012_] Writing the Digital History of the Premodern Muslim World, 670-1300 ce: Exploratory Analysis of Primary Sources @ Interdisciplinary Workshop under the rubric “Forum on Research in Medieval Studies” (FoRMS), the Medieval Lunch Series, U of Michigan.
-
-* [_August, 2012_] Mining pre-Modern Islamic Sources @ “Working with Text in a Digital Age,” the summer institute at Tufts U, Medford, MA.
-
-* [_April, 2012_] Dreaming Ḥanbalites: Dream-Tales in Prosopographical Dictionaries (in Russian) @ The 34th Annual Session of St. Petersburg Arabists, SPbIOS/IOM of RAS.
-
-* [_April, 2012_] Digital History of the Muslim World: Computer-Aided Analysis of Biographical Dictionaries @ “Methods and means for digital analysis of ancient and medieval texts and manuscripts,” the workshop at the Katholieke Universitet, Leuven & the Royal Flemish Academy of Belgium (KVAB), Brussels.
-
-* [_November, 2010_] “Popular” Preaching in the Sunnī Context and the Legitimization of _Waʿẓ_ in the Late 12th Century ce @ Middle East Studies Association (MESA) Annual Meeting, San Diego, CA. 
-
-* [_November, 2009_] Aḥmad b. Ḥanbal’s (d. 241/855) Argumentative Strategies @ Middle East Studies Association (MESA) Annual Meeting, Boston, MA. 
-
-* [_April, 2009_] Dreaming Ḥanbalites @ Dreams and Visions in Islamic Societies, U of Michigan conference.
-
-* [_March, 2004_] The Origins of the Term _Ṣūfī_ (in Russian) @ 26th Annual Session of St. Petersburg Arabists, SPbIOS/IOM of RAS.
-
-* [_April, 2003_] Argumentation with _Ḥadīṯ_ Reports in Ibn al-Ǧawzī’s _Talbīs Iblīs_ (“Devil’s Delusions”) (in Russian) @ 25th Annual Session of St. Petersburg Arabists, SPbIOS/IOM of RAS. 
-
-* [_December, 2003_] The Paradigm of the Science of Ḥadīṯ (_ʿilm al-ḥadīṯ_)  (in Russian) @ Annual Academic Session, SPbIOS/IOM of RAS. 
-
-* [_April, 2002_] Ibn al-Ǧawzī’s Image in the Western Scholarship (in Russian) @ 24th Annual Session of St. Petersburg Arabists, SPbIOS/IOM of RAS. 
-
-## Invited talks, guest lectures
-
-* [_February, 2015_] Digital Humanities and the Premodern Islamic World: _Of Graphs, Maps, and 30,000 Muslims_. Invited public lecture @ the University of California—Los Angeles, Los Angeles, CA (February 25, 2015). For more details, see information on the website of [The Gustav E. von Grunebaum Center for Near Eastern Studies at UCLA](http://international.ucla.edu/cnes/event/11112); the talk is available as a Podcast ([audio](http://international.ucla.edu/cnes/podcast/150569); [slides](https://www.academia.edu/11866945/Digital_Humanities_and_the_Premodern_Islamic_World_Of_Graphs_Maps_and_30_000_Muslims)).
-
-* [_August, 2014_] The Social Geography of the Islamic World (661–1300 CE): on the Method, Invited presentation @ PROSOP Workshop, Florida State University, Tallahassee, FL (August 15, 2014). See, [www.prosop.org](http://www.prosop.org/).
-
-* [_April, 2014_] The Social Geography of the Islamic World (661–1300 CE), Invited talk @ the University of Richmond, Richmond, VA (April 10, 2014)
-
-* [_April, 2014_] Distant Reading of Arabic Biographical Collections, Guest Lecture @ “Saints and Sinners in Muslim Literature,” (Mimi Hanaoka) @ the University of Richmond, Richmond, VA (April 10, 2014) 
-
-* [_April, 2014_] Future in the Past: Using Digital Methods to Study Medieval Arabic Texts, Presentation for the Students of Arabic @ Tufts University (April 7, 2014).
-
-* [_April, 2014_] Classical Arabic through the Words of the Prophet: Teaching Classical Arabic in the Digital Age, Brown Bag Presentation for Arabic Instructors @ Tufts University (April 2, 2014). 
-
-* [_March, 2014_] Studying Classical Arabic Sources in the Digital Age: Social Geography and Social History, Invited talk for Holy Cross Manuscripts, Inscriptions and Documents Club the College of the Holy Cross, Worcester, MA (March 14, 2014)
-
-* [_March, 2014_] Computational Reading of Classical Arabic Sources: the Case of Biographical Collections, Presentation @ the Department of Classics, Tufts University (March 10, 2014).
-
-* [_February, 2014_] Building a Historical Gazetteer, Guest Lecture @ “Computational methods in the humanities,” An honors course (David J. Birnbaum) @ the University of Pittsburgh, Pittsburgh, PA (February, 21, 2014)
-
-* [_February, 2014_] Connectedness of the Islamic World (661–1300 ce), Invited Talk @ the European Union Center of Excellence and European Studies Center, the University of Pittsburgh, Pittsburgh, PA (February, 20, 2014)
-
-* [_February, 2014_] Computational Reading of Classical Arabic Sources: the Case of Biographical Collections, Invited Talk @ Bard College, Annadale-on-Hudson, NY (February 11, 2014).
-
-* [_January, 2014_] Computational Reading of Classical Arabic Sources: the Case of Biographical Collections, Invited Talk @ The Center for Digital Research in the Humanities (CDRH) at the University of Nebraska–Lincoln (UNL), Lincoln, NE (January 30, 2014).
-
-## Digital projects
-
-* [_2012—ongoing_] **al-Raqmiyyāt: Digital Islamic History** ([www.alraqmiyyat.org](www.alraqmiyyat.org)) Personal research blog that highlights my digital studies of Islamic historical sources in Arabic. The original blog was built in *WordPress* to highlight my dissertation research progress, its current iteration is built with *Jekyll* ([www.jekyllrb.com](http://jekyllrb.com)) and is designed primarily to document major steps of my digital experiments with 10,000 Arabic texts, highlighting general exploration of both the entire corpus and specific sources. The main goal is to log research progress, share discoveries and provide some guidance to young and senior scholars of Islam and Islamic history interested in employing digital methods in their research.
-
-* [_2013—ongoing_] **Kitāb** (an acronym that also means “book” in Arabic), a cultural history project treating the history of books and cultural memory. It undertakes a far-reaching evaluation of the classical Arabic textual tradition (750—1200) for the purpose of understanding how cultural memory was negotiated and shaped by authors when they created books. Its ingenuity derives from the application of text reuse methods, which detect the copying of texts into other texts and thus enable study of the form and content of the textual tradition. **NB**: Collaborative project led by Sarah Savant (Islamic History, Agha Khan University—London); in collaboration with David Smith (Computer Science, Northeastern), and the Perseus Project; my contribution, among other things, includes the study of **Arabic Biographical Collections** as a genre, with the following main goals: 
-	* to study social and religious groups through the analysis of ample biographical data that Arabic sources provide;
-	* to provide a detailed overview of biographical collections in Arabic and their authors based on Arabic bio-bibliographical literature; research literature in European languages; surviving manuscripts; printed editions;
-	* to provide computational overview in the form of graphs, maps and trees of those collections that are available in electronic format;
-	* to trace inter-dependencies between these collections by studying text reuse. 
-
-* [_2014—2015_] **_Ṣūraŧ al-arḍ_**, the geospatial model of the classical Islamic world. **NB**: In collaboration with Cameron Jackson (Senior, double majoring in Arabic and Computer Science, Tufts University). **Main goals**: 
-	* to develop a digital gazetteer of Islamic places (_al-Thurayyā_, as a supplement to [pleiades.stoa.org](http://pleiades.stoa.org/)); in collaboration with the team of researchers at the ERC project “The Early Islamic Empire at Work: The View from the Regions Toward the Centre” (PI Stefan Heidemann, Universität Hamburg). The working demo version of _al-Thurayyā_ is available at [maximromanov.github.io](http://maximromanov.github.io/projects/althurayya_02/).
-	* to adapt computational framework of [Orbis](http://orbis.stanford.edu/), the Stanford geospatial Network Model of the Roman World (developed by Elijah Meeks and Walter Scheidel), for the historical and geographical data classical available for the Islamic world. The “Islamic Orbis” (_Ṣūraŧ al-arḍ_) will help us to better understand spatial connections within the Islamic world, to visually study geographical and travel literature, and, most importantly, to study ample data from biographical collections by tracing geographies of different social and religious groups.
-
-* [_2013–ongoing_] **Islamic History Commons** @ [islamichistorycommons.org](http://islamichistorycommons.org/) **Main goal**: to build an online community (“a commons”) of scholars of early Islamic history, encourage collaborative research and promote digital methods of studying historical and religious sources. **NB**: in collaboration with and under the lead of [Chase Robinson](http://chaserobinson.net/), President and Distinguished Professor of History, The Graduate Center of the City University of New York.
-
-* [_2013–2015_] **Studying Classical Arabic Legacy** @ Tufts University together with Gregory Crane @ Department of Classics & Perseus Project. **Main goals**: 
-	* to develop a catalog of digitally available sources in classical Arabic (as an Arabic supplement to [The Perseus Catalog](http://catalog.perseus.org/), to facilitate access to these sources and better understand what Arabic sources are available and what sources have been overlooked.
-	* to develop courses for teaching classical Arabic with the use of computational tools (e.g., [Alpheios Reading Tools](http://alpheios.net/)) in order to enhance and speed learning process;
-	* to develop courses for studying specific classical sources in Arabic and in English translation in order to generate new knowledge about the Islamic world (research courses / digital projects).
-
-* [_2008_] **Reviews of/Manuals for Digital Libraries of Arabic and Persian Sources** together with Michael Bonner, University of Michigan **Main goal**: to provide scholars of Islam with reviews of/manuals for available digital libraries; to conduct a workshop on how to use these resources. **Results**: reviews of over 10 digital libraries have been prepared as instructional materials for the Workshop on **Electronic Libraries/Databases of Arabic and Islamic sources** (conducted in May 2009 @ University of Michigan), which include the following (**‡** based on materials prepared earlier with Stanislav Prozorov, SPbIOS/IOM of RAS. _Reviews/Manuals are available upon request_):  
-	* _al-Muʿǧam al-fiḳhī_, Qumm, Iran; **‡**
-	* _al-Mawsūʿaŧ al-šiʿriyyaŧ_, Abu Dhabi, OAE (available @ [www.alraqmiyyat.org](http://alraqmiyyat.org/));
-	* a series of libraries by al-Turāṯ, Amman, Jordan;
-	* _Ǧāmiʿ_, Ahl al-bayt Institute, Iran. 
-
-## Teaching: Classes
-
-* [_Classical Language, Religion, DH_]<br> **Classical Arabic Through the Words of the Prophet** (Introduction to Classical Arabic through the Corpus of Ḥadīṯ), _Tufts University_, Spring 2015.
-
-* [_Digital Humanities, Methods_]<br> **Introduction to Text Mining for the Students of Humanities**, _Tufts University_, Spring 2015. (also as an _independent study_ with two students: Tufts University, Fall 2014).
-
-* [_History, Digital Humanities_]<br> **Mapping the Classical Islamic World**, _Tufts University_, Winter 2014; _Digital Project_: Mapping Data from al-Muqaddasī’s geographical treatise (10th century ce).
-
-* [_History, DH_]<br> **The First Millennium of the Islamic Near East 600–1600 CE**, _U of Michigan_, Fall 2012 (as a teaching assistant); _Digital Project_: Timemaps.
-
-* [_Religion_]<br> **Introduction to Islam**, _U of Michigan_: Spring 2011, Winter 2011 (as a teaching assistant), Spring 2010.
-
-* [_Language_]<br> **Elementary Modern Standard Arabic**, _U of Michigan_: Fall 2010, Fall/Winter 2009–2010, Fall/Winter 2008–2009, Fall/Winter 2007–2008.
-
-* [_Classical Language_]<br> **Elementary Classical Arabic**, _U of Michigan_, Fall/Winter 2006–2007.
-
-
-## Teaching: Workshops
-
-* [_February 2015_] **Digital Humanities and Islamic Studies** @ the University of California, Los Angeles. Organized by Asma Sayeed and The Gustav E. von Grunebaum Center for Near Eastern Studies at UCLA.
-
-* [_October 2014_] **Textual Corpora and the Digital Islamic Humanities** @ Brown University as a session leader together with Elli Mylonas; organized by Elias Muhanna. For details: [islamichumanities.org](http://islamichumanities.org/workshop-2014/).
-
-* [_May 2009_] **Electronic Libraries/Databases of Arabic and Islamic sources** a part of the Project “The Reviews of / Manuals for Electronic Databases of Arabic and Islamic Sources,” in cooperation with Michael Bonner @ U of Michigan.
-	* [_2008–2009_] detailed reviews and manuals for over 10 different databases / electronic libraries were prepared to be used as instructional materials for the Workshop.
-	
-* [_June 2005_] **Sources for Research on Islam: Textual, Visual, Digital**. in cooperation with Professor Marion Katz (New York University) @ SSRC Summer Institute “Teaching Islam in Eurasia,” Kazan, Russia.
-
-## Fellowships, grants, awards & honors received
-
-* [_F2015–W2016_ (declined)] Research Fellowship (Visiting Fellow) at Islamic Legal Studies Program, Harvard Law School, Harvard University.
-
-* [_F2012–S2013_] Charlotte W. Newcombe Doctoral Dissertation Fellowship, Woodrow Wilson National Fellowship Foundation. 
-
-* [_Summer 2013_] Hajja Razia Sharif Sheikh Scholarship Award in Islamic Studies, U of Michigan. 
-
-* [_Fall 2013_] [People’s Choice Award](http://orci.research.umich.edu/cidays/ci-days-2012/poster-competition-winners/) for the poster  “Social History of the Muslim World in the Digital Age: Making Sense of 29,000 Biographies from al-Ḏahabī’s ‘History of Islam’ ” @ Cyberinfrastructure Days, U of Michigan, November 7-8, 2012. 
-
-* [_W2012–S2012_] Rackham Humanities Research Fellowship, U of Michigan.
-
-* [_F2011–W2012_] Supplementary Grant for the 2011–2012 academic year, Global Supplementary Grant Program, Open Society Institute. 
-
-* [_Winter 2011_] Rackham Graduate Student Research Grant, U of Michigan. 
-
-* [_Winter 2011_] Radcliffe/Ramsdell Fellowship, U of Michigan. 
-
-* [_Spring 2008_] George and Celeste Hourani Award in Arabic, Armenian, Persian, Turkish, and Islamic Studies, the Department of Near Eastern Studies, U of Michigan. 
-
-* [_Winter 2005 & 2004_] Honorary awards for Website development, SPbIOS/IOM of RAS: [www.orientalstudies.ru](http://orientalstudies.ru/) 
-
-* [_Winter 2004_] Honorary award for the best articles and papers by young scholars (for the article “The Paradigm of the Science of Ḥadīṯ”), SPbIOS/IOM of RAS. 
-
-
-## Additional training & experience
-
-* [_Summer, 2012_] “Working with Text in a Digital Age” 3-week summer institute @ Tufts University (Perseus Project)
-* [_Winter, 2012_] THATCamp @ the Annual Meeting of  the American Historical Association, Chicago, IL
-* [_Winter, 2011_] Introduction to ArcGIS, a series of workshops @ U of Michigan
-* [_2009–2010_] Cataloguing Arabic manuscripts @ U of Michigan, Special Collections
-* [_May, 2009_] Introduction to Manuscript Studies, a five-day workshop with Dr. Adam Gacek @ U of Michigan 
-* [_2005–2006_] Digitalization of Manuscripts from the Dunhuang Collection, [SPbIOS/IOM of RAS](http://www.orientalstudies.ru/eng/)
-
-
-## Other publications in Arabic and Islamic studies
-
-### Reference Materials
-
-* [_2006_] Girgas, Vladimir. Arabic-Russian Dictionary for the Qurʾān and Ḥadīṯ (_Slovar’ k arabskoy khrestomatii i Koranu_). Kazan’, 1881; Preparation of the improved reprint edition; in cooperation with Dr. Stanislav M. Prozorov. **Cover title**: _Arabsko-Russkiy Slovar’ k Koranu I Hadisam_, St. Petersburg: Dilya Publishers, 2006, ISBN 978-5-88503-555-2.
-
-
-### Translations from Russian into English
-
-* [_in progress_] Krachkovskii, Ignatii Yulianovich. _Arabic Geographical Literature_, translation into English. In cooperation with Michael Bonner @ U of Michigan.
-
-
-### Translations from English into Russian
-* [_2010_] Chittick, William. _Sufism: a Beginner’s Guide_. Oxford, England: Oneworld Publications, 2008 (Moscow: “Vostochnaya Literatura”: ISBN 978-5-02-036498-1).
-
-* [_2006_] Cook, Michael. _Forbidding Wrong in Islam_. Cambridge University Press, 2003; in print (St. Petersburg: Dilya Publishers: ISBN 978-5-88503-684-9); translation into Russian, editing.
-
-* [_2006_] Watt, W. Montgomery. _Muḥammad in Mecca_. Oxford, 1956 (St. Petersburg: Dilya Publishers, 2006: ISBN 5-88503-507-5); editing, indices, proof-reading.
-
-* [_2006_] Burton, John. _Introduction to the Ḥadīth_. Edinburgh University Press, 1994, (St. Petersburg: Dilya Publishers, 2006, ISBN 5-88503-461-3); translation into Russian (with a co-translator), editing, indices, proof-reading.
-
-* [_2005, not published_] Leaman, Oliver. _Islamic Aesthetic: An Introduction_. Edinburgh University Press, 2004, (St. Petersburg: Dilya Publishers); translation into Russian (with a co-translator), editing.
-
-* [_2005_] Watt, Montgomery _&_ Richard Bell. _Introduction to the Qurʾān_. Edinburgh University Press, 1970 (first published), (St. Petersburg: Dilya Publishers, 2005, ISBN 5-88503-385-4); translation into Russian (with a co-translators), pre-editing, indices, proof-reading.
-
-* [_2004_] Knysh, Alexander. _Islamic Mysticism: a short history_. Leiden; Boston; Köln: Brill, 2000; translation into Russian, indices, proof-reading and cover design (St. Petersburg: Dilya Publishers, 2004, ISBN 5-88503-232-7). 
-
-
-## Natural languages
-
-* [_Arabic_] modern standard & classical
-* [_English_]  fluent spoken & written
-* [_Russian_]  native
-* [_other_]  reading knowledge of German, French, Indonesian; elementary Persian & Turkish
-
-
-## Formal languages _& computer skills_
-
-* [_Actively using_] Python, R, LaTeX, QGIS, Adobe Photoshop and Indesign
-* [_Learning_] Javascript, D3, Linux (for using cluster computing)
-
-
-## Professional membership
-
-* [_2012–present_] American Oriental Society (AOS)
-* [_2008–present_] Middle East Studies Association (MESA) 
-	* [_Panels Organized_] _@ MESA_
-	* [_New Orleans, 2013_] Digital Humanities in Middle East Studies (organized together with Børre Ludvigsen and Will Hanley), a series of two panels and a round table: “Traditional Sources, Nontraditional Methods,” “Digital Communication,” and Roundtable. [More details...](http://alraqmiyyat.org/2013/09/digital-humanities-in-middle-east-studies-mesa-new-orleans-october-11/)
-* [_San Diego, 2010_] Islamic Preaching 
-
-
-## References
-* [Available in PDF]({{ site.url }}/files/Romanov-CV.pdf).
-
-## Dissertation
-
-* **Computational Reading of Arabic Biographical Collections with Special Reference to Preaching in the Sunnī World (661–1300 ce)** [[available online][2]]
-
-	[_Abstract_] A project in the digital humanities, the dissertation explores methods of computational text analysis. Relying on text-mining techniques to extract meaningful data from unstructured text, the study offers an effective and flexible method for the analysis of Arabic biographical collections, the most valuable source for the social history of the pre-modern Islamic world. It uses the largest collection, “The History of Islam” of al-Ḏahabī (d. 1348), as a case-study of applying the new method and shows how almost 30,000 biographies can be studied as a whole.
-	
-	A step toward finding a viable solution for studying the entire digital corpus of classical Islamic texts (400 mln. words), Chapter I offers a detailed explanation of “computational reading” that was built upon existing digital approaches from a variety of disciplines. Chapter II models big data extracted from the main source to further our understanding of the social geography of the Islamic world and its major social transformations, simultaneously providing an important background for the next chapter. Chapter III applies the devised method to the study of Islamic preaching from chronological, geographical and social perspectives that have been overlooked in the academic treatment of this subject. Largely an exploratory overview, it traces long-term changes in preaching practices as well as statuses of preachers within the Islamic élites. This chapter demonstrates how exactly computational reading can contribute to the studies of specific phenomena and practices. The final section overviews broad prospects of the further application of “computational reading” to a variety of genres of pre-modern Arabic literature.
-	
-	The dissertation heavily relies on the visual display of information in the form of graphs, charts, maps, and tables that are used in the main body and supplied in Appendices. [More details...](http://alraqmiyyat.org/intro/)
-
-* [_Committee_] _**Alexander Knysh**_, Chair, Professor of Arabic and Islamic Studies, University of Michigan; *Michael Bonner*, Professor of Medieval Islamic History, University of Michigan; *Richard Bulliet*, Professor of History, Columbia University; *Sherman Jackson*, Professor of Religion and American Studies, University of South California; *Andrew Shryock*, Professor of Cultural Anthropology, University of Michigan  
+<ul>
+<li><p><em><em>Current position</em></em> 
+Research Fellow</p></li>
+<li><p><em><em>Institutional affiliation</em></em> 
+University of Leipzig [Institut für Informatik] 
+The Humboldt Chair for Digital Humanities 
+Augustusplatz 10, 04109 Leipzig</p></li>
+<li><p><em><em>Ph.D.</em></em> 
+in Near Eastern Studies (2013), University of Michigan</p></li>
+<li><p><em><em>Institutional email</em></em> 
+<code>maxim dot romanov at uni-leipzig dot de</code>  <em>personal</em>: <code>romanov dot maxim at gmail dot com</code></p></li>
+<li><p><em><em>Website</em></em> 
+<code>maximromanov.github.io</code></p></li>
+</ul>
+
+<h1 id="employment" class="unnumbered">Employment</h1>
+<ul>
+<li><p><em><em>2015–current</em></em> 
+<span style="font-variant: small-caps;">Research Fellow</span> 
+<em>University of Leipzig</em> [Institut für Informatik] 
+The Humboldt Chair for Digital Humanities</p></li>
+<li><p><em><em>2013–2015</em></em> 
+<span style="font-variant: small-caps;">Postdoctoral Associate</span> 
+<em>Tufts University</em>, Department of Classics <em>&amp;</em> Perseus Project</p></li>
+<li><p><em><em>2006–2012</em></em> 
+<span style="font-variant: small-caps;">Graduate Student Instructor</span> 
+<em>University of Michigan</em>, Department of Near Eastern Studies</p></li>
+<li><p><em><em>2004–2006</em></em> 
+<span style="font-variant: small-caps;">Junior Researcher</span> 
+<em>Institute of Oriental Manuscripts of the Russian Academy of Sciences</em> 
+<em>former</em>: St. Petersburg Branch of the Institute of Oriental Studies 
+St. Petersburg, Russia (<a href="http://www.orientalstudies.ru/eng/">SPbIOS/IOM of RAS</a>)</p></li>
+</ul>
+<h1 id="education" class="unnumbered">Education</h1>
+<ul>
+<li><p><em><em>2006–2013</em></em> 
+Ph.D. (December 15, 2013) / M.A. (April 29, 2010) 
+in Near Eastern Studies (Arabic Islamic Studies), 
+Department of Near Eastern Studies, University of Michigan, USA. 
+<em>Dissertation</em>: Computational Reading of Arabic Biographical Collections with Special Reference to Preaching in the Sunnī World (661–1300 CE). <em><a href="http://alraqmiyyat.org/intro/">More details online...</a></em> 
+(available in open access through <a href="http://deepblue.lib.umich.edu/handle/2027.42/102300">the University of Michigan Digital Library</a>). 
+<em>Dissertation Committee</em>: Alexander Knysh (Chair), Michael Bonner, Richard Bulliet, 
+Sherman Jackson, Andrew Shryock.</p></li>
+<li><p><em><em>2001–2004</em></em> 
+ABD, Post-graduate program in Islamic Studies (Mentor: Stanislav M. Prozorov), 
+<em>Institute of Oriental Manuscripts of the Russian Academy of Sciences</em> 
+<span style="font-variant: small-caps;">Former</span>: St. Petersburg Branch of the Institute of Oriental Studies 
+St. Petersburg, Russia (<a href="http://www.orientalstudies.ru/eng/">SPbIOS/IOM of RAS</a>)</p></li>
+<li><p><em><em>1999–2001</em></em> 
+St. Petersburg State University, the School (“Fakultet”) of Oriental Studies, 
+partial completion of the History of the Arab Countries program, 
+St. Petersburg, Russia.</p></li>
+<li><p><em><em>1998–2001</em></em> 
+B.A./M.A. in Sociology, 
+St. Petersburg State University, the School (“Fakultet”) of Sociology, 
+<em>M.A. Thesis</em>: “The role of religious scholars (<em>ʿulamāʾ</em>) in the life of Islamic society”; St. Petersburg, Russia.</p></li>
+<li><p><em><em>1995–1998</em></em> 
+The Baltic State Technical University, the School (“Fakultet”) of Humanities (concentration in Political Sciences), St. Petersburg, Russia.</p></li>
+</ul>
+<h1 id="articles-in-peer-reviewed-editions" class="unnumbered">Articles in peer-reviewed editions</h1>
+<ul>
+<li><p><em>most publications can be downloaded from <a href="https://uni-leipzig.academia.edu/MaximRomanov">uni-leipzig.academia.edu/MaximRomanov</a></em></p></li>
+<li><p><em><em>2016</em></em> 
+“Toward Abstract Models for Islamic History,” in <em>The Digital Humanities + Islamic Middle Eastern Studies</em>, ed. Elias Muhanna (Berlin, De Gruyter, 2016), pp. 117–149. (<a href="https://www.academia.edu/4922009/">Download Submitted Version in PDF</a>)</p></li>
+<li><p><em><em>2013</em></em> 
+“Toward the Digital History of the pre-Modern Muslim World: developing text-mining techniques for the study of Arabic biographical collections,” in <em>Methods and means for digital analysis of ancient and medieval texts and manuscripts, Proceedings of the Conference</em>, Leuven, 2012 (<a href="https://www.academia.edu/4796624/">Download PDF</a>) DOI: <code>10.1484/M.LECTIO-EB.5.102573</code> 
+<strong>Newsletter Version:</strong> “Digital Analysis of Arabic Biographic Collections,” in <em>Comparative Oriental Manuscript Studies Newsletter</em>, No. 4. (July 2012), 9–11 (<a href="https://www.academia.edu/4796624/">Download PDF</a>)</p></li>
+<li><p><em><em>2012</em></em> 
+“Dreaming Ḥanbalites: Dream-Tales in Prosopographical Dictionaries,” in <em>Dreams and Visions in Islamic Societies</em>, edited by Alexander Knysh <em>&amp;</em> Özgen Felek, SUNY Press, 2012, 31–50 (<a href="https://www.academia.edu/1388558/">Download PDF</a>)</p></li>
+<li><p><em><em>2007</em></em> 
+“The Term <em>Ṣūfī</em>: Spiritualizing Simple Words,” in <em>Pismennyie Pamyatniki Vostoka/Written Monuments of the Orient</em>, issue 5 (2007), 149–159 (<a href="https://www.academia.edu/1388462/">Download PDF</a>)</p></li>
+<li><p><em><em>2005, in Russian</em></em> 
+“Electronic Databases on Islam in Arabic, Persian and English: a Review,” in <em>Pismennyie Pamyatniki Vostoka/Written Monuments of the Orient</em>, issue 2(3), 2005, 240–257; in cooperation with Dr. Stanislav M. Prozorov; <em>summary in English</em> (<a href="http://islamica.orientalstudies.ru/rus/images/pdf/a_prozorov_co_2005.pdf">Download PDF</a>)</p></li>
+<li><p><em><em>2004, in Russian</em></em> 
+“The Paradigm of the Science of Ḥadīṯ (<em>ʿilm/ʿulūm al-ḥadīṯ</em>)”, in <em>Oriens/Vostok</em>, issue 5, 2004, 5–11; <em>summary in English</em> (<a href="http://islamica.orientalstudies.ru/rus/images/pdf/a_romanov_2004.pdf">Download PDF</a>)</p></li>
+<li><p><em><em>2003 (2009), in Russian</em></em> 
+“<em>Ḥadīṯ</em> Reports in Ibn al-Ǧawzī’s (d. 597/1201) System of Argumentation (Based on His <em>Talbīs Iblīs</em> [“Devil’s Delusions”]),” in <em>Khristianskii Vostok/Christian Orient</em>, Volume 5 (XI), New Series, Moscow: “Indrik” Press (Published by the Russian Academy of Sciences and the State Hermitage), 2009, 310–316 (<a href="http://islamica.orientalstudies.ru/rus/images/pdf/a_romanov_2009.pdf">Download PDF</a>) 
+<em>NB</em>: Submitted for publication in 2003</p></li>
+<li><p><em><em>2003, in Russian</em></em> 
+“Principles and Procedures of Extracting and Processing Data from Arabic Sources: Historic-and-Biographical Sources,” in <em>Oriens/Vostok</em>, issue 4, 2003, 117–127; in cooperation with Dr. Stanislav M. Prozorov; <em>summary in English</em> (<a href="http://islamica.orientalstudies.ru/rus/images/pdf/a_prozorov_co_2003.pdf">Download PDF</a>) 
+</p></li>
+</ul>
+<h1 id="conference-workshop-papers-presentations-posters" class="unnumbered">Conference &amp; workshop papers, presentations, posters</h1>
+<ul>
+<li><p><em><em>October, 2015</em></em> 
+“al-Ḏahabī’s Monster”: Dissecting a 50-Volume Arabic Chronicle-cum-Biographical Collection From the 14th Century CE @ Distant Reading the Islamic Archive, Conference at Brown University (October 16, 2015)</p>
+<p><strong>Video recording</strong> of this presentation is available @ Brown University’s website: 
+<a href="https://mediacapture.brown.edu:8443/ess/echo/presentation/7028b3b6-3457-4599-8c2e-cd5e50ed505b"><code>tinyurl.com/IslamicDHatBrown2015</code> <span class="math inline">→</span> Scene 106 (or timestamp 3:22:00; the Q<em>&amp;</em>A starts right after the presentation)</a>.</p></li>
+<li><p><em><em>September, 2015</em></em> 
+The <em>Taʾrīkh al-islām</em> of al-Ḏahabī (d. 748/1347 CE): Computational Exploration of the Life-Cycle of a 50-Volume Arabic Chronicle-cum-Biographical Collection @ Arabic Pasts: Histories and Historiographies: Research Workshop, co-hosted by the Agha Khan University, Institute for the Study of Muslim Civilisations and SOAS, University of London (September 25–26, 2015)</p></li>
+<li><p><em><em>July, 2015</em></em> 
+Cultural Production in the Islamic World (600–1900 CE): mining an Ottoman bibliographical collection from the early 20th century @ The Keystone Digital Humanities Conference, University of Pennsylvania, Philadelphia, PA (July 22–24, 2015)</p></li>
+<li><p><em><em>May, 2015</em></em> 
+Analyzing Arabic Biographical Collections at Scale @ Digital Ottoman Platform Workshop, Institute for Advanced Study, Princeton, NJ (June 8–12, 2015)</p></li>
+<li><p><em><em>May, 2015</em></em> 
+The Writing Culture of Nīshāpūr in the 11th Century [In collaboration with Sarah Savant, Agha Khan University, London; paper delivered by Sarah Savant] @ Iranian Cities from the Arab Conquest to the Early Modern Period, Harvard University, Cambridge, MA (May 1-2).</p></li>
+<li><p><em><em>November, 2014</em></em> 
+Exploring Islamic Written Legacy: Computational Reading of <em>Hadiyyaŧ al-ʿārifīn</em> @ Middle East Studies Association (MESA) Annual Meeting, Washington, D.C.</p></li>
+<li><p><em><em>March, 2014</em></em> 
+Computational Processing of Toponymic Data from classical Arabic Sources @ Working with Text in a Digital Age, A Workshop @ Tufts University (the Perseus Project) (March 29, 2014). 
+</p></li>
+<li><p><em><em>February, 2014</em></em> 
+Visualizing Islamic Geography at Scale @ Data Big and Small: Computer Science, the Humanities and Social Science: Conversations between representatives from Leipzig, Northeastern, Princeton Tufts, A Workshop @ Tufts University (the Perseus Project) (February 3-4, 2014). 
+</p></li>
+<li><p><em><em>October, 2013</em></em> 
+Abstract Models for Islamic History @ Digital Humanities and Islamic &amp; Middle Eastern Studies, Brown University, Providence, RI (October 24-25, 2013). 
+<strong>Video recording</strong> of this presentation is available @ Brown University’s website: 
+<a href="http://mediacapture.brown.edu:8080/ess/echo/presentation/5da9b95b-c4d1-41e4-9f29-7516d2e4af18"><code>tinyurl.com/IslamicDHatBrown2013</code> <span class="math inline">→</span> Day One, Scene 166 (or timestamp 2:47:50; the Q<em>&amp;</em>A at 3:51:30)</a>.</p></li>
+<li><p><em><em>October, 2013</em></em> 
+Islamic World Connected (661–1300 <span style="font-variant: small-caps;">ce</span>) @ Middle East Studies Association (MESA) Annual Meeting, New Orleans, LA.</p></li>
+<li><p><em><em>April, 2013</em></em> 
+<strong>Poster (not on program)</strong>: Toward Abstract Models for Islamic History @ Word, Space, Time: Digital Perspectives on the Classical World, an interdisciplinary conference organized by the Digital Classics Association, University of Buffalo, SUNY, Buffalo, NY (April 5–6, 2013).</p></li>
+<li><p><em><em>March, 2013</em></em> 
+Exploratory Analysis of Arabic Biographical Collections: the Case of al-Ḏahabī’s (d. 1347 CE) <em>Taʾrīkh al-islām</em> @ 223rd Meeting of the American Oriental Society (AOS), Portland, OR; also @ the 8th Annual Pearl Kibre Medieval Study Conference: “New Media and the Middle Ages”, The Graduate Center, CUNY, New York, NY.</p></li>
+<li><p><em><em>February, 2013</em></em> 
+‘Connectedness’ of the Islamic World (600–1300 CE) @ 7th Annual Near Eastern Studies Graduate Student Colloquium, U of Michigan, Ann Arbor, MI.</p></li>
+<li><p><em><em>November, 2012</em></em> 
+Social History of the Muslim World in the Digital Age: Making Sense of 29,000 Biographies from al-Ḏahabī’s “History of Islam” @ Middle East Studies Association (MESA) Annual Meeting, Denver, CO.</p></li>
+<li><p><em><em>November, 2012</em></em> 
+<strong>Poster</strong>: Social History of the Muslim World in the Digital Age: Making Sense of 29,000 Biographies from al-Ḏahabī’s “History of Islam” @ Cyberinfrastructure Days, U of Michigan, November 7-8, 2012. <a href="http://orci.research.umich.edu/cidays/ci-days-2012/poster-competition-winners/">“People’s Choice Award Winner”</a>.</p></li>
+<li><p><em><em>October, 2012</em></em> 
+Writing the Digital History of the Premodern Muslim World, 670-1300 CE: Exploratory Analysis of Primary Sources @ Interdisciplinary Workshop under the rubric “Forum on Research in Medieval Studies” (FoRMS), the Medieval Lunch Series, U of Michigan.</p></li>
+<li><p><em><em>August, 2012</em></em> 
+Mining pre-Modern Islamic Sources @ “Working with Text in a Digital Age,” the summer institute at Tufts U, Medford, MA.</p></li>
+<li><p><em><em>April, 2012</em></em> 
+Dreaming Ḥanbalites: Dream-Tales in Prosopographical Dictionaries (in Russian) @ The 34th Annual Session of St. Petersburg Arabists, SPbIOS/IOM of RAS.</p></li>
+<li><p><em><em>April, 2012</em></em> 
+Digital History of the Muslim World: Computer-Aided Analysis of Biographical Dictionaries @ “Methods and means for digital analysis of ancient and medieval texts and manuscripts,” the workshop at the Katholieke Universitet, Leuven <em>&amp;</em> the Royal Flemish Academy of Belgium (KVAB), Brussels.</p></li>
+<li><p><em><em>November, 2010</em></em> 
+“Popular” Preaching in the Sunnī Context and the Legitimization of <em>Waʿẓ</em> in the Late 12th Century CE @ Middle East Studies Association (MESA) Annual Meeting, San Diego, CA.</p></li>
+<li><p><em><em>November, 2009</em></em> 
+AḤmad b. Ḥanbal’s (d. 241/855) Argumentative Strategies @ Middle East Studies Association (MESA) Annual Meeting, Boston, MA.</p></li>
+<li><p><em><em>April, 2009</em></em> 
+Dreaming Ḥanbalites @ Dreams and Visions in Islamic Societies, U of Michigan conference.</p></li>
+<li><p><em><em>March, 2004</em></em> 
+The Origins of the Term <em>Ṣūfī</em> (in Russian) @ 26th Annual Session of St. Petersburg Arabists, SPbIOS/IOM of RAS.</p></li>
+<li><p><em><em>April, 2003</em></em> 
+Argumentation with <em>Ḥadīṯ</em> Reports in Ibn al-Ǧawzī’s <em>Talbīs Iblīs</em> (“Devil’s Delusions”) (in Russian) @ 25th Annual Session of St. Petersburg Arabists, SPbIOS/IOM of RAS.</p></li>
+<li><p><em><em>December, 2003</em></em> 
+The Paradigm of the Science of Ḥadīṯ (<em>ʿilm al-ḥadīṯ</em>) (in Russian) @ Annual Academic Session, SPbIOS/IOM of RAS.</p></li>
+<li><p><em><em>April, 2002</em></em> 
+Ibn al-Ǧawzī’s Image in the Western Scholarship (in Russian) @ 24th Annual Session of St. Petersburg Arabists, SPbIOS/IOM of RAS.</p></li>
+</ul>
+<h1 id="invited-talks-guest-lectures" class="unnumbered">Invited talks, guest lectures</h1>
+<ul>
+<li><p><em><em>May 4, 2016</em></em> 
+Annotation of geographical data (together with Chiara Palladino), Session 14 of the Sunoikisis Digital Classics 2016, for more details: <a href="https://github.com/SunoikisisDC/SunoikisisDC-2016" class="uri">https://github.com/SunoikisisDC/SunoikisisDC-2016</a></p></li>
+<li><p><em><em>April 26, 2016</em></em> 
+[Discovering] Spatial and Chronological Patterns in Historical Texts @ Unlocking the Digital Humanities, A Seminar organized by the University of Leipzig &amp; Tufts University, Spring 2016</p></li>
+<li><p><em><em>March 10</em></em> 
+Writing a 50-volume book in 14th-century Damascus: Algorithmic Analysis, Text Reuse &amp; the Arabic Written Tradition, @ University of Michigan (March 10)</p></li>
+<li><p><em><em>2015–2016</em></em> 
+Of Graphs, Maps, and 30,000 Muslims: Premodern Arabic Texts &amp; the Digital Humanities. Different versions of this invited lecture @</p>
+<ul>
+<li><p>School of Oriental and African Studies [SOAS], University of London (November 23, 2015)</p></li>
+<li><p>University of Manchester (November 25, 2015)</p></li>
+<li><p>University of St Andrews (November 27, 2015)</p></li>
+<li><p>University of Maryland [MITH] (March 2, 2016) 
+for more details: <a href="http://mith.umd.edu/dialogues/dd-spring-2016-maxim-romanov/" class="uri">http://mith.umd.edu/dialogues/dd-spring-2016-maxim-romanov/</a>)</p></li>
+<li><p>University of Tübingen (May 11, 2016)</p></li>
+</ul></li>
+<li><p><em><em>December, 2015</em></em> 
+Arabic and Islamic Studies and the Digital Humanities @ The Brill Workshop on the Digital Humanities (December 2-3, Leiden; May 1-2, Boston)</p></li>
+<li><p><em><em>March, 2015</em></em> 
+Introduction to Classical Arabic Through the Words of the Prophet, A “Lightning talk” on DH Topics (over Skype) @ Digital Humanities Institute—Beirut 2015, American University of Beirut. For more details, <a href="https://dhibeirut.wordpress.com">dhibeirut.wordpress.com</a>.</p></li>
+<li><p><em><em>February, 2015</em></em> 
+Digital Humanities the Premodern Islamic World: <em>Of Graphs, Maps, and 30,000 Muslims</em>. Invited public lecture @ the University of California—Los Angeles, Los Angeles, CA (February 25, 2015). For more details, see information on the website of <a href="http://international.ucla.edu/cnes/event/11112">The Gustav E. von Grunebaum Center for Near Eastern Studies at UCLA</a>.</p></li>
+<li><p><em><em>August, 2014</em></em> 
+The Social Geography of the Islamic World (661–1300 CE): on the Method, Invited presentation @ PROSOP Workshop, Florida State University, Tallahassee, FL (August 15, 2014). See, <a href="http://www.prosop.org/">www.prosop.org</a>.</p></li>
+<li><p><em><em>April, 2014</em></em> 
+The Social Geography of the Islamic World (661–1300 CE), Invited talk @ the University of Richmond, Richmond, VA (April 10, 2014)</p></li>
+<li><p><em><em>April, 2014</em></em> 
+Distant Reading of Arabic Biographical Collections, Guest Lecture @ “Saints and Sinners in Muslim Literature,” (Prof. Mimi Hanaoka) @ the University of Richmond, Richmond, VA (April 10, 2014)</p></li>
+<li><p><em><em>April, 2014</em></em> 
+Future in the Past: Using Digital Methods to Study Medieval Arabic Texts, Presentation for the Students of Arabic @ Tufts University (April 7, 2014). 
+</p></li>
+<li><p><em><em>April, 2014</em></em> 
+Classical Arabic through the Words of the Prophet: Teaching Classical Arabic in the Digital Age, Brown Bag Presentation for Arabic Instructors @ Tufts University (April 2, 2014). 
+</p></li>
+<li><p><em><em>March, 2014</em></em> 
+Studying Classical Arabic Sources in the Digital Age: Social Geography and Social History, Invited talk for Holy Cross Manuscripts, Inscriptions and Documents Club the College of the Holy Cross, Worcester, MA (March 14, 2014)</p></li>
+<li><p><em><em>March, 2014</em></em> 
+Computational Reading of Classical Arabic Sources: the Case of Biographical Collections, Presentation @ the Department of Classics, Tufts University (March 10, 2014). 
+</p></li>
+<li><p><em><em>February, 2014</em></em> 
+Building a Historical Gazetteer, Guest Lecture @ “Computational methods in the humanities,” An honors course (Prof. David J. Birnbaum) @ the University of Pittsburgh, Pittsburgh, PA (February, 21, 2014)</p></li>
+<li><p><em><em>February, 2014</em></em> 
+Connectedness of the Islamic World (661–1300 CE), Invited Talk @ the European Union Center of Excellence European Studies Center, the University of Pittsburgh, Pittsburgh, PA (February, 20, 2014)</p></li>
+<li><p><em><em>February, 2014</em></em> 
+Computational Reading of Classical Arabic Sources: the Case of Biographical Collections, Invited Talk @ Bard College, Annadale-on-Hudson, NY (February 11, 2014). 
+</p></li>
+<li><p><em><em>January, 2014</em></em> 
+Computational Reading of Classical Arabic Sources: the Case of Biographical Collections, Invited Talk @ The Center for Digital Research in the Humanities (CDRH) at the University of Nebraska–Lincoln (UNL), Lincoln, NE (January 30, 2014). 
+</p></li>
+</ul>
+<h1 id="digital-projects" class="unnumbered">Digital projects</h1>
+<ul>
+<li><p><em><em>2012—ongoing</em></em> 
+<span style="font-variant: small-caps;">al-Raqmiyyāt: Digital Islamic History</span> (<code>maximromanov.github.io</code>) 
+Personal research blog that highlights my digital studies of Islamic historical sources in Arabic, with the focus on documenting major steps of my digital experiments with 10,000 Arabic texts, highlighting general exploration of both the entire corpus and specific sources. The main goal is to log research progress, share discoveries and provide some guidance to young and senior scholars of Islam and Islamic history interested in employing digital methods in their research.</p></li>
+<li><p><em><em>2013—ongoing</em></em> 
+<span style="font-variant: small-caps;">Kitab</span> (an acronym that also means “book” in Arabic), a cultural history project treating the history of books and cultural memory. It undertakes a far-reaching evaluation of the classical Arabic textual tradition (750—1200) for the purpose of understanding how cultural memory was negotiated and shaped by authors when they created books. Its ingenuity derives from the application of text reuse methods, which detect the copying of texts into other texts and thus enable study of the form and content of the textual tradition. 
+<strong>NB</strong>: Collaborative project led by Sarah Savant (Islamic History, Agha Khan University—London); in collaboration with David Smith (Computer Science, Northeastern), and the Perseus Project @ Tufts University; my contribution, among other things, includes the study of <span style="font-variant: small-caps;">Arabic Biographical Collections</span> as a genre, with the following main goals: 
+</p>
+<ul>
+<li><p>to study social and religious groups through the analysis of ample biographical data that Arabic sources provide;</p></li>
+<li><p>to provide a detailed overview of biographical collections in Arabic and their authors based on Arabic bio-bibliographical literature; research literature in European languages; surviving manuscripts; printed editions;</p></li>
+<li><p>to provide computational overview in the form of graphs, maps and trees of those collections that are available in electronic format;</p></li>
+<li><p>to trace inter-dependencies between these collections by studying text re-use.</p></li>
+</ul>
+<p>Website (in progress): <a href="http://kitab-project.org/kitab/">kitab-project.org</a></p></li>
+<li><p><em><em>2014—2015</em></em> 
+<span style="font-variant: small-caps;"><em>Ṣūraŧ al-arḍ</em>, the geospatial model of the classical Islamic world</span> 
+<strong>NB</strong>: In collaboration with Cameron Jackson (Senior, double majoring in Arabic and Computer Science, Tufts University). <span style="font-variant: small-caps;">Main goals</span>:</p>
+<ul>
+<li><p>to develop a digital gazetteer of Islamic places (<em>al-Ṯurayyā</em>, as a supplement to <code>pleiades.stoa.org</code>);</p>
+<p>The working demo version of <em>al-Ṯurayyā</em> is available at 
+<code>maximromanov.github.io/projects/althurayya_02</code>.</p></li>
+<li><p>to adapt computational framework of <code>Orbis</code>, the Stanford geospatial Network Model of the Roman World (developed by Elijah Meeks and Walter Scheidel), for the historical and geographical data classical available for the Islamic world. The “Islamic Orbis” (<em>Ṣūraŧ al-arḍ</em>) will help us to better understand spatial connections within the Islamic world, to visually study geographical and travel literature, and, most importantly, to study ample data from biographical collections by tracing geographies of different social and religious groups. 
+The working demo version of <em>Ṣūraŧ al-arḍ</em> is available at 
+<code>maximromanov.github.io/projects/althurayya_03</code>.</p></li>
+</ul></li>
+<li><p><em><em>2013–2015</em></em> 
+<span style="font-variant: small-caps;">Studying Classical Arabic Legacy</span> @ Tufts University 
+together with Gregory Crane @ Department of Classics <em>&amp;</em> Perseus Project 
+<span style="font-variant: small-caps;">Main goals</span>:</p>
+<ul>
+<li><p>to develop a catalog of digitally available sources in classical Arabic (as an Arabic supplement to <a href="http://catalog.perseus.org/">The Perseus Catalog</a>), to facilitate access to these sources and better understand what Arabic sources are available and what sources have been overlooked. Pilot Arabic catalog: <a href="http://catalog.perseus.org/?f%5Bwork_lang%5D%5B%5D=ara">http://catalog.perseus.org/</a> (In “Work Original Language” select <em>Arabic</em>)</p></li>
+<li><p>to develop courses for teaching classical Arabic with the use of computational tools (e.g., <code>Alpheios Reading Tools</code>) in order to enhance and speed learning process;</p></li>
+<li><p>to develop courses for studying specific classical sources in Arabic and in English translation in order to generate new knowledge about the Islamic world (research courses / digital projects).</p></li>
+</ul></li>
+<li><p><em><em>2008</em></em> 
+<span style="font-variant: small-caps;">Reviews of/Manuals for Digital Libraries of Arabic and Persian Sources</span> 
+together with Michael Bonner, University of Michigan 
+<span style="font-variant: small-caps;">Main goal</span>: to provide scholars of Islam with reviews of/manuals for available digital libraries; to conduct a workshop on how to use these resources. 
+<span style="font-variant: small-caps;">Results</span>: reviews of over 10 digital libraries have been prepared as instructional materials for the Workshop on <span style="font-variant: small-caps;">Electronic Libraries/Databases of Arabic and Islamic sources</span> (conducted in May 2009 @ University of Michigan), which include:</p>
+<ul>
+<li><p><em>al-Muʿjam al-fiḳhī</em>, Qumm, Iran;</p></li>
+<li><p><em>al-Mawsūʿaŧ al-šiʿriyyaŧ</em>, Abu Dhabi, OAE (available @ <a href="http://alraqmiyyat.org/2013/02/arabicpoetryencyclopaedia/"><code>www.alraqmiyyat.org</code></a>);</p></li>
+<li><p>a series of libraries by al-Turāṯ, Amman, Jordan;</p></li>
+<li><p><em>Ǧāmiʿ</em>, Ahl al-bayt Institute, Iran;</p></li>
+</ul>
+<p>based on materials prepared earlier with Stanislav Prozorov, SPbIOS/IOM of RAS. 
+<em>Reviews/Manuals are available upon request</em>.</p></li>
+</ul>
+<h1 id="teaching-classes" class="unnumbered">Teaching: Classes</h1>
+<ul>
+<li><p><em><em>Classical Language, Religion, DH</em></em> 
+<span style="font-variant: small-caps;">Classical Arabic Through the Words of the Prophet</span> 
+(Introduction to Classical Arabic through the Corpus of Ḥadīṯ) 
+<em>Tufts University</em>, Spring 2015</p></li>
+<li><p><em><em>Digital Humanities, Methods</em></em> 
+<span style="font-variant: small-caps;">Introduction to Text Mining for the Students of Humanities</span> 
+<em>Tufts University</em>, Spring 2015. 
+(also as an <em>independent study</em> with two students: <span>Tufts University</span>, Fall 2014)</p></li>
+<li><p><em><em>History, Digital Humanities</em></em> 
+<span style="font-variant: small-caps;">Mapping the Classical Islamic World</span> 
+<em>Tufts University</em>, Winter 2014; <em>Digital Project</em>: Mapping Data from al-Muḳaddasī’s geographical treatise (10th century CE)</p></li>
+<li><p><em><em>History, DH</em></em> 
+<span style="font-variant: small-caps;">The First Millennium of the Islamic Near East 600–1600 CE</span> 
+<em>U of Michigan</em>, Fall 2012 (as a teaching assistant); <em>Digital Project</em>: <a href="http://alraqmiyyat.org/timemap/aaptis461_f12_IbnBattutaTravels.php">Timemaps</a></p></li>
+<li><p><em><em>Religion</em></em> 
+<span style="font-variant: small-caps;">Introduction to Islam</span> 
+<em>U of Michigan</em>: Spring 2011, Winter 2011 (as a teaching assistant), Spring 2010</p></li>
+<li><p><em><em>Language</em></em> 
+<span style="font-variant: small-caps;">Elementary Modern Standard Arabic</span> 
+<em>U of Michigan</em>: Fall 2010, Fall/Winter 2009–2010, Fall/Winter 2008–2009, Fall/Winter 2007–2008</p></li>
+<li><p><em><em>Classical Language</em></em> 
+<span style="font-variant: small-caps;">Elementary Classical Arabic</span> 
+<em>U of Michigan</em>, Fall/Winter 2006–2007</p></li>
+</ul>
+<h1 id="events" class="unnumbered">Events</h1>
+<ul>
+<li><p><em><em>December 2016</em></em> 
+<span style="font-variant: small-caps;">Analyzing Text Reuse at Scale / Working with Big Humanities Data</span> @ the University of Leipzig, organized by Thomas Köntges &amp; Maxim Romanov (within the framework of Leipzig Workshop Week, 14–18 December 2015).</p></li>
+<li><p><em><em>December 2016</em></em> 
+<span style="font-variant: small-caps;">Digital Arabic and Digital Persian Research Workshop</span> @ the University of Leipzig, organized by Maxim Romanov (within the framework of Leipzig Workshop Week, 14–18 December 2015).</p></li>
+</ul>
+<h1 id="teaching-workshops" class="unnumbered">Teaching: Workshops</h1>
+<ul>
+<li><p><em><em>December 2016</em></em> 
+Georeferencing Printed Maps @ <span style="font-variant: small-caps;">Analyzing Text Reuse @ Scale / Working with Big Humanities Data</span> @ the University of Leipzig, organized by Thomas Köntges &amp; Maxim Romanov (within the framework of Leipzig Workshop Week, 14–18 December 2015).</p></li>
+<li><p><em><em>February 2015</em></em> 
+<span style="font-variant: small-caps;">Digital Humanities &amp; Islamic Studies</span> @ the University of California, Los Angeles. 
+Organized by Asma Sayeed &amp; The Gustav E. von Grunebaum Center for Near Eastern Studies at UCLA.</p></li>
+<li><p><em><em>October 2014</em></em> 
+<span style="font-variant: small-caps;">Textual Corpora and the Digital Islamic Humanities</span> @ Brown University 
+as a session leader together with Elli Mylonas; organized by Elias Muhanna. 
+For details: <a href="http://islamichumanities.org/workshop-2014/" class="uri">http://islamichumanities.org/workshop-2014/</a></p></li>
+<li><p><em><em>May 2009</em></em> 
+<span style="font-variant: small-caps;">Electronic Libraries/Databases of Arabic and Islamic sources</span> 
+a part of the Project “The Reviews of / Manuals for Electronic Databases of Arabic and Islamic Sources,” in cooperation with Michael Bonner @ University of Michigan.</p>
+<ul>
+<li><p><em><em>2008–2009</em></em> 
+detailed reviews and manuals for over 10 different databases / electronic libraries were prepared to be used as instructional materials for the Workshop</p></li>
+</ul></li>
+<li><p><em><em>June 2005</em></em> 
+<span style="font-variant: small-caps;">Sources for Research on Islam: Textual, Visual, Digital</span>. 
+in cooperation with Professor Marion Katz (New York University) @ SSRC Summer Institute “Teaching Islam in Eurasia,” Kazan, Russia.</p></li>
+</ul>
+<h1 id="fellowships-grants-awards-honors-received" class="unnumbered">Fellowships, grants, awards <em>&amp;</em> honors received</h1>
+<ul>
+<li><p><em><em>F2015–W2016</em> (declined)</em> 
+Research Fellowship (Visiting Fellow) at Islamic Legal Studies Program, 
+Harvard Law School, Harvard University.</p></li>
+<li><p><em><em>F2012–S2013</em></em> 
+Charlotte W. Newcombe Doctoral Dissertation Fellowship, 
+Woodrow Wilson National Fellowship Foundation.</p></li>
+<li><p><em><em>Summer 2013</em></em> 
+Hajja Razia Sharif Sheikh Scholarship Award in Islamic Studies, U of Michigan.</p></li>
+<li><p><em><em>Fall 2013</em></em> 
+<a href="http://orci.research.umich.edu/cidays/ci-days-2012/poster-competition-winners/">People’s Choice Award</a> for the poster “Social History of the Muslim World in the Digital Age: Making Sense of 29,000 Biographies from al-Ḏahabī’s ‘History of Islam’ ” @ Cyberinfrastructure Days, U of Michigan, November 7-8, 2012.</p></li>
+<li><p><em><em>W2012–S2012</em></em> 
+Rackham Humanities Research Fellowship, U of Michigan.</p></li>
+<li><p><em><em>F2011–W2012</em></em> 
+Supplementary Grant for the 2011–2012 academic year, Global Supplementary Grant Program, Open Society Institute.</p></li>
+<li><p><em><em>Winter 2011</em></em> 
+Rackham Graduate Student Research Grant, U of Michigan.</p></li>
+<li><p><em><em>Winter 2011</em></em> 
+Radcliffe/Ramsdell Fellowship, U of Michigan.</p></li>
+<li><p><em><em>Spring 2008</em></em> 
+George and Celeste Hourani Award in Arabic, Armenian, Persian, Turkish, and Islamic Studies, the Department of Near Eastern Studies, U of Michigan.</p></li>
+<li><p><em><em>Winter 2005 &amp; 2004</em></em> 
+Honorary awards for Website development, SPbIOS/IOM of RAS: 
+<a href="http://orientalstudies.ru/">www.orientalstudies.ru</a></p></li>
+<li><p><em><em>Winter 2004</em></em> 
+Honorary award for the best articles and papers by young scholars (for the article “The Paradigm of the Science of the Ḥadīṯ”), SPbIOS/IOM of RAS.</p></li>
+</ul>
+<h1 id="additional-training-experience" class="unnumbered">Additional training <em>&amp;</em> experience</h1>
+<ul>
+<li><p><em><em>Summer, 2012</em></em> 
+“Working with Text in a Digital Age” 
+3-week summer institute @ Tufts University (Perseus Project)</p></li>
+<li><p><em><em>Winter, 2012</em></em> 
+THATCamp @ the Annual Meeting of the 
+American Historical Association, Chicago, IL</p></li>
+<li><p><em><em>Winter, 2011</em></em> 
+Introduction to ArcGIS, a series of workshops @ U of Michigan</p></li>
+<li><p><em><em>2009–2010</em></em> 
+Cataloguing Arabic manuscripts @ U of Michigan, Special Collections</p></li>
+<li><p><em><em>May, 2009</em></em> 
+Introduction to Manuscript Studies, 
+a five-day workshop with Dr. Adam Gacek @ U of Michigan</p></li>
+<li><p><em><em>2005–2006</em></em> 
+Digitalization of Manuscripts from the Dunhuang Collection, <a href="http://www.orientalstudies.ru/eng/">SPbIOS/IOM of RAS</a></p></li>
+</ul>
+<h1 id="other-academic-publications-in-arabic-and-islamic-studies" class="unnumbered">Other academic publications in Arabic and Islamic studies</h1>
+<h2 id="reference-materials" class="unnumbered">Reference Materials</h2>
+<ul>
+<li><p><em><em>2006</em></em> 
+Girgas, Vladimir. Arabic-Russian Dictionary for the Qur&quot;’an and Ḥadīth (<em>Slovar’ k arabskoy khrestomatii i Koranu</em>). Kazan’, 1881; Preparation of the improved reprint edition; in cooperation with Dr. Stanislav M. Prozorov. <span style="font-variant: small-caps;">Cover title</span>: <em>Arabsko-Russkiy Slovar’ k Koranu I Hadisam</em>, St. Petersburg: Dilya Publishers, 2006, ISBN 978-5-88503-555-2.</p></li>
+</ul>
+<h2 id="translations-from-russian-into-english" class="unnumbered">Translations from Russian into English</h2>
+<ul>
+<li><p><em><em>in progress</em></em> 
+Krachkovskii, Ignatii Yulianovich. <em>Arabic Geographical Literature</em>, translation into English. In cooperation with Michael Bonner @ U of Michigan.</p></li>
+</ul>
+<h2 id="translations-from-english-into-russian" class="unnumbered">Translations from English into Russian</h2>
+<ul>
+<li><p><em><em>2010</em></em> 
+Chittick, William. <em>Sufism: a Beginner’s Guide</em>. Oxford, England: Oneworld Publications, 2008 (Moscow: “Vostochnaya Literatura”: ISBN 978-5-02-036498-1)</p></li>
+<li><p><em><em>2006</em></em> 
+Cook, Michael. <em>Forbidding Wrong in Islam</em>. Cambridge University Press, 2003; in print (St. Petersburg: Dilya Publishers: ISBN 978-5-88503-684-9); translation into Russian, editing.</p></li>
+<li><p><em><em>2006</em></em> 
+Watt, W. Montgomery. <em>MuḤammad in Mecca</em>. Oxford, 1956 (St. Petersburg: Dilya Publishers, 2006: ISBN 5-88503-507-5); editing, indices, proof-reading.</p></li>
+<li><p><em><em>2006</em></em> 
+Burton, John. <em>Introduction to the Ḥadīth</em>. Edinburgh University Press, 1994, (St.  Petersburg: Dilya Publishers, 2006, ISBN 5-88503-461-3); translation into Russian (with a co-translator), editing, indices, proof-reading.</p></li>
+<li><p><em><em>2005, not published</em></em> 
+Leaman, Oliver. <em>Islamic Aesthetic: An Introduction</em>. Edinburgh University Press, 2004, (St. Petersburg: Dilya Publishers); translation into Russian (with a co-translator), editing.</p></li>
+<li><p><em><em>2005</em></em> 
+Watt, Montgomery <em>&amp;</em> Richard Bell. <em>Introduction to the Qurʾān</em>. Edinburgh University Press, 1970 (first published), (St. Petersburg: Dilya Publishers, 2005, ISBN 5-88503-385-4); translation into Russian (with a co-translators), pre-editing, indices, proof-reading.</p></li>
+<li><p><em><em>2004</em></em> 
+Knysh, Alexander. <em>Islamic Mysticism: a short history</em>. Leiden; Boston; Köln: Brill, 2000; translation into Russian, indices, proof-reading and cover design (St. Petersburg: Dilya Publishers, 2004, ISBN 5-88503-232-7).</p></li>
+</ul>
+<h1 id="natural-languages" class="unnumbered">Natural languages</h1>
+<ul>
+<li><p><em><em>Arabic</em></em> 
+modern standard <em>&amp;</em> classical</p></li>
+<li><p><em><em>English</em></em> 
+fluent spoken <em>&amp;</em> written</p></li>
+<li><p><em><em>Russian</em></em> 
+native</p></li>
+<li><p><em><em>other</em></em> 
+reading knowledge of German, French, Indonesian; elementary Persian <em>&amp;</em> Turkish</p></li>
+</ul>
+<h1 id="formal-languages-computer-skills" class="unnumbered">Formal languages <em>&amp;</em> computer skills</h1>
+<ul>
+<li><p><em><span><em>Actively using</em></span></em> 
+<code>Python</code>, <code>R</code>, LaTeX, <code>QGIS</code>, Adobe Photoshop Indesign</p></li>
+<li><p><em><em>Learning</em></em> 
+Javascript, D3</p></li>
+</ul>
+<h1 id="professional-membership" class="unnumbered">Professional membership</h1>
+<ul>
+<li><p><em><em>2012–present</em></em> 
+American Oriental Society (AOS)</p></li>
+<li><p><em><em>2008–present</em></em> 
+Middle East Studies Association (MESA) 
+</p>
+<ul>
+<li><p><em><em>Panels Organized</em></em> 
+<em>@ MESA</em></p></li>
+<li><p><em><em>Boston, 2016</em></em> 
+Non-traditional methods for Teaching Traditional Languages (Roundtable)</p></li>
+<li><p><em><em>New Orleans, 2013</em></em> 
+Digital Humanities in Middle East Studies (organized together with Børre Ludvigsen and Will Hanley), a series of two panels and a round table: “Traditional Sources, Nontraditional Methods,” “Digital Communication,” and Roundtable. <a href="http://alraqmiyyat.org/2013/09/digital-humanities-in-middle-east-studies-mesa-new-orleans-october-11/">More details...</a></p></li>
+<li><p><em><em>San Diego, 2010</em></em> 
+Islamic Preaching</p></li>
+</ul></li>
+</ul>
+<h1 id="references" class="unnumbered">References</h1>
+<ul>
+<li><p><em>&gt;&gt; &gt;&gt;</em> 
+<em>available upon request</em></p></li>
+</ul>
+<h1 id="dissertation" class="unnumbered">Dissertation</h1>
+<ul>
+<li><p><em><em>Title</em></em> 
+<strong>Computational Reading of Arabic Biographical Collections with Special Reference to Preaching in the Sunnī World (661–1300 <span style="font-variant: small-caps;">ce</span>)</strong></p></li>
+<li><p><em><em>Abstract</em></em> 
+A project in the digital humanities, the dissertation explores methods of computational text analysis. Relying on text-mining techniques to extract meaningful data from unstructured text, the study offers an effective and flexible method for the analysis of Arabic biographical collections, the most valuable source for the social history of the pre-modern Islamic world. It uses the largest collection, “The History of Islam” of al-Ḏahabī (d. 1348), as a case-study of applying the new method and shows how almost 30,000 biographies can be studied as a whole. 
+  
+A step toward finding a viable solution for studying the entire digital corpus of classical Islamic texts (400 mln. words), Chapter I offers a detailed explanation of “computational reading” that was built upon existing digital approaches from a variety of disciplines. Chapter II models big data extracted from the main source to further our understanding of the social geography of the Islamic world and its major social transformations, simultaneously providing an important background for the next chapter. Chapter III applies the devised method to the study of Islamic preaching from chronological, geographical and social perspectives that have been overlooked in the academic treatment of this subject. Largely an exploratory overview, it traces long-term changes in preaching practices as well as statuses of preachers within the Islamic élites. This chapter demonstrates how exactly computational reading can contribute to the studies of specific phenomena and practices. The final section overviews broad prospects of the further application of “computational reading” to a variety of genres of pre-modern Arabic literature. 
+  
+The dissertation heavily relies on the visual display of information in the form of graphs, charts, maps, and tables that are used in the main body and supplied in Appendices. <em><a href="http://maximromanov.github.io/about/">More details...</a></em></p></li>
+<li><p><em><em>Committee</em></em> 
+<span>Alexander Knysh</span>, Chair, Professor of Arabic and Islamic Studies, University of Michigan; <span>Michael Bonner</span>, Professor of Medieval Islamic History, University of Michigan; <span>Richard Bulliet</span>, Professor of History, Columbia University; <span>Sherman Jackson</span>, Professor of Religion and American Studies, University of South California; <span>Andrew Shryock</span>, Professor of Cultural Anthropology, University of Michigan</p></li>
+</ul>
 
 
 ## Dissertation: *From Introduction*
