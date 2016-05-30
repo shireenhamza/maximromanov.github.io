@@ -5,6 +5,9 @@ header-img: images/loc_photos/a_cover.jpg
 # - al-Dhahabī
 # - Ta’rīkh al-islām
 
+# Testing features
+future:             true
+
 # Owner/author information
 name:               Maxim Romanov
 author:             Maxim Romanov

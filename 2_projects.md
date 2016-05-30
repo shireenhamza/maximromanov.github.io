@@ -31,7 +31,7 @@ permalink: /projects/
       {% if post.title != null %}
       {% if group == null or group == post.group %}
       {% if post.tags contains 'Blogpost' %}
-      <li><a href="{{ site.url }}{{ post.url }}">{{ post.title }}<span class="entry-date"><time datetime="{{ post.date | date_to_xmlschema }}" itemprop="datePublished">{{ post.date | date: "%B %d, %Y" }}</time></a></li>
+      <li><a href="{{ site.url }}{{ post.url }}">{{ post.title }}</a><span class="entry-date"><time datetime="{{ post.date | date_to_xmlschema }}" itemprop="datePublished">{{ post.date | date: "%B %d, %Y" }}</time></span></li>
       {% endif %}
       {% endif %}
       {% endif %}
