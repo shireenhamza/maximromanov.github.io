@@ -3,11 +3,10 @@ title:			"Creating Frequency-Based Readers for Classical Arabic"
 subtitle:			"DH methods in a language classroom"
 author:		Maxim Romanov
 layout:		post
-image:		/images/thematic_covers/greek_laptop.jpg
-imagecredit:	"Unknown Maker. Grave Naiskos of an Enthroned Woman with an Attendant, about 100 B.C.,
-			Marble; 94.6 x 120.7 x 21.6 cm (37 1/4 x 47 1/2 x 8 1/2 in.). 
-			<a href='http://www.getty.edu/art/collection/objects/7009/unknown-maker-grave-naiskos-of-an-enthroned-woman-with-an-attendant-east-greek-about-100-bc/' target='_blank'>
-			The J. Paul Getty Museum, Villa Collection, Malibu, California</a>."
+image:		/images/loc_photos/16155u.jpg
+imagecredit:	"Iraq. Nejaf. First sacred city of the Shiite Moslems [i.e., Muslims]. General view of the city showing the great mosque in distance. 
+			<a href='http://hdl.loc.gov/loc.pnp/matpc.16155' target='_blank'>
+			LC-DIG-matpc-16155 (Library of Congress Prints and Photographs Division Washington, D.C. 20540 USA)</a>."
 categories:
   - NLP
   - Arabic
