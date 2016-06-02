@@ -46,9 +46,14 @@ tags:
 <h2 id="in-the-classroom">In the classroom</h2>
 <p>In my teaching, I used this reader in combination with ‘micropublications’, which provided each student with a thorough practice of foundational skills necessary for mastering the language: for each <em>ḥadīṯ</em> students provided full vocalization, morphological stemming, and translation aligned with its Arabic original. Such ‘micropublications’ help monitoring students’ progress, and, later, can be used to automatically grade such assignments, thus freeing up time for in-class discussions. Last but not least, by producing these micropublications, students make a valuable contribution as they generate training data that can be used for various teaching and research purposes.</p>
 
+<figure class="fit">
+	<a href="../files/Romanov_CATWOP.pdf" title="Download the Reader">
+		<img src="../images/fbr/Flyer_Spring2015.jpg">
+	</a>
+</figure>
 
 <div class="footnotes">
-<hr />
+<h2>Footnotes</h2>
 <ol>
 <li id="fn1"><p>“Classical Arabic through the Words of the Prophet” (Tufts University, Winter/Spring 2015), with the following two additional readings: <span class="citation">W. M. Thackston, <em>An Introduction to Koranic and Classical Arabic: An Elementary Grammar of the Language</em> (Bethesda, Md.: Ibex Publishers, 2000)</span>, <span class="citation">Jonathan Brown, <em>Hadith: Muhammad’s Legacy in the Medieval and Modern World</em> (Oxford: Oneworld, 2009)</span>.<a href="#fnref1">↩</a></p></li>
 <li id="fn2"><p>On normalization, see: <span class="citation">Nizar Y. Habash, <em>Introduction to Arabic Natural Language Processing</em> ([San Rafael, Calif.]: Morgan &amp; Claypool Publishers, 2010), 21–23</span>.<a href="#fnref2">↩</a></p></li>
