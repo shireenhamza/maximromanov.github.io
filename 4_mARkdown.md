@@ -31,7 +31,7 @@ The main goal of **mARkdown** is to provide a simple system for tagging structur
 # Very Short Description
 
 1. Download and install [EditPad Pro](http://www.editpadpro.com/) (Windows only).
-2. Download **mARkdown** schemes from [GitHub](https://github.com/maximromanov/mARkdown), and unzip into `%APPDATA%\JGsoft\EditPad Pro 7`
+2. Download **mARkdown** schemes from [GitHub](https://github.com/maximromanov/mARkdown), and unzip, and copy all the files into `%APPDATA%\JGsoft\EditPad Pro 7\` (make sure that EditPad Pro is closed)
 3. Text that you will be working with have already been preprocessed. Opening any of these texts in EditPad Pro will automatically activate **mARkdown** scheme.
 4. The goal is to tag the structure of a text, which boils down to:
 	1. the headers of chapters (`### | `), sections (`### ||`), subsections (`### ||| `), etc.
@@ -47,7 +47,7 @@ The main goal of **mARkdown** is to provide a simple system for tagging structur
 
 [EditPad Pro](http://www.editpadpro.com/) is a commercial text editor for Windows. It can be used on Mac and Linux through some virtualization solution (for example, Parallels or Fusion on Mac, or Wine on Linux). You can download a fully functional trial version to try **mARkdown** (it, however, will not work with EditPad Lite, a free light-weight version of the same text editor).
 
-The most recent **mARkdown** settings files for EditPad Pro can be found in the [mARkdown repository](https://github.com/maximromanov/mARkdown) on GitHub. Download the latest `*.zip` file (the date is in the filename: `YYYYMMDD_HHMMSS.zip`) and unzip its content into `%APPDATA%\JGsoft\EditPad Pro 7`. You may need to restart the program (use: **File** > **Exit**). If **mARkdown** settings work, the main window should look as shown below. Note the yellow-ish color of the main window and a large Find/Replace panel on the right).
+The most recent **mARkdown** settings files for EditPad Pro can be found in the [mARkdown repository](https://github.com/maximromanov/mARkdown) on GitHub. Download the latest `*.zip` file (the date is in the filename: `YYYYMMDD_HHMMSS.zip`), unzip its content, and copy all the files into `%APPDATA%\JGsoft\EditPad Pro 7\`. You may need to restart the program (use: **File** > **Exit**). If **mARkdown** settings work, the main window should look as shown below. Note the yellow-ish color of the main window and a large Find/Replace panel on the right).
 
 <figure class="fit">
 	<a href="{{ site.url }}/images/md/editPadPro.png" title="">
