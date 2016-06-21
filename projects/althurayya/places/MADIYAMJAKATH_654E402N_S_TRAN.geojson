@@ -1,1 +1,30 @@
-{"features": [{"geometry": {"coordinates": [65.43455, 40.24274], "type": "Point"}, "properties": {"arBW": "Madiyamjakath", "arTitle": "\u0645\u062f\u064a\u0645\u062c\u0643\u062b", "arTitleOther": "\u0645\u062f\u064a\u0645\u062c\u0643\u062b", "lat": "40.24274", "lon": "65.43455", "region": "Transoxiana", "searchNames": "Madiyamjakath", "topType": "towns", "topTypeAlt": "canton", "topURI": "MADIYAMJAKATH_654E402N_S_TRAN", "translitTitle": "Madiyam\u01e7aka\u1e6f", "translitTitleOther": "Madiyam\u01e7aka\u1e6f"}, "type": "Feature"}], "type": "FeatureCollection"}
+{
+    "features": [
+        {
+            "geometry": {
+                "coordinates": [
+                    65.43455,
+                    40.24274
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "arBW": "Madiyamjakath",
+                "arTitle": "\u0645\u062f\u064a\u0645\u062c\u0643\u062b",
+                "arTitleOther": "\u0645\u062f\u064a\u0645\u062c\u0643\u062b",
+                "lat": "40.24274",
+                "lon": "65.43455",
+                "regNum": 20,
+                "region": "Transoxiana",
+                "searchNames": "Madiyamjakath",
+                "topType": "towns",
+                "topTypeAlt": "canton",
+                "topURI": "MADIYAMJAKATH_654E402N_S_TRAN",
+                "translitTitle": "Madiyam\u01e7aka\u1e6f",
+                "translitTitleOther": "Madiyam\u01e7aka\u1e6f"
+            },
+            "type": "Feature"
+        }
+    ],
+    "type": "FeatureCollection"
+}

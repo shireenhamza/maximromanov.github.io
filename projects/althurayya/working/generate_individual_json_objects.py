@@ -24,6 +24,35 @@ def placeholder():
         json.dump(geojson,fp,sort_keys=True)
 #################################
 
+prov = {
+    "Andalus" : 1,
+    "Aqur" : 2,
+    "Aqur/Iraq" : 2,
+    "Barqa" : 3,
+    "Daylam" : 4,
+    "Egypt" : 5,
+    "Faris" : 6,
+    "Iraq" : 7,
+    "Jibal" : 8,
+    "Khazar" : 9,
+    "Khurasan" : 10,
+    "Khuzistan" : 11,
+    "Kirman" : 12,
+    "Mafaza" : 13,
+    "Maghrib" : 14,
+    "Rihab" : 15,
+    "Rihab/Daylam" : 15,
+    "Sham" : 16,
+    "Sicile" : 17,
+    "Sijistan" : 18,
+    "Sind" : 19,
+    "Transoxiana" : 20,
+    "Yemen" : 21,
+    "noData" : 22,
+    "Badiyat al-Arab" : 23,
+    "Jazirat al-Arab" : 24
+    }
+
 def generateJSONdata(tsvFile):
     geojson = {"type":"FeatureCollection","features":[]}
     
@@ -31,12 +60,19 @@ def generateJSONdata(tsvFile):
         data = f1.read().split("\n")
 
         n = data[0].split("\t")
-        #print(n)
+        n = ["regNum"]+n
+        print(n)
+        #input()
 
         for l in data[1:]:
             l = l.split("\t")
+            try:
+                l = [prov[l[0]]] + l
+            except:
+                print(prov[l[0]])
+                l = ["lacking"] + l
 
-            uri = l[7]
+            uri = l[8]
 
             d = {}
             for i in range(0,len(l)):
@@ -45,7 +81,7 @@ def generateJSONdata(tsvFile):
             #input(d)
 
             # writing a feature
-            feature = {"type":"Feature","geometry":{"type":"Point","coordinates":[float(l[1]),float(l[2])]}}
+            feature = {"type":"Feature","geometry":{"type":"Point","coordinates":[float(l[2]),float(l[3])]}}
             feature['properties'] = d
             geojson['features'].append(feature)
             
@@ -53,7 +89,7 @@ def generateJSONdata(tsvFile):
             geojsonSingle['features'].append(feature)
 
             with open(places+"%s.geojson" % uri,"w",encoding='utf-8') as fp:
-                json.dump(geojsonSingle,fp,sort_keys=True)
+                json.dump(geojsonSingle,fp,sort_keys=True, indent=4)
 
     with open(master+"places.geojson","w",encoding='utf-8') as fp:
         json.dump(geojson,fp,sort_keys=True)

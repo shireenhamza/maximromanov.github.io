@@ -78,8 +78,8 @@
       var geojson = L.geoJson(data, {
         pointToLayer: function (feature, latlng) {
           var marker = L.circleMarker(latlng, {
-            radius: Math.sqrt(feature.properties.description_new_orth.length)/3,
-            fillColor: colorLookup[feature.properties.admin1_partofID],
+            radius: Math.sqrt(feature.properties.translitTitle.length)/3,
+            fillColor: colorLookup[feature.properties.regNum],
             color: "#fff",
             weight: 1,
             opacity: 1,
@@ -92,21 +92,21 @@
             $("#initDesc").remove();
             $("#location").addClass('active');
             $("#locTab").addClass('active');
-            $("#locTitle").text(feature.properties.name_new_orth+" ("+feature.properties.name_new_orth_lc+")");
-            $("#locDescRu").text(feature.properties.description_new_orth);
-            $("#locDescEn").text(feature.properties.desc_machine_translated);
-            $("#admin1").text(feature.properties.admin1_std_name);
-            $("#txtLink > a").text(feature.properties.SOURCE);
-            $("#txtLink > a").attr("href",feature.properties.SOURCE);
-            $("#txtLink > a").attr("target","_blank");
-            $("#geoLink > a").text(feature.properties.geo.geonameId);
-            $("#geoLink > a").attr("href",feature.properties.geo.geonameId);
+            //$("#locTitle").text(feature.properties.name_new_orth+" ("+feature.properties.name_new_orth_lc+")");
+            $("#locDescRu").text(feature.properties.translitTitle);
+            //$("#locDescEn").text(feature.properties.desc_machine_translated);
+            //$("#admin1").text(feature.properties.admin1_std_name);
+            //$("#txtLink > a").text(feature.properties.SOURCE);
+            //$("#txtLink > a").attr("href",feature.properties.SOURCE);
+            //$("#txtLink > a").attr("target","_blank");
+            //$("#geoLink > a").text(feature.properties.geo.geonameId);
+            //$("#geoLink > a").attr("href",feature.properties.geo.geonameId);
             $("#geoLink > a").attr("target","_blank");
           }
           marker.on('click',OnMarkerClick);
           function ResizeMarker(e) {
             var currentZoom = map.getZoom();
-            marker.setradius(currentZoom*(Math.sqrt(feature.properties.description_new_orth.length)/3));
+            marker.setradius(currentZoom*(Math.sqrt(feature.properties.translitTitle.length)/3));
           }
           /**/
           return marker
