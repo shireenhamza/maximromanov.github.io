@@ -45,7 +45,7 @@ def generateJSONdata(tsvFile):
             #input(d)
 
             # writing a feature
-            feature = {"type":"Feature","geometry":{"type":"Point","coordinates":[float(l[2]),float(l[1])]}}
+            feature = {"type":"Feature","geometry":{"type":"Point","coordinates":[float(l[1]),float(l[2])]}}
             feature['properties'] = d
             geojson['features'].append(feature)
             
