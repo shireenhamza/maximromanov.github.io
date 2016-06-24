@@ -1,0 +1,1038 @@
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2011.10.29)  28 JAN 2014 12:42
+entering extended mode
+**MCIW_Practicum_GoogleEarth.tex
+
+("D:\Working Documents\Geography of the Classical Islamic World\_MCIW Spring 20
+14 - LaTeX Files\MCIW_Practicum_GoogleEarth.tex"
+LaTeX2e <2011/06/27>
+Babel <v3.8m> and hyphenation patterns for english, afrikaans, ancientgreek, ar
+abic, armenian, assamese, basque, bengali, bokmal, bulgarian, catalan, coptic, 
+croatian, czech, danish, dutch, esperanto, estonian, farsi, finnish, french, ga
+lician, german, german-x-2009-06-19, greek, gujarati, hindi, hungarian, iceland
+ic, indonesian, interlingua, irish, italian, kannada, kurmanji, lao, latin, lat
+vian, lithuanian, malayalam, marathi, mongolian, mongolianlmc, monogreek, ngerm
+an, ngerman-x-2009-06-19, nynorsk, oriya, panjabi, pinyin, polish, portuguese, 
+romanian, russian, sanskrit, serbian, slovak, slovenian, spanish, swedish, swis
+sgerman, tamil, telugu, turkish, turkmen, ukenglish, ukrainian, uppersorbian, u
+senglishmax, welsh, loaded.
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\article.cls"
+Document Class: article 2007/10/19 v1.4h Standard LaTeX document class
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\size12.clo"
+File: size12.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
+)
+\c@part=\count79
+\c@section=\count80
+\c@subsection=\count81
+\c@subsubsection=\count82
+\c@paragraph=\count83
+\c@subparagraph=\count84
+\c@figure=\count85
+\c@table=\count86
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\ltxmisc\url.sty"
+\Urlmuskip=\muskip10
+Package: url 2006/04/12  ver 3.3  Verb mode for urls, etc.
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\arabtex\arabtex.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\arabtex\aconfig.sty"
+LaTeX2e detected 
+BABEL detected
+\a@moduledate=\count87
+\a@maindate=\count88
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\arabtex\arabaux.sty")
+("C:\Program Files\MiKTeX 2.9\tex\latex\arabtex\acmd.sty")
+("C:\Program Files\MiKTeX 2.9\tex\latex\arabtex\afonts.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\arabtex\afonts2.sty"))
+("C:\Program Files\MiKTeX 2.9\tex\latex\arabtex\ascan.sty"
+(ArabTeX) scanner for code `arabtex' installed.
+(ArabTeX) input encoding set to ArabTeX standard conventions.)
+("C:\Program Files\MiKTeX 2.9\tex\latex\arabtex\aparse.sty")
+("C:\Program Files\MiKTeX 2.9\tex\latex\arabtex\awrite.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\arabtex\xarbsymb.sty")
+("C:\Program Files\MiKTeX 2.9\tex\latex\arabtex\arabskel.sty")
+("C:\Program Files\MiKTeX 2.9\tex\latex\arabtex\xarbskel.sty")
+("C:\Program Files\MiKTeX 2.9\tex\latex\arabtex\aboxes.sty")
+("C:\Program Files\MiKTeX 2.9\tex\latex\arabtex\arabtoks.sty")
+("C:\Program Files\MiKTeX 2.9\tex\latex\arabtex\arabchrs.sty"))
+("C:\Program Files\MiKTeX 2.9\tex\latex\arabtex\aligs.sty")
+("C:\Program Files\MiKTeX 2.9\tex\latex\arabtex\aoutput.sty")
+("C:\Program Files\MiKTeX 2.9\tex\latex\arabtex\abidir.sty")
+("C:\Program Files\MiKTeX 2.9\tex\latex\arabtex\atrans.sty"
+(ArabTeX) ZDMG transliteration.)
+("C:\Program Files\MiKTeX 2.9\tex\latex\arabtex\alatex.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\arabtex\afoot.sty"))
+("C:\Program Files\MiKTeX 2.9\tex\latex\arabtex\abjad.sty")
+("C:\Program Files\MiKTeX 2.9\tex\latex\arabtex\apatch.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\arabtex\alists.sty")
+("C:\Program Files\MiKTeX 2.9\tex\latex\arabtex\asect.sty")
+("C:\Program Files\MiKTeX 2.9\tex\latex\arabtex\atabg.sty")
+("C:\Program Files\MiKTeX 2.9\tex\latex\arabtex\alocal.sty"
+(ArabTeX) 3.11 local stub, 26.02.2006))
+Arabic processor `ArabTeX' [20060702 patch level 3.11s (02.07.2006)]
+(ArabTeX) ... now be patient ... )
+("C:\Program Files\MiKTeX 2.9\tex\latex\mh\mathtools.sty"
+Package: mathtools 2012/04/24 v1.12 mathematical typesetting tools
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\keyval.sty"
+Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
+\KV@toks@=\toks34
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\tools\calc.sty"
+Package: calc 2007/08/22 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count118
+\calc@Bcount=\count119
+\calc@Adimen=\dimen125
+\calc@Bdimen=\dimen126
+\calc@Askip=\skip45
+\calc@Bskip=\skip46
+LaTeX Info: Redefining \setlength on input line 76.
+LaTeX Info: Redefining \addtolength on input line 77.
+\calc@Ccount=\count120
+\calc@Cskip=\skip47
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\mh\mhsetup.sty"
+Package: mhsetup 2010/01/21 v1.2a programming setup (MH)
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\ams\math\amsmath.sty"
+Package: amsmath 2000/07/18 v2.13 AMS math features
+\@mathmargin=\skip48
+
+For additional information on amsmath, use the `?' option.
+("C:\Program Files\MiKTeX 2.9\tex\latex\ams\math\amstext.sty"
+Package: amstext 2000/06/29 v2.01
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\ams\math\amsgen.sty"
+File: amsgen.sty 1999/11/30 v2.0
+\@emptytoks=\toks35
+\ex@=\dimen127
+))
+("C:\Program Files\MiKTeX 2.9\tex\latex\ams\math\amsbsy.sty"
+Package: amsbsy 1999/11/29 v1.2d
+\pmbraise@=\dimen128
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\ams\math\amsopn.sty"
+Package: amsopn 1999/12/14 v2.01 operator names
+)
+\inf@bad=\count121
+LaTeX Info: Redefining \frac on input line 211.
+\uproot@=\count122
+\leftroot@=\count123
+LaTeX Info: Redefining \overline on input line 307.
+\classnum@=\count124
+\DOTSCASE@=\count125
+LaTeX Info: Redefining \ldots on input line 379.
+LaTeX Info: Redefining \dots on input line 382.
+LaTeX Info: Redefining \cdots on input line 467.
+\Mathstrutbox@=\box41
+\strutbox@=\box42
+\big@size=\dimen129
+LaTeX Font Info:    Redeclaring font encoding OML on input line 567.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 568.
+\macc@depth=\count126
+\c@MaxMatrixCols=\count127
+\dotsspace@=\muskip11
+\c@parentequation=\count128
+\dspbrk@lvl=\count129
+\tag@help=\toks36
+\row@=\count130
+\column@=\count131
+\maxfields@=\count132
+\andhelp@=\toks37
+\eqnshift@=\dimen130
+\alignsep@=\dimen131
+\tagshift@=\dimen132
+\tagwidth@=\dimen133
+\totwidth@=\dimen134
+\lineht@=\dimen135
+\@envbody=\toks38
+\multlinegap=\skip49
+\multlinetaggap=\skip50
+\mathdisplay@stack=\toks39
+LaTeX Info: Redefining \[ on input line 2666.
+LaTeX Info: Redefining \] on input line 2667.
+)
+\g_MT_multlinerow_int=\count133
+\l_MT_multwidth_dim=\dimen136
+\origjot=\skip51
+\l_MT_shortvdotswithinadjustabove_dim=\dimen137
+\l_MT_shortvdotswithinadjustbelow_dim=\dimen138
+\l_MT_above_intertext_dim=\dimen139
+\l_MT_below_intertext_dim=\dimen140
+\l_MT_above_shortintertext_dim=\dimen141
+\l_MT_below_shortintertext_dim=\dimen142
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\jknappen\semtrans.sty"
+Package: semtrans 1998/02/10 v 1.0 specials for transliterated semitic language
+s (jk)
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\graphicx.sty"
+Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\graphics.sty"
+Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\trig.sty"
+Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\00miktex\graphics.cfg"
+File: graphics.cfg 2007/01/18 v1.5 graphics configuration of teTeX/TeXLive
+)
+Package graphics Info: Driver file: pdftex.def on input line 91.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\pdftex-def\pdftex.def"
+File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
+
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\infwarerr.sty"
+Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
+)
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ltxcmds.sty"
+Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
+)
+\Gread@gobject=\count134
+))
+\Gin@req@height=\dimen143
+\Gin@req@width=\dimen144
+)
+LaTeX Font Info:    Redeclaring math symbol \lhook on input line 26.
+LaTeX Font Info:    Redeclaring math symbol \rhook on input line 27.
+)
+("C:\Program Files\MiKTeX 2.9\tex\generic\babel\babel.sty"
+Package: babel 2008/07/08 v3.8m The Babel package
+
+*************************************
+* Local config file bblopts.cfg used
+*
+("C:\Program Files\MiKTeX 2.9\tex\latex\00miktex\bblopts.cfg"
+File: bblopts.cfg 2006/07/31 v1.0 MiKTeX 'babel' configuration
+)
+("C:\Program Files\MiKTeX 2.9\tex\generic\babel\english.ldf"
+Language: english 2005/03/30 v3.3o English support from the babel system
+
+("C:\Program Files\MiKTeX 2.9\tex\generic\babel\babel.def"
+File: babel.def 2008/07/08 v3.8m Babel common definitions
+\babel@savecnt=\count135
+\U@D=\dimen145
+)
+\l@canadian = a dialect from \language\l@american 
+\l@australian = a dialect from \language\l@british 
+\l@newzealand = a dialect from \language\l@british 
+))
+("C:\Program Files\MiKTeX 2.9\tex\latex\geometry\geometry.sty"
+Package: geometry 2010/09/12 v5.6 Page Geometry
+
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ifpdf.sty"
+Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
+Package ifpdf Info: pdfTeX in PDF mode is detected.
+)
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ifvtex.sty"
+Package: ifvtex 2010/03/01 v1.5 Detect VTeX and its facilities (HO)
+Package ifvtex Info: VTeX not detected.
+)
+("C:\Program Files\MiKTeX 2.9\tex\generic\ifxetex\ifxetex.sty"
+Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
+)
+\Gm@cnth=\count136
+\Gm@cntv=\count137
+\c@Gm@tempcnt=\count138
+\Gm@bindingoffset=\dimen146
+\Gm@wd@mp=\dimen147
+\Gm@odd@mp=\dimen148
+\Gm@even@mp=\dimen149
+\Gm@layoutwidth=\dimen150
+\Gm@layoutheight=\dimen151
+\Gm@layouthoffset=\dimen152
+\Gm@layoutvoffset=\dimen153
+\Gm@dimlist=\toks40
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\geometry\geometry.cfg"))
+("C:\Program Files\MiKTeX 2.9\tex\latex\setspace\setspace.sty"
+Package: setspace 2011/12/19 v6.7a set line spacing
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\fixltx2e.sty"
+Package: fixltx2e 2006/09/13 v1.1m fixes to LaTeX
+LaTeX Info: Redefining \em on input line 420.
+LaTeX Info: The control sequence `\[' is already robust on input line 471.
+LaTeX Info: The control sequence `\]' is already robust on input line 472.
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\tools\xspace.sty"
+Package: xspace 2009/10/20 v1.13 Space after command names (DPC,MH)
+)
+\@input{autocorrect.aux}
+
+("D:\Working Documents\Geography of the Classical Islamic World\_MCIW Spring 20
+14 - LaTeX Files\autocorrect.tex")
+\@input{extrafunctions.aux}
+
+("D:\Working Documents\Geography of the Classical Islamic World\_MCIW Spring 20
+14 - LaTeX Files\extrafunctions.tex")
+("C:\Program Files\MiKTeX 2.9\tex\latex\fancyhdr\fancyhdr.sty"
+\fancy@headwidth=\skip52
+\f@ncyO@elh=\skip53
+\f@ncyO@erh=\skip54
+\f@ncyO@olh=\skip55
+\f@ncyO@orh=\skip56
+\f@ncyO@elf=\skip57
+\f@ncyO@erf=\skip58
+\f@ncyO@olf=\skip59
+\f@ncyO@orf=\skip60
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\datetime\datetime.sty"
+Package: datetime 2010/09/21 v2.58 Date Time Package
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\fmtcount\fmtcount.sty"
+Package: fmtcount 2009/10/02 v1.31
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\ifthen.sty"
+Package: ifthen 2001/05/26 v1.1c Standard LaTeX ifthen package (DPC)
+)
+\c@padzeroesN=\count139
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\fmtcount\fc-english.def"
+File: fc-english 2007/05/26
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\fmtcount\fc-UKenglish.def"
+File: fc-UKenglish 2007/06/14
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\fmtcount\fc-british.def"
+File: fc-british 2007/06/14
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\fmtcount\fc-USenglish.def"
+File: fc-USenglish 2007/06/14
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\fmtcount\fc-spanish.def"
+File: fc-spanish.def 2007/05/26
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\fmtcount\fc-portuges.def"
+File: fc-portuges.def 2007/05/26
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\fmtcount\fc-french.def"
+File: fc-french.def 2007/05/26
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\fmtcount\fc-german.def"
+File: fc-german.def 2007/06/14
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\fmtcount\fc-italian.def"
+File: fc-italian.def 2009/10/02 Italian support for fmtcount (Edoardo Pasca)
+)
+No configuration file fmtcount.cfg found.
+\@DT@modctr=\count140
+\@ordinalctr=\count141
+\@orgargctr=\count142
+\@strctr=\count143
+\@tmpstrctr=\count144
+\@DT@loopN=\count145
+\@DT@X=\count146
+)
+\@day=\count147
+\@month=\count148
+\@year=\count149
+\c@HOUR=\count150
+\c@HOURXII=\count151
+\c@MINUTE=\count152
+\c@TOHOUR=\count153
+\c@TOMINUTE=\count154
+\c@SECOND=\count155
+\currenthour=\count156
+\currentminute=\count157
+\currentsecond=\count158
+Package datetime Info: No datetime.cfg file found, using default settings on in
+put line 292.
+\@dtctr=\count159
+\dayofyear=\count160
+\dayofweek=\count161
+LaTeX Info: Redefining \today on input line 724.
+\dt@a=\toks41
+\dt@b=\toks42
+)
+Package babel Info: Making " an active character on input line 50.
+ ("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\hyperref.sty"
+Package: hyperref 2012/05/13 v6.82q Hypertext links for LaTeX
+
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\hobsub-hyperref.sty"
+Package: hobsub-hyperref 2012/04/25 v1.12 Bundle oberdiek, subset hyperref (HO)
+
+
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\hobsub-generic.sty"
+Package: hobsub-generic 2012/04/25 v1.12 Bundle oberdiek, subset generic (HO)
+Package: hobsub 2012/04/25 v1.12 Construct package bundles (HO)
+Package hobsub Info: Skipping package `infwarerr' (already loaded).
+Package hobsub Info: Skipping package `ltxcmds' (already loaded).
+Package: ifluatex 2010/03/01 v1.3 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+Package hobsub Info: Skipping package `ifvtex' (already loaded).
+Package: intcalc 2007/09/27 v1.1 Expandable calculations with integers (HO)
+Package hobsub Info: Skipping package `ifpdf' (already loaded).
+Package: etexcmds 2011/02/16 v1.5 Avoid name clashes with e-TeX commands (HO)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+Package: kvsetkeys 2012/04/25 v1.16 Key value parser (HO)
+Package: kvdefinekeys 2011/04/07 v1.3 Define keys (HO)
+Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+Package: pdfescape 2011/11/25 v1.13 Implements pdfTeX's escape features (HO)
+Package: bigintcalc 2012/04/08 v1.3 Expandable calculations on big integers (HO
+)
+Package: bitset 2011/01/30 v1.1 Handle bit-vector datatype (HO)
+Package: uniquecounter 2011/01/30 v1.2 Provide unlimited unique counter (HO)
+)
+Package hobsub Info: Skipping package `hobsub' (already loaded).
+Package: letltxmacro 2010/09/02 v1.4 Let assignment for LaTeX macros (HO)
+Package: hopatch 2011/06/24 v1.1 Wrapper for package hooks (HO)
+Package: xcolor-patch 2011/01/30 xcolor patch
+Package: atveryend 2011/06/30 v1.8 Hooks at the very end of document (HO)
+Package atveryend Info: \enddocument detected (standard20110627).
+Package atveryend Info: \a@enddocument detected (standard20110627).
+Package: atbegshi 2011/10/05 v1.16 At begin shipout hook (HO)
+Package: refcount 2011/10/16 v3.4 Data extraction from label references (HO)
+Package: hycolor 2011/01/30 v1.7 Color options for hyperref/bookmark (HO)
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\kvoptions.sty"
+Package: kvoptions 2011/06/30 v3.11 Key value format for package options (HO)
+)
+\@linkdim=\dimen154
+\Hy@linkcounter=\count162
+\Hy@pagecounter=\count163
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\pd1enc.def"
+File: pd1enc.def 2012/05/13 v6.82q Hyperref: PDFDocEncoding definition (HO)
+)
+\Hy@SavedSpaceFactor=\count164
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\00miktex\hyperref.cfg"
+File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
+)
+Package hyperref Info: Hyper figures OFF on input line 4062.
+Package hyperref Info: Link nesting OFF on input line 4067.
+Package hyperref Info: Hyper index ON on input line 4070.
+Package hyperref Info: Plain pages OFF on input line 4077.
+Package hyperref Info: Backreferencing OFF on input line 4082.
+Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
+Package hyperref Info: Bookmarks ON on input line 4300.
+\c@Hy@tempcnt=\count165
+LaTeX Info: Redefining \url on input line 4653.
+\Fld@menulength=\count166
+\Field@Width=\dimen155
+\Fld@charsize=\dimen156
+Package hyperref Info: Hyper figures OFF on input line 5773.
+Package hyperref Info: Link nesting OFF on input line 5778.
+Package hyperref Info: Hyper index ON on input line 5781.
+Package hyperref Info: backreferencing OFF on input line 5788.
+Package hyperref Info: Link coloring OFF on input line 5793.
+Package hyperref Info: Link coloring with OCG OFF on input line 5798.
+Package hyperref Info: PDF/A mode OFF on input line 5803.
+LaTeX Info: Redefining \ref on input line 5843.
+LaTeX Info: Redefining \pageref on input line 5847.
+\Hy@abspage=\count167
+\c@Item=\count168
+\c@Hfootnote=\count169
+)
+
+Package hyperref Message: Driver (autodetected): hpdftex.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\hpdftex.def"
+File: hpdftex.def 2012/05/13 v6.82q Hyperref driver for pdfTeX
+\Fld@listcount=\count170
+\c@bookmark@seq@number=\count171
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\rerunfilecheck.sty"
+Package: rerunfilecheck 2011/04/15 v1.7 Rerun checks for auxiliary files (HO)
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
+82.
+)
+\Hy@SectionHShift=\skip61
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\color.sty"
+Package: color 2005/11/14 v1.0j Standard LaTeX Color (DPC)
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\00miktex\color.cfg"
+File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
+)
+Package color Info: Driver file: pdftex.def on input line 130.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\dvipsnam.def"
+File: dvipsnam.def 1999/02/16 v3.0i Driver-dependant file (DPC,SPQR)
+))
+Package hyperref Info: Option `colorlinks' set `true' on input line 99.
+
+("D:\Working Documents\Geography of the Classical Islamic World\_MCIW Spring 20
+14 - LaTeX Files\MCIW_Practicum_GoogleEarth.aux")
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 104.
+LaTeX Font Info:    ... okay on input line 104.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 104.
+LaTeX Font Info:    ... okay on input line 104.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 104.
+LaTeX Font Info:    ... okay on input line 104.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 104.
+LaTeX Font Info:    ... okay on input line 104.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 104.
+LaTeX Font Info:    ... okay on input line 104.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 104.
+LaTeX Font Info:    ... okay on input line 104.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 104.
+LaTeX Font Info:    ... okay on input line 104.
+
+("C:\Program Files\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count172
+\scratchdimen=\dimen157
+\scratchbox=\box43
+\nofMPsegments=\count173
+\nofMParguments=\count174
+\everyMPshowfont=\toks43
+\MPscratchCnt=\count175
+\MPscratchDim=\dimen158
+\MPnumerator=\count176
+\makeMPintoPDFobject=\count177
+\everyMPtoPDFconversion=\toks44
+)
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: <default>
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(108.405pt, 397.485pt, 108.405pt)
+* v-part:(T,H,B)=(108.405pt, 578.15999pt, 108.405pt)
+* \paperwidth=614.295pt
+* \paperheight=794.96999pt
+* \textwidth=397.485pt
+* \textheight=578.15999pt
+* \oddsidemargin=36.13501pt
+* \evensidemargin=36.13501pt
+* \topmargin=-0.86499pt
+* \headheight=12.0pt
+* \headsep=25.0pt
+* \topskip=12.0pt
+* \footskip=30.0pt
+* \marginparwidth=144.54pt
+* \marginparsep=10.0pt
+* \columnsep=10.0pt
+* \skip\footins=10.8pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+\AtBeginShipoutBox=\box44
+Package hyperref Info: Link coloring ON on input line 104.
+("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\nameref.sty"
+Package: nameref 2010/04/30 v2.40 Cross-referencing by name of section
+
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\gettitlestring.sty"
+Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
+)
+\c@section@level=\count178
+)
+LaTeX Info: Redefining \ref on input line 104.
+LaTeX Info: Redefining \pageref on input line 104.
+LaTeX Info: Redefining \nameref on input line 104.
+
+("D:\Working Documents\Geography of the Classical Islamic World\_MCIW Spring 20
+14 - LaTeX Files\MCIW_Practicum_GoogleEarth.out")
+("D:\Working Documents\Geography of the Classical Islamic World\_MCIW Spring 20
+14 - LaTeX Files\MCIW_Practicum_GoogleEarth.out")
+\@outlinefile=\write5
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\arabtex\apatch.sty"
+\a@lines=\count179
+\a@Lwidth=\dimen159
+\a@displaywidth=\dimen160
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\arabtex\alocal.sty"
+(ArabTeX) 3.11 local stub, 26.02.2006)
+(ArabTeX) version 3.11s (02.07.2006): second phase of patching)
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 127.
+
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\omscmr.fd"
+File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 127.
+
+<graphics/google_earth_icon.png, id=43, 128.48pt x 128.48pt>
+File: graphics/google_earth_icon.png Graphic file (type png)
+
+<use graphics/google_earth_icon.png>
+Package pdftex.def Info: graphics/google_earth_icon.png used on input line 127.
+
+(pdftex.def)             Requested size: 12.84874pt x 12.84874pt.
+File: graphics/google_earth_icon.png Graphic file (type png)
+ <use graphics/google_earth_icon.png>
+Package pdftex.def Info: graphics/google_earth_icon.png used on input line 131.
+
+(pdftex.def)             Requested size: 12.84874pt x 12.84874pt.
+
+<graphics/google_earth_buttons.png, id=46, 105.39375pt x 16.56187pt>
+File: graphics/google_earth_buttons.png Graphic file (type png)
+
+<use graphics/google_earth_buttons.png>
+Package pdftex.def Info: graphics/google_earth_buttons.png used on input line 1
+31.
+(pdftex.def)             Requested size: 52.69673pt x 8.28091pt.
+
+<graphics/google_earth_b1.png, id=47, 21.83156pt x 16.56187pt>
+File: graphics/google_earth_b1.png Graphic file (type png)
+
+<use graphics/google_earth_b1.png>
+Package pdftex.def Info: graphics/google_earth_b1.png used on input line 134.
+(pdftex.def)             Requested size: 10.91574pt x 8.28091pt.
+
+<graphics/google_earth_b2.png, id=48, 21.83156pt x 16.56187pt>
+File: graphics/google_earth_b2.png Graphic file (type png)
+
+<use graphics/google_earth_b2.png>
+Package pdftex.def Info: graphics/google_earth_b2.png used on input line 135.
+(pdftex.def)             Requested size: 10.91574pt x 8.28091pt.
+
+<graphics/google_earth_b3.png, id=49, 21.83156pt x 16.56187pt>
+File: graphics/google_earth_b3.png Graphic file (type png)
+
+<use graphics/google_earth_b3.png>
+Package pdftex.def Info: graphics/google_earth_b3.png used on input line 136.
+(pdftex.def)             Requested size: 10.91574pt x 8.28091pt.
+
+<graphics/google_earth_b4.png, id=50, 21.83156pt x 16.56187pt>
+File: graphics/google_earth_b4.png Graphic file (type png)
+
+<use graphics/google_earth_b4.png>
+Package pdftex.def Info: graphics/google_earth_b4.png used on input line 137.
+(pdftex.def)             Requested size: 10.91574pt x 8.28091pt.
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[1{C:/Users/Alrumich i5/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}
+
+
+
+
+
+ <D:/Working Documents/Geography of the Classical Islamic World/_MCIW Spring 20
+14 - LaTeX Files/graphics/google_earth_icon.png> <D:/Working Documents/Geograph
+y of the Classical Islamic World/_MCIW Spring 2014 - LaTeX Files/graphics/googl
+e_earth_buttons.png> <D:/Working Documents/Geography of the Classical Islamic W
+orld/_MCIW Spring 2014 - LaTeX Files/graphics/google_earth_b1.png> <D:/Working 
+Documents/Geography of the Classical Islamic World/_MCIW Spring 2014 - LaTeX Fi
+les/graphics/google_earth_b2.png> <D:/Working Documents/Geography of the Classi
+cal Islamic World/_MCIW Spring 2014 - LaTeX Files/graphics/google_earth_b3.png>
+ <D:/Working Documents/Geography of the Classical Islamic World/_MCIW Spring 20
+14 - LaTeX Files/graphics/google_earth_b4.png>]
+File: graphics/google_earth_icon.png Graphic file (type png)
+
+<use graphics/google_earth_icon.png>
+Package pdftex.def Info: graphics/google_earth_icon.png used on input line 154.
+
+(pdftex.def)             Requested size: 12.84874pt x 12.84874pt.
+
+<graphics/notepad_icon.png, id=68, 135.50626pt x 128.48pt>
+File: graphics/notepad_icon.png Graphic file (type png)
+
+<use graphics/notepad_icon.png>
+Package pdftex.def Info: graphics/notepad_icon.png used on input line 154.
+(pdftex.def)             Requested size: 10.84071pt x 10.2786pt.
+
+<graphics/gedit_icon.png, id=69, 9.636pt x 9.03375pt>
+File: graphics/gedit_icon.png Graphic file (type png)
+
+<use graphics/gedit_icon.png>
+Package pdftex.def Info: graphics/gedit_icon.png used on input line 154.
+(pdftex.def)             Requested size: 9.15413pt x 8.58199pt.
+
+<graphics/editpadlite_icon.jpg, id=71, 138.5175pt x 128.48pt>
+File: graphics/editpadlite_icon.jpg Graphic file (type jpg)
+
+<use graphics/editpadlite_icon.jpg>
+Package pdftex.def Info: graphics/editpadlite_icon.jpg used on input line 154.
+(pdftex.def)             Requested size: 11.08162pt x 10.2786pt.
+
+<graphics/oxygen_icon.png, id=74, 128.48pt x 129.48375pt>
+File: graphics/oxygen_icon.png Graphic file (type png)
+
+<use graphics/oxygen_icon.png>
+Package pdftex.def Info: graphics/oxygen_icon.png used on input line 154.
+(pdftex.def)             Requested size: 9.63557pt x 9.71085pt.
+File: graphics/google_earth_icon.png Graphic file (type png)
+ <use graphics/google_earth_icon.png>
+Package pdftex.def Info: graphics/google_earth_icon.png used on input line 156.
+
+(pdftex.def)             Requested size: 12.84874pt x 12.84874pt.
+File: graphics/google_earth_icon.png Graphic file (type png)
+
+<use graphics/google_earth_icon.png>
+Package pdftex.def Info: graphics/google_earth_icon.png used on input line 156.
+
+(pdftex.def)             Requested size: 12.84874pt x 12.84874pt.
+
+Overfull \hbox (11.49199pt too wide) in paragraph at lines 166--167
+\OT1/cmr/m/n/12 Keep in mind that co-or-di-nates in the KML-format have three v
+al-ues (\OT1/cmtt/m/n/12 longitude,
+ []
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[2 <D:/Working Documents/Geography of the Classical Islamic World/_MCIW Spring 
+2014 - LaTeX Files/graphics/notepad_icon.png> <D:/Working Documents/Geography o
+f the Classical Islamic World/_MCIW Spring 2014 - LaTeX Files/graphics/gedit_ic
+on.png> <D:/Working Documents/Geography of the Classical Islamic World/_MCIW Sp
+ring 2014 - LaTeX Files/graphics/editpadlite_icon.jpg> <D:/Working Documents/Ge
+ography of the Classical Islamic World/_MCIW Spring 2014 - LaTeX Files/graphics
+/oxygen_icon.png>]
+File: graphics/google_earth_icon.png Graphic file (type png)
+ <use graphics/google_earth_icon.png>
+Package pdftex.def Info: graphics/google_earth_icon.png used on input line 173.
+
+(pdftex.def)             Requested size: 12.84874pt x 12.84874pt.
+File: graphics/google_earth_icon.png Graphic file (type png)
+
+<use graphics/google_earth_icon.png>
+Package pdftex.def Info: graphics/google_earth_icon.png used on input line 173.
+
+(pdftex.def)             Requested size: 12.84874pt x 12.84874pt.
+File: graphics/google_earth_icon.png Graphic file (type png)
+ <use graphics/google_earth_icon.png>
+Package pdftex.def Info: graphics/google_earth_icon.png used on input line 175.
+
+(pdftex.def)             Requested size: 12.84874pt x 12.84874pt.
+File: graphics/google_earth_icon.png Graphic file (type png)
+
+<use graphics/google_earth_icon.png>
+Package pdftex.def Info: graphics/google_earth_icon.png used on input line 177.
+
+(pdftex.def)             Requested size: 12.84874pt x 12.84874pt.
+File: graphics/google_earth_icon.png Graphic file (type png)
+ <use graphics/google_earth_icon.png>
+Package pdftex.def Info: graphics/google_earth_icon.png used on input line 177.
+
+(pdftex.def)             Requested size: 12.84874pt x 12.84874pt.
+File: graphics/google_earth_icon.png Graphic file (type png)
+
+<use graphics/google_earth_icon.png>
+Package pdftex.def Info: graphics/google_earth_icon.png used on input line 177.
+
+(pdftex.def)             Requested size: 12.84874pt x 12.84874pt.
+File: graphics/google_earth_icon.png Graphic file (type png)
+ <use graphics/google_earth_icon.png>
+Package pdftex.def Info: graphics/google_earth_icon.png used on input line 183.
+
+(pdftex.def)             Requested size: 12.84874pt x 12.84874pt.
+
+<graphics/HarleyCartography21p102_7climates.png, id=95, 685.05937pt x 358.33875
+pt>
+File: graphics/HarleyCartography21p102_7climates.png Graphic file (type png)
+ <use graphics/HarleyCartography21p102_7climates.png>
+Package pdftex.def Info: graphics/HarleyCartography21p102_7climates.png used on
+ input line 188.
+(pdftex.def)             Requested size: 337.86467pt x 176.73576pt.
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[3]
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                \kern 0.5167pt
+(hyperref)                removed on input line 192.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 192.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\rhook' on input line 192.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 192.
+
+
+Package hyperref Warning: Composite letter `\textasciimacron+u'
+(hyperref)                not defined in PD1 encoding,
+(hyperref)                removing `\textasciimacron' on input line 192.
+
+File: graphics/google_earth_icon.png Graphic file (type png)
+<use graphics/google_earth_icon.png>
+Package pdftex.def Info: graphics/google_earth_icon.png used on input line 194.
+
+(pdftex.def)             Requested size: 12.84874pt x 12.84874pt.
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[4 <D:/Working Documents/Geography of the Classical Islamic World/_MCIW Spring 
+2014 - LaTeX Files/graphics/HarleyCartography21p102_7climates.png>]
+<graphics/HarleyCartography21p99_Coordinates.png, id=110, 741.52031pt x 590.205
+pt>
+File: graphics/HarleyCartography21p99_Coordinates.png Graphic file (type png)
+ <use graphics/HarleyCartography21p99_Coordinates.png>
+Package pdftex.def Info: graphics/HarleyCartography21p99_Coordinates.png used o
+n input line 210.
+(pdftex.def)             Requested size: 357.73407pt x 284.7361pt.
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[5 <D:/Working Documents/Geography of the Classical Islamic World/_MCIW Spring 
+2014 - LaTeX Files/graphics/HarleyCartography21p99_Coordinates.png>]
+Overfull \hbox (13.82886pt too wide) in paragraph at lines 218--218
+[]\OT1/cmr/bx/n/17.28 Mapping task: Provinces of the Is-lamic World 
+ []
+
+File: graphics/google_earth_icon.png Graphic file (type png)
+<use graphics/google_earth_icon.png>
+Package pdftex.def Info: graphics/google_earth_icon.png used on input line 220.
+
+(pdftex.def)             Requested size: 12.84874pt x 12.84874pt.
+
+
+Package hyperref Warning: Composite letter `\textasciimacron+\i'
+(hyperref)                not defined in PD1 encoding,
+(hyperref)                removing `\textasciimacron' on input line 228.
+
+File: graphics/google_earth_b4.png Graphic file (type png)
+<use graphics/google_earth_b4.png>
+Package pdftex.def Info: graphics/google_earth_b4.png used on input line 228.
+(pdftex.def)             Requested size: 10.91574pt x 8.28091pt.
+File: graphics/google_earth_icon.png Graphic file (type png)
+ <use graphics/google_earth_icon.png>
+Package pdftex.def Info: graphics/google_earth_icon.png used on input line 228.
+
+(pdftex.def)             Requested size: 12.84874pt x 12.84874pt.
+
+<graphics/google_doc_icon.png, id=117, 128.48pt x 157.58875pt>
+File: graphics/google_doc_icon.png Graphic file (type png)
+
+<use graphics/google_doc_icon.png>
+Package pdftex.def Info: graphics/google_doc_icon.png used on input line 231.
+(pdftex.def)             Requested size: 12.84874pt x 15.7598pt.
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[6]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 239.
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[7 <D:/Working Documents/Geography of the Classical Islamic World/_MCIW Spring 
+2014 - LaTeX Files/graphics/google_doc_icon.png>]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 239.
+
+("D:\Working Documents\Geography of the Classical Islamic World\_MCIW Spring 20
+14 - LaTeX Files\MCIW_Practicum_GoogleEarth.aux")
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 239.
+
+
+ *File List*
+ article.cls    2007/10/19 v1.4h Standard LaTeX document class
+  size12.clo    2007/10/19 v1.4h Standard LaTeX file (size option)
+     url.sty    2006/04/12  ver 3.3  Verb mode for urls, etc.
+ arabtex.sty    2003/08/22  3.11 ArabTeX main module
+ arabaux.sty    2003/05/21  3.11 auxiliary macros for ArabTeX
+    acmd.sty    2003/08/20  3.11 Arabic command processing 
+  afonts.sty    1995/11/16  3.04 define Naskh font 
+ afonts2.sty    1998/10/19  3.10 define Naskh fonts for LaTeX2e
+   ascan.sty    2003/08/22  3.11 standard ZDMG input encoding 
+  aparse.sty    2003/05/26  3.11 get syllables 
+  awrite.sty    2003/06/05  3.11 build output word 
+xarbsymb.sty    1998/07/15  3.07 symbolic output encoding 
+arabskel.sty    2000/06/04  3.10 character skeleton definitions 
+xarbskel.sty    1999/07/17  3.09 character skeleton definitions 
+  aboxes.sty    2003/05/28  3.11 build output boxes
+arabtoks.sty    1999/07/17  3.09 ArabTeX CS token definitions 
+arabchrs.sty    1998/07/11  3.07 letter token definitions 
+   aligs.sty    2003/05/26  3.11 compute ligatures
+ aoutput.sty    2000/06/04  3.10 build output lines
+  abidir.sty    2003/08/22  3.11 bidirectional linebreaking
+  atrans.sty    2003/06/14  3.11 generate the transliteration 
+  alatex.sty    2003/05/04  3.11 ArabTeX extensions for LaTeX 
+   afoot.sty    2003/05/12  3.11 ArabTeX footnotes
+   abjad.sty    2003/04/26  3.11 abjad numerals 
+  apatch.sty    2006/07/02  3.11s last minute patches 
+  alists.sty    2003/04/26  3.11 inverted list macros
+   asect.sty    2003/04/26  3.11 section macros for Arabic
+   atabg.sty    1997/01/21  3.05 LaTeX tabbing macros for Arabic
+mathtools.sty    2012/04/24 v1.12 mathematical typesetting tools
+  keyval.sty    1999/03/16 v1.13 key=value parser (DPC)
+    calc.sty    2007/08/22 v4.3 Infix arithmetic (KKT,FJ)
+ mhsetup.sty    2010/01/21 v1.2a programming setup (MH)
+ amsmath.sty    2000/07/18 v2.13 AMS math features
+ amstext.sty    2000/06/29 v2.01
+  amsgen.sty    1999/11/30 v2.0
+  amsbsy.sty    1999/11/29 v1.2d
+  amsopn.sty    1999/12/14 v2.01 operator names
+semtrans.sty    1998/02/10 v 1.0 specials for transliterated semitic languages 
+(jk)
+graphicx.sty    1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
+graphics.sty    2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
+    trig.sty    1999/03/16 v1.09 sin cos tan (DPC)
+graphics.cfg    2007/01/18 v1.5 graphics configuration of teTeX/TeXLive
+  pdftex.def    2011/05/27 v0.06d Graphics/color for pdfTeX
+infwarerr.sty    2010/04/08 v1.3 Providing info/warning/error messages (HO)
+ ltxcmds.sty    2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
+   babel.sty    2008/07/08 v3.8m The Babel package
+ bblopts.cfg    2006/07/31 v1.0 MiKTeX 'babel' configuration
+ english.ldf    2005/03/30 v3.3o English support from the babel system
+geometry.sty    2010/09/12 v5.6 Page Geometry
+   ifpdf.sty    2011/01/30 v2.3 Provides the ifpdf switch (HO)
+  ifvtex.sty    2010/03/01 v1.5 Detect VTeX and its facilities (HO)
+ ifxetex.sty    2010/09/12 v0.6 Provides ifxetex conditional
+geometry.cfg
+setspace.sty    2011/12/19 v6.7a set line spacing
+fixltx2e.sty    2006/09/13 v1.1m fixes to LaTeX
+  xspace.sty    2009/10/20 v1.13 Space after command names (DPC,MH)
+autocorrect.tex
+extrafunctions.tex
+fancyhdr.sty    
+datetime.sty    2010/09/21 v2.58 Date Time Package
+fmtcount.sty    2009/10/02 v1.31
+  ifthen.sty    2001/05/26 v1.1c Standard LaTeX ifthen package (DPC)
+fc-english.def
+fc-UKenglish.def
+fc-british.def
+fc-USenglish.def
+fc-spanish.def    2007/05/26
+fc-portuges.def    2007/05/26
+fc-french.def    2007/05/26
+fc-german.def    2007/06/14
+fc-italian.def    2009/10/02 Italian support for fmtcount (Edoardo Pasca)
+hyperref.sty    2012/05/13 v6.82q Hypertext links for LaTeX
+hobsub-hyperref.sty    2012/04/25 v1.12 Bundle oberdiek, subset hyperref (HO)
+hobsub-generic.sty    2012/04/25 v1.12 Bundle oberdiek, subset generic (HO)
+  hobsub.sty    2012/04/25 v1.12 Construct package bundles (HO)
+ifluatex.sty    2010/03/01 v1.3 Provides the ifluatex switch (HO)
+ intcalc.sty    2007/09/27 v1.1 Expandable calculations with integers (HO)
+etexcmds.sty    2011/02/16 v1.5 Avoid name clashes with e-TeX commands (HO)
+kvsetkeys.sty    2012/04/25 v1.16 Key value parser (HO)
+kvdefinekeys.sty    2011/04/07 v1.3 Define keys (HO)
+pdftexcmds.sty    2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO)
+pdfescape.sty    2011/11/25 v1.13 Implements pdfTeX's escape features (HO)
+bigintcalc.sty    2012/04/08 v1.3 Expandable calculations on big integers (HO)
+  bitset.sty    2011/01/30 v1.1 Handle bit-vector datatype (HO)
+uniquecounter.sty    2011/01/30 v1.2 Provide unlimited unique counter (HO)
+letltxmacro.sty    2010/09/02 v1.4 Let assignment for LaTeX macros (HO)
+ hopatch.sty    2011/06/24 v1.1 Wrapper for package hooks (HO)
+xcolor-patch.sty    2011/01/30 xcolor patch
+atveryend.sty    2011/06/30 v1.8 Hooks at the very end of document (HO)
+atbegshi.sty    2011/10/05 v1.16 At begin shipout hook (HO)
+refcount.sty    2011/10/16 v3.4 Data extraction from label references (HO)
+ hycolor.sty    2011/01/30 v1.7 Color options for hyperref/bookmark (HO)
+kvoptions.sty    2011/06/30 v3.11 Key value format for package options (HO)
+  pd1enc.def    2012/05/13 v6.82q Hyperref: PDFDocEncoding definition (HO)
+hyperref.cfg    2002/06/06 v1.2 hyperref configuration of TeXLive
+ hpdftex.def    2012/05/13 v6.82q Hyperref driver for pdfTeX
+rerunfilecheck.sty    2011/04/15 v1.7 Rerun checks for auxiliary files (HO)
+   color.sty    2005/11/14 v1.0j Standard LaTeX Color (DPC)
+   color.cfg    2007/01/18 v1.5 color configuration of teTeX/TeXLive
+dvipsnam.def    1999/02/16 v3.0i Driver-dependant file (DPC,SPQR)
+supp-pdf.mkii
+ nameref.sty    2010/04/30 v2.40 Cross-referencing by name of section
+gettitlestring.sty    2010/12/03 v1.4 Cleanup title references (HO)
+MCIW_Practicum_GoogleEarth.out
+MCIW_Practicum_GoogleEarth.out
+  apatch.sty    2006/07/02  3.11s last minute patches 
+  omscmr.fd    1999/05/25 v2.5h Standard LaTeX font definitions
+graphics/google_earth_icon.png
+graphics/google_earth_icon.png
+graphics/google_earth_buttons.png
+graphics/google_earth_b1.png
+graphics/google_earth_b2.png
+graphics/google_earth_b3.png
+graphics/google_earth_b4.png
+graphics/google_earth_icon.png
+graphics/notepad_icon.png
+graphics/gedit_icon.png
+graphics/editpadlite_icon.jpg
+graphics/oxygen_icon.png
+graphics/google_earth_icon.png
+graphics/google_earth_icon.png
+graphics/google_earth_icon.png
+graphics/google_earth_icon.png
+graphics/google_earth_icon.png
+graphics/google_earth_icon.png
+graphics/google_earth_icon.png
+graphics/google_earth_icon.png
+graphics/google_earth_icon.png
+graphics/HarleyCartography21p102_7climates.png
+graphics/google_earth_icon.png
+graphics/HarleyCartography21p99_Coordinates.png
+graphics/google_earth_icon.png
+graphics/google_earth_b4.png
+graphics/google_earth_icon.png
+graphics/google_doc_icon.png
+ ***********
+
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 239.
+Package rerunfilecheck Info: File `MCIW_Practicum_GoogleEarth.out' has not chan
+ged.
+(rerunfilecheck)             Checksum: 91B51E4242358903B2796A1B5C7E6966;602.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 239.
+ ) 
+Here is how much of TeX's memory you used:
+ 11056 strings out of 494045
+ 150212 string characters out of 3148368
+ 305234 words of memory out of 3000000
+ 14093 multiletter control sequences out of 15000+200000
+ 11555 words of font info for 42 fonts, out of 3000000 for 9000
+ 715 hyphenation exceptions out of 8191
+ 34i,11n,43p,1272b,509s stack positions out of 5000i,500n,10000p,200000b,50000s
+<C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Pr
+ogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Program Fi
+les/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbxti10.pfb><C:/Program Files/Mi
+KTeX 2.9/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/Program Files/MiKTeX 2.
+9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files/MiKTeX 2.9/fonts/
+type1/public/amsfonts/cm/cmmi12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/pu
+blic/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsf
+onts/cm/cmr12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/c
+mr7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C
+:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Progra
+m Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Program Files/
+MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti12.pfb><C:/Program Files/MiKTeX 2
+.9/fonts/type1/public/amsfonts/cm/cmtt10.pfb><C:/Program Files/MiKTeX 2.9/fonts
+/type1/public/amsfonts/cm/cmtt12.pfb>
+Output written on MCIW_Practicum_GoogleEarth.pdf (7 pages, 808576 bytes).
+PDF statistics:
+ 182 PDF objects out of 1000 (max. 8388607)
+ 23 named destinations out of 1000 (max. 500000)
+ 146 words of extra memory for PDF output out of 10000 (max. 10000000)
+

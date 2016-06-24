@@ -1,0 +1,181 @@
+\documentclass[12pt,oneside]{article}
+\usepackage{url}
+\usepackage{arabtex} % Arabic support
+\usepackage{mathtools} % Math :)
+
+\usepackage{semtrans}
+\usepackage[english]{babel}               % shorthands
+
+\usepackage[marginparwidth=2in, top=1.5in, bottom=1.5in, left=1.5in, right=1.5in]{geometry} % margin=1.5in
+
+\usepackage{setspace}
+\singlespacing
+%\onehalfspacing
+%\setstretch{1.6} % doublespacing everywhere, except footnotes
+
+\usepackage{fixltx2e} % support of \textsubscript & \textsuperscript
+\usepackage{xspace} % adds a space after autocorrected word
+
+\usepackage{graphicx} % Needed to insert images into the document
+\graphicspath{{graphics/}} % Sets the default location of pictures
+
+\include{autocorrect}
+\include{extrafunctions}
+
+\usepackage{fancyhdr}
+\usepackage[yyyymmdd,hhmmss]{datetime}
+\pagestyle{fancy}
+\lhead{\textsc{Zotero Practicum}}
+\chead{}
+\rhead{\textbf{Version: \today\ @ \currenttime}}
+\lfoot{\textsc{Mapping the Classical Islamic World}, Tufts U Spring 2014}
+\cfoot{}
+\rfoot{\textbf{Page \thepage}}
+
+\newcommand\abbreviation[1]{\textbf{#1}}                        %ABBR  sources abbreviated
+\newcommand\adjective[1]{#1}                      %ADJ   different adjectives, names
+\newcommand\computer[1] {\texttt{#1}}   %COMP  anything computer related
+\newcommand\database[1] {\textsc{#1}}   %DB    names of DBs, digital libraries, websites
+\newcommand\community[1]    {#1}          %GR    social groups, sects, dynasties, legal schools, families
+\newcommand\toponym[1] {#1}                           %TOP   toponyms --- transliterated place names
+\newcommand\location[1] {#1}                      %LOC   locations --- English spelling
+\newcommand\person[1]   {#1}                      %PERS  name of an actual person, author, like Ibn al-Jawzi
+\newcommand\source[1]   {\textsl{#1}}   %SRC   book, medieval sources
+\newcommand\term[1]     {\textit{#1}}   %TERM  any Arabic terms that must by italicized
+\newcommand\misc[1]     {{#1}}            %MISC  for any other unclassified, including abbreviations
+\newcommand\arQuote[1]     {\textsc{\textit{#1}}}                     %MISC  for any other unclassified, including abbreviations
+
+
+% DIACRITICS %
+\useshorthands{"} % for letters with DOTS beneath (consonants) and UMLAUTS (vowels)
+\defineshorthand{"t}{{\d t}}
+\defineshorthand{"T}{{\d T}}
+\defineshorthand{"s}{{\d s}}
+\defineshorthand{"S}{{\d S}}
+\defineshorthand{"d}{{\d d}}
+\defineshorthand{"D}{{\d D}}
+\defineshorthand{"h}{{\d h}}
+\defineshorthand{"H}{{\d H}}
+\defineshorthand{"k}{{\d k}}
+\defineshorthand{"K}{{\d K}}
+\defineshorthand{"z}{{\d z}}
+\defineshorthand{"Z}{{\d Z}}
+
+%\defineshorthand{"A}{{\" A}}
+%\defineshorthand{"a}{{\" a}}
+%\defineshorthand{"U}{{\" U}}
+%\defineshorthand{"u}{{\" u}}
+%\defineshorthand{"E}{{\" E}}
+%\defineshorthand{"e}{{\" e}}
+%\defineshorthand{"O}{{\" O}}
+%\defineshorthand{"o}{{\" o}}
+
+%\useshorthands{~} % tilda conflicts with LaTeX during compilation!!! therefore replaced with "
+\defineshorthand{"y}{{\' a}} % alif maqsura
+\defineshorthand{"o}{{\' a}} % alif maqsura
+\defineshorthand{"e}{{\= e}}
+\defineshorthand{"a}{{\= a}}
+\defineshorthand{"A}{{\= A}}
+\defineshorthand{"u}{{\= u}}
+\defineshorthand{"U}{{\= U}}
+\defineshorthand{"i}{{\= \i}}
+\defineshorthand{"I}{{\= \I}}
+
+% `Ayns and Hamzas
+\defineshorthand{"`}{\Ayn }
+\defineshorthand{"'}{\Alif }
+
+\def\and{\textit{\&}\xspace}
+
+\usepackage{hyperref}
+%\usepackage[document]{ragged2e} % entire document has ragged right
+
+\usepackage[usenames,dvipsnames]{color}
+
+\hypersetup{
+  colorlinks,
+  citecolor=blue,
+  linkcolor=blue,
+  urlcolor=blue}
+
+\newcommand{\super}[1]{\textsuperscript{#1}}
+\def\and{\textit{\&}\xspace}
+
+\begin{document}
+
+% the beginning of the main text 
+
+\begin{flushright}
+\begin{footnotesize}
+``Mapping the Classical Islamic World''\\
+Maxim Romanov, Department of Classics\\
+Tufts University, Spring 2014\\
+\end{footnotesize}
+\end{flushright}
+
+
+\begin{center}
+\begin{Large}
+\textsc{Zotero: Managing Bibliography}
+\end{Large}
+\end{center}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Starting up}
+
+\begin{itemize}
+  \item Download and install \ZoteroSA from \href{https://www.zotero.org/}{Zotero.org}.
+  \item Install an extension for your browser, by choosing one of the following options: \includegraphics[scale=.4]{zotero_connectors}~. 
+\end{itemize}
+
+\section{Adding References}
+
+There are several ways of adding references to \Zotero. First, you can import references from websites such as \href{http://www.amazon.com/}{Amazon.com} and/or the \href{http://library.tufts.edu/}{Tufts Library Catalog}, using your browser. Second, you can use ISBN (International Serial Book Number) to add books, and DOI (Digital Object Identifier) to add articles. Third, you can add article references from such digital libraries as JSTOR, and in most cases the PDF of an article will be automatically downloaded to your computer and attached to the reference.
+
+\begin{enumerate}
+
+\item Either on Amazon.com, or at the Tufts Library Catalog, find al-Muqad\-das\-"i's ``Best Divisions;'' open the page of the book and click on \includegraphics[scale=.85]{zotero_addbook}, a blue book icon in the right corner of the address pane of your browser; the reference will be added and you will see the following pop-up in the right lower corner of your screen:\\\includegraphics[scale=.5]{zotero_bookadded}\\ \textbf{NB}: now you can download a PDF of the text from Trunk and attach it to the record. (Drag-n-drop the PDF file on the reference in \Zotero.) Now you can easily access your PDF from \Zotero.
+
+\item Use \includegraphics[scale=.5]{zotero_isbndoi} to add a book reference using \textbf{ISBN}. Try one of the following numbers: 9781405191463, 9780226808772, 9781848854512, 9780199913879. You can use the same button to add an article reference using \textbf{DOI}. Try the following number: 10.3200/HMTS.41.1.39-64.
+  
+\item Go to JSTOR (through the Tufts Library Catalog if you are off-campus) and find some article on GIS or Arab geography. Now, you can import it into \Zotero using the same button that you used for importing book a reference before, although the button now looks like a sheet of paper \includegraphics[scale=.85]{zotero_addarticle}~. As a very nice bonus, a PDF of the chosen article will be automatically downloaded and attached to the record. \textbf{NB:} Do not add to many articles at once, since \Zotero will start downloading then all and you may exceed the permissible limit.
+  
+\end{enumerate}
+
+\section{Starting Collaboration}
+
+\Zotero allows creating groups. With groups, you can collaborate remotely with project members; set up web-based bibliographies for your classes; share your own work or sources you have discovered with others who are working in related areas; collaborate with colleagues, publicly or privately, on ongoing research; discover other people with similar interests and the sources they are citing. Take a minute to watch an introduction at \href{https://www.zotero.org/groups/}{zotero.org/groups/}
+
+\begin{enumerate}
+
+\item The group for our class has already been created: \textbf{MCIW2014}. To become a member, you need to have/create a \Zotero account (Click ``Register'' on \Zotero website).
+
+\item Our group is private and only members can work with it. So, after you created your account, email me your \texttt{username} and/or email address that you use for this account. I will send you an invitation to join the group.
+
+\item In order to work with the group in your \Zotero library, you will need to set up synchronization. This can be done through \texttt{Main Menu $>$ Tools $>$ Preferences $>$ Sync} (\includegraphics[scale=.5]{zotero_menu}).
+
+\item In the tab ``Sync'' enter your username \and password. In the section ``Zotero Sync Server,'' check ``Sync automatically,'' \and ``Sync full-text content.'' In the section ``File Syncing,'' uncheck both options. Your window should look like the one below:
+
+\includegraphics[scale=.5]{zotero_sync}
+
+\item When you are done, close the window and click the~\includegraphics[scale=.5]{zotero_syncbutton}~\texttt{Sync with Zotero Server} button in the upper right corner of \Zotero. When the synchronization is complete, you should see ``Group Libraries'' on the left panel, and our group \textbf{MCIW2014}.
+
+\item There will be at least one collection (\texttt{Romanov}), add yours---use your last name as well. If you select the entire group, you should see the references of the entire group; if you select a specific collection, you will see references added by the owner of this collection. Add your records to your folder; make sure that others have not already added the same records. (\textbf{Note:} Let's agree on the following rule: if somebody has already added some article that you were about to share, you have to find a different article.) You can also see the library of our group on the \Zotero website.
+
+\end{enumerate}
+
+\section{Creating an Annotated Bibliography}
+
+You can find an excellent tutorial at the library website of Emory University.\footnote{\href{http://guides.main.library.emory.edu/content.php?pid=10454&sid=3533296}{http://guides.main.library.emory.edu/zotero}, click on the link, or copy/paste it into your browser, then select the tab ``Create an Annotated Bibliography.''} Follow this tutorial to complete your review.
+
+When all your reviews are ready, create an annotated bibliography, and add a finishing touch to your text in whatever text editor you are using. Do not forget to add your name.
+
+\section{Extra: ZotFile Plugin}
+
+Zotfile is a \Zotero plugin to manage your attachments: automatically rename, move, and attach PDFs (or other files) to \Zotero items, sync PDFs from your \Zotero library to your (mobile) PDF reader (e.g. an iPad, Android tablet, etc.) and extract annotations from PDF files. You can find all necessary information of how to install and use it on the \href{http://zotfile.com/index.html}{ZotFile} website.
+
+
+
+
+\end{document}

@@ -1,0 +1,93 @@
+<p>“Mapping the Classical Islamic World”<br />
+Maxim Romanov, Department of Classics<br />
+Tufts University, Spring 2014<br />
+</p>
+<p><span style="font-variant: small-caps;">QGIS: Something More Complex</span></p>
+<h1 id="starting-up">Starting Up</h1>
+<p>Download and install from <a href="http://www.qgis.org/en/site/forusers/download.html">www.qgis.org</a>. On the Download page select the version for your system. is an Open Source Geographic Information System (GIS) licensed under the GNU General Public License. The latest release is <strong>QGIS 2.0 Dufour</strong>. <strong>NB:</strong> Also see an introduction @ “Programming Historian” (<a href="http://programminghistorian.org/lessons/qgis-layers">programminghistorian.org/lessons/qgis-layers</a>).</p>
+<dl>
+<dt>Win</dt>
+<dd><p>If you are using a Windows computer, select <strong>QGIS Standalone Installer Version x.x (XX bit)</strong> (current latest version is Version 2.2 Valmiera). Since most computers now run 64-bit operational system, you should select a 64-bit version. Yet, it is worth checking what system is installed on your computer (try <code>Control Panel / System and Security / System</code>, check “System type”).</p>
+</dd>
+<dt>Mac</dt>
+<dd><p>If you are running a Mac, you will need to follow the link given in <code>Download for Mac OS X</code> section (<a href="http://www.kyngchaos.com/software/qgis">KyngChaos QGIS download page</a>) and install all the dependencies. This may take a little while, but should get installed without major issues: essentially, the system will tell you what is missing, you will need to download the missing package, or module and install it in order to continue. All required dependencies are available at the <code>KyngChaos QGIS download page</code>.</p>
+</dd>
+<dt><span class="math inline">→</span></dt>
+<dd><p>After surviving nine circles of hell (aka “installation”), Mac users will need to install and activate some useful plugins: in <code>Plugins</code> menu, select <img src="./tutorials/qgis_plugins.png" alt="image" /> (<code>Manage and Install Plugins</code>); some of the plugins that we’ll need are already installed and they only need to be activated, while others have to be installed. You need the following three:<br />
+ Coordinate Capture (<img src="./tutorials/qgis_capture.png" alt="image" />)<br />
+ Georeferencer (<img src="./tutorials/qgis_georeferencer.png" alt="image" />)<br />
+ Open Layers (<img src="./tutorials/qgis_openlayers.png" alt="image" />)<br />
+</p>
+</dd>
+</dl>
+<h1 id="georeferencing-basic-ideas">Georeferencing: Basic Ideas</h1>
+<p>In a nutshell, georeferencing means<a href="#fn1" class="footnoteRef" id="fnref1"><sup>1</sup></a> defining the location of some object in physical space. In our case, we will be fitting historical maps onto the system of geographical coordinates by creating spacial references within a geodetic reference system. In plain English this means that we will be assigning specific geographical coordinates to specific points on our maps. Using these data, will transform the image of a map in such a way that we will be able to collect all necessary information from our analog maps, converting it into a digital dataset, which will allow us to create a cumulative dynamic digital map.</p>
+<h1 id="georeferencing-one-step-at-a-time...">Georeferencing, one step at a time...</h1>
+<p>We will start with fitting historical maps onto the system of geographical coordinates by creating spacial references within a geodetic reference system. <strong>NB:</strong> a number of manuals on georeferencing with are available online. A very detailed one is available at “Programming Historian” (<a href="http://programminghistorian.org/lessons/georeferencing-qgis">programminghistorian.org/lessons/georeferencing-qgis</a>).</p>
+<ol>
+<li><p>Open <strong>Desktop</strong> (whatever version you have installed; the current one is <strong>2.2.0-Valmiera</strong>)</p></li>
+<li><p>In the main menu, open <code>Raster</code>, then find and open <code>Georeferencer</code>. <strong>NB</strong>: if it is not there, you may have to install this plugin (<code>Plugins &gt; Manage and Install Plugins...</code>)</p></li>
+<li><p>In the <code>Georeferencer</code> window, <img src="./tutorials/qgis_g_openraster.png" alt="image" /> <code>Open raster</code> (<strong>NB</strong>: you can open it with a <img src="./tutorials/qgis_g_openraster.png" alt="image" /> button; or through the main menu: <code>File &gt; Open Raster</code>; or using a shortcut <code>Ctrl+o</code>). In the <code>Open raster</code> window, navigate to a folder where you stored all your maps and select the one that you want to georeference.<br />
+<strong>NB:</strong> I strongly recommend to create a separate folder for your maps and keep all the files that will be produced with in this very folder. Trust me, it will make your life easier, especially when you work with many maps.</p></li>
+<li><p>After you select your map, a <code>Coordinate Reference System Selector</code> will open. Here you need to select a projection / geographic coordinate system. In the ideal world, one can find this crucial piece of information somewhere on the margins of a map. Knowing proper projection makes georeferencing easier and more precise. Unfortunately, as is the case with most historical maps, our maps lack this crucial piece of information. Fortunately, our maps have a consistent coordinate grid with latitudes and longitudes given on the margins. In our case we need <strong>WGS 84</strong>. Click <code>Ok</code> when you are done. You should now see the image of a map opened in <strong>Georeferencer</strong>.</p></li>
+<li><p>It may be convenient to open <code>GCP Table</code> (<code>View &gt; Panels &gt; GCP table</code>), which will show <em>ground control points</em> that you will be adding.</p></li>
+<li><p>Since is not particularly snappy when it comes to panning high-resolution images, it may be convenient to open the same map in some image viewer on your computer. You will find it easier to navigate when you need to check latitudes and longitudes that are given on margins.</p></li>
+<li><p><img src="./tutorials/qgis_g_zoomin.png" alt="image" /> Zoom in so that you can clearly see the coordinate grid and its crossing points. Check the coordinates of your first point (start from some corner); then select <img src="./tutorials/qgis_g_addpoint.png" alt="image" /> and click on your first point (using mouse is much easier).</p></li>
+<li><p>You will be prompted to enter map coordinates. Enter your longitude (<code>X/East</code>) and latitude (<code>Y/North</code>). On the image below the coordinates of the point are 48<span class="math inline"><em></em><sup>∘</sup></span>E, 31<span class="math inline"><em></em><sup>∘</sup></span>N. Click <code>Ok</code> when you are done.<br />
+<img src="./tutorials/qgis_g_entermapcoordinates.png" alt="image" /><br />
+<strong>NB:</strong> If your coordinates are in western/southern part of the globe, use <strong>minus</strong> sign in front of your values.</p></li>
+<li><p>Now the fun part: you need to repeat this procedure for all remaining crossing points of the grid with coordinates. Since we do not have projection / geographic coordinate system for our maps we need to georeference as many points as possible in order to improve the precision of our work.</p></li>
+<li><p>After you finish georeferencing the grid and before you proceed to the next step, you need to check the placement of your <code>ground control points</code> (<em>aka</em> small red dots that you have been adding). Zoom in to a point and make sure that the red dot is where it is supposed to be. If it is not, select <img src="./tutorials/qgis_g_movegcp.png" alt="image" /> <code>Move GCP Point</code>, and move the point to where it should be (it helps to start at some corner and keep checking the entire map consistently from there).</p></li>
+<li><p>It is worth saving your work: click <img src="./tutorials/qgis_g_savegcp.png" alt="image" /> <code>Save GCP points</code>, and use the name of the file suggested by (by default, it adds <code>.points</code> to the name of the map). In this case, if you open this map file again, <code>ground control points</code> will be automatically downloaded into and you will be able to continue your work where you finished. Also, it is worth saving your GCP points periodically. Just in case.</p></li>
+<li><p>Now we need to choose appropriate <img src="./tutorials/qgis_transformationsettings.png" alt="image" /> <code>Transformation Settings</code>, and make sure that the following settings are selected.<br />
+ Transformation type: <code>Thin Plate Spline</code> (this transformation type deforms the map in such a way that all ground control points correspond to coordinates that you supplied)<br />
+ Resampling method: <code>Nearest neighbour</code> (for our purposes it does not really matter what resampling method to use; use Google for more information about information on this issue).<br />
+ Compression: <code>LZW</code> (this option affects the size of the produced <code>TIFF</code> image; if you select other option the size of the file will be larger)<br />
+ Output raster: ... (let suggest the name of the file, which will ensure consistent naming of your files. By default adds suffix <code>_modified</code> to the name of the map)<br />
+ Target SRS: <code>EPSG:4326</code> (which corresponds to <strong>WGS 84</strong>)<br />
+ Check <code>Load in QGIS when done</code>.<br />
+<img src="./tutorials/qgis_transformationsettingstab.png" alt="image" /></p></li>
+<li><p>Now you can run <code>Georeferencer</code>: click <img src="./tutorials/qgis_g_georeference.png" alt="image" /> button. After the process is complete, your georeferenced map will appear in the main window of . Minimize <code>Georeferencer</code>, and switch to the main window.</p></li>
+<li><p>In the main window, run <code>Plugins &gt; OpenLayers plugin &gt; Add Google physical layer</code> (<img src="./tutorials/qgis_openlayersgphys.png" alt="image" />). This will add a Google map layer; make sure that your georeferenced map is on top of this new layer (you can drag-n-drop it, to change the order).</p></li>
+<li><p>Right-click (Two-finger touch on <strong>Mac</strong>) on the layer with your georeferenced map to open context menu and run <code>Zoom to layer extent</code>. Now you should see you map overlayed on top of a physical Google map.</p></li>
+<li><p>Double-click on the layer with your map will open <code>Layer properties</code>. On <code>Transparency</code> tab, change <code>Global transparency</code> to about 50%. Click <code>Ok</code>.</p></li>
+<li><p>Now your map is transparent and you can check how precise your georeferencing. Zoom in to different areas of the map and check if locations on you map correspond to those on Google map. Ideally, the results should be pretty good. On the image below you can see how a historical map is overlayed on top of Google physical map: Mosul/al-Maw“sil and Tal Afar/Tall A”‘far, which are present on both maps, correspond very closely.<br />
+<img src="./tutorials/qgis_georeferencedmap.png" alt="image" /></p></li>
+<li><p>Save your work in : <code>Project &gt; Save</code>. Do not forget to open this project when you georeference your next map!</p></li>
+</ol>
+<h1 id="no-projection-no-grid">No projection, no grid?</h1>
+<p>It is very possible that you may have to georeference a map that has neither projection, nor coordinate grid. It is still possible to georeference such maps, although the quality of georeferencing will vary depending on a map. This process is rather similar to the one described above, but since we do not have coordinate grid we’ll need to find anchor points that we can use instead: any feature existing on both maps can be an anchor spot—settlements, shorelines, lakes, etc. (although one should always be careful using water bodies as anchors, since they have a tendency to change their shape in the course of history).</p>
+<ol>
+<li></li>
+</ol>
+<h1 id="georeferencing-al-muqaddasis-maps">Georeferencing: al-Muqaddasī’s Maps</h1>
+<p>Earlier, working with you tried to fit al-Muqaddasī’s map over the modern globe. This was a pretty tough assignment, partially because of the nature of al-Muqaddasī’s map—which show relative positions of cities <span>vis-à-vis</span>each other, rather than their absolute geographical locations—and partially because of the limitations of . Using the method describe in the previous section, we can georeference al-Muqaddasī maps more easily and more effectively.</p>
+<p>As you remember, Google maps were not very helpful when you tried to overlay al-Muqaddasī’s maps. This was because modern maps lack most historical places. So, Openlayer plugin that loads Google physical map will not be helpful. Instead, we can use Cornu’s georeferenced maps as a base layer for georeferencing.</p>
+<h1 id="collecting-coordinates-creating-basic-data-files">Collecting coordinates: creating basic data files</h1>
+<p>...</p>
+<h1 id="running-python-scripts">Running Python scripts</h1>
+<h1 id="testing-your-results">Testing your results</h1>
+<p>Working with hundreds of data points, one needs a reliable way of tracking one’s progress that will help to ensure that data collected properly and formatted appropriately. After you run script (<code>gisTransformation.py</code>), it will generate files of several different formats. For testing your results you will need <code>.CSV</code> file, which you can load into .</p>
+<ol>
+<li><p>In , in you working project (i.e., where your georeferenced Cornu maps are), go to <code>Layer &gt; Add Text Delimited Layer...</code></p></li>
+<li><p>In <code>File Name</code>, click <code>Browse</code> and select your newly generated <code>.CSV</code> file. Click <code>Open</code>.</p></li>
+<li><p>In <code>Create a Layer from a Delimited Text File</code> you need to select fields that contain geographical coordinates: In <code>X field</code> select <code>field_3</code> (longitude), in <code>Y field</code> select <code>field_4</code> (latitude).</p></li>
+<li><p>in <code>Coordinate Reference System Selector</code>, choose WGS 84 (you need to select the system that corresponds to the system of your project). Click <code>Ok</code>.</p></li>
+<li><p>Now you should see a series of dots at the places that you have already added to your initial <code>.TXT</code> file with coordinates. Although it is helpful, you cannot really see whether you typed the names of places correctly. Let’s modify this new layer a little.</p></li>
+<li><p>Open <code>Layer Properties</code> (<strong>Win</strong>: right-click / <strong>Mac</strong>: two-finger click on the layer, select <code>Properties</code>). Select <code>Layer</code> tab, and check <code>Label this layer with</code> and select the field that you want displayed (<code>field_3</code> contains toponyms). Here you can also change properties of your labels: color, font type, font size, offset etc. Change label size so that they are easy to see. You may also want to choose a particular color (this will be particularly convenient when you have more than one layer of this kind). Click <code>Apply</code> to see how labels look like with your current properties. Click <code>Ok</code> when you are done.</p></li>
+<li><p>In order to add another layer of this kind, just repeat the steps.</p></li>
+<li><p>Now, when you do any changes to the original <code>.TXT</code> file and run the transformation script, you should see the changes automatically appearing in (switch the layer off and then on in order to update it). This arrangement will help you to keep track of your work, make sure that you geotagged all places from the map, and that you transliterated them correctly.</p></li>
+</ol>
+<h1 id="creating-routes">Creating Routes</h1>
+<p>We have collected coordinates for settlements of different kind (<em>métropole</em>, <em>capitale</em>, <em>cité</em>, <em>étape</em>) and other geographical features (regions, rivers, lakes, mountains, etc.). Our maps contain another valuable kind of data: trade routes (green lines, <em>itinéraire</em>), but converting this information into a digital dataset requires a different, more complicated procedure. This is because, settlements and routes represent different geometries: settlements are points (at least in our current case), while routes are lines.</p>
+<ol>
+<li><p>Create a new vector layer: <code>Layer &gt; New &gt; New Shapefile Layer...</code> (Shortcut: <code>Ctrl+Shift+N</code>)</p></li>
+<li><p>In the <code>New Vector Layer</code> window: select <code>Type &gt; Line</code>; make sure that Coordinate Reference System (CRS) is WGS 84 (it should be: <strong>EPSG:4326 - WGS 84</strong>); add the name of the layer (for convenience, use the name of the map + “_Routes”). Click <code>Ok</code>.</p></li>
+<li><p>In the open window, save your file (will create a series of files). For convenience and consistency, use the same name as you did for the name of the layer, and save it to the same folder where your other map files are.</p></li>
+</ol>
+<div class="footnotes">
+<hr />
+<ol>
+<li id="fn1"><p>Feel free to check the following resources for more detailed explanations on <a href="http://en.wikipedia.org/wiki/Georeference">Wikipedia</a> and on <a href="http://webhelp.esri.com/arcgisdesktop/9.2/index.cfm?TopicName=Georeferencing_a_raster_dataset">ESRI.com</a>, the website of the developers of ArcGIS.<a href="#fnref1">↩</a></p></li>
+</ol>
+</div>
