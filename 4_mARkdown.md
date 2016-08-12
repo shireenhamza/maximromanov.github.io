@@ -103,7 +103,7 @@ Headers are for the titles of main structural units, like chapters, subchapters,
 
 
 
-~~~
+```
 ### | First Level Header (red)
 
 ### || Second Level Header (orange)
@@ -113,7 +113,7 @@ Headers are for the titles of main structural units, like chapters, subchapters,
 ### |||| Fourth Level Header (green)
 
 ### ||||| Fifth Level Header (blue)
-~~~
+```
 
 A gif-image below shows how headers get highlighted with different colors when tagged properly. Colors follow the rainbow spectre (they stop changing after Level V):  
 
@@ -223,6 +223,16 @@ While EditPad Pro handles large files very well, it has problems with long parag
 		<b>mARkdown</b>: Dealing with paragraphs
 	</figcaption>
 </figure>
+
+### 2.1.1 Tagging *Riwayāt*
+
+It make sense to treat each *riwāyaŧ*/*ḥadīṯ* report as a separate paragraph, so it should begin in the same manner, but followed by a tag that specifies the nature of the paragraph: `new line + # $HAD$ `; in order to demarkate the boundary between *isnād* and *matn*, `@MATN@` tag must be inserted between *isnād* and *matn*.
+
+```
+# $HAD$ this section contains isnād @MATN@ this section contains matn
+``` 
+
+It is not uncomon that either *isnād* or *matn* is missing. In such cases `@MATN@` tag still must be inserted: in the case of missing *isnād*, `@MATN@` directly follows `# $HAD$ `; in the case of missing *matn*, `@MATN@` becomes the last element in the *ḥadīṯ* paragraph.
 
 ### 2.2 Poetry (RE: `^# .*? % % .*? $`)
 
