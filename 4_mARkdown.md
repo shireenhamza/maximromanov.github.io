@@ -31,7 +31,7 @@ The main goal of **mARkdown** is to provide a simple system for tagging structur
 # Very Short Description
 
 1. Download and install [EditPad Pro](http://www.editpadpro.com/) (Windows only).
-2. Download **mARkdown** schemes from [GitHub](https://github.com/maximromanov/mARkdown), and unzip, and copy all the files into `%APPDATA%\JGsoft\EditPad Pro 7\` (make sure that EditPad Pro is closed)
+2. Download **mARkdown** schemes from GitHub ([https://github.com/maximromanov/mARkdown](https://github.com/maximromanov/mARkdown)), and unzip, and copy all the files into `%APPDATA%\JGsoft\EditPad Pro 7\` (make sure that EditPad Pro is closed)
 3. Text that you will be working with have already been preprocessed. Opening any of these texts in EditPad Pro will automatically activate **mARkdown** scheme.
 4. The goal is to tag the structure of a text, which boils down to:
 	1. the headers of chapters (`### | `), sections (`### ||`), subsections (`### ||| `), etc.
