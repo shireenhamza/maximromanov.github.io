@@ -25,20 +25,19 @@ onclick="window.open(this.href, 'google-plus-share', 'width=490,height=530');ret
 </section>
 
 
-The main goal of **mARkdown** is to provide a simple system for tagging structural elements in Arabic texts that would facilitate algorithmic analysis in the same way as more complex TEI XML does. In principle, **mARkdown** does not require any special editor, but my current workflow relies on EditPad Pro, which supports right-to-left languages, Unicode, and large files. However, it is the support of custom highlighting and navigation schemes that makes this text editor particularly convenient for **mARkdown**.
+The main goal of **mARkdown** is to provide a simple system for tagging structural elements in premodern and early modern Arabic texts that are being prepared within the framework of the [OpenArabic Project](https://github.com/OpenArabic). that would facilitate algorithmic analysis in the same way (and even more efficiently) as more complex TEI XML does. In principle, **mARkdown** does not require any special editor, but the current implementation relies on EditPad Pro, which supports right-to-left languages, Unicode, and large files. However, it is the support of custom highlighting and navigation schemes that makes this text editor particularly convenient for **mARkdown**.
 
 
-# Very Short Description
+# Very Short Intro
 
-1. Download and install [EditPad Pro](http://www.editpadpro.com/) (Windows only).
-2. Download **mARkdown** schemes from GitHub ([https://github.com/maximromanov/mARkdown](https://github.com/maximromanov/mARkdown)), and unzip, and copy all the files into `%APPDATA%\JGsoft\EditPad Pro 7\` (make sure that EditPad Pro is closed)
-3. Text that you will be working with have already been preprocessed. Opening any of these texts in EditPad Pro will automatically activate **mARkdown** scheme.
+1. Download and install [EditPad Pro](http://www.editpadpro.com/); unfortunatey, **EditPad Pro** is for Windows only; if you are using Mac or Linux, you can still use it with some virtualization option.
+2. Download **mARkdown** schemes from GitHub ([https://github.com/maximromanov/mARkdown](https://github.com/maximromanov/mARkdown)), and unzip, and copy all the files into `%APPDATA%\JGsoft\EditPad Pro 7` (make sure that EditPad Pro in not running: you need to do `File > Exit` to completely close it).
+3. Texts in the repositories of the [OpenArabic Project](https://github.com/OpenArabic) have already been preprocessed. Opening any of these texts in EditPad Pro should automatically activate **mARkdown** scheme.
 4. The goal is to tag the structure of a text, which boils down to:
 	1. the headers of chapters (`### | `), sections (`### ||`), subsections (`### ||| `), etc.
 	2. and information units: biographies (`### $ `), descriptions of events (`### @ `), and dictionary entries (also `### $ `)
-	3. If an element is tagged correctly, its color will change.
-5. This must be done through the collation of the electronic text of a book with the printed edition on which the electronic text is based. Most of these editions can be found online as PDF files (‘googling’ the title usually brings up a lot of results; PDFs are most likely to be on [Archive.org](https://archive.org/)) 
-
+	3. If a structural/logical unit is tagged correctly, the color of the tagged unit will change.
+5. Tagging must be done through the collation of the electronic text of a book with the printed edition on which the electronic text is based. Most editions can be easily found online as PDF files (‘googling’ the title usually brings up a lot of results; PDFs are most likely to be on [Archive.org](https://archive.org/)) 
 
 
 # Detailed Description
@@ -47,7 +46,7 @@ The main goal of **mARkdown** is to provide a simple system for tagging structur
 
 [EditPad Pro](http://www.editpadpro.com/) is a commercial text editor for Windows. It can be used on Mac and Linux through some virtualization solution (for example, Parallels or Fusion on Mac, or Wine on Linux). You can download a fully functional trial version to try **mARkdown** (it, however, will not work with EditPad Lite, a free light-weight version of the same text editor).
 
-The most recent **mARkdown** settings files for EditPad Pro can be found in the [mARkdown repository](https://github.com/maximromanov/mARkdown) on GitHub. Download the latest `*.zip` file (the date is in the filename: `YYYYMMDD_HHMMSS.zip`), unzip its content, and copy all the files into `%APPDATA%\JGsoft\EditPad Pro 7\`. You may need to restart the program (use: **File** > **Exit**). If **mARkdown** settings work, the main window should look as shown below. Note the yellow-ish color of the main window and a large Find/Replace panel on the right).
+The most recent **mARkdown** settings files for EditPad Pro can be found in the [mARkdown repository](https://github.com/maximromanov/mARkdown) on GitHub. You can download the entire repository or just the `*.zip` file (the date is in the filename: `YYYYMMDD_HHMMSS.zip`). Unzip its content, and copy all the files into `%APPDATA%\JGsoft\EditPad Pro 7`. You will need to restart the program (use: `File > Exit`). If **mARkdown** settings work, the main window should look as shown below. Note the yellow-ish color of the main window and a large Find/Replace panel on the right).
 
 <figure class="fit">
 	<a href="{{ site.url }}/images/md/editPadPro.png" title="">
@@ -58,9 +57,9 @@ The most recent **mARkdown** settings files for EditPad Pro can be found in the 
 	</figcaption>
 </figure>
 
-In a text file, **mARkdown** is activated by the “magic value” at the beginning of the text file, which is `#####ARABICA#`. (In other words, the very first line of the text should consist of this value.) The highlighting scheme relies on regular expressions (RE) to color a limited number of pattern in the text.  
+In a text file, **mARkdown** is activated by the “magic value” at the beginning of the text file, which is `#####ARABICA#`. (In other words, the very first line of the text should consist exclusively of this value.) The highlighting scheme relies on regular expressions (RE) to color a limited number of pattern in the text.  
 
-**Note**: You can try `test_textFile` from the gitHub repository. The file does not have an extension to avoid accidental opening in Notepad—the default text editor on Windows, which cannot handle large files. Drug-n-drop the file onto EditPad Pro to open it. The **mARkdown** should be automatically activated. (If you start a new file, you may need to reopen it after adding the “magic value”.)
+**Note**: You can try `test_textFile` from the github repository. The file does not have an extension to avoid accidental opening in Notepad—the default text editor on Windows, which cannot handle large files. Drug-n-drop the file onto EditPad Pro to open it. The **mARkdown** should be automatically activated. (If you start a new file, you may need to reopen it after adding the “magic value”.)
 
 <figure class="fit">
 	<a href="{{ site.url }}/images/md/magicValue.png" title="">
@@ -75,7 +74,7 @@ In a text file, **mARkdown** is activated by the “magic value” at the beginn
 
 **mARkdown** includes structural elements and in-text elements—all are highlighted with different colors. This helps one to avoid mistakes while tagging texts, and, additionally, makes the structure of the text easily discernible to the human eye. Configured in a custom highlighting scheme, all elements are activated with regular expressions (RE).
 
-EditPad Pro also supports folding of structural elements that span over multiple lines. This allows one to contract the entire text into a table of content and then open—or unfold—only elements that one wants to work with.
+EditPad Pro also supports folding of structural elements that span over multiple lines. This allows one to contract—or fold—the entire text into a table of content and then open—or unfold—only elements that one wants to work with.
 
 <figure class="fit">
 	<a href="{{ site.url }}/images/md/mARkdown02.gif" title="">
@@ -100,7 +99,6 @@ Headers are for the titles of main structural units, like chapters, subchapters,
 1. `###` — three hashtags at the beginning of the line;
 2. `|` — pipes, whose number corresponds to the level of a header;
 3. `Header` — the text of a header (followed by `\n`, “new line” character)
-
 
 
 ```
@@ -131,22 +129,22 @@ A gif-image below shows how headers get highlighted with different colors when t
 
 Most of the texts that I have worked with so far have a very clear structure (chapters > subchapters > subsubchapters, etc.), where the lowest level structural units (subchapters or subsubchapters) are made of “information units,” such as biographies in biographical collections, descriptions of events in chronicles, and dictionary entries (on lexical items, names, toponyms, book titles, etc.)
 
-Using **mARkdown**, one needs only to mark the beginning of each information unit. Each unit can be marked with either a simplified or full tag. Simplified tags are short, which makes them ideal for manual tagging. Simplified tags are, however, ambiguous, which is resolved with full tags. Full tags are also more readable and source independent. Full tags are particularly important when information from multiple sources is processed at the same time.
+Using **mARkdown**, one needs only to mark the beginning of each information unit. Each unit can be marked with either a simplified or full tag. Simplified tags are short, which makes them ideal for manual tagging. Simplified tags are, however, ambiguous. Full tags are more readable and source independent. Full tags are particularly important when information from multiple sources is processed at the same time.
 
-**mARkdown** has been developed primarily for biographical collections, chronicles, bibliographical collections, and dictionaries of different types. In most cases, these sources contain one type of information units and in such cases one can use only one type of tag `### $ [information unit]`, which can be later converted—using find/replace—into corresponding full tags. Below is the description of used tags.
+**mARkdown** has been first developed for biographical collections, chronicles, bibliographical collections, and dictionaries of different types. In most cases, these sources contain one type of information units and in such cases one can use only one type of tag `### $ [information unit]`, which can be later converted—using find/replace—into corresponding full tags. Below is the description of used tags.
 
 ### 3.1 Dictionaries (RE: _multiple_)
 
 Arabic dictionaries usually include information units of the same types, so one simplified tag—`### $ [a dictionary item]`—is sufficient. The full tags depend on the nature of each dictionary and at the moment include “descriptive names,” toponyms, lexical items, and book titles. Tags for them are as follows:
 
 ~~~
-### $NIS$ [a descriptive name entry]
+### $DIC_NIS$ [a descriptive name entry]
 
-### $TOP$ [a toponym entry]
+### $DIC_TOP$ [a toponym entry]
 
-### $LEX$ [a lexical entry]
+### $DIC_LEX$ [a lexical entry]
 
-### $BIB$ [a book title]
+### $DIC_BIB$ [a book title]
 ~~~
 
 
@@ -179,7 +177,7 @@ Biographical collections often include several types of information units. Moreo
 	</figcaption>
 </figure>
 
-**NB**: `### @ RAW` can be used to tag blocks of historical events when it is not immediately clear when one information unit ends and another begins. With these tags in place, one can return to an unfinished batch later, read it more carefully, and split properly into single units. There is also, of course, a conceptual and methodological issue with regard to what constitutes an ‘event’. For the purposes of algorithmic analysis, [the “description of an] event” is a structurally and thematically complete unit of text that describes an entity that has such properties as actor, action, time and place. In other words, it is something that can be grouped into categories, graphed across time, and mapped in space.
+**NB**: `### @ RAW` can be used to tag blocks of historical events when it is not immediately clear when one information unit ends and another begins. With these tags in place, one can return to an unfinished batch later, read it more carefully, and split properly into single units. There is also, of course, a conceptual and methodological issue with regard to what constitutes an ‘event’. For the purposes of algorithmic analysis, [the “description of an] event” is a structurally and thematically complete unit of text that describes an entity that has 5 properties: subject, predicate, object, time and place. In other words, it is something that can be grouped into categories, graphed across time, and mapped in space.
 
 Full tags are as follows:
 
@@ -211,9 +209,9 @@ Full tags are as follows:
 
 ### 2.1 Paragraphs (RE: `^# `)
 
-In premodern Arabic texts paragraphs are not particularly reliable. Yet, if a certain electronic text reproduced a printed edition, it is worth preserving its division into paragraphs. Each paragraph begins with `#`.
+In premodern Arabic texts paragraphs as units are not particularly reliable. Yet, if a certain electronic text reproduces a printed edition, it is worth preserving its division into paragraphs. Each paragraph begins with `#`.
 
-While EditPad Pro handles large files very well, it has problems with long paragraphs (lines). For this reason, long paragraphs can be split into shorter lines, where each line will begin with `~~` (two tildas).
+While EditPad Pro handles large files very well, it has problems with long paragraphs (or, more correctly, lines). For this reason, long paragraphs are split into shorter lines, where each line starts with `~~` (two tildas).
 
 <figure class="fit">
 	<a href="{{ site.url }}/images/md/mARkdown_par.gif" title="">
@@ -224,19 +222,9 @@ While EditPad Pro handles large files very well, it has problems with long parag
 	</figcaption>
 </figure>
 
-### 2.1.1 Tagging *Riwayāt*
-
-It make sense to treat each *riwāyaŧ*/*ḥadīṯ* report as a separate paragraph, so it should begin in the same manner, but followed by a tag that specifies the nature of the paragraph: `new line + # $HAD$ `; in order to demarkate the boundary between *isnād* and *matn*, `@MATN@` tag must be inserted between *isnād* and *matn*.
-
-```
-# $HAD$ this section contains isnād @MATN@ this section contains matn
-``` 
-
-It is not uncomon that either *isnād* or *matn* is missing. In such cases `@MATN@` tag still must be inserted: in the case of missing *isnād*, `@MATN@` directly follows `# $HAD$ `; in the case of missing *matn*, `@MATN@` becomes the last element in the *ḥadīṯ* paragraph.
-
 ### 2.2 Poetry (RE: `^# .*? % % .*? $`)
 
-Poetry lines can be tagged in the following manner: 1) one line of poetry per line; 2) the hemistiches are divided with `% %` .
+Poetry lines can be tagged in the following manner: one line of poetry per line/paragraph, with hemistiches divided with `% %` .
 
 <figure class="fit">
 	<a href="{{ site.url }}/images/md/mARkdown_poetry.gif" title="">
@@ -251,11 +239,13 @@ Poetry lines can be tagged in the following manner: 1) one line of poetry per li
 
 Qur’anic verses can be tagged in the following manner: 1) `@QB@`—at the beginning of a verse; 2) `@QE@`—at the end.
 
+**NB**: it is not recommended to tag verses of the Qurʾān at this point; the tags that may occur in the existing texts simply preserve residual and inconsistent tagging of Qurʾānic verses in the initial versions of texts.
+
 _an image to be added_
 
 ### 2.4 Page numbers (RE: `PageV\d\dP\d\d\d`)
 
-Most of electronic texts preserve page numbers. **mARkdown** supports the following format `PageV##P###`, where `V##` is the volume number, and `P###` is the page number. Volume number must be two digits, page number—three (padded with zeros when necessary). Thus, `PageV05P022` stands for Vol. 5, p.22.
+Most of electronic texts preserve page numbers. **mARkdown** supports the following format `PageV##P###`, where `V##` is the volume number, and `P###` is the page number. Volume number must be two digits, page number—three (padded with zeros when necessary). Thus, `PageV05P022` stands for Vol. 5, p.22. Page number tags are inserted at the end of the corresponding page.
 
 
 ### 2.5 Footnotes & Endnotes (RE: `NoteV\d\dP\d\d\dN\d\d`)
@@ -342,5 +332,16 @@ All tags have similar structure `@` + `CODE` + two numbers. `CODE`s have two var
 
 1. Automatic long tag: `@SOCXX`
 2. Manual short tag: `@SXX`
+
+### 3.3 Tagging *Riwayāt*
+
+Each *riwāyaŧ*/*ḥadīṯ* report should be treated as a separate paragraph: `new line + # $RWY$ `; in order to demarkate the boundary between *isnād* and *matn*, `@MATN@` tag is to be inserted between *isnād* and *matn*. Since it is not uncommon to have an evaluation of reported material, tag `@HUKM@` can be used to tag the beginning of the *ḥukm*-statement. All three elements of a *riwāyaŧ/ḥadīṯ* must remain the part of the same `paragraph`.
+
+```
+# $RWY$ this section contains isnād @MATN@ this section contains matn @HUKM@ this section contains ḥukm .
+``` 
+
+It is not uncomon that either *isnād* or *matn* is missing. In such cases `@MATN@` tag still must be inserted: in the case of missing *isnād*, `@MATN@` directly follows `# $RWY$ `; in the case of missing *matn*, `@MATN@` becomes the last element in the *ḥadīṯ* paragraph. `@HUKM@` is optional and inserted only when there is a *ḥukm*-statement.
+
 
 _to be continued_
