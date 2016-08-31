@@ -190,7 +190,7 @@ Full tags are as follows:
 
 ### $BIO_NLI$ [a list of names]
 
-### $CHR$ [a historical event]
+### $CHR_EVE$ [a historical event]
 
 ### $CHR_RAW$ [a batch of historical events]
 
