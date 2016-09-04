@@ -222,18 +222,15 @@ While EditPad Pro handles large files very well, it has problems with long parag
 	</figcaption>
 </figure>
 
-### 2.2 Poetry (RE: `^# .*? % % .*? $`)
+### 2.2 Poetry (RE: `%~%`)
 
-Poetry lines can be tagged in the following manner: one line of poetry per line/paragraph, with hemistiches divided with `% %` .
+Poetry lines can be tagged in the following manner: one line of poetry per line/paragraph, beginning and ending with `%~%` and with hemistiches divided by `%~%` (when applicable).
 
-<figure class="fit">
-	<a href="{{ site.url }}/images/md/mARkdown_poetry.gif" title="">
-	<img src="{{ site.url }}/images/md/mARkdown_poetry.gif">
-	</a>
-	<figcaption>
-		<b>mARkdown</b>: Tagging poetry
-	</figcaption>
-</figure>
+```
+# %~% hemistich1 %~% hemistich2 %~%
+```
+
+_an image to be added_
 
 ### 2.3 Qur’anic verses (RE: `@QB@ .*? @QE@`)
 
