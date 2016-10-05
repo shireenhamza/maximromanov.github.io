@@ -681,13 +681,26 @@ figure a img:hover {
 
 @media only screen and (min-width:40rem) {
     figure.fourth img {
-        float: left;
+        float: center;
         width: 24%;
         margin-right: 0.5%;
         margin-left: 0.5%;
     }
 
     figure.fourth figcaption {
+        clear: left;
+    }
+}
+
+@media only screen and (min-width:40rem) {
+    figure.fourthr img {
+        float: right;
+        width: 24%;
+        margin-right: 0.5%;
+        margin-left: 0.5%;
+    }
+
+    figure.fourthr figcaption {
         clear: left;
     }
 }
