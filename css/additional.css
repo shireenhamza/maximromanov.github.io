@@ -111,7 +111,7 @@
     top: 6rem;
     right: 0;
     text-align: right;
-    width: 140px;
+    width: 160px;
 }
 
 .post-footer .share a {
@@ -681,7 +681,7 @@ figure a img:hover {
 
 @media only screen and (min-width:40rem) {
     figure.fourth img {
-        float: center;
+        float: left;
         width: 24%;
         margin-right: 0.5%;
         margin-left: 0.5%;
