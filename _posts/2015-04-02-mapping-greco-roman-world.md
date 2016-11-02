@@ -2,6 +2,7 @@
 title:			"A DH Exercise: Mapping the Greco-Roman World"
 author:		Maxim Romanov
 layout:		post
+comments: true
 image:		/images/thematic_covers/greek_laptop.jpg
 imagecredit:	"Unknown Maker. Grave Naiskos of an Enthroned Woman with an Attendant, about 100 B.C.,
 			Marble; 94.6 x 120.7 x 21.6 cm (37 1/4 x 47 1/2 x 8 1/2 in.). 
@@ -29,7 +30,6 @@ The map of forts turned out to be particularly interesting.
 Below is the code and some of the resulting visualizations.
 
 ~~~ r
-
 # R
 
 library(ggplot2)
@@ -101,15 +101,14 @@ for (i in 1:nrow(features)) {
     ggsave(file=fName,plot=p,dpi=600,width=7,height=6)
   }
 }
-
 ~~~
 
 ## Using Image Magick to animate maps
 The fastest and easiest way to animate the results is to use [**ImageMagick**](http://www.imagemagick.org/), a free command-line utility. The following command will take all **.png** files whose names begin with **Pleiades\_Settle** and convert them into an animated GIF file **Pleiades\_Settlements.gif**, which will play continuously (`-loop 0`), with each frame downsized (`-resize 1200x900`) and paused for .75 of a second (`-delay 75`).
 
-```
+~~~
 convert -resize 1200x900 -delay 75 -loop 0 Pleiades_Settle*.png Pleiades_Settlements.gif
-```
+~~~
 
 
 ## Chronological Cartograms
