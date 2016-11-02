@@ -104,7 +104,7 @@ for (i in 1:nrow(features)) {
 ~~~
 
 ## Using Image Magick to animate maps
-The fastest and easiest way to animate the results is to use [**ImageMagick**](http://www.imagemagick.org/), a free command-line utility. The following command will take all **.png** files whose names begin with **Pleiades\_Settle** and convert them into an animated GIF file **Pleiades\_Settlements.gif**, which will play continuously (`-loop 0`), with each frame downsized (`-resize 1200x900`) and paused for .75 of a second (`-delay 75`).
+The fastest and easiest way to animate the results is to use [**ImageMagick**](http://www.imagemagick.org/), a free command-line utility. The following command will take all **.png** files whose names begin with **Pleiades\_Settle** and convert them into an animated GIF file **Pleiades\_Settlements.gif**, which will play continuously (`-loop 0`), with each frame downsized (~~~-resize 1200x900~~~) and paused for .75 of a second (`-delay 75`).
 
 ~~~
 convert -resize 1200x900 -delay 75 -loop 0 Pleiades_Settle*.png Pleiades_Settlements.gif
