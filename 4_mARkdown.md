@@ -2,6 +2,7 @@
 layout: page
 title: 'OpenArabic mARkdown'
 description: "Tagging Arabic Historical Texts"
+comments: true
 permalink: /mARkdown/
 ---
 
