@@ -3,6 +3,7 @@ title:			'Chronological Coverage of an Arabic Corpus'
 subtitle:		'An Experiment with Date Statements'
 author:			Maxim Romanov
 layout:			post
+comments: true
 image:			/images/loc_photos/makka_35471.jpg
 imagecredit:	"Erste Ansicht der Stadt Mekka: links im Hintergrund die Festung Djijād.
                 Das grosse Gebäude rechts ist ied [i.e., die] Hamīdijjah, links daneben die Druckerei <a href='http://hdl.loc.gov/loc.pnp/ppmsca.35471' target='_blank'>(Library of Congress, LC-DIG-ppmsca-35471)</a>"
