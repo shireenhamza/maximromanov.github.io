@@ -26,19 +26,21 @@ onclick="window.open(this.href, 'google-plus-share', 'width=490,height=530');ret
 </section>
 
 
-The main goal of **OpenArabic mARkdown** is to provide a simple system for tagging structural elements in premodern and early modern Arabic texts that are being prepared within the framework of the [OpenArabic Project](https://github.com/OpenArabic). The use of **OpenArabic mARkdown** will allow one to engage in the computational analysis of classical Arabic texts in the same way as more complex and time-consuming tagging schemes (like TEI XML); **OpenArabic mARkdown** will also facilitate the conversion of the large volume of Arabic texts into TEI XML, which is now the standard format for digital editions. In principle, **OpenArabic mARkdown** does not require any special editor, but the current implementation relies on EditPad Pro, which supports right-to-left languages, Unicode, and large files. However, it is the support of custom highlighting and navigation schemes that makes this text editor particularly convenient for **OpenArabic mARkdown**.
+**OpenArabic mARkdown** is a method designed for scholars of classical Arabic to analyze texts quantitatively. **OpenArabic mARkdown** is a simple system for tagging structural elements, for example biographies in a biographical dictionary, in texts written in classical Arabic. As each user finishes tagging a text, obtained from the [OpenArabic Project](https://github.com/OpenArabic), they will then be able to upload their "prepared" text back into the cumulative Project. 
 
+The use of **OpenArabic mARkdown** allows users analyze classical Arabic texts computationally with the same level of sophistication more complex and time-consuming tagging schemes (like TEI XML). However, **OpenArabic mARkdown** will facilitate the conversion of a large number of Arabic texts into TEI XML, which is now the standard format for digital editions. **OpenArabic mARkdown** relies on a convenient text editor software called EditPad Pro, which supports right-to-left languages, Unicode, large files, and especially, custom highlighting and navigation schemes. 
 
 # Very Short Intro
 
-1. Download and install [EditPad Pro](http://www.editpadpro.com/); unfortunatey, **EditPad Pro** is for Windows only; if you are using Mac or Linux, you can still use it with some virtualization option.
-2. Download **OpenArabic mARkdown** schemes from GitHub ([https://github.com/maximromanov/mARkdown](https://github.com/maximromanov/mARkdown)), and unzip, and copy all the files into `%APPDATA%\JGsoft\EditPad Pro 7` (make sure that EditPad Pro in not running: you need to do `File > Exit` to completely close it).
-3. Texts in the repositories of the [OpenArabic Project](https://github.com/OpenArabic) have already been preprocessed. Opening any of these texts in EditPad Pro should automatically activate **OpenArabic mARkdown** scheme.
-4. The goal is to tag the structure of a text, which boils down to:
+1. Follow the instructions [here](https://github.com/OpenArabic/Annotation#general-description-of-the-workflow-with-markdown) to sign up for a GitHub account and transfer electronic copies of texts from OpenArabic's repository to your own account and device. 
+2. Download and install [EditPad Pro](http://www.editpadpro.com/); unfortunatey, **EditPad Pro** is for Windows only; if you are using Mac or Linux, you can still use it with some virtualization option.
+3. Download **OpenArabic mARkdown** schemes from GitHub ([https://github.com/maximromanov/mARkdown](https://github.com/maximromanov/mARkdown)), and unzip, and copy all the files into `%APPDATA%\JGsoft\EditPad Pro 7` (make sure that EditPad Pro in not running: you need to do `File > Exit` to completely close it).
+4. Texts in the repositories of the [OpenArabic Project](https://github.com/OpenArabic) have already been preprocessed. Opening any of these texts in EditPad Pro should automatically activate **OpenArabic mARkdown** scheme.
+5. The goal is to tag the structure of a text, which boils down to:
 	1. the headers of chapters (`### | `), sections (`### ||`), subsections (`### ||| `), etc.
 	2. and information units: biographies (`### $ `), descriptions of events (`### @ `), and dictionary entries (also `### $ `)
 	3. If a structural/logical unit is tagged correctly, the color of the tagged unit will change.
-5. Tagging must be done through the collation of the electronic text of a book with the printed edition on which the electronic text is based. Most editions can be easily found online as PDF files (‘googling’ the title usually brings up a lot of results; PDFs are most likely to be on [Archive.org](https://archive.org/)) 
+6. Please collate the electronic text you downloaded from OpenArabic - which may have errors - with the printed edition on which the electronic text is based. You can find PDF files of most printed editions online (before ‘googling’ the title, you may find it useful to check on [Archive.org](https://archive.org/) first) 
 
 
 # Detailed Description
